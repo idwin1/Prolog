@@ -1,160 +1,161 @@
+%_Películas_y_géneros
 
-% Películas y géneros
+pelicula_genero('Mad_Max:_Furia_en_el_Camino','Acción').
+pelicula_genero('Duro_de_Matar','Acción').
+pelicula_genero('Indiana_Jones','Aventura').
+pelicula_genero('El_Señor_de_los_Anillos','Aventura').
+pelicula_genero('Supercool','Comedia').
+pelicula_genero('Dos_Tontos_en_Fuga','Comedia').
+pelicula_genero('El_Padrino','Drama').
+pelicula_genero('Sueños_de_Libertad','Drama').
+pelicula_genero('El_Exorcista','Terror').
+pelicula_genero('Pesadilla_en_la_Calle_del_Infierno','Terror').
+pelicula_genero('La_Guerra_de_las_Galaxias','Ciencia_ficción').
+pelicula_genero('El_Cazador_Implacable','Ciencia_ficción').
+pelicula_genero('Harry_Potter','Fantasía').
 
-pelicula_genero('Mad Max: Fury Road', 'Acción').
-pelicula_genero('Die Hard', 'Acción').
-pelicula_genero('Indiana Jones', 'Aventura').
-pelicula_genero('The Lord of the Rings', 'Aventura').
-pelicula_genero('Superbad', 'Comedia').
-pelicula_genero('Dumb and Dumber', 'Comedia').
-pelicula_genero('The Godfather', 'Drama').
-pelicula_genero('Shawshank Redemption', 'Drama').
-pelicula_genero('The Exorcist', 'Terror').
-pelicula_genero('A Nightmare on Elm Street', 'Terror').
-pelicula_genero('Star Wars', 'Ciencia ficción').
-pelicula_genero('Blade Runner', 'Ciencia ficción').
-pelicula_genero('Harry Potter', 'Fantasía').
-pelicula_genero('The Chronicles of Narnia', 'Fantasía').
-pelicula_genero('The Sound of Music', 'Musical').
-pelicula_genero('La La Land', 'Musical').
-pelicula_genero('Toy Story', 'Animación').
-pelicula_genero('Shrek', 'Animación').
-pelicula_genero('Pride and Prejudice', 'Romance').
-pelicula_genero('The Notebook', 'Romance').
-pelicula_genero('Se7en', 'Thriller').
-pelicula_genero('Gone Girl', 'Thriller').
-pelicula_genero('Sherlock Holmes', 'Misterio').
-pelicula_genero('The Girl with the Dragon Tattoo', 'Misterio').
-pelicula_genero('The Social Network', 'Biográfica').
-pelicula_genero('Gandhi', 'Biográfica').
-pelicula_genero('March of the Penguins', 'Documental').
-pelicula_genero('Bowling for Columbine', 'Documental').
-pelicula_genero('Braveheart', 'Histórica').
-pelicula_genero('Schindlers List', 'Histórica').
-pelicula_genero('Saving Private Ryan', 'Guerra').
-pelicula_genero('Dunkirk', 'Guerra').
-pelicula_genero('The Good, the Bad and the Ugly', 'Western').
-pelicula_genero('Unforgiven', 'Western').
-pelicula_genero('The Departed', 'Crimen').
-pelicula_genero('Pulp Fiction', 'Crimen').
-pelicula_genero('Rocky', 'Deporte').
-pelicula_genero('Moneyball', 'Deporte').
-pelicula_genero('Finding Nemo', 'Familia').
-pelicula_genero('The Incredibles', 'Familia').
-pelicula_genero('Frozen', 'Infantil').
-pelicula_genero('Coco', 'Infantil').
-pelicula_genero('Double Indemnity', 'Noir').
-pelicula_genero('Sin City', 'Noir').
-pelicula_genero('Heat', 'Policial').
-pelicula_genero('LA_Confidential','Policial').
-pelicula_genero('The Avengers', 'Superhéroes').
-pelicula_genero('The Dark Knight', 'Superhéroes').
-pelicula_genero('Pretty Woman', 'Romántico-Comedia').
-pelicula_genero('When Harry Met Sally', 'Romántico-Comedia').
-pelicula_genero('Pans Labyrinth', 'Fantástico-Terror').
-pelicula_genero('The Shape of Water', 'Fantástico-Terror').
-pelicula_genero('The Hunger Games', 'Distopía').
-pelicula_genero('Mad Max: Fury Road', 'Distopía').
-pelicula_genero('Ghost in the Shell', 'Cyberpunk').
-pelicula_genero('Mission: Impossible', 'Espionaje').
-pelicula_genero('James Bond', 'Espionaje').
-pelicula_genero('Stand by Me', 'Coming-of-age').
-pelicula_genero('Lady Bird', 'Coming-of-age').
+pelicula_genero('Las_Crónicas_de_Narnia','Fantasía').
+pelicula_genero('La_Novicia_Rebelde','Musical').
+pelicula_genero('La_La_Land','Musical').
+pelicula_genero('Toy_Story','Infantil').
+pelicula_genero('Shrek','Infantil').
+pelicula_genero('Orgullo_y_Prejuicio','Romance').
+pelicula_genero('Diario_de_una_Pasión','Romance').
+pelicula_genero('Se7en','Thriller').
+pelicula_genero('Perdida','Thriller').
+pelicula_genero('Sherlock_Holmes','Misterio').
+pelicula_genero('La_Chica_del_Dragón_Tatuado','Misterio').
+pelicula_genero('Red_Social','Biográfica').
+pelicula_genero('Gandhi','Biográfica').
+pelicula_genero('El_Viaje_del_Emperador','Documental').
 
-pelicula_genero('Jurassic Park', 'Ciencia ficción').
-pelicula_genero('E.T.', 'Ciencia ficción').
-pelicula_genero('Back to the Future', 'Ciencia ficción').
-pelicula_genero('Inception', 'Ciencia ficción').
-pelicula_genero('The Matrix', 'Ciencia ficción').
-pelicula_genero('Avatar', 'Ciencia ficción').
-pelicula_genero('The Terminator', 'Ciencia ficción').
-pelicula_genero('Interstellar', 'Ciencia ficción').
-pelicula_genero('Alien', 'Ciencia ficción').
-pelicula_genero('Guardians of the Galaxy', 'Ciencia ficción').
-pelicula_genero('Titanic', 'Romance').
-pelicula_genero('Romeo + Juliet', 'Romance').
-pelicula_genero('A Walk to Remember', 'Romance').
-pelicula_genero('The Fault in Our Stars', 'Romance').
-pelicula_genero('Love Actually', 'Romance').
-pelicula_genero('Bridget Joness Diary', 'Romance').
-pelicula_genero('Moulin Rouge!', 'Romance').
-pelicula_genero('Casablanca', 'Romance').
-pelicula_genero('Notting Hill', 'Romance').
-pelicula_genero('Crazy Rich Asians', 'Romance').
-pelicula_genero('Scream', 'Terror').
-pelicula_genero('The Conjuring', 'Terror').
-pelicula_genero('It', 'Terror').
-pelicula_genero('Get Out', 'Terror').
-pelicula_genero('Hereditary', 'Terror').
-pelicula_genero('The Babadook', 'Terror').
-pelicula_genero('The Ring', 'Terror').
-pelicula_genero('A Quiet Place', 'Terror').
-pelicula_genero('Paranormal Activity', 'Terror').
-pelicula_genero('Halloween', 'Terror').
-pelicula_genero('Forrest Gump', 'Drama').
-pelicula_genero('Fight Club', 'Drama').
-pelicula_genero('American Beauty', 'Drama').
-pelicula_genero('Gladiator', 'Drama').
-pelicula_genero('The Green Mile', 'Drama').
-pelicula_genero('Good Will Hunting', 'Drama').
-pelicula_genero('The Pursuit of Happyness', 'Drama').
-pelicula_genero('12 Years a Slave', 'Drama').
-pelicula_genero('Slumdog Millionaire', 'Drama').
-pelicula_genero('The Kings Speech', 'Drama').
-pelicula_genero('Jaws', 'Suspenso').
-pelicula_genero('The Silence of the Lambs', 'Suspenso').
-pelicula_genero('Zodiac', 'Suspenso').
-pelicula_genero('Prisoners', 'Suspenso').
-pelicula_genero('Seven', 'Suspenso').
-pelicula_genero('Shutter Island', 'Suspenso').
-pelicula_genero('Gone Girl', 'Suspenso').
-pelicula_genero('Memento', 'Suspenso').
-pelicula_genero('The Sixth Sense', 'Suspenso').
-pelicula_genero('Black Swan', 'Suspenso').
-pelicula_genero('The Lion King', 'Animación').
-pelicula_genero('Finding Dory', 'Animación').
-pelicula_genero('The Jungle Book', 'Animación').
-pelicula_genero('Zootopia', 'Animación').
-pelicula_genero('Moana', 'Animación').
-pelicula_genero('Big Hero 6', 'Animación').
-pelicula_genero('Inside Out', 'Animación').
-pelicula_genero('Despicable Me', 'Animación').
-pelicula_genero('Wreck-It Ralph', 'Animación').
-pelicula_genero('How to Train Your Dragon', 'Animación').
-pelicula_genero('The Wizard of Oz', 'Fantasía').
-pelicula_genero('Alice in Wonderland', 'Fantasía').
-pelicula_genero('The Hobbit', 'Fantasía').
-pelicula_genero('The Princess Bride', 'Fantasía').
-pelicula_genero('Stardust', 'Fantasía').
-pelicula_genero('The NeverEnding Story', 'Fantasía').
-pelicula_genero('Percy Jackson & the Olympians', 'Fantasía').
-pelicula_genero('The Dark Crystal', 'Fantasía').
-pelicula_genero('Labyrinth', 'Fantasía').
-pelicula_genero('Eragon', 'Fantasía').
-pelicula_genero('La La Land', 'Musical').
-pelicula_genero('Chicago', 'Musical').
-pelicula_genero('The Greatest Showman', 'Musical').
-pelicula_genero('Les Misérables', 'Musical').
-pelicula_genero('Grease', 'Musical').
-pelicula_genero('Mamma Mia!', 'Musical').
-pelicula_genero('Hairspray', 'Musical').
-pelicula_genero('West Side Story', 'Musical').
-pelicula_genero('Singin in the Rain', 'Musical').
-pelicula_genero('The Phantom of the Opera', 'Musical').
-pelicula_genero('Rocky', 'Deporte').
-pelicula_genero('Raging Bull', 'Deporte').
-pelicula_genero('The Fighter', 'Deporte').
-pelicula_genero('Creed', 'Deporte').
-pelicula_genero('Million Dollar Baby', 'Deporte').
-pelicula_genero('Remember the Titans', 'Deporte').
-pelicula_genero('Coach Carter', 'Deporte').
-pelicula_genero('Field of Dreams', 'Deporte').
-pelicula_genero('A League of Their Own', 'Deporte').
-pelicula_genero('The Blind Side', 'Deporte').
-pelicula_genero('Inception', 'Thriller').
-pelicula_genero('The Prestige', 'Thriller').
 
-%Películas infantiles de animación
+pelicula_genero('Bowling_for_Columbine','Documental').
+pelicula_genero('Corazón_Valiente','Histórica').
+pelicula_genero('La_Lista_de_Schindler','Histórica').
+pelicula_genero('Rescatando_al_Soldado_Ryan','Guerra').
+pelicula_genero('Dunkerque','Guerra').
+pelicula_genero('El_Bueno,el_Malo_y_el_Feo','Western').
+pelicula_genero('Los_Imperdonables','Western').
+pelicula_genero('Mission:_Impossible','Espionaje').
+pelicula_genero('James_Bond','Espionaje').
+pelicula_genero('Stand_by_Me','Coming-of-age').
+pelicula_genero('Lady_Bird','Coming-of-age').
+pelicula_genero('Los_Infiltrados','Crimen').
+pelicula_genero('Tiempos_Violentos','Crimen').
+pelicula_genero('Rocky','Deporte').
+pelicula_genero('El_Juego_de_la_Fortuna','Deporte').
+pelicula_genero('Buscando_a_Nemo','Infantil').
+pelicula_genero('Los_Increíbles','Infantil').
+pelicula_genero('Frozen:_Una_Aventura_Congelada','Infantil').
+pelicula_genero('Coco','Infantil').
+pelicula_genero('Pacto_de_Sangre','Noir').
+pelicula_genero('La_Ciudad_del_Pecado','Noir').
+pelicula_genero('Fuego_Contra_Fuego','Policial').
+pelicula_genero('Los_Ángeles_al_Desnudo','Policial').
+pelicula_genero('Los_Vengadores','Superhéroes').
+pelicula_genero('El_Caballero_de_la_Noche','Superhéroes').
+pelicula_genero('Mujer_Bonita','Romance').
+pelicula_genero('Cuando_Harry_Conoció_a_Sally','Romance').
+pelicula_genero('El_Laberinto_del_Fauno','Fantasia').
+pelicula_genero('La_Forma_del_Agua','Fantasia').
+pelicula_genero('Los_Juegos_del_Hambre','Distopía').
+pelicula_genero('Mad_Max:_Furia_en_el_Camino','Distopía').
+pelicula_genero('Jurassic_Park','Ciencia_ficción').
+pelicula_genero('E.T.,el_Extraterrestre','Ciencia_ficción').
+pelicula_genero('Volver_al_Futuro','Ciencia_ficción').
+pelicula_genero('El_Origen','Ciencia_ficción').
+pelicula_genero('Matrix','Ciencia_ficción').
+pelicula_genero('Avatar','Ciencia_ficción').
+pelicula_genero('El_Terminator','Ciencia_ficción').
+pelicula_genero('Interestelar','Ciencia_ficción').
+pelicula_genero('Alien:_El_Octavo_Pasajero','Ciencia_ficción').
+pelicula_genero('Guardianes_de_la_Galaxia','Ciencia_ficción').
+pelicula_genero('Titanic','Romance').
+pelicula_genero('Romeo_+_Julieta_de_William_Shakespeare','Romance').
+pelicula_genero('Un_Paseo_para_Recordar','Romance').
+pelicula_genero('Bajo_la_Misma_Estrella','Romance').
+pelicula_genero('Realmente_Amor','Romance').
+pelicula_genero('El_Diario_de_Bridget_Jones','Romance').
+pelicula_genero('Moulin_Rouge:_Amor_en_Rojo','Romance').
+pelicula_genero('Casablanca','Romance').
+pelicula_genero('Un_Lugar_Llamado_Notting_Hill','Romance').
+pelicula_genero('Locamente_Millonarios','Romance').
+pelicula_genero('Scream:_Grita_Antes_de_Morir','Terror').
+pelicula_genero('El_Conjuro','Terror').
+pelicula_genero('Eso','Terror').
+pelicula_genero('¡Huye!','Terror').
+pelicula_genero('Hereditary:_El_Legado_del_Diablo','Terror').
+pelicula_genero('El_Babadook','Terror').
+pelicula_genero('El_Aro','Terror').
+pelicula_genero('Un_Lugar_en_Silencio','Terror').
+pelicula_genero('Actividad_Paranormal','Terror').
+pelicula_genero('Halloween','Terror').
+pelicula_genero('Forrest_Gump','Drama').
+pelicula_genero('El_Club_de_la_Pelea','Drama').
+pelicula_genero('Belleza_Americana','Drama').
+pelicula_genero('Gladiador','Drama').
+pelicula_genero('Milagros_Inesperados','Drama').
+pelicula_genero('Mente_Indomable','Drama').
+pelicula_genero('En_Busca_de_la_Felicidad','Drama').
+pelicula_genero('12_Años_de_Esclavitud','Drama').
+pelicula_genero('¿Quién_Quiere_Ser_Millonario?','Drama').
+pelicula_genero('El_Discurso_del_Rey','Drama').
+pelicula_genero('Tiburón','Suspenso').
+pelicula_genero('El_Silencio_de_los_Inocentes','Suspenso').
+pelicula_genero('Zodiaco','Suspenso').
+pelicula_genero('Prisioneros','Suspenso').
+pelicula_genero('Se7en','Suspenso').
+pelicula_genero('La_Isla_Siniestra','Suspenso').
+pelicula_genero('Perdida','Suspenso').
+pelicula_genero('Memento','Suspenso').
+pelicula_genero('El_Sexto_Sentido','Suspenso').
+pelicula_genero('El_Cisne_Negro','Suspenso').
+pelicula_genero('El_Rey_León','Infantil').
+pelicula_genero('Buscando_a_Dory','Infantil').
+pelicula_genero('El_Libro_de_la_Selva','Infantil').
+pelicula_genero('Zootopia','Infantil').
+pelicula_genero('Moana:_Un_Mar_de_Aventuras','Infantil').
+pelicula_genero('Grandes_Héroes','Infantil').
+pelicula_genero('Intensa-Mente','Infantil').
+pelicula_genero('Mi_Villano_Favorito','Infantil').
+pelicula_genero('Ralph,El_Demoledor','Infantil').
+pelicula_genero('Cómo_Entrenar_a_tu_Dragón','Infantil').
+pelicula_genero('El_Mago_de_Oz','Fantasía').
+pelicula_genero('Alicia_en_el_País_de_las_Maravillas','Infantil').
+pelicula_genero('El_Hobbit','Fantasía').
+pelicula_genero('La_Princesa_Prometida','Fantasía').
+pelicula_genero('Stardust:_El_Misterio_de_la_Estrella','Fantasía').
+pelicula_genero('La_Historia_Sin_Fin','Fantasía').
+pelicula_genero('Percy_Jackson_y_el_Ladrón_del_Rayo','Fantasía').
+pelicula_genero('El_Cristal_Encantado','Fantasía').
+pelicula_genero('Laberinto','Fantasía').
+pelicula_genero('Eragon','Fantasía').
+pelicula_genero('La_La_Land:_Una_Historia_de_Amor','Musical').
+pelicula_genero('Chicago','Musical').
+pelicula_genero('El_Gran_Showman','Musical').
+pelicula_genero('Los_Miserables','Musical').
+pelicula_genero('Vaselina','Musical').
+pelicula_genero('Mamma_Mia!','Musical').
+pelicula_genero('Hairspray','Musical').
+pelicula_genero('Amor_Sin_Barreras','Musical').
+pelicula_genero('Cantando_Bajo_la_Lluvia','Musical').
+pelicula_genero('El_Fantasma_de_la_Ópera','Musical').
+pelicula_genero('Rocky','Deporte').
+pelicula_genero('Toro_Salvaje','Deporte').
+pelicula_genero('El_Peleador','Deporte').
+pelicula_genero('Creed:_Corazón_de_Campeón','Deporte').
+pelicula_genero('Golpes_del_Destino','Deporte').
+pelicula_genero('Recuerdos_de_los_Titanes','Deporte').
+pelicula_genero('Juego_de_Honor','Deporte').
+pelicula_genero('Campo_de_Sueños','Deporte').
+pelicula_genero('Un_Equipo_Muy_Especial','Deporte').
+pelicula_genero('Un_Sueño_Posible','Deporte').
+pelicula_genero('El_Origen','Thriller').
+pelicula_genero('El_Gran_Truco','Thriller').
+
+
+%Películas_infantiles_de_animación
 pelicula_infantil('Toy_Story','animación').
 pelicula_infantil('El_Rey_León','animación').
 pelicula_infantil('La_Sirenita','animación').
@@ -207,7 +208,7 @@ pelicula_infantil('Kung_Fu_Panda','animación').
 pelicula_infantil('Madagascar','animación').
 pelicula_infantil('Cómo_entrenar_a_tu_dragón','animación').
 
-%_Películas infantiles live_action
+%_Películas_infantiles_live_action
 pelicula_infantil('Mary_Poppins','live_action').
 pelicula_infantil('Mi_pobre_angelito','live_action').
 pelicula_infantil('Jumanji','live_action').
@@ -221,7 +222,6 @@ pelicula_infantil('Una_noche_en_el_museo','live_action').
 pelicula_infantil('Chitty_Chitty_Bang_Bang','live_action').
 pelicula_infantil('Willy_Wonka_y_la_fábrica_de_chocolate','live_action').
 pelicula_infantil('Los_Goonies','live_action').
-pelicula_infantil('El_Jorobado_de_Notre_Dame','live_action').
 pelicula_infantil('Spy_Kids','live_action').
 pelicula_infantil('Hook','live_action').
 pelicula_infantil('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero','live_action').
@@ -256,42 +256,67 @@ pelicula_infantil('Paddington_2','live_action').
 pelicula_infantil('Mi_amigo_el_gigante','live_action').
 pelicula_infantil('El_hogar_de_Miss_Peregrine_para_niños_peculiares','live_action').
 
-%ganadoras de oscar
-ganadora_oscar('Toy_Story', 1996, 'Premio_especial_innovaccion').
-ganadora_oscar('El_Rey_Leon', 1995, 'Mejor_Banda_Original').
-ganadora_oscar('El_Rey_Leon', 1995, 'Mejor_Canción_Original').
-ganadora_oscar('Frozen', 2014, 'Mejor_Película_de_Animación').
-ganadora_oscar('Frozen', 2014, 'Mejor_Canción_Original').
-ganadora_oscar('Up', 2010, 'Mejor_Película_de_Animación').
-ganadora_oscar('Up', 2010, 'Mejor_Banda_Sonora_Original').
-ganadora_oscar('WALL_E', 2009, 'Mejor_Película_de_Animación').
-ganadora_oscar('Coco', 2018, 'Mejor_Película_de_Animación').
-ganadora_oscar('Coco', 2018, 'Mejor_Canción_Original').
-ganadora_oscar('Ratatouille', 2008, 'Mejor_Película_de_Animación').
-ganadora_oscar('Buscando_a_Nemo', 2004, 'Mejor_Película_de_Animación').
-ganadora_oscar('Los_Increibles', 2005, 'Mejor_Película_de_Animación').
-ganadora_oscar('Los_Increibles', 2005, 'Mejor_Edición_de_Sonido').
-ganadora_oscar('Shrek', 2002, 'Mejor_Película_de_Animación').
-ganadora_oscar('Mary_Poppins', 1965, 'Mejor_Actriz').
-ganadora_oscar('Mary_Poppins', 1965, 'Mejor_Edición').
-ganadora_oscar('Mary_Poppins', 1965, 'Mejores_Efectos_Visuales').
-ganadora_oscar('Mary_Poppins', 1965, 'Mejor_Banda_Sonora_Original').
-ganadora_oscar('Mary_Poppins', 1965, 'Mejor_Canción_Original').
-ganadora_oscar('El_Jorobado_de_Notre_Dame', 1939, 'Mejor Fotografía').
-ganadora_oscar('El_Jorobado_de_Notre_Dame', 1939, 'Mejor Música').
-ganadora_oscar('El_Libro_de_la_Selva_(2016)', 2017, 'Mejores Efectos Visuales').
+%ganadoras_de_oscar
+ganadora_oscar('Toy_Story',1996,'Premio_especial_innovaccion').
+ganadora_oscar('El_Rey_Leon',1995,'Mejor_Banda_Original').
+ganadora_oscar('El_Rey_Leon',1995,'Mejor_Canción_Original').
+ganadora_oscar('Frozen',2014,'Mejor_Película_de_Animación').
+ganadora_oscar('Frozen',2014,'Mejor_Canción_Original').
+ganadora_oscar('Up',2010,'Mejor_Película_de_Animación').
+ganadora_oscar('Up',2010,'Mejor_Banda_Sonora_Original').
+ganadora_oscar('WALL_E',2009,'Mejor_Película_de_Animación').
+ganadora_oscar('Coco',2018,'Mejor_Película_de_Animación').
+ganadora_oscar('Coco',2018,'Mejor_Canción_Original').
+ganadora_oscar('Ratatouille',2008,'Mejor_Película_de_Animación').
+ganadora_oscar('Buscando_a_Nemo',2004,'Mejor_Película_de_Animación').
+ganadora_oscar('Los_Increibles',2005,'Mejor_Película_de_Animación').
+ganadora_oscar('Los_Increibles',2005,'Mejor_Edición_de_Sonido').
+ganadora_oscar('Shrek',2002,'Mejor_Película_de_Animación').
+ganadora_oscar('Mary_Poppins',1965,'Mejor_Actriz').
+ganadora_oscar('Mary_Poppins',1965,'Mejor_Edición').
+ganadora_oscar('Mary_Poppins',1965,'Mejores_Efectos_Visuales').
+ganadora_oscar('Mary_Poppins',1965,'Mejor_Banda_Sonora_Original').
+ganadora_oscar('Mary_Poppins',1965,'Mejor_Canción_Original').
+ganadora_oscar('El_Jorobado_de_Notre_Dame',1939,'Mejor_Fotografía').
+ganadora_oscar('El_Jorobado_de_Notre_Dame',1939,'Mejor_Música').
+ganadora_oscar('El_Libro_de_la_Selva_(2016)',2017,'Mejores_Efectos_Visuales').
+ganadora_oscar('El_Señor_de_los_Anillos',2002,'Mejor_Fotografía').
+ganadora_oscar('El_Señor_de_los_Anillos',2002,'Mejor_Maquillaje').
+ganadora_oscar('El_Señor_de_los_Anillos',2002,'Mejor_Banda_Sonora_Original').
+ganadora_oscar('El_Señor_de_los_Anillos',2002,'Mejor_Efectos_Visuales').
+ganadora_oscar('El_Padrino',1973,'Mejor_Película').
+ganadora_oscar('El_Padrino',1973,'Mejor_Actor').
+ganadora_oscar('El_Padrino',1973,'Mejor_Guión_Adaptado').
+ganadora_oscar('El_Exorcista',1974,'Mejor_Guión_Adaptado').
+ganadora_oscar('El_Exorcista',1974,'Mejor_Sonido').
+ganadora_oscar('La_Guerra_de_las_Galaxia',1978,'Mejor_Diseño_de_Produccion').
+ganadora_oscar('La_Guerra_de_las_Galaxia',1978,'Mejor_Dirección').
+ganadora_oscar('La_Guerra_de_las_Galaxia',1978,'Mejor_Actor_de_Reparto').
+ganadora_oscar('La_Guerra_de_las_Galaxia',1978,'Mejor_Guion_Original').
+ganadora_oscar('La_Guerra_de_las_Galaxia',1978,'Mejor_Montaje').
+ganadora_oscar('La_Guerra_de_las_Galaxia',1978,'Mejor_Banda_Sonora_Original').
+ganadora_oscar('El_Cazador_Implacable',1979,'Mejor_Película').
+ganadora_oscar('El_Cazador_Implacable',1979,'Mejor_Director').
+ganadora_oscar('El_Cazador_Implacable',1979,'Mejor_Actor_de_Reparto').
+ganadora_oscar('El_Cazador_Implacable',1979,'Mejor_Montaje').
+ganadora_oscar('El_Cazador_Implacable',1979,'Mejor_Sonido').
+/*
 
-pelicula_director(Titulo, Director).
-critica_imdb(Pelicula, Calificacion).
-actor_pelicula(Actor, Pelicula).
-año_estreno(Pelicula, Año).
-idioma_pelicula(Pelicula, Idioma).
-clasificacion_pelicula(Pelicula, Clasificacion).
-actor_protagonista(Pelicula, Actor).
-actriz_protagonista(Pelicula, Actriz).
-actor_secundario(Pelicula, Actor).
-actriz_secundaria(Pelicula, Actriz).
-basado_en(Pelicula, Fuente).
-disponible_streaming(Pelicula, Plataforma).
+
+
+*/
+
+pelicula_director(Titulo,Director).
+critica_imdb(Pelicula,Calificacion).
+actor_pelicula(Actor,Pelicula).
+año_estreno(Pelicula,Año).
+idioma_pelicula(Pelicula,Idioma).
+clasificacion_pelicula(Pelicula,Clasificacion).
+actor_protagonista(Pelicula,Actor).
+actriz_protagonista(Pelicula,Actriz).
+actor_secundario(Pelicula,Actor).
+actriz_secundaria(Pelicula,Actriz).
+basado_en(Pelicula,Fuente).
+disponible_streaming(Pelicula,Plataforma).
 
 
