@@ -427,21 +427,21 @@ critica_imdb('Un_Lugar_Llamado_Notting_Hill',7.2).
 critica_imdb('Locamente_Millonarios',6.9).
 critica_imdb('Scream:_Grita_Antes_de_Morir',7.4).
 critica_imdb('El_Conjuro',7.5).
-critica_imdb('Eso').
-critica_imdb('¡Huye!').
-critica_imdb('Hereditary:_El_Legado_del_Diablo').
-critica_imdb('El_Babadook').
-critica_imdb('El_Aro').
-critica_imdb('Un_Lugar_en_Silencio').
-critica_imdb('Actividad_Paranormal').
-critica_imdb('Halloween').
-critica_imdb('Forrest_Gump').
-critica_imdb('El_Club_de_la_Pelea').
-critica_imdb('Belleza_Americana').
-critica_imdb('Gladiador').
-critica_imdb('Milagros_Inesperados').
-critica_imdb('Mente_Indomable').
-critica_imdb('En_Busca_de_la_Felicidad').
+critica_imdb('Eso',6.8).
+critica_imdb('¡Huye!',7.8).
+critica_imdb('Hereditary:_El_Legado_del_Diablo',7.3).
+critica_imdb('El_Babadook',6.8).
+critica_imdb('El_Aro'7.1).
+critica_imdb('Un_Lugar_en_Silencio',7.5).
+critica_imdb('Actividad_Paranormal',6.3).
+critica_imdb('Halloween',7.7).
+critica_imdb('Forrest_Gump',8.8).
+critica_imdb('El_Club_de_la_Pelea',8.8).
+critica_imdb('Belleza_Americana'8.3).  // si tiene oscar (5)
+critica_imdb('Gladiador',8.5).      // si tiene oscar (5)
+critica_imdb('Milagros_Inesperados',8.6).   //
+critica_imdb('Mente_Indomable',8.3).
+critica_imdb('En_Busca_de_la_Felicidad'). // tiene 2 oscar
 critica_imdb('12_Años_de_Esclavitud').
 critica_imdb('¿Quién_Quiere_Ser_Millonario?').
 critica_imdb('El_Discurso_del_Rey').
