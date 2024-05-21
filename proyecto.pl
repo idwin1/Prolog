@@ -1,7 +1,7 @@
-%_Películas_y_géneros
+%_Peliculas_y_generos
 
-pelicula_genero('Mad_Max:_Furia_en_el_Camino','Acción').
-pelicula_genero('Duro_de_Matar','Acción').
+pelicula_genero('Mad_Max:_Furia_en_el_Camino','Accion').
+pelicula_genero('Duro_de_Matar','Accion').
 pelicula_genero('Indiana_Jones','Aventura').
 pelicula_genero('El_señor_de_los_anillos:_Las_dos_torres','Aventura').
 pelicula_genero('Supercool','Comedia').
@@ -10,26 +10,26 @@ pelicula_genero('El_Padrino','Drama').
 pelicula_genero('Sueños_de_Libertad','Drama').
 pelicula_genero('El_Exorcista','Terror').
 pelicula_genero('Pesadilla_en_la_Calle_del_Infierno','Terror').
-pelicula_genero('La_Guerra_de_las_Galaxias','Ciencia_ficción').
-pelicula_genero('El_Cazador_Implacable','Ciencia_ficción').
+pelicula_genero('La_Guerra_de_las_Galaxias','Ciencia_ficcion').
+pelicula_genero('El_Cazador_Implacable','Ciencia_ficcion').
 pelicula_genero('Harry_Potter_y_la_piedra_filosofal','Fantasia').
-pelicula_genero('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero','Fantasia').
+pelicula_genero('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero','Fantasia').
 pelicula_genero('La_Novicia_Rebelde','Musical').
 pelicula_genero('La_La_Land._Una_historia_de_amor','Musical').
 pelicula_genero('Toy_Story','Infantil').
 pelicula_genero('Shrek','Infantil').
 pelicula_genero('Orgullo_y_Prejuicio','Romance').
-pelicula_genero('Diario_de_una_Pasión','Romance').
+pelicula_genero('Diario_de_una_Pasion','Romance').
 pelicula_genero('Se7en','Thriller').
 pelicula_genero('Perdida','Thriller').
 pelicula_genero('Sherlock_Holmes','Misterio').
-pelicula_genero('La_Chica_del_Dragón_Tatuado','Misterio').
-pelicula_genero('Red_Social','Biográfica').
-pelicula_genero('Gandhi','Biográfica').
+pelicula_genero('La_Chica_del_Dragon_Tatuado','Misterio').
+pelicula_genero('Red_Social','Biografica').
+pelicula_genero('Gandhi','Biografica').
 pelicula_genero('El_Viaje_del_Emperador','Documental').
 pelicula_genero('Bowling_for_Columbine','Documental').
-pelicula_genero('Corazón_Valiente','Histórica').
-pelicula_genero('La_Lista_de_Schindler','Histórica').
+pelicula_genero('Corazon_Valiente','Historica').
+pelicula_genero('La_Lista_de_Schindler','Historica').
 pelicula_genero('Rescatando_al_Soldado_Ryan','Guerra').
 pelicula_genero('Dunkerque','Guerra').
 pelicula_genero('El_Bueno,el_Malo_y_el_Feo','Western').
@@ -43,31 +43,31 @@ pelicula_genero('Tiempos_Violentos','Crimen').
 pelicula_genero('Rocky','Deporte').
 pelicula_genero('El_Juego_de_la_Fortuna','Deporte').
 pelicula_genero('Buscando_a_Nemo','Infantil').
-pelicula_genero('Los_Increíbles','Infantil').
+pelicula_genero('Los_Increibles','Infantil').
 pelicula_genero('Frozen:_Una_Aventura_Congelada','Infantil').
 pelicula_genero('Coco','Infantil').
 pelicula_genero('Pacto_de_Sangre','Noir').
 pelicula_genero('La_Ciudad_del_Pecado','Noir').
 pelicula_genero('Fuego_Contra_Fuego','Policial').
-pelicula_genero('Los_Ángeles_al_Desnudo','Policial').
-pelicula_genero('The_Avengers:_Los_Vengadores','Superhéroes').
-pelicula_genero('Batman:_El_caballero_de_la_noche','Superhéroes').
+pelicula_genero('Los_angeles_al_Desnudo','Policial').
+pelicula_genero('The_Avengers:_Los_Vengadores','Superheroes').
+pelicula_genero('Batman:_El_caballero_de_la_noche','Superheroes').
 pelicula_genero('Mujer_Bonita','Romance').
-pelicula_genero('Cuando_Harry_Conoció_a_Sally','Romance').
+pelicula_genero('Cuando_Harry_Conocio_a_Sally','Romance').
 pelicula_genero('El_Laberinto_del_Fauno','Fantasia').
 pelicula_genero('La_Forma_del_Agua','Fantasia').
-pelicula_genero('Los_Juegos_del_Hambre','Distopía').
-pelicula_genero('Mad_Max:_Furia_en_el_Camino','Distopía').
-pelicula_genero('Jurassic_Park','Ciencia_ficción').
-pelicula_genero('E.T.,el_Extraterrestre','Ciencia_ficción').
-pelicula_genero('Volver_al_Futuro','Ciencia_ficción').
-pelicula_genero('El_Origen','Ciencia_ficción').
-pelicula_genero('Matrix','Ciencia_ficción').
-pelicula_genero('Avatar','Ciencia_ficción').
-pelicula_genero('Terminator','Ciencia_ficción').
-pelicula_genero('Interestelar','Ciencia_ficción').
-pelicula_genero('Alien:_El_Octavo_Pasajero','Ciencia_ficción').
-pelicula_genero('Guardianes_de_la_Galaxia','Ciencia_ficción').
+pelicula_genero('Los_Juegos_del_Hambre','Distopia').
+pelicula_genero('Mad_Max:_Furia_en_el_Camino','Distopia').
+pelicula_genero('Jurassic_Park','Ciencia_ficcion').
+pelicula_genero('E.T.,el_Extraterrestre','Ciencia_ficcion').
+pelicula_genero('Volver_al_Futuro','Ciencia_ficcion').
+pelicula_genero('El_Origen','Ciencia_ficcion').
+pelicula_genero('Matrix','Ciencia_ficcion').
+pelicula_genero('Avatar','Ciencia_ficcion').
+pelicula_genero('Terminator','Ciencia_ficcion').
+pelicula_genero('Interestelar','Ciencia_ficcion').
+pelicula_genero('Alien:_El_Octavo_Pasajero','Ciencia_ficcion').
+pelicula_genero('Guardianes_de_la_Galaxia','Ciencia_ficcion').
 pelicula_genero('Titanic','Romance').
 pelicula_genero('Romeo_+_Julieta','Romance').
 pelicula_genero('Un_Paseo_para_Recordar','Romance').
@@ -96,9 +96,9 @@ pelicula_genero('Milagros_Inesperados','Drama').
 pelicula_genero('Mente_Indomable','Drama').
 pelicula_genero('En_Busca_de_la_Felicidad','Drama').
 pelicula_genero('12_Años_de_Esclavitud','Drama').
-pelicula_genero('¿Quién_Quiere_Ser_Millonario?','Drama').
+pelicula_genero('¿Quien_Quiere_Ser_Millonario?','Drama').
 pelicula_genero('El_Discurso_del_Rey','Drama').
-pelicula_genero('Tiburón','Suspenso').
+pelicula_genero('Tiburon','Suspenso').
 pelicula_genero('El_Silencio_de_los_Inocentes','Suspenso').
 pelicula_genero('Zodiaco','Suspenso').
 pelicula_genero('Prisioneros','Suspenso').
@@ -108,23 +108,23 @@ pelicula_genero('Perdida','Suspenso').
 pelicula_genero('Memento','Suspenso').
 pelicula_genero('El_Sexto_Sentido','Suspenso').
 pelicula_genero('El_Cisne_Negro','Suspenso').
-pelicula_genero('El_Rey_León','Infantil').
+pelicula_genero('El_Rey_Leon','Infantil').
 pelicula_genero('Buscando_a_Dory','Infantil').
 pelicula_genero('El_Libro_de_la_Selva','Infantil').
 pelicula_genero('Zootopia','Infantil').
 pelicula_genero('Moana:_Un_Mar_de_Aventuras','Infantil').
-pelicula_genero('Grandes_Héroes','Infantil').
+pelicula_genero('Grandes_Heroes','Infantil').
 pelicula_genero('Intensa-Mente','Infantil').
 pelicula_genero('Mi_Villano_Favorito','Infantil').
 pelicula_genero('Ralph,El_Demoledor','Infantil').
-pelicula_genero('Cómo_Entrenar_a_tu_Dragón','Infantil').
+pelicula_genero('Como_Entrenar_a_tu_Dragon','Infantil').
 pelicula_genero('El_Mago_de_Oz','Fantasia').
-pelicula_genero('Alicia_en_el_País_de_las_Maravillas','Infantil').
+pelicula_genero('Alicia_en_el_Pais_de_las_Maravillas','Infantil').
 pelicula_genero('El Hobbit:_Un_viaje_inesperado','Fantasia').
 pelicula_genero('La_Princesa_Prometida','Fantasia').
 pelicula_genero('Stardust:_El_Misterio_de_la_Estrella','Fantasia').
 pelicula_genero('La_Historia_Sin_Fin','Fantasia').
-pelicula_genero('Percy_Jackson_y_el_Ladrón_del_Rayo','Fantasia').
+pelicula_genero('Percy_Jackson_y_el_Ladron_del_Rayo','Fantasia').
 pelicula_genero('El_Cristal_Encantado','Fantasia').
 pelicula_genero('Laberinto','Fantasia').
 pelicula_genero('Eragon','Fantasia').
@@ -137,11 +137,11 @@ pelicula_genero('Mamma_Mia!','Musical').
 pelicula_genero('Hairspray','Musical').
 pelicula_genero('Amor_Sin_Barreras','Musical').
 pelicula_genero('Cantando_Bajo_la_Lluvia','Musical').
-pelicula_genero('El_Fantasma_de_la_Ópera','Musical').
+pelicula_genero('El_Fantasma_de_la_opera','Musical').
 pelicula_genero('Rocky','Deporte').
 pelicula_genero('Toro_Salvaje','Deporte').
 pelicula_genero('El_Peleador','Deporte').
-pelicula_genero('Creed:_Corazón_de_Campeón','Deporte').
+pelicula_genero('Creed:_Corazon_de_Campeon','Deporte').
 pelicula_genero('Golpes_del_Destino','Deporte').
 pelicula_genero('Recuerdos_de_los_Titanes','Deporte').
 pelicula_genero('Juego_de_Honor','Deporte').
@@ -151,98 +151,100 @@ pelicula_genero('Un_Sueño_Posible','Deporte').
 pelicula_genero('El_Origen','Thriller').
 pelicula_genero('El_Gran_Truco','Thriller').
 
-
-%Películas_infantiles_de_animación
-pelicula_infantil('Toy_Story','animación').
-pelicula_infantil('El_Rey_León','animación').
 pelicula_infantil('Blancanieves_y_los_siete_enanitos','animación').
 pelicula_infantil('Cenicienta','animación').
-pelicula_infantil('Aladdin','animación').
-pelicula_infantil('Mulán','animación').
-pelicula_infantil('La_Bella_y_la_Bestia','animación').
-pelicula_infantil('Bambi','animación').
-pelicula_infantil('101_dálmatas','animación').
-pelicula_infantil('Peter_Pan','animación').
-pelicula_infantil('Dumbo','animación').
-pelicula_infantil('Hércules','animación').
-pelicula_infantil('Pocahontas','animación').
-pelicula_infantil('Frozen:_Una_Aventura_Congelada','animación').
-pelicula_infantil('Enredados','animación').
-pelicula_infantil('Moana','animación').
-pelicula_infantil('Zootopia','animación').
-pelicula_infantil('Ratatouille','animación').
-pelicula_infantil('Buscando_a_Nemo','animación').
-pelicula_infantil('Cars','animación').
-pelicula_infantil('Los_Increíbles','animación').
-pelicula_infantil('Monsters,Inc.','animación').
-pelicula_infantil('Up','animación').
-pelicula_infantil('WALL_E','animación').
-pelicula_infantil('Coco','animación').
-pelicula_infantil('Valiente','animación').
-pelicula_infantil('Lilo_&_Stitch','animación').
-pelicula_infantil('El_libro_de_la_selva','animación').
-pelicula_infantil('Alicia_en_el_país_de_las_maravillas','animación').
-pelicula_infantil('Tarzán','animación').
-pelicula_infantil('Los_Aristogatos','animación').
-pelicula_infantil('Ralph_el_demoledor','animación').
-pelicula_infantil('La_dama_y_el_vagabundo','animación').
-pelicula_infantil('La_princesa_y_el_sapo','animación').
-pelicula_infantil('Bolt','animación').
-pelicula_infantil('Big_Hero_6','animación').
-pelicula_infantil('El_jorobado_de_Notre_Dame','animación').
-pelicula_infantil('Atlantis:_El_imperio_perdido','animación').
-pelicula_infantil('Oliver_y_su_pandilla','animación').
-pelicula_infantil('Tierra_de_osos','animación').
-pelicula_infantil('El_emperador_y_sus_locuras','animación').
-pelicula_infantil('Hermano_oso','animación').
-pelicula_infantil('Zafarrancho_en_el_rancho','animación').
-pelicula_infantil('Chicken_Little','animación').
-pelicula_infantil('Río','animación').
-pelicula_infantil('El_camino_hacia_El_Dorado','animación').
-pelicula_infantil('Shrek','animación').
-pelicula_infantil('Kung_Fu_Panda','animación').
-pelicula_infantil('Madagascar','animación').
-pelicula_infantil('Cómo_entrenar_a_tu_dragón','animación').
 
-%_Películas_infantiles_live_action
+%Peliculas_infantiles_de_animacion
+pelicula_infantil('Toy_Story','animacion').
+pelicula_infantil('El_Rey_Leon','animacion').
+pelicula_infantil('Blancanieves_y_los_siete_enanitos','animacion').
+pelicula_infantil('Cenicienta','animacion').
+pelicula_infantil('Aladdin','animacion').
+pelicula_infantil('Mulan','animacion').
+pelicula_infantil('La_Bella_y_la_Bestia','animacion').
+pelicula_infantil('Bambi','animacion').
+pelicula_infantil('101_dalmatas','animacion').
+pelicula_infantil('Peter_Pan','animacion').
+pelicula_infantil('Dumbo','animacion').
+pelicula_infantil('Hercules','animacion').
+pelicula_infantil('Pocahontas','animacion').
+pelicula_infantil('Frozen:_Una_Aventura_Congelada','animacion').
+pelicula_infantil('Enredados','animacion').
+pelicula_infantil('Moana','animacion').
+pelicula_infantil('Zootopia','animacion').
+pelicula_infantil('Ratatouille','animacion').
+pelicula_infantil('Buscando_a_Nemo','animacion').
+pelicula_infantil('Cars','animacion').
+pelicula_infantil('Los_Increibles','animacion').
+pelicula_infantil('Monsters,Inc.','animacion').
+pelicula_infantil('Up','animacion').
+pelicula_infantil('WALL_E','animacion').
+pelicula_infantil('Coco','animacion').
+pelicula_infantil('Valiente','animacion').
+pelicula_infantil('Lilo_&_Stitch','animacion').
+pelicula_infantil('El_libro_de_la_selva','animacion').
+pelicula_infantil('Alicia_en_el_pais_de_las_maravillas','animacion').
+pelicula_infantil('Tarzan','animacion').
+pelicula_infantil('Los_Aristogatos','animacion').
+pelicula_infantil('Ralph_el_demoledor','animacion').
+pelicula_infantil('La_dama_y_el_vagabundo','animacion').
+pelicula_infantil('La_princesa_y_el_sapo','animacion').
+pelicula_infantil('Bolt','animacion').
+pelicula_infantil('Big_Hero_6','animacion').
+pelicula_infantil('El_jorobado_de_Notre_Dame','animacion').
+pelicula_infantil('Atlantis:_El_imperio_perdido','animacion').
+pelicula_infantil('Oliver_y_su_pandilla','animacion').
+pelicula_infantil('Tierra_de_osos','animacion').
+pelicula_infantil('El_emperador_y_sus_locuras','animacion').
+pelicula_infantil('Hermano_oso','animacion').
+pelicula_infantil('Zafarrancho_en_el_rancho','animacion').
+pelicula_infantil('Chicken_Little','animacion').
+pelicula_infantil('Rio','animacion').
+pelicula_infantil('El_camino_hacia_El_Dorado','animacion').
+pelicula_infantil('Shrek','animacion').
+pelicula_infantil('Kung_Fu_Panda','animacion').
+pelicula_infantil('Madagascar','animacion').
+pelicula_infantil('Como_entrenar_a_tu_dragon','animacion').
+
+%_Peliculas_infantiles_live_action
 pelicula_infantil('Mary_Poppins','live_action').
 pelicula_infantil('Mi_pobre_angelito','live_action').
 pelicula_infantil('Jumanji','live_action').
-pelicula_infantil('El_jardín_secreto','live_action').
+pelicula_infantil('El_jardin_secreto','live_action').
 pelicula_infantil('Harry_Potter_y_la_piedra_filosofal','live_action').
-pelicula_infantil('Harry_Potter_y_la_cámara_secreta','live_action').
+pelicula_infantil('Harry_Potter_y_la_camara_secreta','live_action').
 pelicula_infantil('La_historia_sin_fin','live_action').
 pelicula_infantil('Matilda','live_action').
 pelicula_infantil('Stuart_Little','live_action').
 pelicula_infantil('Una_noche_en_el_museo','live_action').
 pelicula_infantil('Chitty_Chitty_Bang_Bang','live_action').
-pelicula_infantil('Willy_Wonka_y_la_fábrica_de_chocolate','live_action').
+pelicula_infantil('Willy_Wonka_y_la_fabrica_de_chocolate','live_action').
 pelicula_infantil('Los_Goonies','live_action').
 pelicula_infantil('Spy_Kids','live_action').
 pelicula_infantil('Hook','live_action').
-pelicula_infantil('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero','live_action').
+pelicula_infantil('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero','live_action').
 pelicula_infantil('La_princesa_prometida','live_action').
 pelicula_infantil('Paddington','live_action').
 pelicula_infantil('El_regreso_de_Mary_Poppins','live_action').
 pelicula_infantil('Peter_Rabbit','live_action').
 pelicula_infantil('Peter_Rabbit_2:_A_la_fuga','live_action').
 pelicula_infantil('La_dama_y_el_vagabundo_(2019)','live_action').
-pelicula_infantil('El_Rey_León_(2019)','live_action').
+pelicula_infantil('El_Rey_Leon_(2019)','live_action').
 pelicula_infantil('Aladdin_(2019)','live_action').
 pelicula_infantil('Dumbo_(2019)','live_action').
 pelicula_infantil('La_Bella_y_la_Bestia_(2017)','live_action').
 pelicula_infantil('Christopher_Robin','live_action').
 pelicula_infantil('El_libro_de_la_selva_(2016)','live_action').
-pelicula_infantil('Maléfica','live_action').
-pelicula_infantil('Maléfica:_Dueña_del_mal','live_action').
+pelicula_infantil('Malefica','live_action').
+pelicula_infantil('Malefica:_Dueña_del_mal','live_action').
 pelicula_infantil('El_Cascanueces_y_los_Cuatro_Reinos','live_action').
-pelicula_infantil('Alicia_en_el_país_de_las_maravillas_(2010)','live_action').
-pelicula_infantil('Alicia_a_través_del_espejo','live_action').
+pelicula_infantil('Alicia_en_el_pais_de_las_maravillas_(2010)','live_action').
+pelicula_infantil('Alicia_a_traves_del_espejo','live_action').
 pelicula_infantil('Cenicienta_(2015)','live_action').
-pelicula_infantil('El_dragón_de_Pete','live_action').
+pelicula_infantil('El_dragon_de_Pete','live_action').
 pelicula_infantil('Aventuras_en_la_gran_ciudad','live_action').
-pelicula_infantil('La_niñera_mágica','live_action').
-pelicula_infantil('Querida,encogí_a_los_niños','live_action').
+pelicula_infantil('La_niñera_magica','live_action').
+pelicula_infantil('Querida,encogi_a_los_niños','live_action').
 pelicula_infantil('Una_serie_de_eventos_desafortunados','live_action').
 pelicula_infantil('El_gato_con_sombrero','live_action').
 pelicula_infantil('Las_aventuras_de_Sharkboy_y_Lavagirl','live_action').
@@ -256,12 +258,12 @@ gano_oscar_en('Toy_Story', 1996, ['Premio_especial_innovacion', 'Mejor_Guion_Ori
 gano_oscar_en('El_Rey_Leon', 1995, ['Mejor_Banda_Original', 'Mejor_Cancion_Original']).
 gano_oscar_en('Frozen:_Una_Aventura_Congelada', 2014, ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original']).
 gano_oscar_en('Up', 2010, ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original']).
-gano_oscar_en('WALL_E',2009,'Mejor_Película_de_Animación').
+gano_oscar_en('WALL_E',2009,'Mejor_Pelicula_de_Animacion').
 gano_oscar_en('Coco', 2018, ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original']).
-gano_oscar_en('Ratatouille',2008,'Mejor_Película_de_Animación').
-gano_oscar_en('Buscando_a_Nemo',2004,'Mejor_Película_de_Animación').
+gano_oscar_en('Ratatouille',2008,'Mejor_Pelicula_de_Animacion').
+gano_oscar_en('Buscando_a_Nemo',2004,'Mejor_Pelicula_de_Animacion').
 gano_oscar_en('Los_Increibles', 2005, ['Mejor_Pelicula_de_Animacion', 'Mejor_Edicion_de_Sonido']).
-gano_oscar_en('Shrek',2002,'Mejor_Película_de_Animación').
+gano_oscar_en('Shrek',2002,'Mejor_Pelicula_de_Animacion').
 gano_oscar_en('Mary_Poppins', 1965, ['Mejor_Actriz', 'Mejor_Edicion', 'Mejores_Efectos_Visuales', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
 gano_oscar_en('El_Jorobado_de_Notre_Dame', 1939, ['Mejor_Fotografia', 'Mejor_Musica']).
 gano_oscar_en('El_Libro_de_la_Selva_(2016)',2017,'Mejores_Efectos_Visuales').
@@ -270,16 +272,16 @@ gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion
 gano_oscar_en('El_Exorcista', 1974, ['Mejor_Guion_Adaptado', 'Mejor_Sonido']).
 gano_oscar_en('La_Guerra_de_las_Galaxia', 1978, ['Mejor_Diseño_de_Produccion', 'Mejor_Direccion', 'Mejor_Actor_de_Reparto', 'Mejor_Guion_Original', 'Mejor_Montaje', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
-gano_oscar_en('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero',2006,'Mejor_Maquillaje_y_Peluquería').
+gano_oscar_en('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero',2006,'Mejor_Maquillaje_y_Peluqueria').
 gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).
 gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseño_de_Produccion']).
 gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).
-gano_oscar_en('La_Chica_del_Dragón_Tatuado',2012,'Mejor_Montaje').
+gano_oscar_en('La_Chica_del_Dragon_Tatuado',2012,'Mejor_Montaje').
 gano_oscar_en('Red_Social', 2011, ['Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Montaje']).
 gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).
 gano_oscar_en('El_Viaje_del_Emperador',2006,'Mejor_Documental').
 gano_oscar_en('Bowling_for_Columbine',2003,'Mejor_Documental').
-gano_oscar_en('Corazón_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).
+gano_oscar_en('Corazon_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).
 gano_oscar_en('La_Lista_de_Schindler', 1994, ['Mejor_Pelicula', 'Mejor_Guion_Original']).
 gano_oscar_en('Rescatando_al_Soldado_Ryan', 1999, ['Mejor_Director', 'Mejor_Fotografia']).
 gano_oscar_en('Dunkerque',2018,'Mejor_Banda_Sonora_Original').
@@ -287,12 +289,12 @@ gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Dire
 gano_oscar_en('Los_Infiltrados', 2007, ['Mejor_Pelicula', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('Tiempos_Violentos',2007,'Mejor_Guion_Original').
 gano_oscar_en('Rocky', 1977, ['Mejor_Director', 'Mejor_Pelicula', 'Mejor_Montaje']).
-gano_oscar_en('Los_Ángeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).
+gano_oscar_en('Los_angeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('Batman:_El_caballero_de_la_noche',2009,'Mejor_Interpretacion').
 gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).
 gano_oscar_en('La_Forma_del_Agua', 2018, ['Mejor_Director', 'Mejor_Pelicula']).
 gano_oscar_en('Mad_Max:_Furia_en_el_Camino', 2018, ['Mejor_Vestuario', 'Mejor_Produccion', 'Mejor_Maquillaje_y_Peinado', 'Mejor_Edicion', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido']).
-gano_oscar_en('Jurassic_Park', 1994, ['Mejor_Edición_de_Sonido', 'Mejores_Efectos_Visuales', 'Mejor_Sonido']).
+gano_oscar_en('Jurassic_Park', 1994, ['Mejor_Edicion_de_Sonido', 'Mejores_Efectos_Visuales', 'Mejor_Sonido']).
 gano_oscar_en('E.T.,el_Extraterrestre', 1983, ['Mejor_Sonido', 'Mejores_Efectos_Visuales', 'Mejor_Efectos_de_Sonido', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Volver_al_Futuro', 1986, 'Mejor_Edicion_de_Sonido').
 gano_oscar_en('El_Origen', 2011, ['Mejor_Fotografia', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido', 'Mejor_Efectos_Visuales']).
@@ -308,17 +310,17 @@ gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_
 gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
 gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor_Principal', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('12_Años_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_Secundaria']).
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).
+gano_oscar_en('¿Quien_Quiere_Ser_Millonario?', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).
 gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
-gano_oscar_en('Tiburón', 1976, 'Mejor_Musica_Original').
+gano_oscar_en('Tiburon', 1976, 'Mejor_Musica_Original').
 gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Actriz_Principal', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('El_Cisne_Negro', 2011, 'Mejor Actriz Principal').
-gano_oscar_en('El_Mago_de_Oz', 1940, ['Mejor_Canción_Original', 'Mejor_Banda_Sonora_Original']).
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, ['Mejor_Dirección_de_Fotografía', 'Mejor_Dirección_de_Arte', 'Mejor_Banda_Sonora_Original', 'Mejor_Canción_Original', 'Mejor_Dirección', 'Mejor_Actriz']).
-gano_oscar_en('Chicago', 2003, ['Mejor_Película', 'Mejor_Actriz_de_Reparto', 'Mejor_Dirección_de_Arte', 'Mejor_Diseño_de_Vestuario', 'Mejor_Edición', 'Mejor_Sonido']).
+gano_oscar_en('El_Mago_de_Oz', 1940, ['Mejor_Cancion_Original', 'Mejor_Banda_Sonora_Original']).
+gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, ['Mejor_Direccion_de_Fotografia', 'Mejor_Direccion_de_Arte', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Direccion', 'Mejor_Actriz']).
+gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Diseño_de_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).
 gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).
-gano_oscar_en('Amor_Sin_Barreras', 1962, ['Mejor_Película', 'Mejor_Dirección', 'Mejor_Dirección_de_Fotografía', 'Mejor_Dirección_de_Arte', 'Mejor_Montaje', 'Mejor_Sonido', 'Mejor_Música_Original', 'Mejor_Canción_Original']).
-gano_oscar_en('Rocky', 1976, ['Mejor_Película', 'Mejor_Dirección', 'Mejor_Edición', 'Mejor_Montaje_de_Sonido']).
+gano_oscar_en('Amor_Sin_Barreras', 1962, ['Mejor_Pelicula', 'Mejor_Direccion', 'Mejor_Direccion_de_Fotografia', 'Mejor_Direccion_de_Arte', 'Mejor_Montaje', 'Mejor_Sonido', 'Mejor_Musica_Original', 'Mejor_Cancion_Original']).
+gano_oscar_en('Rocky', 1976, ['Mejor_Pelicula', 'Mejor_Direccion', 'Mejor_Edicion', 'Mejor_Montaje_de_Sonido']).
 gano_oscar_en('El_Peleador', 2010, 'Mejor Actor de Reparto').
 gano_oscar_en('Creed_Corazon_de_Campeon', 2016, 'Mejor_Edicion_de_Sonido').
 gano_oscar_en('Golpes_del_Destino', 2005, 'Mejor_Actuacion').
@@ -346,22 +348,22 @@ critica_imdb('Pesadilla_en_la_Ca,7.9lle_del_Infierno',7.4).
 critica_imdb('La_Guerra_de_las_Galaxias',8.6).
 critica_imdb('El_Cazador_Implacable',8.1).
 critica_imdb('Harry_Potter_y_la_piedra_filosofal',7.6).
-critica_imdb('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero',6.9).
+critica_imdb('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero',6.9).
 critica_imdb('La_Novicia_Rebelde',8.1).
 critica_imdb('La_La_Land._Una_historia_de_amor',8.0).
 critica_imdb('Toy_Story',8.3).
 critica_imdb('Shrek',7.9).
 critica_imdb('Orgullo_y_Prejuicio',7.8).
-critica_imdb('Diario_de_una_Pasión'),7.8.
+critica_imdb('Diario_de_una_Pasion'),7.8.
 critica_imdb('Se7en',8.6).
 critica_imdb('Perdida',8.1).
 critica_imdb('Sherlock_Holmes',7.6).
-critica_imdb('La_Chica_del_Dragón_Tatuado',7.8).
+critica_imdb('La_Chica_del_Dragon_Tatuado',7.8).
 critica_imdb('Red_Social',7.8).
 critica_imdb('Gandhi',8.0).
 critica_imdb('El_Viaje_del_Emperador',7.5).
 critica_imdb('Bowling_for_Columbine',8.0).
-critica_imdb('Corazón_Valiente',8.3).
+critica_imdb('Corazon_Valiente',8.3).
 critica_imdb('La_Lista_de_Schindler',9.0).
 critica_imdb('Rescatando_al_Soldado_Ryan',8.6).
 critica_imdb('Dunkerque',7.8).
@@ -376,17 +378,17 @@ critica_imdb('Tiempos_Violentos',8.9).
 critica_imdb('Rocky',8.1).
 critica_imdb('El_Juego_de_la_Fortuna',7.6).
 critica_imdb('Buscando_a_Nemo',8.2).
-critica_imdb('Los_Increíbles',8.0).
+critica_imdb('Los_Increibles',8.0).
 critica_imdb('Frozen:_Una_Aventura_Congelada',7.4).
 critica_imdb('Coco',8.4).
 critica_imdb('Pacto_de_Sangre',8.3).
 critica_imdb('La_Ciudad_del_Pecado',8.0).
 critica_imdb('Fuego_Contra_Fuego',8.3).
-critica_imdb('Los_Ángeles_al_Desnudo',8.2).
+critica_imdb('Los_angeles_al_Desnudo',8.2).
 critica_imdb('The_Avengers:_Los_Vengadores',8.0).
 critica_imdb('Batman:_El_caballero_de_la_noche',9.0).
 critica_imdb('Mujer_Bonita',7.1).
-critica_imdb('Cuando_Harry_Conoció_a_Sally',7.7).
+critica_imdb('Cuando_Harry_Conocio_a_Sally',7.7).
 critica_imdb('El_Laberinto_del_Fauno',8.2).
 critica_imdb('La_Forma_del_Agua',7.3).
 critica_imdb('Los_Juegos_del_Hambre',7.2).
@@ -429,9 +431,9 @@ critica_imdb('Milagros_Inesperados',8.6).
 critica_imdb('Mente_Indomable',8.3). 
 critica_imdb('En_Busca_de_la_Felicidad',8.0).
 critica_imdb('12_Años_de_Esclavitud',8.1).  
-critica_imdb('¿Quién_Quiere_Ser_Millonario?',8.0). 
+critica_imdb('¿Quien_Quiere_Ser_Millonario?',8.0). 
 critica_imdb('El_Discurso_del_Rey',8.0). 
-critica_imdb('Tiburón',8.1). 
+critica_imdb('Tiburon',8.1). 
 critica_imdb('El_Silencio_de_los_Inocentes',8.6). 
 critica_imdb('Zodiaco',7.7).
 critica_imdb('Prisioneros',8.2).
@@ -441,23 +443,23 @@ critica_imdb('Perdida',8.1).
 critica_imdb('Memento',8.4).
 critica_imdb('El_Sexto_Sentido',8.2).
 critica_imdb('El_Cisne_Negro',8.0). 
-critica_imdb('El_Rey_León',8.5). 
+critica_imdb('El_Rey_Leon',8.5). 
 critica_imdb('Buscando_a_Dory',7.2).
 critica_imdb('El_Libro_de_la_Selva',7.4).
 critica_imdb('Zootopia',8.0). 
 critica_imdb('Moana:_Un_Mar_de_Aventuras',7.6).
-critica_imdb('Grandes_Héroes',7.8). 
+critica_imdb('Grandes_Heroes',7.8). 
 critica_imdb('Intensa-Mente',8.1). 
 critica_imdb('Mi_Villano_Favorito',7.6).
 critica_imdb('Ralph,El_Demoledor',7.7).
-critica_imdb('Cómo_Entrenar_a_tu_Dragón',8.1).
+critica_imdb('Como_Entrenar_a_tu_Dragon',8.1).
 critica_imdb('El_Mago_de_Oz',8.1). 
-critica_imdb('Alicia_en_el_País_de_las_Maravillas',6.4). 
+critica_imdb('Alicia_en_el_Pais_de_las_Maravillas',6.4). 
 critica_imdb('El Hobbit:_Un_viaje_inesperado',7.8).
 critica_imdb('La_Princesa_Prometida',8.0).
 critica_imdb('Stardust:_El_Misterio_de_la_Estrella',7.6).
 critica_imdb('La_Historia_Sin_Fin',7.3).
-critica_imdb('Percy_Jackson_y_el_Ladrón_del_Rayo',5.9).
+critica_imdb('Percy_Jackson_y_el_Ladron_del_Rayo',5.9).
 critica_imdb('El_Cristal_Encantado',7.1).
 critica_imdb('Laberinto',7.3).
 critica_imdb('Eragon',5.1).
@@ -470,11 +472,11 @@ critica_imdb('Mamma_Mia!',6.5).
 critica_imdb('Hairspray',6.7).
 critica_imdb('Amor_Sin_Barreras',7.1). 
 critica_imdb('Cantando_Bajo_la_Lluvia',8.3).
-critica_imdb('El_Fantasma_de_la_Ópera',7.2).
+critica_imdb('El_Fantasma_de_la_opera',7.2).
 critica_imdb('Rocky',8.1). 
 critica_imdb('Toro_Salvaje',8.1). 
 critica_imdb('El_Peleador',7.8). 
-critica_imdb('Creed:_Corazón_de_Campeón',7.6).
+critica_imdb('Creed:_Corazon_de_Campeon',7.6).
 critica_imdb('Golpes_del_Destino').
 critica_imdb('Recuerdos_de_los_Titanes',8.1). 
 critica_imdb('Juego_de_Honor',7.3).
@@ -562,65 +564,66 @@ mas_esperados('Silent_Hill_Townfall').
 mas_esperados('Unrecord').
 
 
-videojuegos('Blue_Protocol',[MMORPG],'pc').
-videojuegos('Star_Citizen',[Acción,Simulador_espacial],'pc').
-videojuegos('Hollow_Knight:_Silksong',[Metroidvania],'pc').
-videojuegos('Beyond_Good_&_Evil_2',[Aventura_de_acción,Mundo_abierto],'pc').
-videojuegos('Lost_Soul_Aside',[Action-RPG],'pc').
-videojuegos('Grand_Theft_Auto_VI',[Mundo_abierto,Tipo_GTA],'pc').
-videojuegos('The_Elder_Scrolls_VI',[Action-RPG,Mundo_abierto,RPG_Occidental],'pc').
-videojuegos('STALKER_2',[Mundo_abierto,Shooter_en_primera_persona],'pc').
-videojuegos('Bus_Controller_Simulator',[Autobuses,Simulación],'pc').
-videojuegos('Black_Myth:_Wukong',[Action-RPG],'pc').
-videojuegos('The_Last_Night',[Aventura_de_exploración_y_puzles,Plataformas_2D],'pc').
-videojuegos('Vampire:_The_Masquerade_-_Bloodlines',[Action-RPG,RPG_Occidental],'pc').
-videojuegos('Little_Devil_Inside',[Action-RPG],'pc').
-videojuegos('Ashes_of_Creation',[MMORPG],'pc').
-videojuegos('Dragon_Age:_Dreadwolf',[Action-RPG,Mundo_abierto,RPG_Occidental],'pc').
-videojuegos('The_Lighthouse_-_VR_Escape',[Escape_Room,Realidad_Virtual],'pc').
-videojuegos('Truck_Parking_Simulator',[Camiones,Simulador_de_profesiones],'pc').
-videojuegos('Indiana_Jones_and_the_Great_Circle',[Aventura_de_acción],'pc').
-videojuegos('Silent_Hill_2_Remake',[Aventura_de_acción,Survival_Horror],'pc').
-videojuegos('Fable',[Aventura_de_acción,Mundo_abierto,RPG_Occidental],'pc').
-videojuegos('Mass_Effect_5',[Action-RPG,Mundoabierto],'pc').
-videojuegos('Avowed',[RPG_Occidental,Rol],'pc').
-videojuegos('Routine',[Aventura,Terror],'pc').
-videojuegos('Tale_of_Ronin',[RPG_Occidental,Rol],'pc').
-videojuegos('Paralives',[Simulación,Simulador_social],'pc').
-videojuegos('Chrono_Odyssey',[MMORPG],'pc').
-videojuegos('Star_Wars_Eclipse',[Aventura_de_acción,Survival_Horror],'pc').
-videojuegos('Ambulance_Simulator',[Simulación,Simulador_de_médico],'pc').
-videojuegos('Negative_Atmosphere',[Aventura,Terror],'pc').
-videojuegos('Hellblade_2',[Aventura_de_acción],'pc').
-videojuegos('Zenless_Zone_Zero',[Action-RPG],'pc').
-videojuegos('Farm_Folks',[Granjas,Simulación],'pc').
-videojuegos('Escape_Room_Simulator',[Construcción,Escape_Room],'pc').
-videojuegos('SimBus',[Autobuses,Simulación],'pc').
-videojuegos('Where_Winds_Meet',[Autobuses,Simulación],'pc').
-videojuegos('Kingdom_Come:_Deliverance_II',[Action-RPG,Aventura_de_acción,Mundo_abierto,RPG_Occidental],'pc').
-videojuegos('Metal_Slug_Tactics',[Tactical_RPG],'pc').
-videojuegos('Everwild',[Aventura_de_acción],'pc').
-videojuegos('Assassins_Creed_Infinity',[Aventura_de_acción,Mundo_abierto,Sigilo],'pc').
-videojuegos('Judas',[Aventura_narrativa,Shooter_en_primera_persona],'pc').
-videojuegos('Godus',[Simulación,Simulador_de_vida],'pc').
-videojuegos('Gothic_Remake',[Action-RPG,Mundo_abierto],'pc').
-videojuegos('Gestalt:_Steam_&_Cinder',[Metroidvania],'pc').
-videojuegos('Replaced',[Aventura_de_acción],'pc').
-videojuegos('System_Shock_3',[Action-RPG,Shooter_en_primera_persona],'pc').
-videojuegos('Path_of_Exile_2',[Action-RPG,MMO],'pc').
-videojuegos('Silent_Hill_F',[Aventura_de_acción,Survival_Horror],'pc').
-videojuegos('Star_Wars_Outlaws',[Aventura_de_acción,Mundo_abierto],'pc').
-videojuegos('3_Minutes_to_Midnight',[Aventura_Gráfica,Point_Click],'pc').
-videojuegos('Crimson_Desert',[MMORPG,Mundo_abierto],'pc').
-videojuegos('The_Witcher_4',[Action-RPG,Mundo_abierto,RPG_Occidental],'pc').
-videojuegos('Everywhere',[Multijugador_Online],'pc').
-videojuegos('The_Wolf_Among_Us_2',[Aventura_narrativa],'pc').
-videojuegos('Dragon_Ball:_Sparking!_Zero',[Lucha,Lucha_3D],'pc').
-videojuegos('Damnview:_Built_From_Nothing',[Mundo_abierto,Tipo_GTA],'pc').
-videojuegos('Bushiden',[Hack_and_Slash,Metroidvania,Plataformas_2D],'pc').
-videojuegos('Crowsworn',[Aventura_de_acción,Metroidvania],'pc').
-videojuegos('Silent_Hill_Townfall',[Aventura_narrativa],'pc').
-videojuegos('Unrecord',[Shooter_en_primera_persona,Shooter_realista_ó_áctico],'pc').
+
+videojuegos('Blue_Protocol',['MMORPG'],'pc').
+videojuegos('Star_Citizen',['Accion,Simulador_espacial'],'pc').
+videojuegos('Hollow_Knight:_Silksong',['Metroidvania'],'pc').
+videojuegos('Beyond_Good_&_Evil_2',['Aventura_de_accion,Mundo_abierto'],'pc').
+videojuegos('Lost_Soul_Aside',['Action-RPG'],'pc').
+videojuegos('Grand_Theft_Auto_VI',['Mundo_abierto,Tipo_GTA'],'pc').
+videojuegos('The_Elder_Scrolls_VI',['Action-RPG,Mundo_abierto,RPG_Occidental'],'pc').
+videojuegos('STALKER_2',['Mundo_abierto,Shooter_en_primera_persona'],'pc').
+videojuegos('Bus_Controller_Simulator',['Autobuses','Simulacion'],'pc').
+videojuegos('Black_Myth:_Wukong',['Action-RPG'],'pc').
+videojuegos('The_Last_Night',['Aventura_de_exploracion_y_puzles,Plataformas_2D'],'pc').
+videojuegos('Vampire:_The_Masquerade_-_Bloodlines',['Action-RPG,RPG_Occidental'],'pc').
+videojuegos('Little_Devil_Inside',['Action-RPG'],'pc').
+videojuegos('Ashes_of_Creation',['MMORPG'],'pc').
+videojuegos('Dragon_Age:_Dreadwolf',['Action-RPG,Mundo_abierto,RPG_Occidental'],'pc').
+videojuegos('The_Lighthouse_-_VR_Escape',['Escape_Room,Realidad_Virtual'],'pc').
+videojuegos('Truck_Parking_Simulator',['Camiones,Simulador_de_profesiones'],'pc').
+videojuegos('Indiana_Jones_and_the_Great_Circle',['Aventura_de_accion'],'pc').
+videojuegos('Silent_Hill_2_Remake',['Aventura_de_accion,Survival_Horror'],'pc').
+videojuegos('Fable',['Aventura_de_accion,Mundo_abierto,RPG_Occidental'],'pc').
+videojuegos('Mass_Effect_5',['Action-RPG,Mundoabierto'],'pc').
+videojuegos('Avowed',['RPG_Occidental,Rol'],'pc').
+videojuegos('Routine',['Aventura,Terror'],'pc').
+videojuegos('Tale_of_Ronin',['RPG_Occidental,Rol'],'pc').
+videojuegos('Paralives',['Simulacion,Simulador_social'],'pc').
+videojuegos('Chrono_Odyssey',['MMORPG'],'pc').
+videojuegos('Star_Wars_Eclipse',['Aventura_de_accion,Survival_Horror'],'pc').
+videojuegos('Ambulance_Simulator',['Simulacion,Simulador_de_medico'],'pc').
+videojuegos('Negative_Atmosphere',['Aventura,Terror'],'pc').
+videojuegos('Hellblade_2',['Aventura_de_accion'],'pc').
+videojuegos('Zenless_Zone_Zero',['Action-RPG'],'pc').
+videojuegos('Farm_Folks',['Granjas,Simulacion'],'pc').
+videojuegos('Escape_Room_Simulator',['Construccion,Escape_Room'],'pc').
+videojuegos('SimBus',['Autobuses,Simulacion'],'pc').
+videojuegos('Where_Winds_Meet',['Autobuses,Simulacion'],'pc').
+videojuegos('Kingdom_Come:_Deliverance_II',['Action-RPG,Aventura_de_accion,Mundo_abierto,RPG_Occidental'],'pc').
+videojuegos('Metal_Slug_Tactics',['Tactical_RPG'],'pc').
+videojuegos('Everwild',['Aventura_de_accion'],'pc').
+videojuegos('Assassins_Creed_Infinity',['Aventura_de_accion,Mundo_abierto,Sigilo'],'pc').
+videojuegos('Judas',['Aventura_narrativa,Shooter_en_primera_persona'],'pc').
+videojuegos('Godus',['Simulacion,Simulador_de_vida'],'pc').
+videojuegos('Gothic_Remake',['Action-RPG,Mundo_abierto'],'pc').
+videojuegos('Gestalt:_Steam_&_Cinder',['Metroidvania'],'pc').
+videojuegos('Replaced',['Aventura_de_accion'],'pc').
+videojuegos('System_Shock_3',['Action-RPG,Shooter_en_primera_persona'],'pc').
+videojuegos('Path_of_Exile_2',['Action-RPG,MMO'],'pc').
+videojuegos('Silent_Hill_F',['Aventura_de_accion,Survival_Horror'],'pc').
+videojuegos('Star_Wars_Outlaws',['Aventura_de_accion,Mundo_abierto'],'pc').
+videojuegos('3_Minutes_to_Midnight',['Aventura_Grafica,Point_Click'],'pc').
+videojuegos('Crimson_Desert',['MMORPG,Mundo_abierto'],'pc').
+videojuegos('The_Witcher_4',['Action-RPG,Mundo_abierto,RPG_Occidental'],'pc').
+videojuegos('Everywhere',['Multijugador_Online'],'pc').
+videojuegos('The_Wolf_Among_Us_2',['Aventura_narrativa'],'pc').
+videojuegos('Dragon_Ball:_Sparking!_Zero',['Lucha,Lucha_3D'],'pc').
+videojuegos('Damnview:_Built_From_Nothing',['Mundo_abierto,Tipo_GTA'],'pc').
+videojuegos('Bushiden',['Hack_and_Slash,Metroidvania,Plataformas_2D'],'pc').
+videojuegos('Crowsworn',['Aventura_de_accion,Metroidvania'],'pc').
+videojuegos('Silent_Hill_Townfall',['Aventura_narrativa'],'pc').
+videojuegos('Unrecord',['Shooter_en_primera_persona,Shooter_realista_o_actico'],'pc').
 
 videojuegos_de('Blue_Protocol','pc').
 videojuegos_de('Star_Citizen','pc').
@@ -682,3 +685,7 @@ videojuegos_de('Crowsworn','pc').
 videojuegos_de('Silent_Hill_Townfall','pc').
 videojuegos_de('Unrecord','pc').
 
+videojuegos_de('Pathless Woods','pc',['RPG','SIMULACION']).
+videojuegos_de('Industria_2','pc',['RPG','SIMULACION']).
+videojuegos_de('Pathless Woods','pc',['RPG','SIMULACION']).
+videojuegos_de('Pathless Woods','pc',['RPG','SIMULACION']).
