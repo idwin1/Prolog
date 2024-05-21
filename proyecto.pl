@@ -57,7 +57,6 @@ pelicula_genero('Cuando_Harry_Conocio_a_Sally','Romance').
 pelicula_genero('El_Laberinto_del_Fauno','Fantasia').
 pelicula_genero('La_Forma_del_Agua','Fantasia').
 pelicula_genero('Los_Juegos_del_Hambre','Distopia').
-pelicula_genero('Mad_Max:_Furia_en_el_Camino','Distopia').
 pelicula_genero('Jurassic_Park','Ciencia_ficcion').
 pelicula_genero('E.T.,el_Extraterrestre','Ciencia_ficcion').
 pelicula_genero('Volver_al_Futuro','Ciencia_ficcion').
@@ -212,7 +211,6 @@ pelicula_genero('El_Libro_de_la_Selva_2016','Infantil').
 pelicula_genero('Maléfica','Infantil').
 pelicula_genero('Maléfica_Dueña_del_Mal','Infantil').
 pelicula_genero('El_Cascanueces_y_los_Cuatro_Reinos','Infantil').
-pelicula_genero('Alicia_en_el_País_de_las_Maravillas_2010','Infantil').
 pelicula_genero('Alicia_en_el_País_de_las_Maravillas_2010','Infantil').
 pelicula_genero('Alicia_a_Través_del_Espejo','Infantil').
 pelicula_genero('Cenicienta_2015','Infantil').
@@ -482,7 +480,6 @@ critica_imdb('Cuando_Harry_Conocio_a_Sally',7.7).
 critica_imdb('El_Laberinto_del_Fauno',8.2).
 critica_imdb('La_Forma_del_Agua',7.3).
 critica_imdb('Los_Juegos_del_Hambre',7.2).
-critica_imdb('Mad_Max:_Furia_en_el_Camino',8.1).
 critica_imdb('Jurassic_Park',8.2).
 critica_imdb('E.T.,el_Extraterrestre',7.9).
 critica_imdb('Volver_al_Futuro',8.5).
@@ -653,9 +650,459 @@ critica_imdb('Paddington_2', 7.8).
 critica_imdb('Mi_amigo_el_gigante', 6.3).
 critica_imdb('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 6.7).
 
+pelicula_director('Mad_Max:_Furia_en_el_Camino', 'George Miller').
+pelicula_director('Duro_de_Matar', 'John McTiernan').
+pelicula_director('Indiana_Jones', 'Steven Spielberg').
+pelicula_director('El_señor_de_los_anillos:_Las_dos_torres', 'Peter Jackson').
+pelicula_director('Supercool', 'Greg Mottola').
+pelicula_director('Dos_Tontos_en_Fuga', 'Peter Farrelly').
+pelicula_director('El_Padrino', 'Francis Ford Coppola').
+pelicula_director('Sueños_de_Libertad', 'Frank Darabont').
+pelicula_director('El_Exorcista', 'William Friedkin').
+pelicula_director('Pesadilla_en_la_Calle_del_Infierno', 'Wes Craven').
+pelicula_director('La_Guerra_de_las_Galaxias', 'George Lucas').
+pelicula_director('El_Cazador_Implacable', 'Ridley Scott').
+pelicula_director('Harry_Potter_y_la_piedra_filosofal', 'Chris Columbus').
+pelicula_director('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 'Andrew Adamson').
+pelicula_director('La_Novicia_Rebelde', 'Robert Wise').
+pelicula_director('La_La_Land._Una_historia_de_amor', 'Damien Chazelle').
+pelicula_director('Toy_Story', 'John Lasseter').
+pelicula_director('Shrek', 'Andrew Adamson').
+pelicula_director('Orgullo_y_Prejuicio', 'Joe Wright').
+pelicula_director('Diario_de_una_Pasion', 'Nick Cassavetes').
+pelicula_director('Se7en', 'David Fincher').
+pelicula_director('Perdida', 'David Fincher').
+pelicula_director('Sherlock_Holmes', 'Guy Ritchie').
+pelicula_director('La_Chica_del_Dragon_Tatuado', 'David Fincher').
+pelicula_director('Red_Social', 'David Fincher').
+pelicula_director('Gandhi', 'Richard Attenborough').
+pelicula_director('El_Viaje_del_Emperador', 'Luc Jacquet').
+pelicula_director('Bowling_for_Columbine', 'Michael Moore').
+pelicula_director('Corazon_Valiente', 'Mel Gibson').
+pelicula_director('La_Lista_de_Schindler', 'Steven Spielberg').
+pelicula_director('Rescatando_al_Soldado_Ryan', 'Steven Spielberg').
+pelicula_director('Dunkerque', 'Christopher Nolan').
+pelicula_director('El_Bueno,el_Malo_y_el_Feo', 'Sergio Leone').
+pelicula_director('Los_Imperdonables', 'Clint Eastwood').
+pelicula_director('Mission:_Impossible', 'Brian De Palma').
+pelicula_director('James_Bond_at_the_Movies', 'Various').
+pelicula_director('Stand_by_Me', 'Rob Reiner').
+pelicula_director('Lady_Bird', 'Greta Gerwig').
+pelicula_director('Los_Infiltrados', 'Martin Scorsese').
+pelicula_director('Tiempos_Violentos', 'Quentin Tarantino').
+pelicula_director('Rocky', 'John G. Avildsen').
+pelicula_director('El_Juego_de_la_Fortuna', 'David Fincher').
+pelicula_director('Buscando_a_Nemo', 'Andrew Stanton').
+pelicula_director('Los_Increibles', 'Brad Bird').
+pelicula_director('Frozen:_Una_Aventura_Congelada', 'Chris Buck').
+pelicula_director('Coco', 'Lee Unkrich').
+pelicula_director('Pacto_de_Sangre', 'Billy Wilder').
+pelicula_director('La_Ciudad_del_Pecado', 'Robert Rodriguez').
+pelicula_director('Fuego_Contra_Fuego', 'Michael Mann').
+pelicula_director('Los_angeles_al_Desnudo', 'Curtis Hanson').
+pelicula_director('The_Avengers:_Los_Vengadores', 'Joss Whedon').
+pelicula_director('Batman:_El_caballero_de_la_noche', 'Christopher Nolan').
+pelicula_director('Mujer_Bonita', 'Garry Marshall').
+pelicula_director('Cuando_Harry_Conocio_a_Sally', 'Rob Reiner').
+pelicula_director('El_Laberinto_del_Fauno', 'Guillermo del Toro').
+pelicula_director('La_Forma_del_Agua', 'Guillermo del Toro').
+pelicula_director('Los_Juegos_del_Hambre', 'Gary Ross').
+pelicula_director('Jurassic_Park', 'Steven Spielberg').
+pelicula_director('E.T.,el_Extraterrestre', 'Steven Spielberg').
+pelicula_director('Volver_al_Futuro', 'Robert Zemeckis').
+pelicula_director('El_Origen', 'Christopher Nolan').
+pelicula_director('Matrix', 'The Wachowskis').
+pelicula_director('Avatar', 'James Cameron').
+pelicula_director('Terminator', 'James Cameron').
+pelicula_director('Interestelar', 'Christopher Nolan').
+pelicula_director('Alien:_El_Octavo_Pasajero', 'Ridley Scott').
+pelicula_director('Guardianes_de_la_Galaxia', 'James Gunn').
+pelicula_director('Titanic', 'James Cameron').
+pelicula_director('Romeo_+_Julieta', 'Baz Luhrmann').
+pelicula_director('Un_Paseo_para_Recordar', 'Adam Shankman').
+pelicula_director('Bajo_la_Misma_Estrella', 'Josh Boone').
+pelicula_director('Realmente_Amor', 'Richard Curtis').
+pelicula_director('El_Diario_de_Bridget_Jones', 'Sharon Maguire').
+pelicula_director('Moulin_Rouge:_Amor_en_Rojo', 'Baz Luhrmann').
+pelicula_director('Casablanca', 'Michael Curtiz').
+pelicula_director('Un_Lugar_Llamado_Notting_Hill', 'Roger Michell').
+pelicula_director('Locamente_Millonarios', 'Jon M. Chu').
+pelicula_director('Scream:_Grita_Antes_de_Morir', 'Wes Craven').
+pelicula_director('El_Conjuro', 'James Wan').
+pelicula_director('Eso', 'Andy Muschietti').
+pelicula_director('¡Huye!', 'Jordan Peele').
+pelicula_director('Hereditary:_El_Legado_del_Diablo', 'Ari Aster').
+pelicula_director('El_Babadook', 'Jennifer Kent').
+pelicula_director('El_Aro', 'Gore Verbinski').
+pelicula_director('Un_Lugar_en_Silencio', 'John Krasinski').
+pelicula_director('Actividad_Paranormal', 'Oren Peli').
+pelicula_director('Halloween', 'John Carpenter').
+pelicula_director('Forrest_Gump', 'Robert Zemeckis').
+pelicula_director('El_Club_de_la_Pelea', 'David Fincher').
+pelicula_director('Belleza_Americana', 'Sam Mendes').
+pelicula_director('Gladiador', 'Ridley Scott').
+pelicula_director('Milagros_Inesperados', 'Frank Darabont').
+pelicula_director('Mente_Indomable', 'Gus Van Sant').
+pelicula_director('En_Busca_de_la_Felicidad', 'Gabriele Muccino').
+pelicula_director('12_Años_de_Esclavitud', 'Steve McQueen').
+pelicula_director('¿Quien_Quiere_Ser_Millonario?', 'Danny Boyle').
+pelicula_director('El_Discurso_del_Rey', 'Tom Hooper').
+pelicula_director('Tiburon', 'Steven Spielberg').
+pelicula_director('El_Silencio_de_los_Inocentes', 'Jonathan Demme').
+pelicula_director('Zodiaco', 'David Fincher').
+pelicula_director('Prisioneros', 'Denis Villeneuve').
+pelicula_director('Se7en', 'David Fincher').
+pelicula_director('La_Isla_Siniestra', 'Martin Scorsese').
+pelicula_director('Perdida', 'David Fincher').
+pelicula_director('Memento', 'Christopher Nolan').
+pelicula_director('El_Sexto_Sentido', 'M. Night Shyamalan').
+pelicula_director('El_Cisne_Negro', 'Darren Aronofsky').
+pelicula_director('El_Rey_Leon', 'Roger Allers').
+pelicula_director('Buscando_a_Dory', 'Andrew Stanton').
+pelicula_director('El_Libro_de_la_Selva', 'Jon Favreau').
+pelicula_director('Zootopia', 'Byron Howard').
+pelicula_director('Moana:_Un_Mar_de_Aventuras', 'Ron Clements').
+pelicula_director('Grandes_Heroes', 'Don Hall').
+pelicula_director('Intensa-Mente', 'Pete Docter').
+pelicula_director('Mi_Villano_Favorito', 'Pierre Coffin').
+pelicula_director('Ralph,El_Demoledor', 'Rich Moore').
+pelicula_director('Como_Entrenar_a_tu_Dragon', 'Chris Sanders').
+pelicula_director('El_Mago_de_Oz', 'Victor Fleming').
+pelicula_director('Alicia_en_el_Pais_de_las_Maravillas', 'Tim Burton').
+pelicula_director('El_Hobbit:_Un_viaje_inesperado', 'Peter Jackson').
+pelicula_director('La_Princesa_Prometida', 'Rob Reiner').
+pelicula_director('Stardust:_El_Misterio_de_la_Estrella', 'Matthew Vaughn').
+pelicula_director('La_Historia_Sin_Fin', 'Wolfgang Petersen').
+pelicula_director('Percy_Jackson_y_el_Ladron_del_Rayo', 'Chris Columbus').
+pelicula_director('El_Cristal_Encantado', 'Jim Henson').
+pelicula_director('Laberinto', 'Jim Henson').
+pelicula_director('Eragon', 'Stefen Fangmeier').
+pelicula_director('La_La_Land:_Una_Historia_de_Amor', 'Damien Chazelle').
+pelicula_director('Chicago', 'Rob Marshall').
+pelicula_director('El_Gran_Showman', 'Michael Gracey').
+pelicula_director('Los_Miserables', 'Tom Hooper').
+pelicula_director('Vaselina', 'Randal Kleiser').
+pelicula_director('Mamma_Mia!', 'Phyllida Lloyd').
+pelicula_director('Hairspray', 'Adam Shankman').
+pelicula_director('Amor_Sin_Barreras', 'Jerome Robbins').
+pelicula_director('Cantando_Bajo_la_Lluvia', 'Stanley Donen').
+pelicula_director('El_Fantasma_de_la_opera', 'Joel Schumacher').
+pelicula_director('Rocky', 'John G. Avildsen').
+pelicula_director('Toro_Salvaje', 'Martin Scorsese').
+pelicula_director('El_Peleador', 'Gavin OConnor').
+pelicula_director('Creed:_Corazon_de_Campeon', 'Ryan Coogler').
+pelicula_director('Golpes_del_Destino', 'Clint Eastwood').
+pelicula_director('Recuerdos_de_los_Titanes', 'Boaz Yakin').
+pelicula_director('Juego_de_Honor', 'Gavin O\'Connor').
+pelicula_director('Campo_de_Sueños', 'Phil Alden Robinson').
+pelicula_director('Un_Equipo_Muy_Especial', 'David Anspaugh').
+pelicula_director('Un_Sueño_Posible', 'John Lee Hancock').
+pelicula_director('El_Origen', 'Christopher Nolan').
+pelicula_director('El_Gran_Truco', 'Christopher Nolan').
+pelicula_director('Blancanieves_y_los_Siete_Enanitos', 'David Hand').
+pelicula_director('Cenicienta', 'Clyde Geronimi').
+pelicula_director('Aladdin', 'Ron Clements').
+pelicula_director('Mulán', 'Tony Bancroft').
+pelicula_director('La_Bella_y_la_Bestia', 'Gary Trousdale').
+pelicula_director('Bambi', 'James Algar').
+pelicula_director('101_Dálmatas', 'Clyde Geronimi').
+pelicula_director('Peter_Pan', 'Clyde Geronimi').
+pelicula_director('Dumbo', 'Samuel Armstrong').
+pelicula_director('Hércules', 'Ron Clements').
+pelicula_director('Pocahontas', 'Mike Gabriel').
+pelicula_director('Enredados', 'Nathan Greno').
+pelicula_director('Cars', 'John Lasseter').
+pelicula_director('Monsters_Inc', 'Pete Docter').
+pelicula_director('Up', 'Pete Docter').
+pelicula_director('WALL-E', 'Andrew Stanton').
+pelicula_director('Valiente', 'Mark Andrews').
+pelicula_director('Lilo_&_Stitch', 'Dean DeBlois').
+pelicula_director('Los_Aristogatos', 'Wolfgang Reitherman').
+pelicula_director('Ralph_el_Demoledor', 'Rich Moore').
+pelicula_director('La_Dama_y_el_Vagabundo', 'Hamilton Luske').
+pelicula_director('La_Princesa_y_el_Sapo', 'Ron Clements').
+pelicula_director('Bolt', 'Byron Howard').
+pelicula_director('Big_Hero_6', 'Don Hall').
+pelicula_director('El_Jorobado_de_Notre_Dame', 'Gary Trousdale').
+pelicula_director('Atlantis_El_Imperio_Perdido', 'Gary Trousdale').
+pelicula_director('Oliver_y_su_Pandilla', 'George Scribner').
+pelicula_director('Tierra_de_Osos', 'Aaron Blaise').
+pelicula_director('El_Emperador_y_sus_Locuras', 'Mark Dindal').
+pelicula_director('Hermano_Oso', 'Aaron Blaise').
+pelicula_director('Zafarrancho_en_el_Rancho', 'Will Finn').
+pelicula_director('Chicken_Little', 'Mark Dindal').
+pelicula_director('Río', 'Carlos Saldanha').
+pelicula_director('El_Camino_hacia_El_Dorado', 'Bibo Bergeron').
+pelicula_director('Kung_Fu_Panda', 'Mark Osborne').
+pelicula_director('Madagascar', 'Eric Darnell').
+pelicula_director('Mi_Pobre_Angelito', 'Chris Columbus').
+pelicula_director('Jumanji', 'Joe Johnston').
+pelicula_director('El_Jardín_Secreto', 'Agnieszka Holland').
+pelicula_director('Harry_Potter_y_la_Cámara_Secreta', 'Chris Columbus').
+pelicula_director('Matilda', 'Danny DeVito').
+pelicula_director('Stuart_Little', 'Rob Minkoff').
+pelicula_director('Una_Noche_en_el_Museo', 'Shawn Levy').
+pelicula_director('Chitty_Chitty_Bang_Bang', 'Ken Hughes').
+pelicula_director('Willy_Wonka_y_la_Fábrica_de_Chocolate', 'Mel Stuart').
+pelicula_director('Los_Goonies', 'Richard Donner').
+pelicula_director('Spy_Kids', 'Robert Rodriguez').
+pelicula_director('Hook', 'Steven Spielberg').
+pelicula_director('Paddington', 'Paul King').
+pelicula_director('El_Regreso_de_Mary_Poppins', 'Rob Marshall').
+pelicula_director('Peter_Rabbit', 'Will Gluck').
+pelicula_director('Peter_Rabbit_2_A_la_Fuga', 'Will Gluck').
+pelicula_director('La_Dama_y_el_Vagabundo_2019', 'Charlie Bean').
+pelicula_director('El_Rey_León_2019', 'Jon Favreau').
+pelicula_director('Aladdin_2019', 'Guy Ritchie').
+pelicula_director('Dumbo_2019', 'Tim Burton').
+pelicula_director('La_Bella_y_la_Bestia_2017', 'Bill Condon').
+pelicula_director('Christopher_Robin', 'Marc Forster').
+pelicula_director('El_Libro_de_la_Selva_2016', 'Jon Favreau').
+pelicula_director('Maléfica', 'Robert Stromberg').
+pelicula_director('Maléfica_Dueña_del_Mal', 'Joachim Rønning').
+pelicula_director('El_Cascanueces_y_los_Cuatro_Reinos', 'Lasse Hallström').
+pelicula_director('Alicia_en_el_País_de_las_Maravillas_2010', 'Tim Burton').
+pelicula_director('Alicia_a_Través_del_Espejo', 'James Bobin').
+pelicula_director('Cenicienta_2015', 'Kenneth Branagh').
+pelicula_director('El_Dragón_de_Pete', 'David Lowery').
+pelicula_director('Aventuras_en_la_Gran_Ciudad', 'Chris Columbus').
+pelicula_director('La_Niñera_Mágica', 'Kirk Jones').
+pelicula_director('Querida_Encogí_a_los_Niños', 'Joe Johnston').
+pelicula_director('Una_Serie_de_Eventos_Desafortunados', 'Brad Silberling').
+pelicula_director('El_Gato_con_Sombrero', 'Bo Welch').
+pelicula_director('Las_Aventuras_de_Sharkboy_y_Lavagirl', 'Robert Rodriguez').
+pelicula_director('Dora_y_la_ciudad_perdida', 'James Bobin').
+pelicula_director('Paddington_2', 'Paul King').
+pelicula_director('Mi_amigo_el_gigante', 'Steven Spielberg').
+pelicula_director('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 'Tim Burton').
 
-pelicula_director(Titulo,Director).
-año_estreno(Pelicula,Año).
+
+año_estreno('Mad_Max:_Furia_en_el_Camino', 2015).
+año_estreno('Duro_de_Matar', 1988).
+año_estreno('Indiana_Jones', 1981).
+año_estreno('El_señor_de_los_anillos:_Las_dos_torres', 2002).
+año_estreno('Supercool', 2007).
+año_estreno('Dos_Tontos_en_Fuga', 1994).
+año_estreno('El_Padrino', 1972).
+año_estreno('Sueños_de_Libertad', 1994).
+año_estreno('El_Exorcista', 1973).
+año_estreno('Pesadilla_en_la_Calle_del_Infierno', 1984).
+año_estreno('La_Guerra_de_las_Galaxias', 1977).
+año_estreno('El_Cazador_Implacable', 1986).
+año_estreno('Harry_Potter_y_la_piedra_filosofal', 2001).
+año_estreno('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 2005).
+año_estreno('La_Novicia_Rebelde', 1965).
+año_estreno('La_La_Land._Una_historia_de_amor', 2016).
+año_estreno('Toy_Story', 1995).
+año_estreno('Shrek', 2001).
+año_estreno('Orgullo_y_Prejuicio', 2005).
+año_estreno('Diario_de_una_Pasion', 2004).
+año_estreno('Se7en', 1995).
+año_estreno('Perdida', 2014).
+año_estreno('Sherlock_Holmes', 2009).
+año_estreno('La_Chica_del_Dragon_Tatuado', 2011).
+año_estreno('Red_Social', 2010).
+año_estreno('Gandhi', 1982).
+año_estreno('El_Viaje_del_Emperador', 2005).
+año_estreno('Bowling_for_Columbine', 2002).
+año_estreno('Corazon_Valiente', 1995).
+año_estreno('La_Lista_de_Schindler', 1993).
+año_estreno('Rescatando_al_Soldado_Ryan', 1998).
+año_estreno('Dunkerque', 2017).
+año_estreno('El_Bueno,el_Malo_y_el_Feo', 1966).
+año_estreno('Los_Imperdonables', 1992).
+año_estreno('Mission:_Impossible', 1996).
+año_estreno('James_Bond_at_the_Movies', 1962).
+año_estreno('Stand_by_Me', 1986).
+año_estreno('Lady_Bird', 2017).
+año_estreno('Los_Infiltrados', 2006).
+año_estreno('Tiempos_Violentos', 1994).
+año_estreno('Rocky', 1976).
+año_estreno('El_Juego_de_la_Fortuna', 2008).
+año_estreno('Buscando_a_Nemo', 2003).
+año_estreno('Los_Increibles', 2004).
+año_estreno('Frozen:_Una_Aventura_Congelada', 2013).
+año_estreno('Coco', 2017).
+año_estreno('Pacto_de_Sangre', 1944).
+año_estreno('La_Ciudad_del_Pecado', 2005).
+año_estreno('Fuego_Contra_Fuego', 1995).
+año_estreno('Los_angeles_al_Desnudo', 1997).
+año_estreno('The_Avengers:_Los_Vengadores', 2012).
+año_estreno('Batman:_El_caballero_de_la_noche', 2008).
+año_estreno('Mujer_Bonita', 1990).
+año_estreno('Cuando_Harry_Conocio_a_Sally', 1989).
+año_estreno('El_Laberinto_del_Fauno', 2006).
+año_estreno('La_Forma_del_Agua', 2017).
+año_estreno('Los_Juegos_del_Hambre', 2012).
+año_estreno('Jurassic_Park', 1993).
+año_estreno('E.T.,el_Extraterrestre', 1982).
+año_estreno('Volver_al_Futuro', 1985).
+año_estreno('El_Origen', 2010).
+año_estreno('Matrix', 1999).
+año_estreno('Avatar', 2009).
+año_estreno('Terminator', 1984).
+año_estreno('Interestelar', 2014).
+año_estreno('Alien:_El_Octavo_Pasajero', 1979).
+año_estreno('Guardianes_de_la_Galaxia', 2014).
+año_estreno('Titanic', 1997).
+año_estreno('Romeo_+_Julieta', 1968).
+año_estreno('Un_Paseo_para_Recordar', 2002).
+año_estreno('Bajo_la_Misma_Estrella', 2014).
+año_estreno('Realmente_Amor', 2003).
+año_estreno('El_Diario_de_Bridget_Jones', 2001).
+año_estreno('Moulin_Rouge:_Amor_en_Rojo', 2001).
+año_estreno('Casablanca', 1942).
+año_estreno('Un_Lugar_Llamado_Notting_Hill', 1999).
+año_estreno('Locamente_Millonarios', 2018).
+año_estreno('Scream:_Grita_Antes_de_Morir', 1996).
+año_estreno('El_Conjuro', 2013).
+año_estreno('Eso', 2017).
+año_estreno('¡Huye!', 2017).
+año_estreno('Hereditary:_El_Legado_del_Diablo', 2018).
+año_estreno('El_Babadook', 2014).
+año_estreno('El_Aro', 2002).
+año_estreno('Un_Lugar_en_Silencio', 2018).
+año_estreno('Actividad_Paranormal', 2007).
+año_estreno('Halloween', 1978).
+año_estreno('Forrest_Gump', 1994).
+año_estreno('El_Club_de_la_Pelea', 1999).
+año_estreno('Belleza_Americana', 1999).
+año_estreno('Gladiador', 2000).
+año_estreno('Milagros_Inesperados', 1999).
+año_estreno('Mente_Indomable', 1997).
+año_estreno('En_Busca_de_la_Felicidad', 2006).
+año_estreno('12_Años_de_Esclavitud', 2013).
+año_estreno('¿Quien_Quiere_Ser_Millonario?', 2008).
+año_estreno('El_Discurso_del_Rey', 2010).
+año_estreno('Tiburon', 1975).
+año_estreno('El_Silencio_de_los_Inocentes', 1991).
+año_estreno('Zodiaco', 2007).
+año_estreno('Prisioneros', 2013).
+año_estreno('Se7en', 1995).
+año_estreno('La_Isla_Siniestra', 2010).
+año_estreno('Perdida', 2014).
+año_estreno('Memento', 2000).
+año_estreno('El_Sexto_Sentido', 1999).
+año_estreno('El_Cisne_Negro', 2010).
+año_estreno('El_Rey_Leon', 1994).
+año_estreno('Buscando_a_Dory', 2016).
+año_estreno('El_Libro_de_la_Selva', 1967).
+año_estreno('Zootopia', 2016).
+año_estreno('Moana:_Un_Mar_de_Aventuras', 2016).
+año_estreno('Grandes_Heroes', 2014).
+año_estreno('Intensa-Mente', 2015).
+año_estreno('Mi_Villano_Favorito', 2010).
+año_estreno('Ralph,El_Demoledor', 2012).
+año_estreno('Como_Entrenar_a_tu_Dragon', 2010).
+año_estreno('El_Mago_de_Oz', 1939).
+año_estreno('Alicia_en_el_Pais_de_las_Maravillas', 1951).
+año_estreno('El_Hobbit:_Un_viaje_inesperado', 2012).
+año_estreno('La_Princesa_Prometida', 1987).
+año_estreno('Stardust:_El_Misterio_de_la_Estrella', 2007).
+año_estreno('La_Historia_Sin_Fin', 1984).
+año_estreno('Percy_Jackson_y_el_Ladron_del_Rayo', 2010).
+año_estreno('El_Cristal_Encantado', 1982).
+año_estreno('Laberinto', 1986).
+año_estreno('Eragon', 2006).
+año_estreno('La_La_Land:_Una_Historia_de_Amor', 2016).
+año_estreno('Chicago', 2002).
+año_estreno('El_Gran_Showman', 2017).
+año_estreno('Los_Miserables', 2012).
+año_estreno('Vaselina', 1978).
+año_estreno('Mamma_Mia!', 2008).
+año_estreno('Hairspray', 2007).
+año_estreno('Amor_Sin_Barreras', 1961).
+año_estreno('Cantando_Bajo_la_Lluvia', 1952).
+año_estreno('El_Fantasma_de_la_Opera', 2004).
+año_estreno('Rocky', 1976).
+año_estreno('Toro_Salvaje', 1980).
+año_estreno('El_Peleador', 2010).
+año_estreno('Creed:_Corazon_de_Campeon', 2015).
+año_estreno('Golpes_del_Destino', 2004).
+año_estreno('Recuerdos_de_los_Titanes', 2000).
+año_estreno('Juego_de_Honor', 2005).
+año_estreno('Campo_de_Sueños', 1989).
+año_estreno('Un_Equipo_Muy_Especial', 1992).
+año_estreno('Un_Sueño_Posible', 2009).
+año_estreno('El_Origen', 2010).
+año_estreno('El_Gran_Truco', 2006).
+año_estreno('Blancanieves_y_los_Siete_Enanitos', 1937).
+año_estreno('Cenicienta', 1950).
+año_estreno('Aladdin', 1992).
+año_estreno('Mulán', 1998).
+año_estreno('La_Bella_y_la_Bestia', 1991).
+año_estreno('Bambi', 1942).
+año_estreno('101_Dálmatas', 1961).
+año_estreno('Peter_Pan', 1953).
+año_estreno('Dumbo', 1941).
+año_estreno('Hércules', 1997).
+año_estreno('Pocahontas', 1995).
+año_estreno('Enredados', 2010).
+año_estreno('Cars', 2006).
+año_estreno('Monsters_Inc', 2001).
+año_estreno('Up', 2009).
+año_estreno('WALL-E', 2008).
+año_estreno('Valiente', 2012).
+año_estreno('Lilo_&_Stitch', 2002).
+año_estreno('Los_Aristogatos', 1970).
+año_estreno('Ralph_el_Demoledor', 2012).
+año_estreno('La_Dama_y_el_Vagabundo', 1955).
+año_estreno('La_Princesa_y_el_Sapo', 2009).
+año_estreno('Bolt', 2008).
+año_estreno('Big_Hero_6', 2014).
+año_estreno('El_Jorobado_de_Notre_Dame', 1996).
+año_estreno('Atlantis_El_Imperio_Perdido', 2001).
+año_estreno('Oliver_y_su_Pandilla', 1988).
+año_estreno('Tierra_de_Osos', 2003).
+año_estreno('El_Emperador_y_sus_Locuras', 2000).
+año_estreno('Hermano_Oso', 2003).
+año_estreno('Zafarrancho_en_el_Rancho', 2004).
+año_estreno('Chicken_Little', 2005).
+año_estreno('Río', 2011).
+año_estreno('El_Camino_hacia_El_Dorado', 2000).
+año_estreno('Kung_Fu_Panda', 2008).
+año_estreno('Madagascar', 2005).
+año_estreno('Mi_Pobre_Angelito', 1990).
+año_estreno('Jumanji', 1995).
+año_estreno('El_Jardín_Secreto', 1993).
+año_estreno('Harry_Potter_y_la_Cámara_Secreta', 2002).
+año_estreno('Matilda', 1996).
+año_estreno('Stuart_Little', 1999).
+año_estreno('Una_Noche_en_el_Museo', 2006).
+año_estreno('Chitty_Chitty_Bang_Bang', 1968).
+año_estreno('Willy_Wonka_y_la_Fábrica_de_Chocolate', 1971).
+año_estreno('Los_Goonies', 1985).
+año_estreno('Spy_Kids', 2001).
+año_estreno('Hook', 1991).
+año_estreno('Paddington', 2014).
+año_estreno('El_Regreso_de_Mary_Poppins', 2018).
+año_estreno('Peter_Rabbit', 2018).
+año_estreno('Peter_Rabbit_2_A_la_Fuga', 2021).
+año_estreno('La_Dama_y_el_Vagabundo_2019', 2019).
+año_estreno('El_Rey_León_2019', 2019).
+año_estreno('Aladdin_2019', 2019).
+año_estreno('Dumbo_2019', 2019).
+año_estreno('La_Bella_y_la_Bestia_2017', 2017).
+año_estreno('Christopher_Robin', 2018).
+año_estreno('El_Libro_de_la_Selva_2016', 2016).
+año_estreno('Maléfica', 2014).
+año_estreno('Maléfica_Dueña_del_Mal', 2019).
+año_estreno('El_Cascanueces_y_los_Cuatro_Reinos', 2018).
+año_estreno('Alicia_en_el_País_de_las_Maravillas_2010', 2010).
+año_estreno('Alicia_a_Través_del_Espejo', 2016).
+año_estreno('Cenicienta_2015', 2015).
+año_estreno('El_Dragón_de_Pete', 2016).
+año_estreno('Aventuras_en_la_Gran_Ciudad', 1987).
+año_estreno('La_Niñera_Mágica', 2005).
+año_estreno('Querida_Encogí_a_los_Niños', 1989).
+año_estreno('Una_Serie_de_Eventos_Desafortunados', 2004).
+año_estreno('El_Gato_con_Sombrero', 2003).
+año_estreno('Las_Aventuras_de_Sharkboy_y_Lavagirl', 2005).
+año_estreno('Dora_y_la_ciudad_perdida', 2019).
+año_estreno('Paddington_2', 2017).
+año_estreno('Mi_amigo_el_gigante', 2016).
+año_estreno('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 2016).
+
 idioma_pelicula(Pelicula,Idioma).
 clasificacion_pelicula(Pelicula,Clasificacion).
 actor_protagonista(Pelicula,Actor).
