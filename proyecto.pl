@@ -151,8 +151,6 @@ pelicula_genero('Un_Sueño_Posible','Deporte').
 pelicula_genero('El_Origen','Thriller').
 pelicula_genero('El_Gran_Truco','Thriller').
 
-pelicula_infantil('Blancanieves_y_los_siete_enanitos','animación').
-pelicula_infantil('Cenicienta','animación').
 
 %Películas_infantiles_de_animación
 pelicula_infantil('Toy_Story','animación').
