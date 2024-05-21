@@ -12,8 +12,8 @@ pelicula_genero('El_Exorcista','Terror').
 pelicula_genero('Pesadilla_en_la_Calle_del_Infierno','Terror').
 pelicula_genero('La_Guerra_de_las_Galaxias','Ciencia_ficción').
 pelicula_genero('El_Cazador_Implacable','Ciencia_ficción').
-pelicula_genero('Harry_Potter_y_la_piedra_filosofal','Fantasía').
-pelicula_genero('Las_crónicas_de_Narnia:_ón,_la_bruja_y_el_ropero','Fantasía').
+pelicula_genero('Harry_Potter_y_la_piedra_filosofal','Fantasia').
+pelicula_genero('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero','Fantasia').
 pelicula_genero('La_Novicia_Rebelde','Musical').
 pelicula_genero('La_La_Land._Una_historia_de_amor','Musical').
 pelicula_genero('Toy_Story','Infantil').
@@ -118,16 +118,16 @@ pelicula_genero('Intensa-Mente','Infantil').
 pelicula_genero('Mi_Villano_Favorito','Infantil').
 pelicula_genero('Ralph,El_Demoledor','Infantil').
 pelicula_genero('Cómo_Entrenar_a_tu_Dragón','Infantil').
-pelicula_genero('El_Mago_de_Oz','Fantasía').
+pelicula_genero('El_Mago_de_Oz','Fantasia').
 pelicula_genero('Alicia_en_el_País_de_las_Maravillas','Infantil').
-pelicula_genero('El Hobbit:_Un_viaje_inesperado','Fantasía').
-pelicula_genero('La_Princesa_Prometida','Fantasía').
-pelicula_genero('Stardust:_El_Misterio_de_la_Estrella','Fantasía').
-pelicula_genero('La_Historia_Sin_Fin','Fantasía').
-pelicula_genero('Percy_Jackson_y_el_Ladrón_del_Rayo','Fantasía').
-pelicula_genero('El_Cristal_Encantado','Fantasía').
-pelicula_genero('Laberinto','Fantasía').
-pelicula_genero('Eragon','Fantasía').
+pelicula_genero('El Hobbit:_Un_viaje_inesperado','Fantasia').
+pelicula_genero('La_Princesa_Prometida','Fantasia').
+pelicula_genero('Stardust:_El_Misterio_de_la_Estrella','Fantasia').
+pelicula_genero('La_Historia_Sin_Fin','Fantasia').
+pelicula_genero('Percy_Jackson_y_el_Ladrón_del_Rayo','Fantasia').
+pelicula_genero('El_Cristal_Encantado','Fantasia').
+pelicula_genero('Laberinto','Fantasia').
+pelicula_genero('Eragon','Fantasia').
 pelicula_genero('La_La_Land:_Una_Historia_de_Amor','Musical').
 pelicula_genero('Chicago','Musical').
 pelicula_genero('El_Gran_Showman','Musical').
@@ -138,7 +138,6 @@ pelicula_genero('Hairspray','Musical').
 pelicula_genero('Amor_Sin_Barreras','Musical').
 pelicula_genero('Cantando_Bajo_la_Lluvia','Musical').
 pelicula_genero('El_Fantasma_de_la_Ópera','Musical').
-
 pelicula_genero('Rocky','Deporte').
 pelicula_genero('Toro_Salvaje','Deporte').
 pelicula_genero('El_Peleador','Deporte').
@@ -152,11 +151,12 @@ pelicula_genero('Un_Sueño_Posible','Deporte').
 pelicula_genero('El_Origen','Thriller').
 pelicula_genero('El_Gran_Truco','Thriller').
 
+pelicula_infantil('Blancanieves_y_los_siete_enanitos','animación').
+pelicula_infantil('Cenicienta','animación').
 
 %Películas_infantiles_de_animación
 pelicula_infantil('Toy_Story','animación').
 pelicula_infantil('El_Rey_León','animación').
-pelicula_infantil('La_Sirenita','animación').
 pelicula_infantil('Blancanieves_y_los_siete_enanitos','animación').
 pelicula_infantil('Cenicienta','animación').
 pelicula_infantil('Aladdin','animación').
@@ -223,7 +223,6 @@ pelicula_infantil('Los_Goonies','live_action').
 pelicula_infantil('Spy_Kids','live_action').
 pelicula_infantil('Hook','live_action').
 pelicula_infantil('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero','live_action').
-pelicula_infantil('Las_crónicas_de_Narnia:_El_príncipe_Caspian','live_action').
 pelicula_infantil('La_princesa_prometida','live_action').
 pelicula_infantil('Paddington','live_action').
 pelicula_infantil('El_regreso_de_Mary_Poppins','live_action').
@@ -255,204 +254,73 @@ pelicula_infantil('Mi_amigo_el_gigante','live_action').
 pelicula_infantil('El_hogar_de_Miss_Peregrine_para_niños_peculiares','live_action').
 
 %ganadoras de oscar
-gano_oscar_en('Toy_Story',1996,'Premio_especial_innovaccion').
-gano_oscar_en('Toy_Story',1996,'Mejor_Guion_Original').
-gano_oscar_en('El_Rey_Leon',1995,'Mejor_Banda_Original').
-gano_oscar_en('El_Rey_Leon',1995,'Mejor_Canción_Original').
-gano_oscar_en('Frozen:_Una_Aventura_Congelada',2014,'Mejor_Película_de_Animación').
-gano_oscar_en('Frozen:_Una_Aventura_Congelada',2014,'Mejor_Canción_Original').
-gano_oscar_en('Up',2010,'Mejor_Película_de_Animación').
-gano_oscar_en('Up',2010,'Mejor_Banda_Sonora_Original').
+gano_oscar_en('Toy_Story', 1996, ['Premio_especial_innovacion', 'Mejor_Guion_Original']).
+gano_oscar_en('El_Rey_Leon', 1995, ['Mejor_Banda_Original', 'Mejor_Cancion_Original']).
+gano_oscar_en('Frozen:_Una_Aventura_Congelada', 2014, ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original']).
+gano_oscar_en('Up', 2010, ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('WALL_E',2009,'Mejor_Película_de_Animación').
-gano_oscar_en('Coco',2018,'Mejor_Película_de_Animación').
-gano_oscar_en('Coco',2018,'Mejor_Canción_Original').
+gano_oscar_en('Coco', 2018, ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original']).
 gano_oscar_en('Ratatouille',2008,'Mejor_Película_de_Animación').
 gano_oscar_en('Buscando_a_Nemo',2004,'Mejor_Película_de_Animación').
-gano_oscar_en('Los_Increibles',2005,'Mejor_Película_de_Animación').
-gano_oscar_en('Los_Increibles',2005,'Mejor_Edición_de_Sonido').
+gano_oscar_en('Los_Increibles', 2005, ['Mejor_Pelicula_de_Animacion', 'Mejor_Edicion_de_Sonido']).
 gano_oscar_en('Shrek',2002,'Mejor_Película_de_Animación').
-gano_oscar_en('Mary_Poppins',1965,'Mejor_Actriz').
-gano_oscar_en('Mary_Poppins',1965,'Mejor_Edición').
-gano_oscar_en('Mary_Poppins',1965,'Mejores_Efectos_Visuales').
-gano_oscar_en('Mary_Poppins',1965,'Mejor_Banda_Sonora_Original').
-gano_oscar_en('Mary_Poppins',1965,'Mejor_Canción_Original').
-gano_oscar_en('El_Jorobado_de_Notre_Dame',1939,'Mejor_Fotografia').
-gano_oscar_en('El_Jorobado_de_Notre_Dame',1939,'Mejor_Música').
+gano_oscar_en('Mary_Poppins', 1965, ['Mejor_Actriz', 'Mejor_Edicion', 'Mejores_Efectos_Visuales', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
+gano_oscar_en('El_Jorobado_de_Notre_Dame', 1939, ['Mejor_Fotografia', 'Mejor_Musica']).
 gano_oscar_en('El_Libro_de_la_Selva_(2016)',2017,'Mejores_Efectos_Visuales').
-gano_oscar_en('El_señor_de_los_anillos:_Las_dos_torres',2002,'Mejor_Fotografia').
-gano_oscar_en('El_señor_de_los_anillos:_Las_dos_torres',2002,'Mejor_Maquillaje').
-gano_oscar_en('El_señor_de_los_anillos:_Las_dos_torres',2002,'Mejor_Banda_Sonora_Original').
-gano_oscar_en('El_señor_de_los_anillos:_Las_dos_torres',2002,'Mejor_Efectos_Visuales').
-gano_oscar_en('El_Padrino',1973,'Mejor_Película').
-gano_oscar_en('El_Padrino',1973,'Mejor_Actor').
-gano_oscar_en('El_Padrino',1973,'Mejor_Guión_Adaptado').
-gano_oscar_en('El_Exorcista',1974,'Mejor_Guión_Adaptado').
-gano_oscar_en('El_Exorcista',1974,'Mejor_Sonido').
-gano_oscar_en('La_Guerra_de_las_Galaxia',1978,'Mejor_Diseño_de_Produccion').
-gano_oscar_en('La_Guerra_de_las_Galaxia',1978,'Mejor_Dirección').
-gano_oscar_en('La_Guerra_de_las_Galaxia',1978,'Mejor_Actor_de_Reparto').
-gano_oscar_en('La_Guerra_de_las_Galaxia',1978,'Mejor_Guion_Original').
-gano_oscar_en('La_Guerra_de_las_Galaxia',1978,'Mejor_Montaje').
-gano_oscar_en('La_Guerra_de_las_Galaxia',1978,'Mejor_Banda_Sonora_Original').
-gano_oscar_en('El_Cazador_Implacable',1979,'Mejor_Película').
-gano_oscar_en('El_Cazador_Implacable',1979,'Mejor_Director').
-gano_oscar_en('El_Cazador_Implacable',1979,'Mejor_Actor_de_Reparto').
-gano_oscar_en('El_Cazador_Implacable',1979,'Mejor_Montaje').
-gano_oscar_en('El_Cazador_Implacable',1979,'Mejor_Sonido').
-gano_oscar_en('Las_crónicas_de_Narnia:_ón,_la_bruja_y_el_ropero',2006,'Mejor_Maquillaje_y_Peluquería').
-gano_oscar_en('La_Novicia_Rebelde',1966,'Mejor_Película').
-gano_oscar_en('La_Novicia_Rebelde',1966,'Mejor_Director').
-gano_oscar_en('La_Novicia_Rebelde',1966,'Mejor_Edición').
-gano_oscar_en('La_Novicia_Rebelde',1966,'Mejor_Sonido').
-gano_oscar_en('La_Novicia_Rebelde',1966,'Mejor_Canción_Original').
-gano_oscar_en('La_La_Land._Una_historia_de_amor',2017,'Mejor_Director').
-gano_oscar_en('La_La_Land._Una_historia_de_amor',2017,'Mejor_Actriz').
-gano_oscar_en('La_La_Land._Una_historia_de_amor',2017,'Mejor_Banda_Sonora_Original').
-gano_oscar_en('La_La_Land._Una_historia_de_amor',2017,'Mejor_Canción_Original').
-gano_oscar_en('La_La_Land._Una_historia_de_amor',2017,'Mejor_Diseño_de_Produccion').
-gano_oscar_en('Orgullo_y_Prejuicio',2006,'Mejor_Actriz').
-gano_oscar_en('Orgullo_y_Prejuicio',2006,'Mejor_Banda_Sonora_Original').
+gano_oscar_en('El_señor_de_los_anillos:_Las_dos_torres', 2002, ['Mejor_Fotografia', 'Mejor_Maquillaje', 'Mejor_Banda_Sonora_Original', 'Mejor_Efectos_Visuales']).
+gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion_Adaptado']).
+gano_oscar_en('El_Exorcista', 1974, ['Mejor_Guion_Adaptado', 'Mejor_Sonido']).
+gano_oscar_en('La_Guerra_de_las_Galaxia', 1978, ['Mejor_Diseño_de_Produccion', 'Mejor_Direccion', 'Mejor_Actor_de_Reparto', 'Mejor_Guion_Original', 'Mejor_Montaje', 'Mejor_Banda_Sonora_Original']).
+gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
+gano_oscar_en('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero',2006,'Mejor_Maquillaje_y_Peluquería').
+gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).
+gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseño_de_Produccion']).
+gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('La_Chica_del_Dragón_Tatuado',2012,'Mejor_Montaje').
-gano_oscar_en('Red_Social',2011,'Mejor_Guión_Adaptado').
-gano_oscar_en('Red_Social',2011,'Mejor_Banda_Sonora_Original').
-gano_oscar_en('Red_Social',2011,'Mejor_Montaje').
-gano_oscar_en('Gandhi',1983,'Mejor_Película').
-gano_oscar_en('Gandhi',1983,'Mejor_Actor_de_Reparto').
-gano_oscar_en('Gandhi',1983,'Mejor_Director').
-gano_oscar_en('Gandhi',1983,'Mejor_Guion_Original').
-gano_oscar_en('Gandhi',1983,'Mejor_Guion_Original').
-gano_oscar_en('Gandhi',1983,'Mejor_Fotografia').
+gano_oscar_en('Red_Social', 2011, ['Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Montaje']).
+gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).
 gano_oscar_en('El_Viaje_del_Emperador',2006,'Mejor_Documental').
 gano_oscar_en('Bowling_for_Columbine',2003,'Mejor_Documental').
-gano_oscar_en('Corazón_Valiente',1996,'Mejor_Película').
-gano_oscar_en('Corazón_Valiente',1996,'Mejor_Director').
-gano_oscar_en('Corazón_Valiente',1996,'Mejor_Fotografia').
-gano_oscar_en('La_Lista_de_Schindler',1994,'Mejor_Película').
-gano_oscar_en('La_Lista_de_Schindler',1994,'Mejor_Guion_Original').
-gano_oscar_en('Rescatando_al_Soldado_Ryan',1999,'Mejor_Director').
-gano_oscar_en('Rescatando_al_Soldado_Ryan',1999,'Mejor_Fotografia').
+gano_oscar_en('Corazón_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).
+gano_oscar_en('La_Lista_de_Schindler', 1994, ['Mejor_Pelicula', 'Mejor_Guion_Original']).
+gano_oscar_en('Rescatando_al_Soldado_Ryan', 1999, ['Mejor_Director', 'Mejor_Fotografia']).
 gano_oscar_en('Dunkerque',2018,'Mejor_Banda_Sonora_Original').
-gano_oscar_en('Los_Imperdonables',1993,'Mejor_Actriz_de_Reparto').
-gano_oscar_en('Los_Imperdonables',1993,'Mejor_Director').
-gano_oscar_en('Los_Infiltrados',2007,'Mejor_Película').
-gano_oscar_en('Los_Infiltrados',2007,'Mejor_Guión_Adaptado').
+gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).
+gano_oscar_en('Los_Infiltrados', 2007, ['Mejor_Pelicula', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('Tiempos_Violentos',2007,'Mejor_Guion_Original').
-gano_oscar_en('Rocky',1977,'Mejor_Director').
-gano_oscar_en('Rocky',1977,'Mejor_Película').
-gano_oscar_en('Rocky',1977,'Mejor_Montaje').
-gano_oscar_en('Los_Ángeles_al_Desnudo',1998,'Mejor_Actriz').
-gano_oscar_en('Los_Ángeles_al_Desnudo',1998,'Mejor_Guión_Adaptado').
+gano_oscar_en('Rocky', 1977, ['Mejor_Director', 'Mejor_Pelicula', 'Mejor_Montaje']).
+gano_oscar_en('Los_Ángeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('Batman:_El_caballero_de_la_noche',2009,'Mejor_Interpretacion').
-gano_oscar_en('El_Laberinto_del_Fauno',2007,'Mejor_Director').
-gano_oscar_en('El_Laberinto_del_Fauno',2007,'Mejor_Actriz').
-gano_oscar_en('El_Laberinto_del_Fauno',2007,'Mejor_Fotografia').
-gano_oscar_en('La_Forma_del_Agua',2018,'Mejor_Director').
-gano_oscar_en('La_Forma_del_Agua',2018,'Mejor_Película').
-gano_oscar_en('Mad_Max:_Furia_en_el_Camino',2018,'Mejor_Vestuario').
-gano_oscar_en('Mad_Max:_Furia_en_el_Camino',2018,'Mejor_Producción').
-gano_oscar_en('Mad_Max:_Furia_en_el_Camino',2018,'Mejor_Maquillaje_y_Peinado').
-gano_oscar_en('Mad_Max:_Furia_en_el_Camino',2018,'Mejor_Edición').
-gano_oscar_en('Mad_Max:_Furia_en_el_Camino',2018,'Mejor_Edición_de_Sonido').
-gano_oscar_en('Mad_Max:_Furia_en_el_Camino',2018,'Mejor_Mezcla_de_Sonido').
-gano_oscar_en('Jurassic_Park',1994,'Mejor_Edición_de_Sonido').
-gano_oscar_en('Jurassic_Park',1994,'Mejores_Efectos_Visuales').
-gano_oscar_en('Jurassic_Park',1994,'Mejor_Sonido').
-gano_oscar_en('E.T.,el_Extraterrestre',1983,'Mejor_Sonido').
-gano_oscar_en('E.T.,el_Extraterrestre',1983,'Mejores_Efectos_Visuales').
-gano_oscar_en('E.T.,el_Extraterrestre',1983,'Mejor_Efectos_de_Sonido').
-gano_oscar_en('E.T.,el_Extraterrestre',1983,'Mejor_Banda_Sonora_Original').
+gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).
+gano_oscar_en('La_Forma_del_Agua', 2018, ['Mejor_Director', 'Mejor_Pelicula']).
+gano_oscar_en('Mad_Max:_Furia_en_el_Camino', 2018, ['Mejor_Vestuario', 'Mejor_Produccion', 'Mejor_Maquillaje_y_Peinado', 'Mejor_Edicion', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido']).
+gano_oscar_en('Jurassic_Park', 1994, ['Mejor_Edición_de_Sonido', 'Mejores_Efectos_Visuales', 'Mejor_Sonido']).
+gano_oscar_en('E.T.,el_Extraterrestre', 1983, ['Mejor_Sonido', 'Mejores_Efectos_Visuales', 'Mejor_Efectos_de_Sonido', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Volver_al_Futuro', 1986, 'Mejor_Edicion_de_Sonido').
-gano_oscar_en('El_Origen', 2011, 'Mejor_Fotografia').
-gano_oscar_en('El_Origen', 2011, 'Mejor_Edicion_de_Sonido').
-gano_oscar_en('El_Origen', 2011, 'Mejor_Mezcla_de_Sonido').
-gano_oscar_en('El_Origen', 2011, 'Mejor_Efectos_Visuales').
-gano_oscar_en('Matrix', 2000, 'Mejor_Edicion').
-gano_oscar_en('Matrix', 2000, 'Mejor_Edicion_de_Sonido').
-gano_oscar_en('Matrix', 2000, 'Mejor_Mezcla_de_Sonido').
-gano_oscar_en('Matrix', 2000, 'Mejor_Efectos_Visuales').
-gano_oscar_en('Avatar', 2010, 'Mejor_Fotografia').
-gano_oscar_en('Avatar', 2010, 'Mejor_Direccion_Artistica').
-gano_oscar_en('Avatar', 2010, 'Mejor_Efectos_Visuales').
+gano_oscar_en('El_Origen', 2011, ['Mejor_Fotografia', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido', 'Mejor_Efectos_Visuales']).
+gano_oscar_en('Matrix', 2000, ['Mejor_Edicion', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido', 'Mejor_Efectos_Visuales']).
+gano_oscar_en('Avatar', 2010, ['Mejor_Fotografia', 'Mejor_Direccion_Artistica', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('Terminator', 1985, 'Mejor_Edicion_de_Sonido').
 gano_oscar_en('Interestelar', 2015, 'Mejor_Efectos_Visuales').
 gano_oscar_en('Alien:_El_Octavo_Pasajero', 1980, 'Mejor_Efectos_Visuales').
-gano_oscar_en('Titanic', 1998, 'Mejor_Pelicula').
-gano_oscar_en('Titanic', 1998, 'Mejor_Director').
-gano_oscar_en('Titanic', 1998, 'Mejor_Fotografia').
-gano_oscar_en('Titanic', 1998, 'Mejor_Mezcla_de_Sonido').
-gano_oscar_en('Titanic', 1998, 'Mejor_Montaje').
-gano_oscar_en('Titanic', 1998, 'Mejor_Banda_Sonora').
-gano_oscar_en('Titanic', 1998, 'Mejor_Cancion_Original').
-gano_oscar_en('Titanic', 1998, 'Mejor_Direccion_de_Arte').
-gano_oscar_en('Titanic', 1998, 'Mejor_Efectos_Visuales').
-gano_oscar_en('Casablanca', 1944, 'Mejor_Pelicula').
-gano_oscar_en('Casablanca', 1944, 'Mejor_Director').
-gano_oscar_en('Casablanca', 1944, 'Mejor_Guion_Adaptado').
+gano_oscar_en('Titanic', 1998, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia', 'Mejor_Mezcla_de_Sonido', 'Mejor_Montaje', 'Mejor_Banda_Sonora', 'Mejor_Cancion_Original', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).
+gano_oscar_en('Casablanca', 1944, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('¡Huye!', 2018, 'Mejor_Guion_Original').
-gano_oscar_en('Forrest_Gump', 1995, 'Mejor_Pelicula').
-gano_oscar_en('Forrest_Gump', 1995, 'Mejor_Director').
-gano_oscar_en('Forrest_Gump', 1995, 'Mejor_Actor_Principal').
-gano_oscar_en('Forrest_Gump', 1995, 'Mejor_Guion_Adaptado').
-gano_oscar_en('Forrest_Gump', 1995, 'Mejor_Montaje').
-gano_oscar_en('Forrest_Gump', 1995, 'Mejor_Efectos_Visuales').
-gano_oscar_en('Forrest_Gump', 1995, 'Mejor_Banda_Sonora').
-gano_oscar_en('Belleza_Americana', 2000, 'Mejor_Pelicula').
-gano_oscar_en('Belleza_Americana', 2000, 'Mejor_Director').
-gano_oscar_en('Belleza_Americana', 2000, 'Mejor_Actor_Principal').
-gano_oscar_en('Belleza_Americana', 2000, 'Mejor_Guion_Original').
-gano_oscar_en('Gladiador', 2001, 'Mejor_Pelicula').
-gano_oscar_en('Gladiador', 2001, 'Mejor_Actor_Principal').
-gano_oscar_en('Gladiador', 2001, 'Mejor_Efectos_Visuales').
-gano_oscar_en('12_Años_de_Esclavitud', 2014, 'Mejor_Pelicula').
-gano_oscar_en('12_Años_de_Esclavitud', 2014, 'Mejor_Actriz_Secundaria').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Pelicula').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Director').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Guion_Adaptado').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Banda_Sonora_Original').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Mezcla_de_Sonido').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Edicion_de_Sonido').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Montaje').
-gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, 'Mejor_Cinematografia').
-gano_oscar_en('El_Discurso_del_Rey', 2011, 'Mejor_Pelicula').
-gano_oscar_en('El_Discurso_del_Rey', 2011, 'Mejor_Director').
-gano_oscar_en('El_Discurso_del_Rey', 2011, 'Mejor_Actor_Principal').
-gano_oscar_en('El_Discurso_del_Rey', 2011, 'Mejor_Guion_Original').
+gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
+gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
+gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor_Principal', 'Mejor_Efectos_Visuales']).
+gano_oscar_en('12_Años_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_Secundaria']).
+gano_oscar_en('¿Quién_Quiere_Ser_Millonario?', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).
+gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
 gano_oscar_en('Tiburón', 1976, 'Mejor_Musica_Original').
-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, 'Mejor_Pelicula').
-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, 'Mejor_Director').
-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, 'Mejor_Actor_Principal').
-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, 'Mejor_Actriz_Principal').
-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, 'Mejor_Guion_Adaptado').
+gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Actriz_Principal', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('El_Cisne_Negro', 2011, 'Mejor Actriz Principal').
-gano_oscar_en('El_Mago_de_Oz', 1940, 'Mejor Canción Original').
-gano_oscar_en('El_Mago_de_Oz', 1940, 'Mejor Banda Sonora Original').
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, 'Mejor Dirección de Fotografía').
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, 'Mejor Dirección de Arte').
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, 'Mejor Banda Sonora Original').
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, 'Mejor Canción Original').
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, 'Mejor Dirección').
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, 'Mejor Actriz').
-gano_oscar_en('Chicago', 2003, 'Mejor Película').
-gano_oscar_en('Chicago', 2003, 'Mejor Actriz de Reparto').
-gano_oscar_en('Chicago', 2003, 'Mejor Dirección de Arte').
-gano_oscar_en('Chicago', 2003, 'Mejor Diseño de Vestuario').
-gano_oscar_en('Chicago', 2003, 'Mejor Edición').
-gano_oscar_en('Chicago', 2003, 'Mejor Sonido').
-gano_oscar_en('Los_Miserables', 2013, 'Mejor Actriz de Reparto').
-gano_oscar_en('Los_Miserables', 2013, 'Mejor Maquillaje y Peinado').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Película').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Dirección').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Dirección de Fotografía').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Dirección de Arte').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Montaje').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Sonido').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Música Original').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Canción Original').
-gano_oscar_en('Amor_Sin_Barreras', 1962, 'Mejor Sonido').
-gano_oscar_en('Rocky', 1976, 'Mejor Película').
-gano_oscar_en('Rocky', 1976, 'Mejor Dirección').
-gano_oscar_en('Rocky', 1976, 'Mejor Edición').
-gano_oscar_en('Rocky', 1976, 'Mejor Montaje de Sonido').
+gano_oscar_en('El_Mago_de_Oz', 1940, ['Mejor_Canción_Original', 'Mejor_Banda_Sonora_Original']).
+gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, ['Mejor_Dirección_de_Fotografía', 'Mejor_Dirección_de_Arte', 'Mejor_Banda_Sonora_Original', 'Mejor_Canción_Original', 'Mejor_Dirección', 'Mejor_Actriz']).
+gano_oscar_en('Chicago', 2003, ['Mejor_Película', 'Mejor_Actriz_de_Reparto', 'Mejor_Dirección_de_Arte', 'Mejor_Diseño_de_Vestuario', 'Mejor_Edición', 'Mejor_Sonido']).
+gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).
+gano_oscar_en('Amor_Sin_Barreras', 1962, ['Mejor_Película', 'Mejor_Dirección', 'Mejor_Dirección_de_Fotografía', 'Mejor_Dirección_de_Arte', 'Mejor_Montaje', 'Mejor_Sonido', 'Mejor_Música_Original', 'Mejor_Canción_Original']).
+gano_oscar_en('Rocky', 1976, ['Mejor_Película', 'Mejor_Dirección', 'Mejor_Edición', 'Mejor_Montaje_de_Sonido']).
 gano_oscar_en('El_Peleador', 2010, 'Mejor Actor de Reparto').
 gano_oscar_en('Creed_Corazon_de_Campeon', 2016, 'Mejor_Edicion_de_Sonido').
 gano_oscar_en('Golpes_del_Destino', 2005, 'Mejor_Actuacion').
@@ -480,7 +348,7 @@ critica_imdb('Pesadilla_en_la_Ca,7.9lle_del_Infierno',7.4).
 critica_imdb('La_Guerra_de_las_Galaxias',8.6).
 critica_imdb('El_Cazador_Implacable',8.1).
 critica_imdb('Harry_Potter_y_la_piedra_filosofal',7.6).
-critica_imdb('Las_crónicas_de_Narnia:_ón,_la_bruja_y_el_ropero',6.9).
+critica_imdb('Las_crónicas_de_Narnia:_El_león,la_bruja_y_el_ropero',6.9).
 critica_imdb('La_Novicia_Rebelde',8.1).
 critica_imdb('La_La_Land._Una_historia_de_amor',8.0).
 critica_imdb('Toy_Story',8.3).
@@ -815,3 +683,4 @@ videojuegos_de('Bushiden','pc').
 videojuegos_de('Crowsworn','pc').
 videojuegos_de('Silent_Hill_Townfall','pc').
 videojuegos_de('Unrecord','pc').
+
