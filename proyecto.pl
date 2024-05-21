@@ -551,22 +551,22 @@ critica_imdb('Eso',6.8).
 critica_imdb('¡Huye!',7.8).
 critica_imdb('Hereditary:_El_Legado_del_Diablo',7.3).
 critica_imdb('El_Babadook',6.8).
-critica_imdb('El_Aro'7.1).
+critica_imdb('El_Aro',7.1).
 critica_imdb('Un_Lugar_en_Silencio',7.5).
 critica_imdb('Actividad_Paranormal',6.3).
 critica_imdb('Halloween',7.7).
 critica_imdb('Forrest_Gump',8.8).
 critica_imdb('El_Club_de_la_Pelea',8.8).
-critica_imdb('Belleza_Americana'8.3).  // si tiene oscar (5)
-critica_imdb('Gladiador',8.5).      // si tiene oscar (5)
-critica_imdb('Milagros_Inesperados',8.6).   //
-critica_imdb('Mente_Indomable',8.3).  // tiene 2 oscar
+critica_imdb('Belleza_Americana',8.3).  
+critica_imdb('Gladiador',8.5).   
+critica_imdb('Milagros_Inesperados',8.6).  
+critica_imdb('Mente_Indomable',8.3). 
 critica_imdb('En_Busca_de_la_Felicidad',8.0).
-critica_imdb('12_Años_de_Esclavitud',8.1).  // gano 3 oscar 
-critica_imdb('¿Quién_Quiere_Ser_Millonario?',8.0). // gano 8 oscar
-critica_imdb('El_Discurso_del_Rey',8.0). // gano 4 oscar
-critica_imdb('Tiburón',8.1).    // gano 3 oscar
-critica_imdb('El_Silencio_de_los_Inocentes',8.6). // gano 5 oscar
+critica_imdb('12_Años_de_Esclavitud',8.1).  
+critica_imdb('¿Quién_Quiere_Ser_Millonario?',8.0). 
+critica_imdb('El_Discurso_del_Rey',8.0). 
+critica_imdb('Tiburón',8.1). 
+critica_imdb('El_Silencio_de_los_Inocentes',8.6). 
 critica_imdb('Zodiaco',7.7).
 critica_imdb('Prisioneros',8.2).
 critica_imdb('Se7en',8.6).
@@ -574,19 +574,19 @@ critica_imdb('La_Isla_Siniestra',8.2).
 critica_imdb('Perdida',8.1).
 critica_imdb('Memento',8.4).
 critica_imdb('El_Sexto_Sentido',8.2).
-critica_imdb('El_Cisne_Negro',8.0). // gano 1 oscar
-critica_imdb('El_Rey_León',8.5). // gano 2 oscar
+critica_imdb('El_Cisne_Negro',8.0). 
+critica_imdb('El_Rey_León',8.5). 
 critica_imdb('Buscando_a_Dory',7.2).
-critica_imdb('El_Libro_de_la_Selva',7.4). // gano 1 osacar
-critica_imdb('Zootopia',8.0). // gano 1 oscar
+critica_imdb('El_Libro_de_la_Selva',7.4).
+critica_imdb('Zootopia',8.0). 
 critica_imdb('Moana:_Un_Mar_de_Aventuras',7.6).
-critica_imdb('Grandes_Héroes',7.8). // gano 1 osacar
-critica_imdb('Intensa-Mente',8.1). // gano un oscar
+critica_imdb('Grandes_Héroes',7.8). 
+critica_imdb('Intensa-Mente',8.1). 
 critica_imdb('Mi_Villano_Favorito',7.6).
 critica_imdb('Ralph,El_Demoledor',7.7).
 critica_imdb('Cómo_Entrenar_a_tu_Dragón',8.1).
-critica_imdb('El_Mago_de_Oz',8.1). // gano 2 oscar
-critica_imdb('Alicia_en_el_País_de_las_Maravillas',6.4). // gano 2 oscar
+critica_imdb('El_Mago_de_Oz',8.1). 
+critica_imdb('Alicia_en_el_País_de_las_Maravillas',6.4). 
 critica_imdb('El Hobbit:_Un_viaje_inesperado',7.8).
 critica_imdb('La_Princesa_Prometida',8.0).
 critica_imdb('Stardust:_El_Misterio_de_la_Estrella',7.6).
@@ -595,27 +595,27 @@ critica_imdb('Percy_Jackson_y_el_Ladrón_del_Rayo',5.9).
 critica_imdb('El_Cristal_Encantado',7.1).
 critica_imdb('Laberinto',7.3).
 critica_imdb('Eragon',5.1).
-critica_imdb('La_La_Land:_Una_Historia_de_Amor',8.0). // gano 6 oscar
-critica_imdb('Chicago',7.6). // gano 6 oscar    
+critica_imdb('La_La_Land:_Una_Historia_de_Amor',8.0). 
+critica_imdb('Chicago',7.6). 
 critica_imdb('El_Gran_Showman',7.5).
-critica_imdb('Los_Miserables'.7.5). // gano 3 oscar
+critica_imdb('Los_Miserables'.7.5). 
 critica_imdb('Vaselina',7.2).
 critica_imdb('Mamma_Mia!',6.5).
 critica_imdb('Hairspray',6.7).
-critica_imdb('Amor_Sin_Barreras',7.1). // gano  1 oscar
+critica_imdb('Amor_Sin_Barreras',7.1). 
 critica_imdb('Cantando_Bajo_la_Lluvia',8.3).
 critica_imdb('El_Fantasma_de_la_Ópera',7.2).
-critica_imdb('Rocky',8.1). // gano 3 oscae
-critica_imdb('Toro_Salvaje'8.1). // gano 2 oscar
-critica_imdb('El_Peleador',7.8). gano 2 oscar
+critica_imdb('Rocky',8.1). 
+critica_imdb('Toro_Salvaje',8.1). 
+critica_imdb('El_Peleador',7.8). 
 critica_imdb('Creed:_Corazón_de_Campeón',7.6).
 critica_imdb('Golpes_del_Destino').
-critica_imdb('Recuerdos_de_los_Titanes',8.1). // gano 4 oscar
+critica_imdb('Recuerdos_de_los_Titanes',8.1). 
 critica_imdb('Juego_de_Honor',7.3).
-critica_imdb('Campo_de_Sueños'7.5).
+critica_imdb('Campo_de_Sueños',7.5).
 critica_imdb('Un_Equipo_Muy_Especial',7.3).
-critica_imdb('Un_Sueño_Posible'7.6). //gano 1 oscar
-critica_imdb('El_Origen',8.8). // gano 4 oscar
+critica_imdb('Un_Sueño_Posible',7.6).
+critica_imdb('El_Origen',8.8).
 critica_imdb('El_Gran_Truco',8.5).
 
 
@@ -697,64 +697,64 @@ mas_esperados('Unrecord').
 
 
 videojuegos('Blue_Protocol',[MMORPG],'pc').
-videojuegos('Star_Citizen',[Acción , Simulador espacial],'pc').
+videojuegos('Star_Citizen',[Acción,Simulador_espacial],'pc').
 videojuegos('Hollow_Knight:_Silksong',[Metroidvania],'pc').
-videojuegos('Beyond_Good_&_Evil_2',[Aventura de acción , Mundo abierto],'pc').
+videojuegos('Beyond_Good_&_Evil_2',[Aventura_de_acción,Mundo_abierto],'pc').
 videojuegos('Lost_Soul_Aside',[Action-RPG],'pc').
-videojuegos('Grand_Theft_Auto_VI',[Mundo abierto , Tipo GTA],'pc').
-videojuegos('The_Elder_Scrolls_VI',[Action-RPG , Mundo abierto , RPG Occidental],'pc').
-videojuegos('STALKER_2',[Mundo abierto , Shooter en primera persona],'pc').
-videojuegos('Bus_Controller_Simulator',[Autobuses , Simulación],'pc').
+videojuegos('Grand_Theft_Auto_VI',[Mundo_abierto,Tipo_GTA],'pc').
+videojuegos('The_Elder_Scrolls_VI',[Action-RPG,Mundo_abierto,RPG_Occidental],'pc').
+videojuegos('STALKER_2',[Mundo_abierto,Shooter_en_primera_persona],'pc').
+videojuegos('Bus_Controller_Simulator',[Autobuses,Simulación],'pc').
 videojuegos('Black_Myth:_Wukong',[Action-RPG],'pc').
-videojuegos('The_Last_Night',[Aventura de exploración y puzles , Plataformas 2D],'pc').
-videojuegos('Vampire:_The_Masquerade_-_Bloodlines',[Action-RPG , RPG Occidental],'pc').
+videojuegos('The_Last_Night',[Aventura_de_exploración_y_puzles,Plataformas_2D],'pc').
+videojuegos('Vampire:_The_Masquerade_-_Bloodlines',[Action-RPG,RPG_Occidental],'pc').
 videojuegos('Little_Devil_Inside',[Action-RPG],'pc').
 videojuegos('Ashes_of_Creation',[MMORPG],'pc').
-videojuegos('Dragon_Age:_Dreadwolf',[Action-RPG , Mundo abierto , RPG Occidental],'pc').
-videojuegos('The_Lighthouse_-_VR_Escape',[Escape Room , Realidad Virtual],'pc').
-videojuegos('Truck_Parking_Simulator',[Camiones , Simulador de profesiones],'pc').
-videojuegos('Indiana_Jones_and_the_Great_Circle',[Aventura de acción],'pc').
-videojuegos('Silent_Hill_2_Remake',[Aventura de acción , Survival Horror],'pc').
-videojuegos('Fable',[Aventura de acción , Mundo_abierto , RPG Occidental],'pc').
-videojuegos('Mass_Effect_5',[Action-RPG , Mundoabierto],'pc').
-videojuegos('Avowed',[RPG Occidental , Rol],'pc').
-videojuegos('Routine',[Aventura , Terror],'pc').
-videojuegos('Tale_of_Ronin',[RPG Occidental , Rol],'pc').
-videojuegos('Paralives',[Simulación , Simulador social],'pc').
+videojuegos('Dragon_Age:_Dreadwolf',[Action-RPG,Mundo_abierto,RPG_Occidental],'pc').
+videojuegos('The_Lighthouse_-_VR_Escape',[Escape_Room,Realidad_Virtual],'pc').
+videojuegos('Truck_Parking_Simulator',[Camiones,Simulador_de_profesiones],'pc').
+videojuegos('Indiana_Jones_and_the_Great_Circle',[Aventura_de_acción],'pc').
+videojuegos('Silent_Hill_2_Remake',[Aventura_de_acción,Survival_Horror],'pc').
+videojuegos('Fable',[Aventura_de_acción,Mundo_abierto,RPG_Occidental],'pc').
+videojuegos('Mass_Effect_5',[Action-RPG,Mundoabierto],'pc').
+videojuegos('Avowed',[RPG_Occidental,Rol],'pc').
+videojuegos('Routine',[Aventura,Terror],'pc').
+videojuegos('Tale_of_Ronin',[RPG_Occidental,Rol],'pc').
+videojuegos('Paralives',[Simulación,Simulador_social],'pc').
 videojuegos('Chrono_Odyssey',[MMORPG],'pc').
-videojuegos('Star_Wars_Eclipse',[Aventura de acción , Survival Horror],'pc').
-videojuegos('Ambulance_Simulator',[Simulación , Simulador de médico],'pc').
-videojuegos('Negative_Atmosphere',[Aventura , Terror],'pc').
-videojuegos('Hellblade_2',[Aventura de acción],'pc').
+videojuegos('Star_Wars_Eclipse',[Aventura_de_acción,Survival_Horror],'pc').
+videojuegos('Ambulance_Simulator',[Simulación,Simulador_de_médico],'pc').
+videojuegos('Negative_Atmosphere',[Aventura,Terror],'pc').
+videojuegos('Hellblade_2',[Aventura_de_acción],'pc').
 videojuegos('Zenless_Zone_Zero',[Action-RPG],'pc').
-videojuegos('Farm_Folks',[Granjas , Simulación],'pc').
-videojuegos('Escape_Room_Simulator',[Construcción , Escape Room],'pc').
-videojuegos('SimBus',[Autobuses , Simulación],'pc').
-videojuegos('Where_Winds_Meet',[Autobuses , Simulación],'pc').
-videojuegos('Kingdom_Come:_Deliverance_II',[Action-RPG , Aventura de acción , Mundo abierto , RPG Occidental],'pc').
-videojuegos('Metal_Slug_Tactics',[Tactical RPG],'pc').
-videojuegos('Everwild',[Aventura de acción],'pc').
-videojuegos('Assassins_Creed_Infinity',[Aventura_de_acción , Mundo abierto , Sigilo],'pc').
-videojuegos('Judas',[Aventura narrativa , Shooter en primera persona],'pc').
-videojuegos('Godus',[Simulación , Simulador de vida],'pc').
-videojuegos('Gothic_Remake',[Action-RPG , Mundo abierto],'pc').
+videojuegos('Farm_Folks',[Granjas,Simulación],'pc').
+videojuegos('Escape_Room_Simulator',[Construcción,Escape_Room],'pc').
+videojuegos('SimBus',[Autobuses,Simulación],'pc').
+videojuegos('Where_Winds_Meet',[Autobuses,Simulación],'pc').
+videojuegos('Kingdom_Come:_Deliverance_II',[Action-RPG,Aventura_de_acción,Mundo_abierto,RPG_Occidental],'pc').
+videojuegos('Metal_Slug_Tactics',[Tactical_RPG],'pc').
+videojuegos('Everwild',[Aventura_de_acción],'pc').
+videojuegos('Assassins_Creed_Infinity',[Aventura_de_acción,Mundo_abierto,Sigilo],'pc').
+videojuegos('Judas',[Aventura_narrativa,Shooter_en_primera_persona],'pc').
+videojuegos('Godus',[Simulación,Simulador_de_vida],'pc').
+videojuegos('Gothic_Remake',[Action-RPG,Mundo_abierto],'pc').
 videojuegos('Gestalt:_Steam_&_Cinder',[Metroidvania],'pc').
-videojuegos('Replaced',[Aventura de acción],'pc').
-videojuegos('System_Shock_3',[Action-RPG , Shooter en primera persona],'pc').
-videojuegos('Path_of_Exile_2',[Action-RPG , MMO],'pc').
-videojuegos('Silent_Hill_F',[Aventura de acción , Survival Horror],'pc').
-videojuegos('Star_Wars_Outlaws',[Aventura de acción , Mundo abierto],'pc').
-videojuegos('3_Minutes_to_Midnight',[Aventura Gráfica , Point & Click],'pc').
-videojuegos('Crimson_Desert',[MMORPG , Mundo abierto],'pc').
-videojuegos('The_Witcher_4',[Action-RPG , Mundo abierto , RPG Occidental],'pc').
-videojuegos('Everywhere',[Multijugador Online],'pc').
-videojuegos('The_Wolf_Among_Us_2',[Aventura narrativa],'pc').
-videojuegos('Dragon_Ball:_Sparking!_Zero',[Lucha , Lucha 3D],'pc').
-videojuegos('Damnview:_Built_From_Nothing',[Mundo abierto , Tipo GTA],'pc').
-videojuegos('Bushiden',[Hack and Slash , Metroidvania , Plataformas 2D],'pc').
-videojuegos('Crowsworn',[Aventura de acción , Metroidvania],'pc').
-videojuegos('Silent_Hill_Townfall',[Aventura narrativa],'pc').
-videojuegos('Unrecord',[Shooter en primera persona , Shooter realista ó táctico],'pc').
+videojuegos('Replaced',[Aventura_de_acción],'pc').
+videojuegos('System_Shock_3',[Action-RPG,Shooter_en_primera_persona],'pc').
+videojuegos('Path_of_Exile_2',[Action-RPG,MMO],'pc').
+videojuegos('Silent_Hill_F',[Aventura_de_acción,Survival_Horror],'pc').
+videojuegos('Star_Wars_Outlaws',[Aventura_de_acción,Mundo_abierto],'pc').
+videojuegos('3_Minutes_to_Midnight',[Aventura_Gráfica,Point_Click],'pc').
+videojuegos('Crimson_Desert',[MMORPG,Mundo_abierto],'pc').
+videojuegos('The_Witcher_4',[Action-RPG,Mundo_abierto,RPG_Occidental],'pc').
+videojuegos('Everywhere',[Multijugador_Online],'pc').
+videojuegos('The_Wolf_Among_Us_2',[Aventura_narrativa],'pc').
+videojuegos('Dragon_Ball:_Sparking!_Zero',[Lucha,Lucha_3D],'pc').
+videojuegos('Damnview:_Built_From_Nothing',[Mundo_abierto,Tipo_GTA],'pc').
+videojuegos('Bushiden',[Hack_and_Slash,Metroidvania,Plataformas_2D],'pc').
+videojuegos('Crowsworn',[Aventura_de_acción,Metroidvania],'pc').
+videojuegos('Silent_Hill_Townfall',[Aventura_narrativa],'pc').
+videojuegos('Unrecord',[Shooter_en_primera_persona,Shooter_realista_ó_áctico],'pc').
 
 videojuegos_de('Blue_Protocol','pc').
 videojuegos_de('Star_Citizen','pc').
