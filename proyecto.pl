@@ -150,9 +150,84 @@ pelicula_genero('Un_Equipo_Muy_Especial','Deporte').
 pelicula_genero('Un_Sueño_Posible','Deporte').
 pelicula_genero('El_Origen','Thriller').
 pelicula_genero('El_Gran_Truco','Thriller').
+pelicula_genero('Blancanieves_y_los_Siete_Enanitos','Infantil').
+pelicula_genero('Cenicienta','Infantil').
+pelicula_genero('Aladdin','Infantil').
+pelicula_genero('Mulán','Infantil').
+pelicula_genero('La_Bella_y_la_Bestia','Infantil').
+pelicula_genero('Bambi','Infantil').
+pelicula_genero('101_Dálmatas','Infantil').
+pelicula_genero('Peter_Pan','Infantil').
+pelicula_genero('Dumbo','Infantil').
+pelicula_genero('Hércules','Infantil').
+pelicula_genero('Pocahontas','Infantil').
+pelicula_genero('Enredados','Infantil').
+pelicula_genero('Cars','Infantil').
+pelicula_genero('Monsters_Inc','Infantil').
+pelicula_genero('Up','Infantil').
+pelicula_genero('WALL-E','Infantil').
+pelicula_genero('Valiente','Infantil').
+pelicula_genero('Lilo_&_Stitch','Infantil').
+pelicula_genero('Los_Aristogatos','Infantil').
+pelicula_genero('Ralph_el_Demoledor','Infantil').
+pelicula_genero('La_Dama_y_el_Vagabundo','Infantil').
+pelicula_genero('La_Princesa_y_el_Sapo','Infantil').
+pelicula_genero('Bolt','Infantil').
+pelicula_genero('Big_Hero_6','Infantil').
+pelicula_genero('El_Jorobado_de_Notre_Dame','Infantil').
+pelicula_genero('Atlantis_El_Imperio_Perdido','Infantil').
+pelicula_genero('Oliver_y_su_Pandilla','Infantil').
+pelicula_genero('Tierra_de_Osos','Infantil').
+pelicula_genero('El_Emperador_y_sus_Locuras','Infantil').
+pelicula_genero('Hermano_Oso','Infantil').
+pelicula_genero('Zafarrancho_en_el_Rancho','Infantil').
+pelicula_genero('Chicken_Little','Infantil').
+pelicula_genero('Río','Infantil').
+pelicula_genero('El_Camino_hacia_El_Dorado','Infantil').
+pelicula_genero('Kung_Fu_Panda','Infantil').
+pelicula_genero('Madagascar','Infantil').
+pelicula_genero('Mi_Pobre_Angelito','Infantil').
+pelicula_genero('Jumanji','Infantil').
+pelicula_genero('El_Jardín_Secreto','Infantil').
+pelicula_genero('Harry_Potter_y_la_Cámara_Secreta','Infantil').
+pelicula_genero('Matilda','Infantil').
+pelicula_genero('Stuart_Little','Infantil').
+pelicula_genero('Una_Noche_en_el_Museo','Infantil').
+pelicula_genero('Chitty_Chitty_Bang_Bang','Infantil').
+pelicula_genero('Willy_Wonka_y_la_Fábrica_de_Chocolate','Infantil').
+pelicula_genero('Los_Goonies','Infantil').
+pelicula_genero('Spy_Kids','Infantil').
+pelicula_genero('Hook','Infantil').
+pelicula_genero('Paddington','Infantil').
+pelicula_genero('El_Regreso_de_Mary_Poppins','Infantil').
+pelicula_genero('Peter_Rabbit','Infantil').
+pelicula_genero('Peter_Rabbit_2_A_la_Fuga','Infantil').
+pelicula_genero('La_Dama_y_el_Vagabundo_2019','Infantil').
+pelicula_genero('El_Rey_León_2019','Infantil').
+pelicula_genero('Aladdin_2019','Infantil').
+pelicula_genero('Dumbo_2019','Infantil').
+pelicula_genero('La_Bella_y_la_Bestia_2017','Infantil').
+pelicula_genero('Christopher_Robin','Infantil').
+pelicula_genero('El_Libro_de_la_Selva_2016','Infantil').
+pelicula_genero('Maléfica','Infantil').
+pelicula_genero('Maléfica_Dueña_del_Mal','Infantil').
+pelicula_genero('El_Cascanueces_y_los_Cuatro_Reinos','Infantil').
+pelicula_genero('Alicia_en_el_País_de_las_Maravillas_2010','Infantil').
+pelicula_genero('Alicia_en_el_País_de_las_Maravillas_2010','Infantil').
+pelicula_genero('Alicia_a_Través_del_Espejo','Infantil').
+pelicula_genero('Cenicienta_2015','Infantil').
+pelicula_genero('El_Dragón_de_Pete','Infantil').
+pelicula_genero('Aventuras_en_la_Gran_Ciudad','Infantil').
+pelicula_genero('La_Niñera_Mágica','Infantil').
+pelicula_genero('Querida_Encogí_a_los_Niños','Infantil').
+pelicula_genero('Una_Serie_de_Eventos_Desafortunados','Infantil').
+pelicula_genero('El_Gato_con_Sombrero','Infantil').
+pelicula_genero('Las_Aventuras_de_Sharkboy_y_Lavagirl','Infantil').
+pelicula_genero('Dora_y_la_ciudad_perdida','Infantil').
+pelicula_genero('Paddington_2','Infantil').
+pelicula_genero('Mi_amigo_el_gigante','Infantil').
+pelicula_genero('El_hogar_de_Miss_Peregrine_para_niños_peculiares','Infantil').
 
-pelicula_infantil('Blancanieves_y_los_siete_enanitos','animacion').
-pelicula_infantil('Cenicienta','animacion').
 
 %Peliculas_infantiles_de_animacion
 pelicula_infantil('Toy_Story','animacion').
@@ -331,7 +406,22 @@ gano_oscar_en('Un_Equipo_Muy_Especial', 2007, 'Mejor_Cortometraje_Documental').
 gano_oscar_en('Un_Sueno_Posible', 2010, 'Mejor_Actuacion').
 gano_oscar_en('El_Origen', 2010, 'Mejor_Mezcla_de_Sonido').
 gano_oscar_en('El_Gran_Truco', 2006, 'Mejor_Fotografia').
-
+gano_oscar_en('Cenicienta', 1950, ['Mejor_Banda_Sonora_Original']).
+gano_oscar_en('Aladdin', 1992, ['Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
+gano_oscar_en('Mulán', 1998, ['Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
+gano_oscar_en('La_Bella_y_la_Bestia', 1991, ['Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
+gano_oscar_en('Bambi', 1942, ['Mejor_Banda_Sonora_Original']).
+gano_oscar_en('101_Dálmatas', 1961, ['Mejor_Banda_Sonora_Original']).
+gano_oscar_en('Peter_Pan', 1953, ['Mejor_Banda_Sonora_Original']).
+gano_oscar_en('Dumbo', 1941, ['Mejor_Banda_Sonora_Original']).
+gano_oscar_en('Pocahontas', 1995, ['Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
+gano_oscar_en('Cars', 2006, ['Mejor_Pelicula_de_Animacion']).
+gano_oscar_en('Up', 2009, ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original']).
+gano_oscar_en('WALL-E', 2008, ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original']).
+gano_oscar_en('Valiente', 2012, ['Mejor_Pelicula_de_Animacion']).
+gano_oscar_en('La_Princesa_y_el_Sapo', 2009, ['Mejor_Banda_Sonora_Original']).
+gano_oscar_en('Big_Hero_6', 2014, ['Mejor_Pelicula_de_Animacion']).
+gano_oscar_en('Mary_Poppins', 1964, ['Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido']).
 
 
 %critica_imdb
@@ -485,6 +575,83 @@ critica_imdb('Un_Equipo_Muy_Especial',7.3).
 critica_imdb('Un_Sueño_Posible',7.6).
 critica_imdb('El_Origen',8.8).
 critica_imdb('El_Gran_Truco',8.5).
+critica_imdb('Blancanieves_y_los_Siete_Enanitos', 7.6).
+critica_imdb('Cenicienta', 7.3).
+critica_imdb('Aladdin', 8.0).
+critica_imdb('Mulán', 7.6).
+critica_imdb('La_Bella_y_la_Bestia', 8.0).
+critica_imdb('Bambi', 7.3).
+critica_imdb('101_Dálmatas', 7.3).
+critica_imdb('Peter_Pan', 7.3).
+critica_imdb('Dumbo', 7.2).
+critica_imdb('Hércules', 7.2).
+critica_imdb('Pocahontas', 6.7).
+critica_imdb('Enredados', 7.7).
+critica_imdb('Cars', 7.2).
+critica_imdb('Monsters_Inc', 8.1).
+critica_imdb('Up', 8.3).
+critica_imdb('WALL-E', 8.4).
+critica_imdb('Valiente', 7.1).
+critica_imdb('Lilo_&_Stitch', 7.3).
+critica_imdb('Los_Aristogatos', 7.1).
+critica_imdb('Ralph_el_Demoledor', 7.7).
+critica_imdb('La_Dama_y_el_Vagabundo', 7.3).
+critica_imdb('La_Princesa_y_el_Sapo', 7.1).
+critica_imdb('Bolt', 6.8).
+critica_imdb('Big_Hero_6', 7.8).
+critica_imdb('El_Jorobado_de_Notre_Dame', 7.0).
+critica_imdb('Atlantis_El_Imperio_Perdido', 6.9).
+critica_imdb('Oliver_y_su_Pandilla', 6.7).
+critica_imdb('Tierra_de_Osos', 6.8).
+critica_imdb('El_Emperador_y_sus_Locuras', 7.4).
+critica_imdb('Hermano_Oso', 6.8).
+critica_imdb('Zafarrancho_en_el_Rancho', 5.4).
+critica_imdb('Chicken_Little', 5.7).
+critica_imdb('Río', 6.9).
+critica_imdb('El_Camino_hacia_El_Dorado', 6.9).
+critica_imdb('Kung_Fu_Panda', 7.6).
+critica_imdb('Madagascar', 6.9).
+critica_imdb('Mary_Poppins', 7.8).
+critica_imdb('Mi_Pobre_Angelito', 7.7).
+critica_imdb('Jumanji', 7.0).
+critica_imdb('El_Jardín_Secreto', 7.3).
+critica_imdb('Harry_Potter_y_la_Cámara_Secreta', 7.4).
+critica_imdb('Matilda', 6.9).
+critica_imdb('Stuart_Little', 6.0).
+critica_imdb('Una_Noche_en_el_Museo', 6.4).
+critica_imdb('Chitty_Chitty_Bang_Bang', 6.9).
+critica_imdb('Willy_Wonka_y_la_Fábrica_de_Chocolate', 7.8).
+critica_imdb('Los_Goonies', 7.8).
+critica_imdb('Spy_Kids', 5.6).
+critica_imdb('Hook', 6.8).
+critica_imdb('Paddington', 7.2).
+critica_imdb('El_Regreso_de_Mary_Poppins', 6.7).
+critica_imdb('Peter_Rabbit', 6.6).
+critica_imdb('Peter_Rabbit_2_A_la_Fuga', 6.2).
+critica_imdb('La_Dama_y_el_Vagabundo_2019', 6.2).
+critica_imdb('El_Rey_León_2019', 6.8).
+critica_imdb('Aladdin_2019', 6.9).
+critica_imdb('Dumbo_2019', 6.3).
+critica_imdb('La_Bella_y_la_Bestia_2017', 7.1).
+critica_imdb('Christopher_Robin', 7.3).
+critica_imdb('El_Libro_de_la_Selva_2016', 7.4).
+critica_imdb('Maléfica', 7.0).
+critica_imdb('Maléfica_Dueña_del_Mal', 6.6).
+critica_imdb('El_Cascanueces_y_los_Cuatro_Reinos', 5.5).
+critica_imdb('Alicia_en_el_País_de_las_Maravillas_2010', 6.4).
+critica_imdb('Alicia_a_Través_del_Espejo', 6.2).
+critica_imdb('Cenicienta_2015', 6.9).
+critica_imdb('El_Dragón_de_Pete', 6.7).
+critica_imdb('Aventuras_en_la_Gran_Ciudad', 6.9).
+critica_imdb('La_Niñera_Mágica', 6.6).
+critica_imdb('Querida_Encogí_a_los_Niños', 6.4).
+critica_imdb('Una_Serie_de_Eventos_Desafortunados', 6.8).
+critica_imdb('El_Gato_con_Sombrero', 4.0).
+critica_imdb('Las_Aventuras_de_Sharkboy_y_Lavagirl', 3.7).
+critica_imdb('Dora_y_la_ciudad_perdida', 6.1).
+critica_imdb('Paddington_2', 7.8).
+critica_imdb('Mi_amigo_el_gigante', 6.3).
+critica_imdb('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 6.7).
 
 
 pelicula_director(Titulo,Director).
