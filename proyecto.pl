@@ -877,236 +877,686 @@ pelicula_director('Mi_amigo_el_gigante', 'Steven Spielberg').
 pelicula_director('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 'Tim Burton').
 
 
-año_estreno('Mad_Max:_Furia_en_el_Camino', 2015).
-año_estreno('Duro_de_Matar', 1988).
-año_estreno('Indiana_Jones', 1981).
-año_estreno('El_señor_de_los_anillos:_Las_dos_torres', 2002).
-año_estreno('Supercool', 2007).
-año_estreno('Dos_Tontos_en_Fuga', 1994).
-año_estreno('El_Padrino', 1972).
-año_estreno('Sueños_de_Libertad', 1994).
-año_estreno('El_Exorcista', 1973).
-año_estreno('Pesadilla_en_la_Calle_del_Infierno', 1984).
-año_estreno('La_Guerra_de_las_Galaxias', 1977).
-año_estreno('El_Cazador_Implacable', 1986).
-año_estreno('Harry_Potter_y_la_piedra_filosofal', 2001).
-año_estreno('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 2005).
-año_estreno('La_Novicia_Rebelde', 1965).
-año_estreno('La_La_Land._Una_historia_de_amor', 2016).
-año_estreno('Toy_Story', 1995).
-año_estreno('Shrek', 2001).
-año_estreno('Orgullo_y_Prejuicio', 2005).
-año_estreno('Diario_de_una_Pasion', 2004).
-año_estreno('Se7en', 1995).
-año_estreno('Perdida', 2014).
-año_estreno('Sherlock_Holmes', 2009).
-año_estreno('La_Chica_del_Dragon_Tatuado', 2011).
-año_estreno('Red_Social', 2010).
-año_estreno('Gandhi', 1982).
-año_estreno('El_Viaje_del_Emperador', 2005).
-año_estreno('Bowling_for_Columbine', 2002).
-año_estreno('Corazon_Valiente', 1995).
-año_estreno('La_Lista_de_Schindler', 1993).
-año_estreno('Rescatando_al_Soldado_Ryan', 1998).
-año_estreno('Dunkerque', 2017).
-año_estreno('El_Bueno,el_Malo_y_el_Feo', 1966).
-año_estreno('Los_Imperdonables', 1992).
-año_estreno('Mission:_Impossible', 1996).
-año_estreno('James_Bond_at_the_Movies', 1962).
-año_estreno('Stand_by_Me', 1986).
-año_estreno('Lady_Bird', 2017).
-año_estreno('Los_Infiltrados', 2006).
-año_estreno('Tiempos_Violentos', 1994).
-año_estreno('Rocky', 1976).
-año_estreno('El_Juego_de_la_Fortuna', 2008).
-año_estreno('Buscando_a_Nemo', 2003).
-año_estreno('Los_Increibles', 2004).
-año_estreno('Frozen:_Una_Aventura_Congelada', 2013).
-año_estreno('Coco', 2017).
-año_estreno('Pacto_de_Sangre', 1944).
-año_estreno('La_Ciudad_del_Pecado', 2005).
-año_estreno('Fuego_Contra_Fuego', 1995).
-año_estreno('Los_angeles_al_Desnudo', 1997).
-año_estreno('The_Avengers:_Los_Vengadores', 2012).
-año_estreno('Batman:_El_caballero_de_la_noche', 2008).
-año_estreno('Mujer_Bonita', 1990).
-año_estreno('Cuando_Harry_Conocio_a_Sally', 1989).
-año_estreno('El_Laberinto_del_Fauno', 2006).
-año_estreno('La_Forma_del_Agua', 2017).
-año_estreno('Los_Juegos_del_Hambre', 2012).
-año_estreno('Jurassic_Park', 1993).
-año_estreno('E.T.,el_Extraterrestre', 1982).
-año_estreno('Volver_al_Futuro', 1985).
-año_estreno('El_Origen', 2010).
-año_estreno('Matrix', 1999).
-año_estreno('Avatar', 2009).
-año_estreno('Terminator', 1984).
-año_estreno('Interestelar', 2014).
-año_estreno('Alien:_El_Octavo_Pasajero', 1979).
-año_estreno('Guardianes_de_la_Galaxia', 2014).
-año_estreno('Titanic', 1997).
-año_estreno('Romeo_+_Julieta', 1968).
-año_estreno('Un_Paseo_para_Recordar', 2002).
-año_estreno('Bajo_la_Misma_Estrella', 2014).
-año_estreno('Realmente_Amor', 2003).
-año_estreno('El_Diario_de_Bridget_Jones', 2001).
-año_estreno('Moulin_Rouge:_Amor_en_Rojo', 2001).
-año_estreno('Casablanca', 1942).
-año_estreno('Un_Lugar_Llamado_Notting_Hill', 1999).
-año_estreno('Locamente_Millonarios', 2018).
-año_estreno('Scream:_Grita_Antes_de_Morir', 1996).
-año_estreno('El_Conjuro', 2013).
-año_estreno('Eso', 2017).
-año_estreno('¡Huye!', 2017).
-año_estreno('Hereditary:_El_Legado_del_Diablo', 2018).
-año_estreno('El_Babadook', 2014).
-año_estreno('El_Aro', 2002).
-año_estreno('Un_Lugar_en_Silencio', 2018).
-año_estreno('Actividad_Paranormal', 2007).
-año_estreno('Halloween', 1978).
-año_estreno('Forrest_Gump', 1994).
-año_estreno('El_Club_de_la_Pelea', 1999).
-año_estreno('Belleza_Americana', 1999).
-año_estreno('Gladiador', 2000).
-año_estreno('Milagros_Inesperados', 1999).
-año_estreno('Mente_Indomable', 1997).
-año_estreno('En_Busca_de_la_Felicidad', 2006).
-año_estreno('12_Años_de_Esclavitud', 2013).
-año_estreno('¿Quien_Quiere_Ser_Millonario?', 2008).
-año_estreno('El_Discurso_del_Rey', 2010).
-año_estreno('Tiburon', 1975).
-año_estreno('El_Silencio_de_los_Inocentes', 1991).
-año_estreno('Zodiaco', 2007).
-año_estreno('Prisioneros', 2013).
-año_estreno('Se7en', 1995).
-año_estreno('La_Isla_Siniestra', 2010).
-año_estreno('Perdida', 2014).
-año_estreno('Memento', 2000).
-año_estreno('El_Sexto_Sentido', 1999).
-año_estreno('El_Cisne_Negro', 2010).
-año_estreno('El_Rey_Leon', 1994).
-año_estreno('Buscando_a_Dory', 2016).
-año_estreno('El_Libro_de_la_Selva', 1967).
-año_estreno('Zootopia', 2016).
-año_estreno('Moana:_Un_Mar_de_Aventuras', 2016).
-año_estreno('Grandes_Heroes', 2014).
-año_estreno('Intensa-Mente', 2015).
-año_estreno('Mi_Villano_Favorito', 2010).
-año_estreno('Ralph,El_Demoledor', 2012).
-año_estreno('Como_Entrenar_a_tu_Dragon', 2010).
-año_estreno('El_Mago_de_Oz', 1939).
-año_estreno('Alicia_en_el_Pais_de_las_Maravillas', 1951).
-año_estreno('El_Hobbit:_Un_viaje_inesperado', 2012).
-año_estreno('La_Princesa_Prometida', 1987).
-año_estreno('Stardust:_El_Misterio_de_la_Estrella', 2007).
-año_estreno('La_Historia_Sin_Fin', 1984).
-año_estreno('Percy_Jackson_y_el_Ladron_del_Rayo', 2010).
-año_estreno('El_Cristal_Encantado', 1982).
-año_estreno('Laberinto', 1986).
-año_estreno('Eragon', 2006).
-año_estreno('La_La_Land:_Una_Historia_de_Amor', 2016).
-año_estreno('Chicago', 2002).
-año_estreno('El_Gran_Showman', 2017).
-año_estreno('Los_Miserables', 2012).
-año_estreno('Vaselina', 1978).
-año_estreno('Mamma_Mia!', 2008).
-año_estreno('Hairspray', 2007).
-año_estreno('Amor_Sin_Barreras', 1961).
-año_estreno('Cantando_Bajo_la_Lluvia', 1952).
-año_estreno('El_Fantasma_de_la_Opera', 2004).
-año_estreno('Rocky', 1976).
-año_estreno('Toro_Salvaje', 1980).
-año_estreno('El_Peleador', 2010).
-año_estreno('Creed:_Corazon_de_Campeon', 2015).
-año_estreno('Golpes_del_Destino', 2004).
-año_estreno('Recuerdos_de_los_Titanes', 2000).
-año_estreno('Juego_de_Honor', 2005).
-año_estreno('Campo_de_Sueños', 1989).
-año_estreno('Un_Equipo_Muy_Especial', 1992).
-año_estreno('Un_Sueño_Posible', 2009).
-año_estreno('El_Origen', 2010).
-año_estreno('El_Gran_Truco', 2006).
-año_estreno('Blancanieves_y_los_Siete_Enanitos', 1937).
-año_estreno('Cenicienta', 1950).
-año_estreno('Aladdin', 1992).
-año_estreno('Mulán', 1998).
-año_estreno('La_Bella_y_la_Bestia', 1991).
-año_estreno('Bambi', 1942).
-año_estreno('101_Dálmatas', 1961).
-año_estreno('Peter_Pan', 1953).
-año_estreno('Dumbo', 1941).
-año_estreno('Hércules', 1997).
-año_estreno('Pocahontas', 1995).
-año_estreno('Enredados', 2010).
-año_estreno('Cars', 2006).
-año_estreno('Monsters_Inc', 2001).
-año_estreno('Up', 2009).
-año_estreno('WALL-E', 2008).
-año_estreno('Valiente', 2012).
-año_estreno('Lilo_&_Stitch', 2002).
-año_estreno('Los_Aristogatos', 1970).
-año_estreno('Ralph_el_Demoledor', 2012).
-año_estreno('La_Dama_y_el_Vagabundo', 1955).
-año_estreno('La_Princesa_y_el_Sapo', 2009).
-año_estreno('Bolt', 2008).
-año_estreno('Big_Hero_6', 2014).
-año_estreno('El_Jorobado_de_Notre_Dame', 1996).
-año_estreno('Atlantis_El_Imperio_Perdido', 2001).
-año_estreno('Oliver_y_su_Pandilla', 1988).
-año_estreno('Tierra_de_Osos', 2003).
-año_estreno('El_Emperador_y_sus_Locuras', 2000).
-año_estreno('Hermano_Oso', 2003).
-año_estreno('Zafarrancho_en_el_Rancho', 2004).
-año_estreno('Chicken_Little', 2005).
-año_estreno('Río', 2011).
-año_estreno('El_Camino_hacia_El_Dorado', 2000).
-año_estreno('Kung_Fu_Panda', 2008).
-año_estreno('Madagascar', 2005).
-año_estreno('Mi_Pobre_Angelito', 1990).
-año_estreno('Jumanji', 1995).
-año_estreno('El_Jardín_Secreto', 1993).
-año_estreno('Harry_Potter_y_la_Cámara_Secreta', 2002).
-año_estreno('Matilda', 1996).
-año_estreno('Stuart_Little', 1999).
-año_estreno('Una_Noche_en_el_Museo', 2006).
-año_estreno('Chitty_Chitty_Bang_Bang', 1968).
-año_estreno('Willy_Wonka_y_la_Fábrica_de_Chocolate', 1971).
-año_estreno('Los_Goonies', 1985).
-año_estreno('Spy_Kids', 2001).
-año_estreno('Hook', 1991).
-año_estreno('Paddington', 2014).
-año_estreno('El_Regreso_de_Mary_Poppins', 2018).
-año_estreno('Peter_Rabbit', 2018).
-año_estreno('Peter_Rabbit_2_A_la_Fuga', 2021).
-año_estreno('La_Dama_y_el_Vagabundo_2019', 2019).
-año_estreno('El_Rey_León_2019', 2019).
-año_estreno('Aladdin_2019', 2019).
-año_estreno('Dumbo_2019', 2019).
-año_estreno('La_Bella_y_la_Bestia_2017', 2017).
-año_estreno('Christopher_Robin', 2018).
-año_estreno('El_Libro_de_la_Selva_2016', 2016).
-año_estreno('Maléfica', 2014).
-año_estreno('Maléfica_Dueña_del_Mal', 2019).
-año_estreno('El_Cascanueces_y_los_Cuatro_Reinos', 2018).
-año_estreno('Alicia_en_el_País_de_las_Maravillas_2010', 2010).
-año_estreno('Alicia_a_Través_del_Espejo', 2016).
-año_estreno('Cenicienta_2015', 2015).
-año_estreno('El_Dragón_de_Pete', 2016).
-año_estreno('Aventuras_en_la_Gran_Ciudad', 1987).
-año_estreno('La_Niñera_Mágica', 2005).
-año_estreno('Querida_Encogí_a_los_Niños', 1989).
-año_estreno('Una_Serie_de_Eventos_Desafortunados', 2004).
-año_estreno('El_Gato_con_Sombrero', 2003).
-año_estreno('Las_Aventuras_de_Sharkboy_y_Lavagirl', 2005).
-año_estreno('Dora_y_la_ciudad_perdida', 2019).
-año_estreno('Paddington_2', 2017).
-año_estreno('Mi_amigo_el_gigante', 2016).
-año_estreno('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 2016).
+estreno('Mad_Max:_Furia_en_el_Camino', 2015).
+estreno('Duro_de_Matar', 1988).
+estreno('Indiana_Jones', 1981).
+estreno('El_señor_de_los_anillos:_Las_dos_torres', 2002).
+estreno('Supercool', 2007).
+estreno('Dos_Tontos_en_Fuga', 1994).
+estreno('El_Padrino', 1972).
+estreno('Sueños_de_Libertad', 1994).
+estreno('El_Exorcista', 1973).
+estreno('Pesadilla_en_la_Calle_del_Infierno', 1984).
+estreno('La_Guerra_de_las_Galaxias', 1977).
+estreno('El_Cazador_Implacable', 1986).
+estreno('Harry_Potter_y_la_piedra_filosofal', 2001).
+estreno('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 2005).
+estreno('La_Novicia_Rebelde', 1965).
+estreno('La_La_Land._Una_historia_de_amor', 2016).
+estreno('Toy_Story', 1995).
+estreno('Shrek', 2001).
+estreno('Orgullo_y_Prejuicio', 2005).
+estreno('Diario_de_una_Pasion', 2004).
+estreno('Se7en', 1995).
+estreno('Perdida', 2014).
+estreno('Sherlock_Holmes', 2009).
+estreno('La_Chica_del_Dragon_Tatuado', 2011).
+estreno('Red_Social', 2010).
+estreno('Gandhi', 1982).
+estreno('El_Viaje_del_Emperador', 2005).
+estreno('Bowling_for_Columbine', 2002).
+estreno('Corazon_Valiente', 1995).
+estreno('La_Lista_de_Schindler', 1993).
+estreno('Rescatando_al_Soldado_Ryan', 1998).
+estreno('Dunkerque', 2017).
+estreno('El_Bueno,el_Malo_y_el_Feo', 1966).
+estreno('Los_Imperdonables', 1992).
+estreno('Mission:_Impossible', 1996).
+estreno('James_Bond_at_the_Movies', 1962).
+estreno('Stand_by_Me', 1986).
+estreno('Lady_Bird', 2017).
+estreno('Los_Infiltrados', 2006).
+estreno('Tiempos_Violentos', 1994).
+estreno('Rocky', 1976).
+estreno('El_Juego_de_la_Fortuna', 2008).
+estreno('Buscando_a_Nemo', 2003).
+estreno('Los_Increibles', 2004).
+estreno('Frozen:_Una_Aventura_Congelada', 2013).
+estreno('Coco', 2017).
+estreno('Pacto_de_Sangre', 1944).
+estreno('La_Ciudad_del_Pecado', 2005).
+estreno('Fuego_Contra_Fuego', 1995).
+estreno('Los_angeles_al_Desnudo', 1997).
+estreno('The_Avengers:_Los_Vengadores', 2012).
+estreno('Batman:_El_caballero_de_la_noche', 2008).
+estreno('Mujer_Bonita', 1990).
+estreno('Cuando_Harry_Conocio_a_Sally', 1989).
+estreno('El_Laberinto_del_Fauno', 2006).
+estreno('La_Forma_del_Agua', 2017).
+estreno('Los_Juegos_del_Hambre', 2012).
+estreno('Jurassic_Park', 1993).
+estreno('E.T.,el_Extraterrestre', 1982).
+estreno('Volver_al_Futuro', 1985).
+estreno('El_Origen', 2010).
+estreno('Matrix', 1999).
+estreno('Avatar', 2009).
+estreno('Terminator', 1984).
+estreno('Interestelar', 2014).
+estreno('Alien:_El_Octavo_Pasajero', 1979).
+estreno('Guardianes_de_la_Galaxia', 2014).
+estreno('Titanic', 1997).
+estreno('Romeo_+_Julieta', 1968).
+estreno('Un_Paseo_para_Recordar', 2002).
+estreno('Bajo_la_Misma_Estrella', 2014).
+estreno('Realmente_Amor', 2003).
+estreno('El_Diario_de_Bridget_Jones', 2001).
+estreno('Moulin_Rouge:_Amor_en_Rojo', 2001).
+estreno('Casablanca', 1942).
+estreno('Un_Lugar_Llamado_Notting_Hill', 1999).
+estreno('Locamente_Millonarios', 2018).
+estreno('Scream:_Grita_Antes_de_Morir', 1996).
+estreno('El_Conjuro', 2013).
+estreno('Eso', 2017).
+estreno('¡Huye!', 2017).
+estreno('Hereditary:_El_Legado_del_Diablo', 2018).
+estreno('El_Babadook', 2014).
+estreno('El_Aro', 2002).
+estreno('Un_Lugar_en_Silencio', 2018).
+estreno('Actividad_Paranormal', 2007).
+estreno('Halloween', 1978).
+estreno('Forrest_Gump', 1994).
+estreno('El_Club_de_la_Pelea', 1999).
+estreno('Belleza_Americana', 1999).
+estreno('Gladiador', 2000).
+estreno('Milagros_Inesperados', 1999).
+estreno('Mente_Indomable', 1997).
+estreno('En_Busca_de_la_Felicidad', 2006).
+estreno('12_Años_de_Esclavitud', 2013).
+estreno('¿Quien_Quiere_Ser_Millonario?', 2008).
+estreno('El_Discurso_del_Rey', 2010).
+estreno('Tiburon', 1975).
+estreno('El_Silencio_de_los_Inocentes', 1991).
+estreno('Zodiaco', 2007).
+estreno('Prisioneros', 2013).
+estreno('Se7en', 1995).
+estreno('La_Isla_Siniestra', 2010).
+estreno('Perdida', 2014).
+estreno('Memento', 2000).
+estreno('El_Sexto_Sentido', 1999).
+estreno('El_Cisne_Negro', 2010).
+estreno('El_Rey_Leon', 1994).
+estreno('Buscando_a_Dory', 2016).
+estreno('El_Libro_de_la_Selva', 1967).
+estreno('Zootopia', 2016).
+estreno('Moana:_Un_Mar_de_Aventuras', 2016).
+estreno('Grandes_Heroes', 2014).
+estreno('Intensa-Mente', 2015).
+estreno('Mi_Villano_Favorito', 2010).
+estreno('Ralph,El_Demoledor', 2012).
+estreno('Como_Entrenar_a_tu_Dragon', 2010).
+estreno('El_Mago_de_Oz', 1939).
+estreno('Alicia_en_el_Pais_de_las_Maravillas', 1951).
+estreno('El_Hobbit:_Un_viaje_inesperado', 2012).
+estreno('La_Princesa_Prometida', 1987).
+estreno('Stardust:_El_Misterio_de_la_Estrella', 2007).
+estreno('La_Historia_Sin_Fin', 1984).
+estreno('Percy_Jackson_y_el_Ladron_del_Rayo', 2010).
+estreno('El_Cristal_Encantado', 1982).
+estreno('Laberinto', 1986).
+estreno('Eragon', 2006).
+estreno('La_La_Land:_Una_Historia_de_Amor', 2016).
+estreno('Chicago', 2002).
+estreno('El_Gran_Showman', 2017).
+estreno('Los_Miserables', 2012).
+estreno('Vaselina', 1978).
+estreno('Mamma_Mia!', 2008).
+estreno('Hairspray', 2007).
+estreno('Amor_Sin_Barreras', 1961).
+estreno('Cantando_Bajo_la_Lluvia', 1952).
+estreno('El_Fantasma_de_la_Opera', 2004).
+estreno('Rocky', 1976).
+estreno('Toro_Salvaje', 1980).
+estreno('El_Peleador', 2010).
+estreno('Creed:_Corazon_de_Campeon', 2015).
+estreno('Golpes_del_Destino', 2004).
+estreno('Recuerdos_de_los_Titanes', 2000).
+estreno('Juego_de_Honor', 2005).
+estreno('Campo_de_Sueños', 1989).
+estreno('Un_Equipo_Muy_Especial', 1992).
+estreno('Un_Sueño_Posible', 2009).
+estreno('El_Origen', 2010).
+estreno('El_Gran_Truco', 2006).
+estreno('Blancanieves_y_los_Siete_Enanitos', 1937).
+estreno('Cenicienta', 1950).
+estreno('Aladdin', 1992).
+estreno('Mulán', 1998).
+estreno('La_Bella_y_la_Bestia', 1991).
+estreno('Bambi', 1942).
+estreno('101_Dálmatas', 1961).
+estreno('Peter_Pan', 1953).
+estreno('Dumbo', 1941).
+estreno('Hércules', 1997).
+estreno('Pocahontas', 1995).
+estreno('Enredados', 2010).
+estreno('Cars', 2006).
+estreno('Monsters_Inc', 2001).
+estreno('Up', 2009).
+estreno('WALL-E', 2008).
+estreno('Valiente', 2012).
+estreno('Lilo_&_Stitch', 2002).
+estreno('Los_Aristogatos', 1970).
+estreno('Ralph_el_Demoledor', 2012).
+estreno('La_Dama_y_el_Vagabundo', 1955).
+estreno('La_Princesa_y_el_Sapo', 2009).
+estreno('Bolt', 2008).
+estreno('Big_Hero_6', 2014).
+estreno('El_Jorobado_de_Notre_Dame', 1996).
+estreno('Atlantis_El_Imperio_Perdido', 2001).
+estreno('Oliver_y_su_Pandilla', 1988).
+estreno('Tierra_de_Osos', 2003).
+estreno('El_Emperador_y_sus_Locuras', 2000).
+estreno('Hermano_Oso', 2003).
+estreno('Zafarrancho_en_el_Rancho', 2004).
+estreno('Chicken_Little', 2005).
+estreno('Río', 2011).
+estreno('El_Camino_hacia_El_Dorado', 2000).
+estreno('Kung_Fu_Panda', 2008).
+estreno('Madagascar', 2005).
+estreno('Mi_Pobre_Angelito', 1990).
+estreno('Jumanji', 1995).
+estreno('El_Jardín_Secreto', 1993).
+estreno('Harry_Potter_y_la_Cámara_Secreta', 2002).
+estreno('Matilda', 1996).
+estreno('Stuart_Little', 1999).
+estreno('Una_Noche_en_el_Museo', 2006).
+estreno('Chitty_Chitty_Bang_Bang', 1968).
+estreno('Willy_Wonka_y_la_Fábrica_de_Chocolate', 1971).
+estreno('Los_Goonies', 1985).
+estreno('Spy_Kids', 2001).
+estreno('Hook', 1991).
+estreno('Paddington', 2014).
+estreno('El_Regreso_de_Mary_Poppins', 2018).
+estreno('Peter_Rabbit', 2018).
+estreno('Peter_Rabbit_2_A_la_Fuga', 2021).
+estreno('La_Dama_y_el_Vagabundo_2019', 2019).
+estreno('El_Rey_León_2019', 2019).
+estreno('Aladdin_2019', 2019).
+estreno('Dumbo_2019', 2019).
+estreno('La_Bella_y_la_Bestia_2017', 2017).
+estreno('Christopher_Robin', 2018).
+estreno('El_Libro_de_la_Selva_2016', 2016).
+estreno('Maléfica', 2014).
+estreno('Maléfica_Dueña_del_Mal', 2019).
+estreno('El_Cascanueces_y_los_Cuatro_Reinos', 2018).
+estreno('Alicia_en_el_País_de_las_Maravillas_2010', 2010).
+estreno('Alicia_a_Través_del_Espejo', 2016).
+estreno('Cenicienta_2015', 2015).
+estreno('El_Dragón_de_Pete', 2016).
+estreno('Aventuras_en_la_Gran_Ciudad', 1987).
+estreno('La_Niñera_Mágica', 2005).
+estreno('Querida_Encogí_a_los_Niños', 1989).
+estreno('Una_Serie_de_Eventos_Desafortunados', 2004).
+estreno('El_Gato_con_Sombrero', 2003).
+estreno('Las_Aventuras_de_Sharkboy_y_Lavagirl', 2005).
+estreno('Dora_y_la_ciudad_perdida', 2019).
+estreno('Paddington_2', 2017).
+estreno('Mi_amigo_el_gigante', 2016).
+estreno('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 2016).
 
-idioma_pelicula(Pelicula,Idioma).
-clasificacion_pelicula(Pelicula,Clasificacion).
-actor_protagonista(Pelicula,Actor).
-actriz_protagonista(Pelicula,Actriz).
+
+idioma_pelicula('Mad_Max:_Furia_en_el_Camino', inglés).
+idioma_pelicula('Duro_de_Matar', inglés).
+idioma_pelicula('Indiana_Jones', inglés).
+idioma_pelicula('El_señor_de_los_anillos:_Las_dos_torres', inglés).
+idioma_pelicula('Supercool', inglés).
+idioma_pelicula('Dos_Tontos_en_Fuga', inglés).
+idioma_pelicula('El_Padrino', inglés).
+idioma_pelicula('Sueños_de_Libertad', inglés).
+idioma_pelicula('El_Exorcista', inglés).
+idioma_pelicula('Pesadilla_en_la_Calle_del_Infierno', inglés).
+idioma_pelicula('La_Guerra_de_las_Galaxias', inglés).
+idioma_pelicula('El_Cazador_Implacable', inglés).
+idioma_pelicula('Harry_Potter_y_la_piedra_filosofal', inglés).
+idioma_pelicula('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', inglés).
+idioma_pelicula('La_Novicia_Rebelde', inglés).
+idioma_pelicula('La_La_Land._Una_historia_de_amor', inglés).
+idioma_pelicula('Toy_Story', inglés).
+idioma_pelicula('Shrek', inglés).
+idioma_pelicula('Orgullo_y_Prejuicio', inglés).
+idioma_pelicula('Diario_de_una_Nasion', inglés).
+idioma_pelicula('Se7en', inglés).
+idioma_pelicula('Perdida', inglés).
+idioma_pelicula('Sherlock_Holmes', inglés).
+idioma_pelicula('La_Chica_del_Dragon_Tatuado', inglés).
+idioma_pelicula('Red_Social', inglés).
+idioma_pelicula('Gandhi', inglés).
+idioma_pelicula('El_Viaje_del_Emperador', inglés).
+idioma_pelicula('Bowling_for_Columbine', inglés).
+idioma_pelicula('Corazon_Valiente', inglés).
+idioma_pelicula('La_Lista_de_Schindler', inglés).
+idioma_pelicula('Rescatando_al_Soldado_Ryan', inglés).
+idioma_pelicula('Dunkerque', inglés).
+idioma_pelicula('El_Bueno,el_Malo_y_el_Feo', italiano).
+idioma_pelicula('Los_Imperdonables', inglés).
+idioma_pelicula('Mission:_Impossible', inglés).
+idioma_pelicula('James_Bond_at_the_Movies', inglés).
+idioma_pelicula('Stand_by_Me', inglés).
+idioma_pelicula('Lady_Bird', inglés).
+idioma_pelicula('Los_Infiltrados', inglés).
+idioma_pelicula('Tiempos_Violentos', inglés).
+idioma_pelicula('Rocky', inglés).
+idioma_pelicula('El_Juego_de_la_Fortuna', inglés).
+idioma_pelicula('Buscando_a_Nemo', inglés).
+idioma_pelicula('Los_Increibles', inglés).
+idioma_pelicula('Frozen:_Una_Aventura_Congelada', inglés).
+idioma_pelicula('Coco', español).
+idioma_pelicula('Pacto_de_Sangre', español).
+idioma_pelicula('La_Ciudad_del_Pecado', inglés).
+idioma_pelicula('Fuego_Contra_Fuego', inglés).
+idioma_pelicula('Los_angeles_al_Desnudo', inglés).
+idioma_pelicula('The_Avengers:_Los_Vengadores', inglés).
+idioma_pelicula('Batman:_El_caballero_de_la_noche', inglés).
+idioma_pelicula('Mujer_Bonita', inglés).
+idioma_pelicula('Cuando_Harry_Conocio_a_Sally', inglés).
+idioma_pelicula('El_Laberinto_del_Fauno', español).
+idioma_pelicula('La_Forma_del_Agua', inglés).
+idioma_pelicula('Los_Juegos_del_Hambre', inglés).
+idioma_pelicula('Jurassic_Park', inglés).
+idioma_pelicula('E.T.,el_Extraterrestre', inglés).
+idioma_pelicula('Volver_al_Futuro', inglés).
+idioma_pelicula('El_Origen', inglés).
+idioma_pelicula('Matrix', inglés).
+idioma_pelicula('Avatar', inglés).
+idioma_pelicula('Terminator', inglés).
+idioma_pelicula('Interestelar', inglés).
+idioma_pelicula('Alien:_El_Octavo_Pasajero', inglés).
+idioma_pelicula('Guardianes_de_la_Galaxia', inglés).
+idioma_pelicula('Titanic', inglés).
+idioma_pelicula('Romeo_+_Julieta', inglés).
+idioma_pelicula('Un_Paseo_para_Recordar', inglés).
+idioma_pelicula('Bajo_la_Misma_Estrella', inglés).
+idioma_pelicula('Realmente_Amor', inglés).
+idioma_pelicula('El_Diario_de_Bridget_Jones', inglés).
+idioma_pelicula('Moulin_Rouge:_Amor_en_Rojo', inglés).
+idioma_pelicula('Casablanca', inglés).
+idioma_pelicula('Un_Lugar_Llamado_Notting_Hill', inglés).
+idioma_pelicula('Locamente_Millonarios', inglés).
+idioma_pelicula('Scream:_Grita_Antes_de_Morir', inglés).
+idioma_pelicula('El_Conjuro', inglés).
+idioma_pelicula('Eso', inglés).
+idioma_pelicula('¡Huye!', inglés).
+idioma_pelicula('Hereditary:_El_Legado_del_Diablo', inglés).
+idioma_pelicula('El_Babadook', inglés).
+idioma_pelicula('El_Aro', inglés).
+idioma_pelicula('Un_Lugar_en_Silencio', inglés).
+idioma_pelicula('Actividad_Paranormal', inglés).
+idioma_pelicula('Halloween', inglés).
+idioma_pelicula('Forrest_Gump', inglés).
+idioma_pelicula('El_Club_de_la_Pelea', inglés).
+idioma_pelicula('Belleza_Americana', inglés).
+idioma_pelicula('Gladiador', inglés).
+idioma_pelicula('Milagros_Inesperados', inglés).
+idioma_pelicula('Mente_Indomable', inglés).
+idioma_pelicula('En_Busca_de_la_Felicidad', inglés).
+idioma_pelicula('12_Años_de_Esclavitud', inglés).
+idioma_pelicula('¿Quien_Quiere_Ser_Millonario?', inglés).
+idioma_pelicula('El_Discurso_del_Rey', inglés).
+idioma_pelicula('Tiburon', inglés).
+idioma_pelicula('El_Silencio_de_los_Inocentes', inglés).
+idioma_pelicula('Zodiaco', inglés).
+idioma_pelicula('Prisioneros', inglés).
+idioma_pelicula('Se7en', inglés).
+idioma_pelicula('La_Isla_Siniestra', inglés).
+idioma_pelicula('Perdida', inglés).
+idioma_pelicula('Memento', inglés).
+idioma_pelicula('El_Sexto_Sentido', inglés).
+idioma_pelicula('El_Cisne_Negro', inglés).
+idioma_pelicula('El_Rey_Leon', inglés).
+idioma_pelicula('Buscando_a_Dory', inglés).
+idioma_pelicula('El_Libro_de_la_Selva', inglés).
+idioma_pelicula('Zootopia', inglés).
+idioma_pelicula('Moana:_Un_Mar_de_Aventuras', inglés).
+idioma_pelicula('Grandes_Heroes', inglés).
+idioma_pelicula('Intensa-Mente', inglés).
+idioma_pelicula('Mi_Villano_Favorito', inglés).
+idioma_pelicula('Ralph,El_Demoledor', inglés).
+idioma_pelicula('Como_Entrenar_a_tu_Dragon', inglés).
+idioma_pelicula('El_Mago_de_Oz', inglés).
+idioma_pelicula('Alicia_en_el_Pais_de_las_Maravillas', inglés).
+idioma_pelicula('El_Hobbit:_Un_viaje_inesperado', inglés).
+idioma_pelicula('La_Princesa_Prometida', inglés).
+idioma_pelicula('Stardust:_El_Misterio_de_la_Estrella', inglés).
+idioma_pelicula('La_Historia_Sin_Fin', inglés).
+idioma_pelicula('Percy_Jackson_y_el_Ladron_del_Rayo', inglés).
+idioma_pelicula('El_Cristal_Encantado', inglés).
+idioma_pelicula('Laberinto', inglés).
+idioma_pelicula('Eragon', inglés).
+idioma_pelicula('La_La_Land:_Una_Historia_de_Amor', inglés).
+idioma_pelicula('Chicago', inglés).
+idioma_pelicula('El_Gran_Showman', inglés).
+idioma_pelicula('Los_Miserables', inglés).
+idioma_pelicula('Vaselina', inglés).
+idioma_pelicula('Mamma_Mia!', inglés).
+idioma_pelicula('Hairspray', inglés).
+idioma_pelicula('Amor_Sin_Barreras', inglés).
+idioma_pelicula('Cantando_Bajo_la_Lluvia', inglés).
+idioma_pelicula('El_Fantasma_de_la_opera', inglés).
+idioma_pelicula('Rocky', inglés).
+idioma_pelicula('Toro_Salvaje', inglés).
+idioma_pelicula('El_Peleador', inglés).
+idioma_pelicula('Creed:_Corazon_de_Campeon', inglés).
+idioma_pelicula('Golpes_del_Destino', inglés).
+idioma_pelicula('Recuerdos_de_los_Titanes', inglés).
+idioma_pelicula('Juego_de_Honor', inglés).
+idioma_pelicula('Campo_de_Sueños', inglés).
+idioma_pelicula('Un_Equipo_Muy_Especial', inglés).
+idioma_pelicula('Un_Sueño_Posible', inglés).
+idioma_pelicula('El_Origen', inglés).
+idioma_pelicula('El_Gran_Truco', inglés).
+idioma_pelicula('Blancanieves_y_los_Siete_Enanitos', inglés).
+idioma_pelicula('Cenicienta', inglés).
+idioma_pelicula('Aladdin', inglés).
+idioma_pelicula('Mulán', inglés).
+idioma_pelicula('La_Bella_y_la_Bestia', inglés).
+idioma_pelicula('Bambi', inglés).
+idioma_pelicula('101_Dálmatas', inglés).
+idioma_pelicula('Peter_Pan', inglés).
+idioma_pelicula('Dumbo', inglés).
+idioma_pelicula('Hércules', inglés).
+idioma_pelicula('Pocahontas', inglés).
+idioma_pelicula('Enredados', inglés).
+idioma_pelicula('Cars', inglés).
+idioma_pelicula('Monsters_Inc', inglés).
+idioma_pelicula('Up', inglés).
+idioma_pelicula('WALL-E', inglés).
+idioma_pelicula('Valiente', inglés).
+idioma_pelicula('Lilo_&_Stitch', inglés).
+idioma_pelicula('Los_Aristogatos', inglés).
+idioma_pelicula('Ralph_el_Demoledor', inglés).
+idioma_pelicula('La_Dama_y_el_Vagabundo', inglés).
+idioma_pelicula('La_Princesa_y_el_Sapo', inglés).
+idioma_pelicula('Bolt', inglés).
+idioma_pelicula('Big_Hero_6', inglés).
+idioma_pelicula('El_Jorobado_de_Notre_Dame', inglés).
+idioma_pelicula('Atlantis_El_Imperio_Perdido', inglés).
+idioma_pelicula('Oliver_y_su_Pandilla', inglés).
+idioma_pelicula('Tierra_de_Osos', inglés).
+idioma_pelicula('El_Emperador_y_sus_Locuras', inglés).
+idioma_pelicula('Hermano_Oso', inglés).
+idioma_pelicula('Zafarrancho_en_el_Rancho', inglés).
+idioma_pelicula('Chicken_Little', inglés).
+idioma_pelicula('Río', inglés).
+idioma_pelicula('El_Camino_hacia_El_Dorado', inglés).
+idioma_pelicula('Kung_Fu_Panda', inglés).
+idioma_pelicula('Madagascar', inglés).
+idioma_pelicula('Mi_Pobre_Angelito', inglés).
+idioma_pelicula('Jumanji', inglés).
+idioma_pelicula('El_Jardín_Secreto', inglés).
+idioma_pelicula('Harry_Potter_y_la_Cámara_Secreta', inglés).
+idioma_pelicula('Matilda', inglés).
+idioma_pelicula('Stuart_Little', inglés).
+idioma_pelicula('Una_Noche_en_el_Museo', inglés).
+idioma_pelicula('Chitty_Chitty_Bang_Bang', inglés).
+idioma_pelicula('Willy_Wonka_y_la_Fábrica_de_Chocolate', inglés).
+idioma_pelicula('Los_Goonies', inglés).
+idioma_pelicula('Spy_Kids', inglés).
+idioma_pelicula('Hook', inglés).
+idioma_pelicula('Paddington', inglés).
+idioma_pelicula('El_Regreso_de_Mary_Poppins', inglés).
+idioma_pelicula('Peter_Rabbit', inglés).
+idioma_pelicula('Peter_Rabbit_2_A_la_Fuga', inglés).
+idioma_pelicula('La_Dama_y_el_Vagabundo_2019', inglés).
+idioma_pelicula('El_Rey_León_2019', inglés).
+idioma_pelicula('Aladdin_2019', inglés).
+idioma_pelicula('Dumbo_2019', inglés).
+idioma_pelicula('La_Bella_y_la_Bestia_2017', inglés).
+idioma_pelicula('Christopher_Robin', inglés).
+idioma_pelicula('El_Libro_de_la_Selva_2016', inglés).
+idioma_pelicula('Maléfica', inglés).
+idioma_pelicula('Maléfica_Dueña_del_Mal', inglés).
+idioma_pelicula('El_Cascanueces_y_los_Cuatro_Reinos', inglés).
+idioma_pelicula('Alicia_en_el_País_de_las_Maravillas_2010', inglés).
+idioma_pelicula('Alicia_a_Través_del_Espejo', inglés).
+idioma_pelicula('Cenicienta_2015', inglés).
+idioma_pelicula('El_Dragón_de_Pete', inglés).
+idioma_pelicula('Aventuras_en_la_Gran_Ciudad', inglés).
+idioma_pelicula('La_Niñera_Mágica', inglés).
+idioma_pelicula('Querida_Encogí_a_los_Niños', inglés).
+idioma_pelicula('Una_Serie_de_Eventos_Desafortunados', inglés).
+idioma_pelicula('El_Gato_con_Sombrero', inglés).
+idioma_pelicula('Las_Aventuras_de_Sharkboy_y_Lavagirl', inglés).
+idioma_pelicula('Dora_y_la_ciudad_perdida', inglés).
+idioma_pelicula('Paddington_2', inglés).
+idioma_pelicula('Mi_amigo_el_gigante', inglés).
+idioma_pelicula('El_hogar_de_Miss_Peregrine_para_niños_peculiares', inglés).
+
+actor_protagonista('Mad_Max:_Furia_en_el_Camino', 'Tom Hardy').
+actor_protagonista('Duro_de_Matar', 'Bruce Willis').
+actor_protagonista('Indiana_Jones', 'Harrison Ford').
+actor_protagonista('El_señor_de_los_anillos:_Las_dos_torres', 'Elijah Wood').
+actor_protagonista('Supercool', 'Jonah Hill').
+actor_protagonista('Dos_Tontos_en_Fuga', 'Steve Martin').
+actor_protagonista('El_Padrino', 'Marlon Brando').
+actor_protagonista('Sueños_de_Libertad', 'Tim Robbins').
+actor_protagonista('El_Exorcista', 'Ellen Burstyn').
+actor_protagonista('Pesadilla_en_la_Calle_del_Infierno', 'Heather Langenkamp').
+actor_protagonista('La_Guerra_de_las_Galaxias', 'Mark Hamill').
+actor_protagonista('El_Cazador_Implacable', 'Robert De Niro').
+actor_protagonista('Harry_Potter_y_la_piedra_filosofal', 'Daniel Radcliffe').
+actor_protagonista('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 'Georgie Henley').
+actor_protagonista('La_Novicia_Rebelde', 'Julie Andrews').
+actor_protagonista('La_La_Land._Una_historia_de_amor', 'Ryan Gosling').
+actor_protagonista('Toy_Story', 'Tom Hanks').
+actor_protagonista('Shrek', 'Mike Myers').
+actor_protagonista('Orgullo_y_Prejuicio', 'Keira Knightley').
+actor_protagonista('Diario_de_una_Pasion', 'Ryan Gosling').
+actor_protagonista('Se7en', 'Brad Pitt').
+actor_protagonista('Perdida', 'Ben Affleck').
+actor_protagonista('Sherlock_Holmes', 'Robert Downey Jr.').
+actor_protagonista('La_Chica_del_Dragon_Tatuado', 'Rooney Mara').
+actor_protagonista('Red_Social', 'Jesse Eisenberg').
+actor_protagonista('Gandhi', 'Ben Kingsley').
+actor_protagonista('El_Viaje_del_Emperador', 'Morgan Freeman').
+actor_protagonista('Bowling_for_Columbine', 'Michael Moore').
+actor_protagonista('Corazon_Valiente', 'Mel Gibson').
+actor_protagonista('La_Lista_de_Schindler', 'Liam Neeson').
+actor_protagonista('Rescatando_al_Soldado_Ryan', 'Tom Hanks').
+actor_protagonista('Dunkerque', 'Fionn Whitehead').
+actor_protagonista('El_Bueno,el_Malo_y_el_Feo', 'Clint Eastwood').
+actor_protagonista('Los_Imperdonables', 'Clint Eastwood').
+actor_protagonista('Mission:_Impossible', 'Tom Cruise').
+actor_protagonista('James_Bond_at_the_Movies', 'Sean Connery').
+actor_protagonista('Stand_by_Me', 'Wil Wheaton').
+actor_protagonista('Lady_Bird', 'Saoirse Ronan').
+actor_protagonista('Los_Infiltrados', 'Leonardo DiCaprio').
+actor_protagonista('Tiempos_Violentos', 'John Travolta').
+actor_protagonista('Rocky', 'Sylvester Stallone').
+actor_protagonista('El_Juego_de_la_Fortuna', 'Kevin Spacey').
+actor_protagonista('Buscando_a_Nemo', 'Albert Brooks').
+actor_protagonista('Los_Increibles', 'Craig T. Nelson').
+actor_protagonista('Frozen:_Una_Aventura_Congelada', 'Kristen Bell').
+actor_protagonista('Coco', 'Anthony Gonzalez').
+actor_protagonista('Pacto_de_Sangre', 'Jack Nicholson').
+actor_protagonista('La_Ciudad_del_Pecado', 'Bruce Willis').
+actor_protagonista('Fuego_Contra_Fuego', 'Al Pacino').
+actor_protagonista('Los_angeles_al_Desnudo', 'Nicolas Cage').
+actor_protagonista('The_Avengers:_Los_Vengadores', 'Robert Downey Jr.').
+actor_protagonista('Batman:_El_caballero_de_la_noche', 'Christian Bale').
+actor_protagonista('Mujer_Bonita', 'Julia Roberts').
+actor_protagonista('Cuando_Harry_Conocio_a_Sally', 'Billy Crystal').
+actor_protagonista('El_Laberinto_del_Fauno', 'Ivana Baquero').
+actor_protagonista('La_Forma_del_Agua', 'Sally Hawkins').
+actor_protagonista('Los_Juegos_del_Hambre', 'Jennifer Lawrence').
+actor_protagonista('Jurassic_Park', 'Sam Neill').
+actor_protagonista('E.T.,el_Extraterrestre', 'Henry Thomas').
+actor_protagonista('Volver_al_Futuro', 'Michael J. Fox').
+actor_protagonista('El_Origen', 'Leonardo DiCaprio').
+actor_protagonista('Matrix', 'Keanu Reeves').
+actor_protagonista('Avatar', 'Sam Worthington').
+actor_protagonista('Terminator', 'Arnold Schwarzenegger').
+actor_protagonista('Interestelar', 'Matthew McConaughey').
+actor_protagonista('Alien:_El_Octavo_Pasajero', 'Sigourney Weaver').
+actor_protagonista('Guardianes_de_la_Galaxia', 'Chris Pratt').
+actor_protagonista('Titanic', 'Leonardo DiCaprio').
+actor_protagonista('Romeo_+_Julieta', 'Leonardo DiCaprio').
+actor_protagonista('Un_Paseo_para_Recordar', 'Shane West').
+actor_protagonista('Bajo_la_Misma_Estrella', 'Shailene Woodley').
+actor_protagonista('Realmente_Amor', 'Hugh Grant').
+actor_protagonista('El_Diario_de_Bridget_Jones', 'Renée Zellweger').
+actor_protagonista('Moulin_Rouge:_Amor_en_Rojo', 'Nicole Kidman').
+actor_protagonista('Casablanca', 'Humphrey Bogart').
+actor_protagonista('Un_Lugar_Llamado_Notting_Hill', 'Julia Roberts').
+actor_protagonista('Locamente_Millonarios', 'Constance Wu').
+actor_protagonista('Scream:_Grita_Antes_de_Morir', 'Neve Campbell').
+actor_protagonista('El_Conjuro', 'Vera Farmiga').
+actor_protagonista('Eso', 'Bill Skarsgård').
+actor_protagonista('¡Huye!', 'Daniel Kaluuya').
+actor_protagonista('Hereditary:_El_Legado_del_Diablo', 'Toni Collette').
+actor_protagonista('El_Babadook', 'Essie Davis').
+actor_protagonista('El_Aro', 'Naomi Watts').
+actor_protagonista('Un_Lugar_en_Silencio', 'Emily Blunt').
+actor_protagonista('Actividad_Paranormal', 'Katie Featherston').
+actor_protagonista('Halloween', 'Jamie Lee Curtis').
+actor_protagonista('Forrest_Gump', 'Tom Hanks').
+actor_protagonista('El_Club_de_la_Pelea', 'Brad Pitt').
+actor_protagonista('Belleza_Americana', 'Kevin Spacey').
+actor_protagonista('Gladiador', 'Russell Crowe').
+actor_protagonista('Milagros_Inesperados', 'Tom Hanks').
+actor_protagonista('Mente_Indomable', 'Matt Damon').
+actor_protagonista('En_Busca_de_la_Felicidad', 'Will Smith').
+actor_protagonista('12_Años_de_Esclavitud', 'Chiwetel Ejiofor').
+actor_protagonista('¿Quien_Quiere_Ser_Millonario?', 'Dev Patel').
+actor_protagonista('El_Discurso_del_Rey', 'Colin Firth').
+actor_protagonista('Tiburon', 'Roy Scheider').
+actor_protagonista('El_Silencio_de_los_Inocentes', 'Jodie Foster').
+actor_protagonista('Zodiaco', 'Jake Gyllenhaal').
+actor_protagonista('Prisioneros', 'Hugh Jackman').
+actor_protagonista('Se7en', 'Brad Pitt').
+actor_protagonista('La_Isla_Siniestra', 'Leonardo DiCaprio').
+actor_protagonista('Perdida', 'Ben Affleck').
+actor_protagonista('Memento', 'Guy Pearce').
+actor_protagonista('El_Sexto_Sentido', 'Bruce Willis').
+actor_protagonista('El_Cisne_Negro', 'Natalie Portman').
+actor_protagonista('El_Rey_Leon', 'Matthew Broderick').
+actor_protagonista('Buscando_a_Dory', 'Ellen DeGeneres').
+actor_protagonista('El_Libro_de_la_Selva', 'Neel Sethi').
+actor_protagonista('Zootopia', 'Ginnifer Goodwin').
+actor_protagonista('Moana:_Un_Mar_de_Aventuras', 'Auliʻi Cravalho').
+actor_protagonista('Grandes_Heroes', 'Scott Adsit').
+actor_protagonista('Intensa-Mente', 'Amy Poehler').
+actor_protagonista('Mi_Villano_Favorito', 'Steve Carell').
+actor_protagonista('Ralph,El_Demoledor', 'John C. Reilly').
+actor_protagonista('Como_Entrenar_a_tu_Dragon', 'Jay Baruchel').
+actor_protagonista('El_Mago_de_Oz', 'Judy Garland').
+actor_protagonista('Alicia_en_el_Pais_de_las_Maravillas', 'Mia Wasikowska').
+actor_protagonista('El_Hobbit:_Un_viaje_inesperado', 'Martin Freeman').
+actor_protagonista('La_Princesa_Prometida', 'Cary Elwes').
+actor_protagonista('Stardust:_El_Misterio_de_la_Estrella', 'Charlie Cox').
+actor_protagonista('La_Historia_Sin_Fin', 'Noah Hathaway').
+actor_protagonista('Percy_Jackson_y_el_Ladron_del_Rayo', 'Logan Lerman').
+actor_protagonista('El_Cristal_Encantado', 'Stephen Garlick').
+actor_protagonista('Laberinto', 'David Bowie').
+actor_protagonista('Eragon', 'Edward Speleers').
+actor_protagonista('La_La_Land:_Una_Historia_de_Amor', 'Ryan Gosling').
+actor_protagonista('Chicago', 'Renée Zellweger').
+actor_protagonista('El_Gran_Showman', 'Hugh Jackman').
+actor_protagonista('Los_Miserables', 'Hugh Jackman').
+actor_protagonista('Vaselina', 'John Travolta').
+actor_protagonista('Mamma_Mia!', 'Meryl Streep').
+actor_protagonista('Hairspray', 'John Travolta').
+actor_protagonista('Amor_Sin_Barreras', 'Natalie Wood').
+actor_protagonista('Cantando_Bajo_la_Lluvia', 'Gene Kelly').
+actor_protagonista('El_Fantasma_de_la_opera', 'Gerard Butler').
+actor_protagonista('Rocky', 'Sylvester Stallone').
+actor_protagonista('Toro_Salvaje', 'Robert De Niro').
+actor_protagonista('El_Peleador', 'Mark Wahlberg').
+actor_protagonista('Creed:_Corazon_de_Campeon', 'Michael B. Jordan').
+actor_protagonista('Golpes_del_Destino', 'Hilary Swank').
+actor_protagonista('Recuerdos_de_los_Titanes', 'Denzel Washington').
+actor_protagonista('Juego_de_Honor', 'Samuel L. Jackson').
+actor_protagonista('Campo_de_Sueños', 'Kevin Costner').
+actor_protagonista('Un_Equipo_Muy_Especial', 'Gene Hackman').
+actor_protagonista('Un_Sueño_Posible', 'Sandra Bullock').
+actor_protagonista('El_Origen', 'Leonardo DiCaprio').
+actor_protagonista('El_Gran_Truco', 'Hugh Jackman').
+actor_protagonista('Blancanieves_y_los_Siete_Enanitos', 'Adriana Caselotti').
+actor_protagonista('Cenicienta', 'Lily James').
+actor_protagonista('Aladdin', 'Mena Massoud').
+actor_protagonista('Mulán', 'Ming-Na Wen').
+actor_protagonista('La_Bella_y_la_Bestia', 'Emma Watson').
+actor_protagonista('Bambi', 'Hardie Albright').
+actor_protagonista('101_Dálmatas', 'Rod Taylor').
+actor_protagonista('Peter_Pan', 'Bobby Driscoll').
+actor_protagonista('Dumbo', 'Edward Brophy').
+actor_protagonista('Hércules', 'Tate Donovan').
+actor_protagonista('Pocahontas', 'Irene Bedard').
+actor_protagonista('Enredados', 'Mandy Moore').
+actor_protagonista('Cars', 'Owen Wilson').
+actor_protagonista('Monsters_Inc', 'John Goodman').
+actor_protagonista('Up', 'Edward Asner').
+actor_protagonista('WALL-E', 'Ben Burtt').
+actor_protagonista('Valiente', 'Kelly Macdonald').
+actor_protagonista('Lilo_&_Stitch', 'Daveigh Chase').
+actor_protagonista('Los_Aristogatos', 'Phil Harris').
+actor_protagonista('Ralph_el_Demoledor', 'John C. Reilly').
+actor_protagonista('La_Dama_y_el_Vagabundo', 'Barbara Luddy').
+actor_protagonista('La_Princesa_y_el_Sapo', 'Anika Noni Rose').
+actor_protagonista('Bolt', 'John Travolta').
+actor_protagonista('Big_Hero_6', 'Scott Adsit').
+actor_protagonista('El_Jorobado_de_Notre_Dame', 'Tom Hulce').
+actor_protagonista('Atlantis_El_Imperio_Perdido', 'Michael J. Fox').
+actor_protagonista('Oliver_y_su_Pandilla', 'Joey Lawrence').
+actor_protagonista('Tierra_de_Osos', 'Joaquin Phoenix').
+actor_protagonista('El_Emperador_y_sus_Locuras', 'David Spade').
+actor_protagonista('Hermano_Oso', 'Joaquin Phoenix').
+actor_protagonista('Zafarrancho_en_el_Rancho', 'Roseanne Barr').
+actor_protagonista('Chicken_Little', 'Zach Braff').
+actor_protagonista('Río', 'Jesse Eisenberg').
+actor_protagonista('El_Camino_hacia_El_Dorado', 'Kevin Kline').
+actor_protagonista('Kung_Fu_Panda', 'Jack Black').
+actor_protagonista('Madagascar', 'Ben Stiller').
+actor_protagonista('Mi_Pobre_Angelito', 'Macaulay Culkin').
+actor_protagonista('Jumanji', 'Robin Williams').
+actor_protagonista('El_Jardín_Secreto', 'Kate Maberly').
+actor_protagonista('Harry_Potter_y_la_Cámara_Secreta', 'Daniel Radcliffe').
+actor_protagonista('Matilda', 'Mara Wilson').
+actor_protagonista('Stuart_Little', 'Michael J. Fox').
+actor_protagonista('Una_Noche_en_el_Museo', 'Ben Stiller').
+actor_protagonista('Chitty_Chitty_Bang_Bang', 'Dick Van Dyke').
+actor_protagonista('Willy_Wonka_y_la_Fábrica_de_Chocolate', 'Gene Wilder').
+actor_protagonista('Los_Goonies', 'Sean Astin').
+actor_protagonista('Spy_Kids', 'Alexa PenaVega').
+actor_protagonista('Hook', 'Robin Williams').
+actor_protagonista('Paddington', 'Ben Whishaw').
+actor_protagonista('El_Regreso_de_Mary_Poppins', 'Emily Blunt').
+actor_protagonista('Peter_Rabbit', 'James Corden').
+actor_protagonista('Peter_Rabbit_2_A_la_Fuga', 'James Corden').
+actor_protagonista('La_Dama_y_el_Vagabundo_2019', 'Tessa Thompson').
+actor_protagonista('El_Rey_León_2019', 'Donald Glover').
+actor_protagonista('Aladdin_2019', 'Mena Massoud').
+actor_protagonista('Dumbo_2019', 'Colin Farrell').
+actor_protagonista('La_Bella_y_la_Bestia_2017', 'Emma Watson').
+actor_protagonista('Christopher_Robin', 'Ewan McGregor').
+actor_protagonista('El_Libro_de_la_Selva_2016', 'Neel Sethi').
+actor_protagonista('Maléfica', 'Angelina Jolie').
+actor_protagonista('Maléfica_Dueña_del_Mal', 'Angelina Jolie').
+actor_protagonista('El_Cascanueces_y_los_Cuatro_Reinos', 'Mackenzie Foy').
+actor_protagonista('Alicia_en_el_País_de_las_Maravillas_2010', 'Mia Wasikowska').
+actor_protagonista('Alicia_a_Través_del_Espejo', 'Mia Wasikowska').
+actor_protagonista('Cenicienta_2015', 'Lily James').
+actor_protagonista('El_Dragón_de_Pete', 'Oakes Fegley').
+actor_protagonista('Aventuras_en_la_Gran_Ciudad', 'Joe Mantegna').
+actor_protagonista('La_Niñera_Mágica', 'Emma Thompson').
+actor_protagonista('Querida_Encogí_a_los_Niños', 'Rick Moranis').
+actor_protagonista('Una_Serie_de_Eventos_Desafortunados', 'Jim Carrey').
+actor_protagonista('El_Gato_con_Sombrero', 'Mike Myers').
+actor_protagonista('Las_Aventuras_de_Sharkboy_y_Lavagirl', 'Taylor Lautner').
+actor_protagonista('Dora_y_la_ciudad_perdida', 'Isabela Moner').
+actor_protagonista('Paddington_2', 'Ben Whishaw').
+actor_protagonista('Mi_amigo_el_gigante', 'Ruby Barnhill').
+actor_protagonista('El_hogar_de_Miss_Peregrine_para_niños_peculiares', 'Asa Butterfield').
+
+
 actor_secundario(Pelicula,Actor).
 actriz_secundaria(Pelicula,Actriz).
 basado_en(Pelicula,Fuente).
