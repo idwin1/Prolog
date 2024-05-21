@@ -498,9 +498,6 @@ critica_imdb('Un_Sueño_Posible'7.6). //gano 1 oscar
 critica_imdb('El_Origen',8.8). // gano 4 oscar
 critica_imdb('El_Gran_Truco',8.5).
 
-critica_imdb(Pelicula,Calificacion).
-critica_imdb(Pelicula,Calificacion).
-
 
 pelicula_director(Titulo,Director).
 año_estreno(Pelicula,Año).
@@ -514,3 +511,66 @@ basado_en(Pelicula,Fuente).
 disponible_streaming(Pelicula,Plataforma).
 
 
+
+%videojuegos
+%es_videojuego(Nombre_juego).
+
+mas_esperados('Blue_Protocol').
+mas_esperados('Star_Citizen').
+mas_esperados('Hollow_Knight:_Silksong').
+mas_esperados('Beyond_Good_&_Evil_2').
+mas_esperados('Lost_Soul_Aside').
+mas_esperados('Grand_Theft_Auto_VI').
+mas_esperados('The_Elder_Scrolls_VI').
+mas_esperados('STALKER_2').
+mas_esperados('Bus_Controller_Simulator').
+mas_esperados('Black_Myth:_Wukong').
+mas_esperados('The_Last_Night').
+mas_esperados('Vampire:_The_Masquerade_-_Bloodlines').
+mas_esperados('Little_Devil_Inside').
+mas_esperados('Ashes_of_Creation').
+mas_esperados('Dragon_Age:_Dreadwolf').
+mas_esperados('The_Lighthouse_-_VR_Escape').
+mas_esperados('Truck_Parking_Simulator').
+mas_esperados('Indiana_Jones_and_the_Great_Circle').
+mas_esperados('Silent_Hill_2_Remake').
+mas_esperados('Fable').
+mas_esperados('Mass_Effect_5').
+mas_esperados('Avowed').
+mas_esperados('Routine').
+mas_esperados('Tale_of_Ronin').
+mas_esperados('Paralives').
+mas_esperados('Chrono_Odyssey').
+mas_esperados('Star_Wars_Eclipse').
+mas_esperados('Ambulance_Simulator').
+mas_esperados('Negative_Atmosphere').
+mas_esperados('Hellblade_2').
+mas_esperados('Zenless_Zone_Zero').
+mas_esperados('Farm_Folks').
+mas_esperados('Escape_Room_Simulator').
+mas_esperados('SimBus').
+mas_esperados('Where_Winds_Meet').
+mas_esperados('Kingdom_Come:_Deliverance_II').
+mas_esperados('Metal_Slug_Tactics').
+mas_esperados('Everwild').
+mas_esperados('Assassins_Creed_Infinity').
+mas_esperados('Judas').
+mas_esperados('Godus').
+mas_esperados('Gothic_Remake').
+mas_esperados('Gestalt:_Steam_&_Cinder').
+mas_esperados('Replaced').
+mas_esperados('System_Shock_3').
+mas_esperados('Path_of_Exile_2').
+mas_esperados('Silent_Hill_F').
+mas_esperados('Star_Wars_Outlaws').
+mas_esperados('3_Minutes_to_Midnight').
+mas_esperados('Crimson_Desert').
+mas_esperados('The_Witcher_4').
+mas_esperados('Everywhere').
+mas_esperados('The_Wolf_Among_Us_2').
+mas_esperados('Dragon_Ball:_Sparking!_Zero').
+mas_esperados('Damnview:_Built_From_Nothing').
+mas_esperados('Bushiden').
+mas_esperados('Crowsworn').
+mas_esperados('Silent_Hill_Townfall').
+mas_esperados('Unrecord').
