@@ -574,3 +574,64 @@ mas_esperados('Bushiden').
 mas_esperados('Crowsworn').
 mas_esperados('Silent_Hill_Townfall').
 mas_esperados('Unrecord').
+
+
+videojuegos('Blue_Protocol',[MMORPG],'pc').
+videojuegos('Star_Citizen',[Acción , Simulador espacial],'pc').
+videojuegos('Hollow_Knight:_Silksong',[Metroidvania],'pc').
+videojuegos('Beyond_Good_&_Evil_2',[Aventura de acción , Mundo abierto],'pc').
+videojuegos('Lost_Soul_Aside',[Action-RPG],'pc').
+videojuegos('Grand_Theft_Auto_VI',[Mundo abierto , Tipo GTA],'pc').
+videojuegos('The_Elder_Scrolls_VI',[Action-RPG , Mundo abierto , RPG Occidental],'pc').
+videojuegos('STALKER_2',[Mundo abierto , Shooter en primera persona],'pc').
+videojuegos('Bus_Controller_Simulator',[Autobuses , Simulación],'pc').
+videojuegos('Black_Myth:_Wukong',[Action-RPG],'pc').
+videojuegos('The_Last_Night',[Aventura de exploración y puzles , Plataformas 2D],'pc').
+videojuegos('Vampire:_The_Masquerade_-_Bloodlines',[Action-RPG , RPG Occidental],'pc').
+videojuegos('Little_Devil_Inside',[Action-RPG],'pc').
+videojuegos('Ashes_of_Creation',[MMORPG],'pc').
+videojuegos('Dragon_Age:_Dreadwolf',[Action-RPG , Mundo abierto , RPG Occidental],'pc').
+videojuegos('The_Lighthouse_-_VR_Escape',[Escape Room , Realidad Virtual],'pc').
+videojuegos('Truck_Parking_Simulator',[Camiones , Simulador de profesiones],'pc').
+videojuegos('Indiana_Jones_and_the_Great_Circle',[Aventura de acción],'pc').
+videojuegos('Silent_Hill_2_Remake',[Aventura de acción , Survival Horror],'pc').
+videojuegos('Fable',[Aventura de acción , Mundo_abierto , RPG Occidental],'pc').
+videojuegos('Mass_Effect_5',[Action-RPG , Mundo_abierto],'pc').
+videojuegos('Avowed',[RPG Occidental , Rol],'pc').
+videojuegos('Routine',[Aventura , Terror],'pc').
+videojuegos('Tale_of_Ronin',[RPG Occidental , Rol],'pc').
+videojuegos('Paralives',[Simulación , Simulador social],'pc').
+videojuegos('Chrono_Odyssey',[MMORPG],'pc').
+videojuegos('Star_Wars_Eclipse',[Aventura de acción , Survival Horror],'pc').
+videojuegos('Ambulance_Simulator',[Simulación , Simulador de médico],'pc').
+videojuegos('Negative_Atmosphere',[Aventura , Terror],'pc').
+videojuegos('Hellblade_2',[Aventura de acción],'pc').
+videojuegos('Zenless_Zone_Zero',[Action-RPG],'pc').
+videojuegos('Farm_Folks',[Granjas , Simulación],'pc').
+videojuegos('Escape_Room_Simulator',[Construcción , Escape Room],'pc').
+videojuegos('SimBus',[Autobuses , Simulación],'pc').
+videojuegos('Where_Winds_Meet',[Autobuses , Simulación],'pc').
+videojuegos('Kingdom_Come:_Deliverance_II',[Action-RPG , Aventura de acción , Mundo abierto , RPG Occidental],'pc').
+videojuegos('Metal_Slug_Tactics',[Tactical RPG],'pc').
+videojuegos('Everwild',[Aventura de acción],'pc').
+videojuegos('Assassins_Creed_Infinity',[Aventura_de_acción , Mundo abierto , Sigilo],'pc').
+videojuegos('Judas',[Aventura narrativa , Shooter en primera persona],'pc').
+videojuegos('Godus',[Simulación , Simulador de vida],'pc').
+videojuegos('Gothic_Remake',[Action-RPG , Mundo abierto],'pc').
+videojuegos('Gestalt:_Steam_&_Cinder',[Metroidvania],'pc').
+videojuegos('Replaced',[Aventura de acción],'pc').
+videojuegos('System_Shock_3',[Action-RPG , Shooter en primera persona],'pc').
+videojuegos('Path_of_Exile_2',[Action-RPG , MMO],'pc').
+videojuegos('Silent_Hill_F',[Aventura de acción , Survival Horror],'pc').
+videojuegos('Star_Wars_Outlaws',[Aventura de acción , Mundo abierto],'pc').
+videojuegos('3_Minutes_to_Midnight',[Aventura Gráfica , Point & Click],'pc').
+videojuegos('Crimson_Desert',[MMORPG , Mundo abierto],'pc').
+videojuegos('The_Witcher_4',[Action-RPG , Mundo abierto , RPG Occidental],'pc').
+videojuegos('Everywhere',[Multijugador Online],'pc').
+videojuegos('The_Wolf_Among_Us_2',[Aventura narrativa],'pc').
+videojuegos('Dragon_Ball:_Sparking!_Zero',[Lucha , Lucha 3D],'pc').
+videojuegos('Damnview:_Built_From_Nothing',[Mundo abierto , Tipo GTA],'pc').
+videojuegos('Bushiden',[Hack and Slash , Metroidvania , Plataformas 2D],'pc').
+videojuegos('Crowsworn',[Aventura de acción , Metroidvania],'pc').
+videojuegos('Silent_Hill_Townfall',[Aventura narrativa],'pc').
+videojuegos('Unrecord',[Shooter en primera persona , Shooter realista ó táctico],'pc').
