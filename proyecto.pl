@@ -122,7 +122,7 @@ pelicula_genero('Ralph,El_Demoledor','Infantil').
 pelicula_genero('Cómo_Entrenar_a_tu_Dragón','Infantil').
 pelicula_genero('El_Mago_de_Oz','Fantasía').
 pelicula_genero('Alicia_en_el_País_de_las_Maravillas','Infantil').
-pelicula_genero('El_Hobbit','Fantasía').
+pelicula_genero('El Hobbit:_Un_viaje_inesperado','Fantasía').
 pelicula_genero('La_Princesa_Prometida','Fantasía').
 pelicula_genero('Stardust:_El_Misterio_de_la_Estrella','Fantasía').
 pelicula_genero('La_Historia_Sin_Fin','Fantasía').
@@ -440,66 +440,63 @@ critica_imdb('El_Club_de_la_Pelea',8.8).
 critica_imdb('Belleza_Americana'8.3).  // si tiene oscar (5)
 critica_imdb('Gladiador',8.5).      // si tiene oscar (5)
 critica_imdb('Milagros_Inesperados',8.6).   //
-critica_imdb('Mente_Indomable',8.3).
-critica_imdb('En_Busca_de_la_Felicidad'). // tiene 2 oscar
-critica_imdb('12_Años_de_Esclavitud').
-critica_imdb('¿Quién_Quiere_Ser_Millonario?').
-critica_imdb('El_Discurso_del_Rey').
-critica_imdb('Tiburón').
-critica_imdb('El_Silencio_de_los_Inocentes').
-critica_imdb('Zodiaco').
-critica_imdb('Prisioneros').
-critica_imdb('Se7en').
-critica_imdb('La_Isla_Siniestra').
-critica_imdb('Perdida').
-critica_imdb('Memento').
-critica_imdb('El_Sexto_Sentido').
-critica_imdb('El_Cisne_Negro').
-critica_imdb('El_Rey_León').
-critica_imdb('Buscando_a_Dory').
-critica_imdb('El_Libro_de_la_Selva').
-critica_imdb('Zootopia').
-critica_imdb('Moana:_Un_Mar_de_Aventuras').
-critica_imdb('Grandes_Héroes').
-critica_imdb('Intensa-Mente').
-critica_imdb('Mi_Villano_Favorito').
-critica_imdb('Ralph,El_Demoledor').
-critica_imdb('Cómo_Entrenar_a_tu_Dragón').
-critica_imdb('El_Mago_de_Oz').
-critica_imdb('Alicia_en_el_País_de_las_Maravillas').
-critica_imdb('El_Hobbit').
-critica_imdb('La_Princesa_Prometida').
-critica_imdb('Stardust:_El_Misterio_de_la_Estrella').
-critica_imdb('La_Historia_Sin_Fin').
-critica_imdb('Percy_Jackson_y_el_Ladrón_del_Rayo').
-critica_imdb('El_Cristal_Encantado').
-critica_imdb('Laberinto').
-critica_imdb('Eragon').
-critica_imdb('La_La_Land:_Una_Historia_de_Amor').
-critica_imdb('Chicago').
-critica_imdb('El_Gran_Showman').
-critica_imdb('Los_Miserables').
-critica_imdb('Vaselina').
-critica_imdb('Mamma_Mia!').
-critica_imdb('Hairspray').
-critica_imdb('Amor_Sin_Barreras').
-critica_imdb('Cantando_Bajo_la_Lluvia').
-critica_imdb('El_Fantasma_de_la_Ópera').
-critica_imdb('Rocky').
-critica_imdb('Toro_Salvaje').
-critica_imdb('El_Peleador').
-critica_imdb('Creed:_Corazón_de_Campeón').
+critica_imdb('Mente_Indomable',8.3).  // tiene 2 oscar
+critica_imdb('En_Busca_de_la_Felicidad',8.0).
+critica_imdb('12_Años_de_Esclavitud',8.1).  // gano 3 oscar 
+critica_imdb('¿Quién_Quiere_Ser_Millonario?',8.0). // gano 8 oscar
+critica_imdb('El_Discurso_del_Rey',8.0). // gano 4 oscar
+critica_imdb('Tiburón',8.1).    // gano 3 oscar
+critica_imdb('El_Silencio_de_los_Inocentes',8.6). // gano 5 oscar
+critica_imdb('Zodiaco',7.7).
+critica_imdb('Prisioneros',8.2).
+critica_imdb('Se7en',8.6).
+critica_imdb('La_Isla_Siniestra',8.2).
+critica_imdb('Perdida',8.1).
+critica_imdb('Memento',8.4).
+critica_imdb('El_Sexto_Sentido',8.2).
+critica_imdb('El_Cisne_Negro',8.0). // gano 1 oscar
+critica_imdb('El_Rey_León',8.5). // gano 2 oscar
+critica_imdb('Buscando_a_Dory',7.2).
+critica_imdb('El_Libro_de_la_Selva',7.4). // gano 1 osacar
+critica_imdb('Zootopia',8.0). // gano 1 oscar
+critica_imdb('Moana:_Un_Mar_de_Aventuras',7.6).
+critica_imdb('Grandes_Héroes',7.8). // gano 1 osacar
+critica_imdb('Intensa-Mente',8.1). // gano un oscar
+critica_imdb('Mi_Villano_Favorito',7.6).
+critica_imdb('Ralph,El_Demoledor',7.7).
+critica_imdb('Cómo_Entrenar_a_tu_Dragón',8.1).
+critica_imdb('El_Mago_de_Oz',8.1). // gano 2 oscar
+critica_imdb('Alicia_en_el_País_de_las_Maravillas',6.4). // gano 2 oscar
+critica_imdb('El Hobbit:_Un_viaje_inesperado',7.8).
+critica_imdb('La_Princesa_Prometida',8.0).
+critica_imdb('Stardust:_El_Misterio_de_la_Estrella',7.6).
+critica_imdb('La_Historia_Sin_Fin',7.3).
+critica_imdb('Percy_Jackson_y_el_Ladrón_del_Rayo',5.9).
+critica_imdb('El_Cristal_Encantado',7.1).
+critica_imdb('Laberinto',7.3).
+critica_imdb('Eragon',5.1).
+critica_imdb('La_La_Land:_Una_Historia_de_Amor',8.0). // gano 6 oscar
+critica_imdb('Chicago',7.6). // gano 6 oscar    
+critica_imdb('El_Gran_Showman',7.5).
+critica_imdb('Los_Miserables'.7.5). // gano 3 oscar
+critica_imdb('Vaselina',7.2).
+critica_imdb('Mamma_Mia!',6.5).
+critica_imdb('Hairspray',6.7).
+critica_imdb('Amor_Sin_Barreras',7.1). // gano  1 oscar
+critica_imdb('Cantando_Bajo_la_Lluvia',8.3).
+critica_imdb('El_Fantasma_de_la_Ópera',7.2).
+critica_imdb('Rocky',8.1). // gano 3 oscae
+critica_imdb('Toro_Salvaje'8.1). // gano 2 oscar
+critica_imdb('El_Peleador',7.8). gano 2 oscar
+critica_imdb('Creed:_Corazón_de_Campeón',7.6).
 critica_imdb('Golpes_del_Destino').
-critica_imdb('Recuerdos_de_los_Titanes').
-critica_imdb('Juego_de_Honor').
-critica_imdb('Campo_de_Sueños').
-critica_imdb('Un_Equipo_Muy_Especial').
-critica_imdb('Un_Sueño_Posible').
-critica_imdb('El_Origen').
-critica_imdb('El_Gran_Truco').
-
-critica_imdb(Pelicula,Calificacion).
-critica_imdb(Pelicula,Calificacion).
+critica_imdb('Recuerdos_de_los_Titanes',8.1). // gano 4 oscar
+critica_imdb('Juego_de_Honor',7.3).
+critica_imdb('Campo_de_Sueños'7.5).
+critica_imdb('Un_Equipo_Muy_Especial',7.3).
+critica_imdb('Un_Sueño_Posible'7.6). //gano 1 oscar
+critica_imdb('El_Origen',8.8). // gano 4 oscar
+critica_imdb('El_Gran_Truco',8.5).
 
 
 pelicula_director(Titulo,Director).
@@ -514,3 +511,66 @@ basado_en(Pelicula,Fuente).
 disponible_streaming(Pelicula,Plataforma).
 
 
+
+%videojuegos
+%es_videojuego(Nombre_juego).
+
+mas_esperados('Blue_Protocol').
+mas_esperados('Star_Citizen').
+mas_esperados('Hollow_Knight:_Silksong').
+mas_esperados('Beyond_Good_&_Evil_2').
+mas_esperados('Lost_Soul_Aside').
+mas_esperados('Grand_Theft_Auto_VI').
+mas_esperados('The_Elder_Scrolls_VI').
+mas_esperados('STALKER_2').
+mas_esperados('Bus_Controller_Simulator').
+mas_esperados('Black_Myth:_Wukong').
+mas_esperados('The_Last_Night').
+mas_esperados('Vampire:_The_Masquerade_-_Bloodlines').
+mas_esperados('Little_Devil_Inside').
+mas_esperados('Ashes_of_Creation').
+mas_esperados('Dragon_Age:_Dreadwolf').
+mas_esperados('The_Lighthouse_-_VR_Escape').
+mas_esperados('Truck_Parking_Simulator').
+mas_esperados('Indiana_Jones_and_the_Great_Circle').
+mas_esperados('Silent_Hill_2_Remake').
+mas_esperados('Fable').
+mas_esperados('Mass_Effect_5').
+mas_esperados('Avowed').
+mas_esperados('Routine').
+mas_esperados('Tale_of_Ronin').
+mas_esperados('Paralives').
+mas_esperados('Chrono_Odyssey').
+mas_esperados('Star_Wars_Eclipse').
+mas_esperados('Ambulance_Simulator').
+mas_esperados('Negative_Atmosphere').
+mas_esperados('Hellblade_2').
+mas_esperados('Zenless_Zone_Zero').
+mas_esperados('Farm_Folks').
+mas_esperados('Escape_Room_Simulator').
+mas_esperados('SimBus').
+mas_esperados('Where_Winds_Meet').
+mas_esperados('Kingdom_Come:_Deliverance_II').
+mas_esperados('Metal_Slug_Tactics').
+mas_esperados('Everwild').
+mas_esperados('Assassins_Creed_Infinity').
+mas_esperados('Judas').
+mas_esperados('Godus').
+mas_esperados('Gothic_Remake').
+mas_esperados('Gestalt:_Steam_&_Cinder').
+mas_esperados('Replaced').
+mas_esperados('System_Shock_3').
+mas_esperados('Path_of_Exile_2').
+mas_esperados('Silent_Hill_F').
+mas_esperados('Star_Wars_Outlaws').
+mas_esperados('3_Minutes_to_Midnight').
+mas_esperados('Crimson_Desert').
+mas_esperados('The_Witcher_4').
+mas_esperados('Everywhere').
+mas_esperados('The_Wolf_Among_Us_2').
+mas_esperados('Dragon_Ball:_Sparking!_Zero').
+mas_esperados('Damnview:_Built_From_Nothing').
+mas_esperados('Bushiden').
+mas_esperados('Crowsworn').
+mas_esperados('Silent_Hill_Townfall').
+mas_esperados('Unrecord').
