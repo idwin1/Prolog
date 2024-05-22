@@ -2711,4 +2711,18 @@ es_multijugador('Vambrace:_Dungeon_Monarch').
 es_multijugador('Sworn'). 
 es_multijugador('Stride:_Fates').
  
+
+ % Extraer el nombre del juego a partir del predicado ano_de_lanzamiento
+
+juego(Nombre,Anio) :- ano_de_lanzamiento(Nombre, Anio).
+  
+% Recorrer la lista de predicados ano_de_lanzamiento
+  
+ :- forall(ano_de_lanzamiento(Nombre, _), juego(Nombre)).
+  
+
+ plataforma(Juego, Plataforma) :-
+    videojuegos(Juego, _, Plataforma).
+  
+
 %hola
