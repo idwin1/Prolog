@@ -1827,6 +1827,7 @@ ano_de_lanzamiento('Routine',2017).
 ano_de_lanzamiento('Tale_of_Ronin',2021).
 ano_de_lanzamiento('Paralives',2025).
 ano_de_lanzamiento('Chrono_Odyssey',2022).
+
 ano_de_lanzamiento('Star_Wars_Eclipse',2021).
 ano_de_lanzamiento('Ambulance_Simulator',2024).
 ano_de_lanzamiento('Negative_Atmosphere',2024).
@@ -1858,6 +1859,7 @@ ano_de_lanzamiento('Dragon_Ball:_Sparking!_Zero',2024).
 ano_de_lanzamiento('Damnview:_Built_From_Nothing',2019).
 ano_de_lanzamiento('Bushiden',2023).
 ano_de_lanzamiento('Crowsworn',2024).
+
 ano_de_lanzamiento('Silent Hill Townfall',2024).
 ano_de_lanzamiento('Unrecord',2024).
 ano_de_lanzamiento('Pathless_Woods',2024).
@@ -1886,6 +1888,7 @@ ano_de_lanzamiento('63 Days',2024).
 ano_de_lanzamiento('Tiny_Tires',2013).
 ano_de_lanzamiento('Divine Rush',2026).
 ano_de_lanzamiento('PuzzMix',2024).
+
 ano_de_lanzamiento('Flint:_Treasure_of_Oblivion',2024).
 ano_de_lanzamiento('The_Crush_House',2024).
 ano_de_lanzamiento('Beat_Slayer',2024).
@@ -1909,4 +1912,215 @@ ano_de_lanzamiento('Vambrace:_Dungeon_Monarch',2023).
 ano_de_lanzamiento('Sworn',2024).
 ano_de_lanzamiento('Stride:_Fates',2023).
 
+
+desarrolladora_de('Bandai Namco Studios', 'Blue Protocol').
+desarrolladora_de('Cloud Imperium Games', 'Star Citizen').
+desarrolladora_de('Team Cherry', 'Hollow Knight: Silksong').
+desarrolladora_de('Ubisoft Montpellier', 'Beyond Good & Evil 2').
+desarrolladora_de('Soulclap', 'Lost Soul Aside').
+desarrolladora_de('Rockstar Games', 'Grand Theft Auto VI').
+desarrolladora_de('Bethesda Game Studios', 'The Elder Scrolls VI').
+desarrolladora_de('GSC Game World', 'S.T.A.L.K.E.R. 2').
+desarrolladora_de('Oovee Games', 'Bus Controller Simulator').
+desarrolladora_de('Game Science', 'Black Myth: Wukong').
+desarrolladora_de('Odd Tales Games', 'The Last Night').
+desarrolladora_de('Troika Games', 'Vampire: The Masquerade - Bloodlines').
+desarrolladora_de('Neostream Interactive', 'Little Devil Inside').
+desarrolladora_de('Intrepid Studios', 'Ashes of Creation').
+desarrolladora_de('BioWare', 'Dragon Age: Dreadwolf').
+desarrolladora_de('Steel Wool Games', 'The Lighthouse - VR Escape').
+desarrolladora_de('SCS Software', 'Truck Parking Simulator').
+desarrolladora_de('MachineGames', 'Indiana Jones and the Great Circle').
+desarrolladora_de('Bloober Team', 'Silent Hill 2 Remake').
+desarrolladora_de('Lionhead Studios', 'Fable').
+desarrolladora_de('BioWare', 'Mass Effect 5').
+desarrolladora_de('Obsidian Entertainment', 'Avowed').
+desarrolladora_de('Lighthouse Studios', 'Routine').
+desarrolladora_de('Darling Door', 'Tale of Ronin').
+desarrolladora_de('Two Point Studios', 'Paralives').
+desarrolladora_de('Wish Studios', 'Chrono Odyssey').
+desarrolladora_de('Quantic Dream', 'Star Wars Eclipse').
+desarrolladora_de('OSome Studio', 'Ambulance Simulator').
+desarrolladora_de('Blackvoid Games', 'Negative Atmosphere').
+desarrolladora_de('Ninja Theory', 'Hellblade 2').
+desarrolladora_de('HoYoverse', 'Zenless Zone Zero').
+desarrolladora_de('Milkwood Games', 'Farm Folks').
+desarrolladora_de('Panic Foundry', 'Escape Room Simulator').
+desarrolladora_de('SCS Software', 'SimBus').
+desarrolladora_de('MiHoYo', 'Where Winds Meet').
+desarrolladora_de('Warhorse Studios', 'Kingdom Come: Deliverance II').
+desarrolladora_de('Dotemu', 'Metal Slug Tactics').
+desarrolladora_de('Rare', 'Everwild').
+desarrolladora_de('Ubisoft Montreal', 'Assassins Creed Infinity').
+desarrolladora_de('Ghost Story Games', 'Judas').
+desarrolladora_de('22cans', 'Godus').
+desarrolladora_de('THQ Nordic', 'Gothic Remake').
+desarrolladora_de('Metamorphosis Games', 'Gestalt: Steam & Cinder').
+desarrolladora_de('Anapurna Interactive', 'Replaced').
+desarrolladora_de('Nightdive Studios', 'System Shock 3').
+desarrolladora_de('Grinding Gear Games', 'Path of Exile 2').
+desarrolladora_de('Konami', 'Silent Hill F').
+desarrolladora_de('Lucasfilm Games', 'Star Wars: Outlaws').
+desarrolladora_de('Wales Interactive', '3 Minutes to Midnight').
+desarrolladora_de('Pearl Abyss', 'Crimson Desert').
+desarrolladora_de('CD Projekt Red', 'The Witcher 4').
+desarrolladora_de('Lesbian Adults Only', 'Everywhere').
+desarrolladora_de('Telltale Games', 'The Wolf Among Us 2').
+desarrolladora_de('Bandai Namco Entertainment', 'Dragon Ball: Sparking! Zero').
+desarrolladora_de('Mundfish', 'Damnview: Built From Nothing').
+desarrolladora_de('17Bit Games', 'Bushiden').
+desarrolladora_de('King Art Games', 'Crowsworn').
+desarrolladora_de('Konami', 'Silent Hill Townfall').
+desarrolladora_de('505 Games', 'Unrecord').
+desarrolladora_de('Arrowiz', 'Pathless Woods').
+desarrolladora_de('Bloober Team', 'Industria 2').
+desarrolladora_de('Rat King Games', 'Worshippers of Cthulhu').
+desarrolladora_de('3D Realms Entertainment', 'Content Warning').
+desarrolladora_de('Playstack', 'Hordes of Hunger').
+desarrolladora_de('Seatribe Entertainment', 'Farewell North').
+desarrolladora_de('Rhythm Beast Entertainment', 'Robobeat').
+desarrolladora_de('Basic42 Games', 'OVRDARK: a Do Not Open story').
+desarrolladora_de('Ubisoft Montreal', 'Assassin\'s Creed Shadows').
+desarrolladora_de('Neowiz', 'Batman: Arkham Shadow').
+desarrolladora_de('Funko Games', 'Funko Fusion').
+desarrolladora_de('Nacon', 'Alien: Rogue Incursion').
+desarrolladora_de('Warhorse Studios', 'Kingdom Come: Deliverance 2').
+desarrolladora_de('Black Lamb Studios', 'Yars Rising').
+desarrolladora_de('Dotemu', 'Teenage Mutant Ninja Turtles: Splintered Fate').
+desarrolladora_de('Thunderful Games', 'SteamWorld Heist 2').
+desarrolladora_de('NoBread Games', 'Kill Knight').
+desarrolladora_de('Supergiant Games', 'Never Alone 2').
+desarrolladora_de('Valve', 'Slay the Spire 2').
+desarrolladora_de('Ubisoft Montreal', 'The Rogue Prince of Persia').
+desarrolladora_de('Mundfish', 'Spirit City').
+desarrolladora_de('47°N', '63 Days').
+desarrolladora_de('WMG', 'Tiny Tires').
+desarrolladora_de('Boom! Studios', 'Divine Rush').
+desarrolladora_de('JoyMasher', 'PuzzMix').
+desarrolladora_de('Blackbird Interactive', 'Flint: Treasure of Oblivion').
+desarrolladora_de('Supermassive Games', 'The Crush House').
+desarrolladora_de('Noisoft Games', 'Beat Slayer').
+desarrolladora_de('Foambre Games', 'Age of Water').
+desarrolladora_de('Digital Reality', 'NeoSprint').
+desarrolladora_de('Cavill Development', 'Triggerheart Exelica').
+desarrolladora_de('Soldner Studios', 'Soldner-X Complete Collection').
+desarrolladora_de('WarpFrog Games', 'Eternal Strands').
+desarrolladora_de('Racoon Games', 'POed: Definitive Edition').
+desarrolladora_de('Rubber Golem Games', 'Duckside').
+desarrolladora_de('No Code Studio', 'The Kindeman Remedy').
+desarrolladora_de('1000 Eyes', 'As We Descend').
+desarrolladora_de('RedDeer Games', 'Nine Sols').
+desarrolladora_de('Funcom', 'Metal: Hellsinger VR').
+desarrolladora_de('Mages', 'Corpse Party 2: Darkness Distortion').
+desarrolladora_de('SOEDESCO', 'Dollhouse: Behind the Broken Mirror').
+desarrolladora_de('Ragtag Studio', 'Rauniot').
+desarrolladora_de('Gameloft', 'Asphalt Legends Unite').
+desarrolladora_de('Neonika Games', 'The Coma 2B: Catacomb').
+desarrolladora_de('Hyperbolic Labs', 'Vambrace: Dungeon Monarch').
+desarrolladora_de('Big Bad Wolf', 'Sworn').
+desarrolladora_de('Luminous Productions', 'Stride: Fates').
+
+
+es_multijugador('Blue_Protocol').
+es_multijugador('Star_Citizen'). 
+es_multijugador('Hollow_Knight:_Silksong'). 
+es_multijugador('Beyond_Good_&_Evil_2'). 
+es_multijugador('Lost_Soul_Aside'). 
+es_multijugador('Grand_Theft_Auto_VI'). 
+es_multijugador('The_Elder_Scrolls_VI'). 
+es_multijugador('STALKER_2'). 
+es_multijugador('Bus_Controller_Simulator'). 
+es_multijugador('Black_Myth:_Wukong'). 
+es_multijugador('The_Last_Night'). 
+es_multijugador('Vampire:The_Masquerade-_Bloodlines'). 
+es_multijugador('Ashes_of_Creation'). 
+es_multijugador('Dragon_Age:_Dreadwolf'). 
+es_multijugador('Indiana_Jones_and_the_Great_Circle'). 
+es_multijugador('Silent_Hill_2_Remake'). 
+es_multijugador('Mass_Effect 5'). 
+es_multijugador('Avowed'). 
+es_multijugador('Routine'). 
+es_multijugador('Tale_of_Ronin'). 
+es_multijugador('Paralives'). 
+es_multijugador('Star_Wars_Eclipse'). 
+es_multijugador('Ambulance_Simulator'). 
+es_multijugador('Negative_Atmosphere'). 
+es_multijugador('Hellblade_2'). 
+es_multijugador('Zenless_Zone_Zero'). 
+es_multijugador('Farm_Folks'). 
+es_multijugador('Escape_Room_Simulator'). 
+es_multijugador('SimBus'). 
+es_multijugador('Where_Winds_Meet'). 
+es_multijugador('Kingdom_Come:_Deliverance_II'). 
+es_multijugador('Metal_Slug_Tactics'). 
+es_multijugador('Everwild').
+es_multijugador('Assassins_Creed_Infinity'). 
+es_multijugador('Judas'). 
+es_multijugador('Godus'). 
+es_multijugador('Gothic_Remake'). 
+es_multijugador('Gestalt:Steam&_Cinder'). 
+es_multijugador('Replaced'). 
+es_multijugador('System_Shock_3'). 
+es_multijugador('Path_of_Exile_2'). 
+es_multijugador('Star_Wars_Outlaws'). 
+es_multijugador('3_Minutes_to_Midnight'). 
+es_multijugador('Crimson_Desert'). 
+es_multijugador('The_Witcher_4'). 
+es_multijugador('Everywhere'). 
+es_multijugador('The_Wolf_Among_Us_2').
+es_multijugador('Dragon_Ball:_Sparking!_Zero'). 
+es_multijugador('Damnview:_Built_From_Nothing'). 
+es_multijugador('Bushiden'). 
+es_multijugador('Crowsworn').
+es_multijugador('Silent_Hill_Townfall'). 
+es_multijugador('Unrecord'). 
+es_multijugador('Pathless_Woods'). 
+es_multijugador('Industria_2'). 
+es_multijugador('Worshippers_of_Cthulhu'). 
+es_multijugador('Content_Warning'). 
+es_multijugador('Hordes_of_Hunger'). 
+es_multijugador('Farewell_North'). 
+es_multijugador('Robobeat'). 
+es_multijugador('OVRDARK:_a_Do_Not_Open_story'). 
+es_multijugador('Assassins_Creed_Shadows'). 
+es_multijugador('Batman:_Arkham_Shadow'). 
+es_multijugador('Funko_Fusion'). 
+es_multijugador('Alien:_Rogue_Incursion'). 
+es_multijugador('Kingdom_Come:_Deliverance_2'). 
+es_multijugador('Yars_Rising'). 
+es_multijugador('Teenage_Mutant_Ninja_Turtles:_Splintered_Fate'). 
+es_multijugador('SteamWorld_Heist_2'). 
+es_multijugador('Kill_Knight'). 
+es_multijugador('Never_Alone_2'). 
+es_multijugador('Slay_the_Spire_2'). 
+es_multijugador('The_Rogue_Prince_of_Persia'). 
+es_multijugador('Spirit_City:_'). 
+es_multijugador('The_Rogue_Prince_of_Persia'). 
+es_multijugador('63_Days'). 
+es_multijugador('Tiny_Tires'). 
+es_multijugador('Divine_Rush'). 
+es_multijugador('PuzzMix'). 
+es_multijugador('Flint:_Treasure_of_Oblivion'). 
+es_multijugador('The_Crush_House'). 
+es_multijugador('Beat_Slayer'). 
+es_multijugador('Age_of_Water').
+es_multijugador('NeoSprint'). 
+es_multijugador('Triggerheart_Exelica'). 
+es_multijugador('Soldner-X_Complete_Collection'). 
+es_multijugador('Eternal_Strands'). 
+es_multijugador('POed:_Definitive_Edition'). 
+es_multijugador('Duckside'). 
+es_multijugador('The_Kindeman_Remedy'). 
+es_multijugador('As_We_Descend'). 
+es_multijugador('Nine_Sols'). 
+es_multijugador('Metal:_Hellsinger_VR'). 
+es_multijugador('Corpse_Party_2:_Darkness_Distortion'). 
+es_multijugador('Dollhouse: Behind the Broken Mirror'). 
+es_multijugador('Rauniot'). 
+es_multijugador('Asphalt_Legends_Unite'). 
+es_multijugador('The_Coma_2B:_Catacomb'). 
+es_multijugador('Vambrace:_Dungeon_Monarch'). 
+es_multijugador('Sworn'). 
+es_multijugador('Stride:_Fates').
+ 
 %hola
