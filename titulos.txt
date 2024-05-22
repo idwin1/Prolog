@@ -12,7 +12,6 @@
 'El_Cazador_Implacable'
 'Harry_Potter_y_la_piedra_filosofal'
 'Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero'
-
 'La_Novicia_Rebelde'
 'La_La_Land._Una_historia_de_amor'
 'Toy_Story'
@@ -27,7 +26,6 @@
 'Gandhi'
 'El_Viaje_del_Emperador'
 'Bowling_for_Columbine'
-
 'Corazon_Valiente'
 'La_Lista_de_Schindler'
 'Rescatando_al_Soldado_Ryan'
@@ -45,7 +43,6 @@
 'Buscando_a_Nemo'
 'Los_Increibles'
 'Frozen:_Una_Aventura_Congelada'
-
 'Coco'
 'Pacto_de_Sangre'
 'La_Ciudad_del_Pecado'
@@ -63,7 +60,6 @@
 'Volver_al_Futuro'
 'El_Origen'
 'Matrix'
-
 'Avatar'
 'Terminator'
 'Interestelar'
@@ -92,7 +88,6 @@
 'Forrest_Gump'
 'El_Club_de_la_Pelea'
 'Belleza_Americana'
-
 'Gladiador'
 'Milagros_Inesperados'
 'Mente_Indomable'
@@ -120,7 +115,6 @@
 'Mi_Villano_Favorito'
 'Ralph,El_Demoledor'
 'Como_Entrenar_a_tu_Dragon'
-
 'El_Mago_de_Oz'
 'Alicia_en_el_Pais_de_las_Maravillas'
 'El_Hobbit:_Un_viaje_inesperado'
@@ -146,13 +140,11 @@
 'El_Peleador'
 'Creed:_Corazon_de_Campeon'
 'Golpes_del_Destino'
-
 'Recuerdos_de_los_Titanes'
 'Juego_de_Honor'
 'Campo_de_Sueños'
 'Un_Equipo_Muy_Especial'
 'Un_Sueño_Posible'
-'El_Origen'
 'El_Gran_Truco'
 'Blancanieves_y_los_Siete_Enanitos'
 'Cenicienta'
@@ -173,7 +165,6 @@
 'Valiente'
 'Lilo_&_Stitch'
 'Los_Aristogatos'
-
 'Ralph_el_Demoledor'
 'La_Dama_y_el_Vagabundo'
 'La_Princesa_y_el_Sapo'
@@ -199,7 +190,6 @@
 'Stuart_Little'
 'Una_Noche_en_el_Museo'
 'Chitty_Chitty_Bang_Bang'
-
 'Willy_Wonka_y_la_Fábrica_de_Chocolate'
 'Los_Goonies'
 'Spy_Kids'
@@ -226,7 +216,6 @@
 'La_Niñera_Mágica'
 'Querida_Encogí_a_los_Niños'
 'Una_Serie_de_Eventos_Desafortunados'
-
 'El_Gato_con_Sombrero'
 'Las_Aventuras_de_Sharkboy_y_Lavagirl'
 'Dora_y_la_ciudad_perdida'
