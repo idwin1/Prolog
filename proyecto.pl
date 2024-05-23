@@ -2724,5 +2724,4 @@ juego(Nombre,Anio) :- ano_de_lanzamiento(Nombre, Anio).
  plataforma(Juego, Plataforma) :-
     videojuegos(Juego, _, Plataforma).
   
-
 %hola
