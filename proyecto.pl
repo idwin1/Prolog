@@ -1777,6 +1777,391 @@ actor_secundario('Paddington_2', 'Hugh Grant').
 actor_secundario('Mi_amigo_el_gigante', 'Mark Rylance').
 actor_secundario('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Eva Green').
 
+
+genero_masculino('Tom Hardy').
+genero_masculino('Bruce Willis').
+genero_masculino('Harrison Ford').
+genero_masculino('Elijah Wood').
+genero_masculino('Jonah Hill').
+genero_masculino('Steve Martin').
+genero_masculino('Marlon Brando').
+genero_masculino('Tim Robbins').
+genero_masculino('Mark Hamill').
+genero_masculino('Robert De Niro').
+genero_masculino('Daniel Radcliffe').
+genero_masculino('Ryan Gosling').
+genero_masculino('Tom Hanks').
+genero_masculino('Mike Myers').
+genero_masculino('Brad Pitt').
+genero_masculino('Ben Affleck').
+genero_masculino('Robert Downey Jr.').
+genero_masculino('Jesse Eisenberg').
+genero_masculino('Ben Kingsley').
+genero_masculino('Morgan Freeman').
+genero_masculino('Michael Moore').
+genero_masculino('Mel Gibson').
+genero_masculino('Liam Neeson').
+genero_masculino('Fionn Whitehead').
+genero_masculino('Clint Eastwood').
+genero_masculino('Tom Cruise').
+genero_masculino('Sean Connery').
+genero_masculino('Wil Wheaton').
+genero_masculino('Leonardo DiCaprio').
+genero_masculino('John Travolta').
+genero_masculino('Sylvester Stallone').
+genero_masculino('Kevin Spacey').
+genero_masculino('Albert Brooks').
+genero_masculino('Craig T. Nelson').
+genero_masculino('Anthony Gonzalez').
+genero_masculino('Jack Nicholson').
+genero_masculino('Al Pacino').
+genero_masculino('Nicolas Cage').
+genero_masculino('Christian Bale').
+genero_masculino('Billy Crystal').
+genero_masculino('Sam Neill').
+genero_masculino('Henry Thomas').
+genero_masculino('Michael J. Fox').
+genero_masculino('Keanu Reeves').
+genero_masculino('Sam Worthington').
+genero_masculino('Arnold Schwarzenegger').
+genero_masculino('Matthew McConaughey').
+genero_masculino('Chris Pratt').
+genero_masculino('Shane West').
+genero_masculino('Hugh Grant').
+genero_masculino('Humphrey Bogart').
+genero_masculino('Bill Skarsgård').
+genero_masculino('Daniel Kaluuya').
+genero_masculino('Jake Gyllenhaal').
+genero_masculino('Hugh Jackman').
+genero_masculino('Guy Pearce').
+genero_masculino('Matthew Broderick').
+genero_masculino('Neel Sethi').
+genero_masculino('Scott Adsit').
+genero_masculino('Steve Carell').
+genero_masculino('John C. Reilly').
+genero_masculino('Jay Baruchel').
+genero_masculino('Martin Freeman').
+genero_masculino('Cary Elwes').
+genero_masculino('Charlie Cox').
+genero_masculino('Noah Hathaway').
+genero_masculino('Logan Lerman').
+genero_masculino('Stephen Garlick').
+genero_masculino('David Bowie').
+genero_masculino('Edward Speleers').
+genero_masculino('Gene Kelly').
+genero_masculino('Gerard Butler').
+genero_masculino('Mark Wahlberg').
+genero_masculino('Michael B. Jordan').
+genero_masculino('Denzel Washington').
+genero_masculino('Samuel L. Jackson').
+genero_masculino('Kevin Costner').
+genero_masculino('Gene Hackman').
+genero_masculino('Mena Massoud').
+genero_masculino('Hardie Albright').
+genero_masculino('Rod Taylor').
+genero_masculino('Bobby Driscoll').
+genero_masculino('Edward Brophy').
+genero_masculino('Tate Donovan').
+genero_masculino('Owen Wilson').
+genero_masculino('John Goodman').
+genero_masculino('Edward Asner').
+genero_masculino('Ben Burtt').
+genero_masculino('Tom Hulce').
+genero_masculino('Joey Lawrence').
+genero_masculino('Joaquin Phoenix').
+genero_masculino('David Spade').
+genero_masculino('Zach Braff').
+genero_masculino('Kevin Kline').
+genero_masculino('Jack Black').
+genero_masculino('Ben Stiller').
+genero_masculino('Macaulay Culkin').
+genero_masculino('Robin Williams').
+genero_masculino('Dick Van Dyke').
+genero_masculino('Gene Wilder').
+genero_masculino('Sean Astin').
+genero_masculino('Ben Whishaw').
+genero_masculino('James Corden').
+genero_masculino('Donald Glover').
+genero_masculino('Colin Farrell').
+genero_masculino('Ewan McGregor').
+genero_masculino('Joe Mantegna').
+genero_masculino('Jim Carrey').
+genero_masculino('Taylor Lautner').
+genero_masculino('Asa Butterfield').
+genero_masculino('Alan Rickman').
+genero_masculino('Sean Astin').
+genero_masculino('Jonah Hill').
+genero_masculino('Martin Lawrence').
+genero_masculino('James Caan').
+genero_masculino('Morgan Freeman').
+genero_masculino('Max von Sydow').
+genero_masculino('Harrison Ford').
+genero_masculino('Christopher Walken').
+genero_masculino('Rupert Grint').
+genero_masculino('Christopher Plummer').
+genero_masculino('Ryan Gosling').
+genero_masculino('Tim Allen').
+genero_masculino('Eddie Murphy').
+genero_masculino('Matthew Macfadyen').
+genero_masculino('James Garner').
+genero_masculino('Tyler Perry').
+genero_masculino('Jude Law').
+genero_masculino('Stellan Skarsgård').
+genero_masculino('Andrew Garfield').
+genero_masculino('Michael Moore').
+genero_masculino('Ben Kingsley').
+genero_masculino('Matt Damon').
+genero_masculino('Tom Hardy').
+genero_masculino('Lee Van Cleef').
+genero_masculino('Gene Hackman').
+genero_masculino('Jon Voight').
+genero_masculino('Sean Connery').
+genero_masculino('River Phoenix').
+genero_masculino('Matt Damon').
+genero_masculino('Samuel L. Jackson').
+genero_masculino('Burgess Meredith').
+genero_masculino('Edward G. Robinson').
+genero_masculino('Clive Owen').
+genero_masculino('Val Kilmer').
+genero_masculino('Danny DeVito').
+genero_masculino('Chris Evans').
+genero_masculino('Aaron Eckhart').
+genero_masculino('Jason Alexander').
+genero_masculino('Bruno Kirby').
+genero_masculino('Sergi Lopez').
+genero_masculino('Michael Shannon').
+genero_masculino('Josh Hutcherson').
+genero_masculino('Jeff Goldblum').
+genero_masculino('Robert MacNaughton').
+genero_masculino('Christopher Lloyd').
+genero_masculino('Joseph Gordon-Levitt').
+genero_masculino('Laurence Fishburne').
+genero_masculino('Michael Biehn').
+genero_masculino('John Hurt').
+genero_masculino('Bradley Cooper').
+genero_masculino('Billy Zane').
+genero_masculino('John Leguizamo').
+genero_masculino('Peter Coyote').
+genero_masculino('Nat Wolff').
+genero_masculino('Hugh Grant').
+genero_masculino('Colin Firth').
+genero_masculino('Claude Rains').
+genero_masculino('Rhys Ifans').
+genero_masculino('Skeet Ulrich').
+genero_masculino('Ron Livingston').
+genero_masculino('Finn Wolfhard').
+genero_masculino('Bradley Whitford').
+genero_masculino('Alex Wolff').
+genero_masculino('Daniel Henshall').
+genero_masculino('Brian Cox').
+genero_masculino('Micah Sloat').
+genero_masculino('Donald Pleasence').
+genero_masculino('Jared Leto').
+genero_masculino('Joaquin Phoenix').
+genero_masculino('Michael Clarke Duncan').
+genero_masculino('Robin Williams').
+genero_masculino('Michael Fassbender').
+genero_masculino('Anil Kapoor').
+genero_masculino('Geoffrey Rush').
+genero_masculino('Robert Shaw').
+genero_masculino('Anthony Hopkins').
+genero_masculino('Mark Ruffalo').
+genero_masculino('Jake Gyllenhaal').
+genero_masculino('Brad Pitt').
+genero_masculino('Neil Patrick Harris').
+genero_masculino('Haley Joel Osment').
+genero_masculino('Jeremy Irons').
+genero_masculino('Bill Murray').
+genero_masculino('Jason Bateman').
+genero_masculino('Dwayne Johnson').
+genero_masculino('Scott Adsit').
+genero_masculino('Jason Segel').
+genero_masculino('Jack McBrayer').
+genero_masculino('Gerard Butler').
+genero_masculino('Ray Bolger').
+genero_masculino('Ed Wynn').
+genero_masculino('Martin Freeman').
+genero_masculino('Mandy Patinkin').
+genero_masculino('Robert De Niro').
+genero_masculino('Pierce Brosnan').
+genero_masculino('Jim Henson').
+genero_masculino('David Bowie').
+genero_masculino('Richard Gere').
+genero_masculino('Zac Efron').
+genero_masculino('Russell Crowe').
+genero_masculino('John Travolta').
+genero_masculino('George Chakiris').
+genero_masculino('Donald OConnor').
+genero_masculino('Patrick Wilson').
+genero_masculino('Joe Pesci').
+genero_masculino('Christian Bale').
+genero_masculino('Sylvester Stallone').
+genero_masculino('Will Patton').
+genero_masculino('Rob Brown').
+genero_masculino('James Earl Jones').
+genero_masculino('Tom Hanks').
+genero_masculino('Quinton Aaron').
+genero_masculino('Richard Madden').
+genero_masculino('Will Smith').
+genero_masculino('Dan Stevens').
+genero_masculino('Stan Alexander').
+genero_masculino('Danny DeVito').
+genero_masculino('Mel Gibson').
+genero_masculino('Zachary Levi').
+genero_masculino('Paul Newman').
+genero_masculino('Billy Crystal').
+genero_masculino('Chris Sanders').
+genero_masculino('John Travolta').
+genero_masculino('Ryan Potter').
+genero_masculino('Michael J. Fox').
+genero_masculino('Joey Lawrence').
+genero_masculino('David Spade').
+genero_masculino('Rick Moranis').
+genero_masculino('Zach Braff').
+genero_masculino('Kevin Kline').
+genero_masculino('Jack Black').
+genero_masculino('Ben Stiller').
+genero_masculino('Jack Albertson').
+genero_masculino('Josh Brolin').
+genero_masculino('Antonio Banderas').
+genero_masculino('Dustin Hoffman').
+genero_masculino('Hugh Bonneville').
+genero_masculino('Lin-Manuel Miranda').
+genero_masculino('Domhnall Gleeson').
+genero_masculino('David Oyelowo').
+genero_masculino('Justin Theroux').
+genero_masculino('Seth Rogen').
+genero_masculino('Colin Farrell').
+genero_masculino('Luke Evans').
+genero_masculino('Bill Murray').
+genero_masculino('Sharlto Copley').
+genero_masculino('Johnny Depp').
+genero_masculino('Robert Redford').
+genero_masculino('Keith Coogan').
+genero_masculino('Jim Carrey').
+genero_masculino('Mike Myers').
+genero_masculino('George Lopez').
+genero_masculino('Eugenio Derbez').
+genero_masculino('Mark Rylance').
+genero_masculino('Herman Bing').
+
+genero_femenino('Ellen Burstyn').
+genero_femenino('Heather Langenkamp').
+genero_femenino('Georgie Henley').
+genero_femenino('Julie Andrews').
+genero_femenino('Keira Knightley').
+genero_femenino('Rooney Mara').
+genero_femenino('Kristen Bell').
+genero_femenino('Julia Roberts').
+genero_femenino('Ivana Baquero').
+genero_femenino('Sally Hawkins').
+genero_femenino('Jennifer Lawrence').
+genero_femenino('Sigourney Weaver').
+genero_femenino('Shailene Woodley').
+genero_femenino('Renee Zellweger').
+genero_femenino('Nicole Kidman').
+genero_femenino('Julia Roberts').
+genero_femenino('Constance Wu').
+genero_femenino('Neve Campbell').
+genero_femenino('Vera Farmiga').
+genero_femenino('Toni Collette').
+genero_femenino('Essie Davis').
+genero_femenino('Naomi Watts').
+genero_femenino('Emily Blunt').
+genero_femenino('Katie Featherston').
+genero_femenino('Jamie Lee Curtis').
+genero_femenino('Jodie Foster').
+genero_femenino('Natalie Portman').
+genero_femenino('Ellen DeGeneres').
+genero_femenino('Ginnifer Goodwin').
+genero_femenino('Auliʻi Cravalho').
+genero_femenino('Amy Poehler').
+genero_femenino('Judy Garland').
+genero_femenino('Mia Wasikowska').
+genero_femenino('Kate Maberly').
+genero_femenino('Mara Wilson').
+genero_femenino('Alexa PenaVega').
+genero_femenino('Emily Blunt').
+genero_femenino('Tessa Thompson').
+genero_femenino('Emma Watson').
+genero_femenino('Angelina Jolie').
+genero_femenino('Angelina Jolie').
+genero_femenino('Mackenzie Foy').
+genero_femenino('Mia Wasikowska').
+genero_femenino('Mia Wasikowska').
+genero_femenino('Lily James').
+genero_femenino('Emma Thompson').
+genero_femenino('Isabela Moner').
+genero_femenino('Ruby Barnhill').
+genero_femenino('Adriana Caselotti').
+genero_femenino('Lily James').
+genero_femenino('Ming-Na Wen').
+genero_femenino('Emma Watson').
+genero_femenino('Irene Bedard').
+genero_femenino('Mandy Moore').
+genero_femenino('Kelly Macdonald').
+genero_femenino('Daveigh Chase').
+genero_femenino('Barbara Luddy').
+genero_femenino('Anika Noni Rose').
+genero_femenino('Roseanne Barr').
+genero_femenino('Kate Maberly').
+genero_femenino('Alexa PenaVega').
+genero_femenino('Emily Blunt').
+genero_femenino('Emma Watson').
+genero_femenino('Angelina Jolie').
+genero_femenino('Charlize Theron').
+genero_femenino('Karen Allen').
+genero_femenino('Heather Langenkamp').
+genero_femenino('Tilda Swinton').
+genero_femenino('Candice Bergen').
+genero_femenino('Sophie Marceau').
+genero_femenino('Laurie Metcalf').
+genero_femenino('Ellen DeGeneres').
+genero_femenino('Holly Hunter').
+genero_femenino('Idina Menzel').
+genero_femenino('Sigourney Weaver').
+genero_femenino('Jessica Chastain').
+genero_femenino('Robin Wright').
+genero_femenino('Thora Birch').
+genero_femenino('Thandie Newton').
+genero_femenino('Carrie-Anne Moss').
+genero_femenino('Mila Kunis').
+genero_femenino('Phyllis Smith').
+genero_femenino('Tami Stronach').
+genero_femenino('Elissa Knight').
+genero_femenino('Emma Thompson').
+genero_femenino('Eva Gabor').
+genero_femenino('Sarah Silverman').
+genero_femenino('Barbara Luddy').
+genero_femenino('Demi Moore').
+genero_femenino('Roseanne Barr').
+genero_femenino('Anne Hathaway').
+genero_femenino('Maggie Smith').
+genero_femenino('Geena Davis').
+genero_femenino('Sally Ann Howes').
+genero_femenino('Hayley Atwell').
+genero_femenino('Michelle Pfeiffer').
+genero_femenino('Keira Knightley').
+genero_femenino('Helena Bonham Carter').
+genero_femenino('Eva Green').
+genero_femenino('Betty Lou Gerson').
+genero_femenino('Kathryn Beaumont').
+genero_femenino('Lucille La Verne').
+genero_femenino('Elissa Knight').
+genero_femenino('Emma Thompson').
+genero_femenino('Sarah Silverman').
+genero_femenino('Barbara Luddy').
+genero_femenino('Phyllis Smith').
+genero_femenino('Roseanne Barr').
+genero_femenino('Anne Hathaway').
+genero_femenino('Maggie Smith').
+genero_femenino('Geena Davis').
+genero_femenino('Sally Ann Howes').
+genero_femenino('Michelle Pfeiffer').
+genero_femenino('Keira Knightley').
+genero_femenino('Helena Bonham Carter').
+genero_femenino('Eva Green').
+
 %basa en libro, comic, musical...
 basado_en('Duro_de_Matar', 'Nothing Lasts Forever por Roderick Thorp','Libro').
 basado_en('El_senor_de_los_anillos:_Las_dos_torres', 'The Two Towers por J.R.R. Tolkien','Libro').
@@ -2163,6 +2548,21 @@ peliculas_romance(Pelicula) :- pelicula_genero(Pelicula, 'Romance').
 peliculas_distopia(Pelicula) :- pelicula_genero(Pelicula, 'Distopia').
 peliculas_ciencia_ficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
 peliculas_suspenso(Pelicula) :- pelicula_genero(Pelicula, 'Suspenso').
+
+
+peliculas_alta_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion >= 8.0.
+peliculas_actor_protagonista_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
+peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_femenino(Actor).
+peliculas_actor_secundario_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
+peliculas_actor_secundario_femenino(Pelicula) :- actor_secundario(Pelicula, Actriz), genero_femenino(Actriz).
+peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
+peliculas_director_protagonista_comun(Pelicula, Director, Actor) :-
+    pelicula_director(Pelicula, Director),
+    actor_protagonista(Pelicula, Actor).
+
+
+peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
+
 
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
 %Regla para obtener todas las peliculas disponibles en una plataforma de streaming especifica:
