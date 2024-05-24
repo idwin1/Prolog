@@ -2784,7 +2784,7 @@ videojuegos_de('Robobeat','PC','ACCION').
 videojuegos_de('OVRDARK:_a_Do_Not_Open_story',['PC','PS5'],['ACCION','AVENTURA']).
 videojuegos_de('Assassins_Creed_Shadows',['PC','PS5','XBS'],['ACCION','AVENTURA']).
 videojuegos_de('Batman:_Arkham_Shadow','PC',['ACCION','AVENTURA']).
-videojuegos_de('Funko_Fusion','PC',['PC','NSW','PS4','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_de('Funko_Fusion',['PC','NSW','PS4','PS5','XBS'],['ACCION','AVENTURA']).
 videojuegos_de('Alien:_Rogue_Incursion',['PC','PS5'],['ACCION','AVENTURA']).
 videojuegos_de('Kingdom_Come:_Deliverance_2',['PC','PS5','XBS'],['ACCION','RPG']).
 videojuegos_de('Yars_Rising',['PC','NSW','PS4','XBO','PS5','XBS'],['ACCION','PLATAFORMAS']).
@@ -3004,9 +3004,9 @@ desarrolladora_de('Playstack', 'Hordes of Hunger').
 desarrolladora_de('Seatribe Entertainment', 'Farewell North').
 desarrolladora_de('Rhythm Beast Entertainment', 'Robobeat').
 desarrolladora_de('Basic42 Games', 'OVRDARK: a Do Not Open story').
-desarrolladora_de('Ubisoft Montreal', 'Assassin\'s Creed Shadows').
+desarrolladora_de('Ubisoft Montreal', 'Assassins Creed Shadows').
 desarrolladora_de('Neowiz', 'Batman: Arkham Shadow').
-desarrolladora_de('Funko Games', 'Funko Fusion').
+desarrolladora_de('Funko Games', 'Funko_Fusion').
 desarrolladora_de('Nacon', 'Alien: Rogue Incursion').
 desarrolladora_de('Warhorse Studios', 'Kingdom Come: Deliverance 2').
 desarrolladora_de('Black Lamb Studios', 'Yars Rising').
@@ -3156,9 +3156,62 @@ es_multijugador('Stride:_Fates').
    
   :- forall(ano_de_lanzamiento(Nombre, _), juego(Nombre)).
    
- 
-  plataforma(Juego, Plataforma) :-
-     videojuegos(Juego, _, Plataforma).
+%Obtener la plataforma en la que se lanzará un juego:
+plataforma(Juego, Plataforma) :- videojuegos(Juego, _, Plataforma).
+%Consultar si un juego es de un género específico:
+genero(Juego, Genero) :- videojuegos(Juego, Generos, _).
+%Obtener la desarrolladora de un juego:
+desarrolladora(Juego, Desarrolladora) :- desarrolladora_de(Desarrolladora, Juego).
+%Consultar si un juego se lanzará en un año específico:
+lanzamiento(Juego, Anio) :- ano_de_lanzamiento(Juego, Anio).
+%Obtener todos los juegos lanzados en un año específico:
+juegos_lanzados(Anio, Juegos) :-findall(Juego, ano_de_lanzamiento(Juego, Anio), Juegos).
+%Obtener todos los juegos de una desarrolladora específica:
+juegos_desarrolladora(Desarrolladora, Juegos) :- findall(Juego, desarrolladora_de(Desarrolladora, Juego), Juegos).
+%Obtener todos los juegos de un género específico:
+juegos_genero(Genero, Juegos) :- findall(Juego, genero(Juego, Genero), Juegos).
+%Obtener todos los juegos lanzados en una plataforma específica:
+juegos_plataforma(Plataforma, Juegos) :- findall(Juego, videojuegos(Juego, _, Plataforma), Juegos).
+%Combinar consultas:
+juegos_esperados_genero(Genero, Anio, Juegos) :- mas_esperados(Juegos), genero(Juegos, Genero), ano_de_lanzamiento(Juegos, Anio).
+%Contar el número de juegos de un género específico:
+numero_juegos_genero(Genero, Cantidad) :-
+    findall(_, genero(_, Genero), Juegos),
+    length(Juegos, Cantidad).
+%Contar el número de juegos lanzados en un año específico:
+numero_juegos_lanzamiento(Anio, Cantidad) :-
+    findall(_, ano_de_lanzamiento(_, Anio), Juegos),
+    length(Juegos, Cantidad).
+%Contar el número de juegos de una desarrolladora específica:
+numero_juegos_desarrolladora(Desarrolladora, Cantidad) :-
+    findall(_, desarrolladora_de(Desarrolladora, _), Juegos),
+    length(Juegos, Cantidad).
+
+% Obtener todos los juegos lanzados antes de un año específico:
+juegos_antes_2010(Anio, Juegos) :-ano_de_lanzamiento(Juegos, Anio),Anio<2010.
+
+juegos_similares(Juego, JuegosSimilares) :-
+    genero(Juego, Genero),
+    plataforma(Juego, Plataforma),
+    desarrolladora_de(Desarrolladora, Juego),
+    findall(OtroJuego, genero(OtroJuego, Genero), JuegosSimilares1),
+findall(OtroJuego, plataforma(OtroJuego, Plataforma), Juegos).
+  
+    
+juegos_especificos(Genero, Plataforma, Anio, Juegos) :-
+    genero(Juegos, Genero),
+    plataforma(Juegos, Plataforma),
+    ano_de_lanzamiento(Juegos, Anio).
+
+  
+juegos(Juegos) :- findall(Juego, videojuegos(Juego, _, _), Juegos),
+        forall(member(Juego, Juegos), (write(Juego), nl)).
+      
+  
+desarrolladora_juego(Juego, Desarrolladora) :- 
+            desarrolladora_de(Desarrolladora, Juego).
+        
+          
 %musica
 %hip-hop
 artista_de_genero('Rels B', 'Hip Hop').
