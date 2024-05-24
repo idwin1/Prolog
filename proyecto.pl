@@ -1,3 +1,4 @@
+:- dynamic ano_de_lanzamiento/2.
 %Peliculas
 %_Peliculas_y_generos
 pelicula_genero('Mad_Max:_Furia_en_el_Camino','Accion').
@@ -2773,55 +2774,55 @@ videojuegos_de('Crowsworn','pc').
 videojuegos_de('Silent_Hill_Townfall','pc').
 videojuegos_de('Unrecord','pc').
 
-videojuegos_de('Pathless Woods','pc',['RPG','SIMULACION']).
-videojuegos_de('Industria_2','pc',['ACCION']).
-videojuegos_de('Knights_in_Tight_Spaces','pc',['ESTRATEGIA']).
-videojuegos_de('Worshippers_of_Cthulhu',['PC','PS5','XBS'],'SIMULACION').
-videojuegos_de('Content_Warning','PC',['ACCION','AVENTURA']).
-videojuegos_de('Hordes_of_Hunger','PC','ACCION').
-videojuegos_de('Farewell_North',['PC','NSW','XBS'],'AVENTURA').
-videojuegos_de('Robobeat','PC','ACCION').
-videojuegos_de('OVRDARK:_a_Do_Not_Open_story',['PC','PS5'],['ACCION','AVENTURA']).
-videojuegos_de('Assassins_Creed_Shadows',['PC','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('Batman:_Arkham_Shadow','PC',['ACCION','AVENTURA']).
-videojuegos_de('Funko_Fusion',['PC','NSW','PS4','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('Alien:_Rogue_Incursion',['PC','PS5'],['ACCION','AVENTURA']).
-videojuegos_de('Kingdom_Come:_Deliverance_2',['PC','PS5','XBS'],['ACCION','RPG']).
-videojuegos_de('Yars_Rising',['PC','NSW','PS4','XBO','PS5','XBS'],['ACCION','PLATAFORMAS']).
-videojuegos_de('Teenage_Mutant_Ninja_Turtles:_Splintered_Fate',['IPH','IPD','NSW'],'ACCION').
-videojuegos_de('SteamWorld_Heist_2',['XBO','NSW','PS5','XBS','PC','PS4'],'ESTRATEGIA').
-videojuegos_de('Kill_Knight',['PC','NSW','PS5','XBS'],'ACCION').
-videojuegos_de('Never_Alone_2','PC','AVENTURA').
-videojuegos_de('Slay_the_Spire_2','PC','ESTRATEGIA').
-videojuegos_de('The_Rogue_Prince_of_Persia','PC',['ACCION','PLATAFORMAS']).
-videojuegos_de('Spirit_City:_','PC',['ACCION','PLATAFORMAS']).
-videojuegos_de('The_Rogue_Prince_of_Persia','PC','SIMULACION').
-videojuegos_de('63 Days','PC','ESTRATEGIA').
-videojuegos_de('Tiny_Tires','PC','CONDUCCION').
-videojuegos_de('Divine Rush','PC','PLATAFORMAS').
-videojuegos_de('PuzzMix',['NSW','PC','PS4','PS5'],'PUZLE').
-videojuegos_de('Flint:_Treasure_of_Oblivion',['PC','PS5','XBS'],['RPG','ESTRATEGIA']).
-videojuegos_de('The_Crush_House','PC',['SIMULACION','AVENTURA']).
-videojuegos_de('Beat_Slayer','PC','ACCION').
-videojuegos_de('Age_of_Water',['PC','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('NeoSprint',['PC','NSW','PS4','XBO','PS5','XBS'],'CONDUCCION').
-videojuegos_de('Triggerheart_Exelica',['360','PC','NSW'],'ACCION').
-videojuegos_de('Soldner-X_Complete_Collection','NSW','ACCION').
-videojuegos_de('Eternal_Strands',['PC','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('POed:_Definitive_Edition',['PC','NSW','PS4','XBO','PS5','XBS'],'ACCION').
-videojuegos_de('Duckside','PC','ACCION').
-videojuegos_de('The_Kindeman_Remedy',['PC','NSW','PS4','XBO','PS5','XBS'],'ESTRATEGIA').
-videojuegos_de('As_We_Descend','PC','ESTRATEGIA').
-videojuegos_de('Nine_Sols','PC',['ACCION','PLATAFORMAS']).
-videojuegos_de('Metal:_Hellsinger_VR',['PS5','PC'],'ACCION').
-videojuegos_de('Corpse_Party_2:_Darkness_Distortion',['PC','NSW','PS4'],'AVENTURA').
-videojuegos_de('Dollhouse: Behind the Broken Mirror',['PS5','XBS','PC'],'AVENTURA').
-videojuegos_de('Rauniot','PC','AVENTURA_GRAFICA').
-videojuegos_de('Asphalt_Legends_Unite',['PC','NSW','PS4','XBO','PS5','XBS','IPH'],'CONDUCCION').
-videojuegos_de('The_Coma_2B:_Catacomb','PC','AVENTURA').
-videojuegos_de('Vambrace:_Dungeon_Monarch','PC','ESTRATEGIA').
-videojuegos_de('Sworn',['PC','NSW','PS5','XBS'],'ACCION').
-videojuegos_de('Stride:_Fates',['PC','PS5'],'ACCION').
+videojuegos_multiplataforma('Pathless Woods','pc',['RPG','SIMULACION']).
+videojuegos_multiplataforma('Industria_2','pc',['ACCION']).
+videojuegos_multiplataforma('Knights_in_Tight_Spaces','pc',['ESTRATEGIA']).
+videojuegos_multiplataforma('Worshippers_of_Cthulhu',['PC','PS5','XBS'],'SIMULACION').
+videojuegos_multiplataforma('Content_Warning','PC',['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Hordes_of_Hunger','PC','ACCION').
+videojuegos_multiplataforma('Farewell_North',['PC','NSW','XBS'],'AVENTURA').
+videojuegos_multiplataforma('Robobeat','PC','ACCION').
+videojuegos_multiplataforma('OVRDARK:_a_Do_Not_Open_story',['PC','PS5'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Assassins_Creed_Shadows',['PC','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Batman:_Arkham_Shadow','PC',['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Funko_Fusion',['PC','NSW','PS4','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Alien:_Rogue_Incursion',['PC','PS5'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Kingdom_Come:_Deliverance_2',['PC','PS5','XBS'],['ACCION','RPG']).
+videojuegos_multiplataforma('Yars_Rising',['PC','NSW','PS4','XBO','PS5','XBS'],['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('Teenage_Mutant_Ninja_Turtles:_Splintered_Fate',['IPH','IPD','NSW'],'ACCION').
+videojuegos_multiplataforma('SteamWorld_Heist_2',['XBO','NSW','PS5','XBS','PC','PS4'],'ESTRATEGIA').
+videojuegos_multiplataforma('Kill_Knight',['PC','NSW','PS5','XBS'],'ACCION').
+videojuegos_multiplataforma('Never_Alone_2','PC','AVENTURA').
+videojuegos_multiplataforma('Slay_the_Spire_2','PC','ESTRATEGIA').
+videojuegos_multiplataforma('The_Rogue_Prince_of_Persia','PC',['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('Spirit_City:_','PC',['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('The_Rogue_Prince_of_Persia','PC','SIMULACION').
+videojuegos_multiplataforma('63 Days','PC','ESTRATEGIA').
+videojuegos_multiplataforma('Tiny_Tires','PC','CONDUCCION').
+videojuegos_multiplataforma('Divine Rush','PC','PLATAFORMAS').
+videojuegos_multiplataforma('PuzzMix',['NSW','PC','PS4','PS5'],'PUZLE').
+videojuegos_multiplataforma('Flint:_Treasure_of_Oblivion',['PC','PS5','XBS'],['RPG','ESTRATEGIA']).
+videojuegos_multiplataforma('The_Crush_House','PC',['SIMULACION','AVENTURA']).
+videojuegos_multiplataforma('Beat_Slayer','PC','ACCION').
+videojuegos_multiplataforma('Age_of_Water',['PC','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('NeoSprint',['PC','NSW','PS4','XBO','PS5','XBS'],'CONDUCCION').
+videojuegos_multiplataforma('Triggerheart_Exelica',['360','PC','NSW'],'ACCION').
+videojuegos_multiplataforma('Soldner-X_Complete_Collection','NSW','ACCION').
+videojuegos_multiplataforma('Eternal_Strands',['PC','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('POed:_Definitive_Edition',['PC','NSW','PS4','XBO','PS5','XBS'],'ACCION').
+videojuegos_multiplataforma('Duckside','PC','ACCION').
+videojuegos_multiplataforma('The_Kindeman_Remedy',['PC','NSW','PS4','XBO','PS5','XBS'],'ESTRATEGIA').
+videojuegos_multiplataforma('As_We_Descend','PC','ESTRATEGIA').
+videojuegos_multiplataforma('Nine_Sols','PC',['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('Metal:_Hellsinger_VR',['PS5','PC'],'ACCION').
+videojuegos_multiplataforma('Corpse_Party_2:_Darkness_Distortion',['PC','NSW','PS4'],'AVENTURA').
+videojuegos_multiplataforma('Dollhouse: Behind the Broken Mirror',['PS5','XBS','PC'],'AVENTURA').
+videojuegos_multiplataforma('Rauniot','PC','AVENTURA_GRAFICA').
+videojuegos_multiplataforma('Asphalt_Legends_Unite',['PC','NSW','PS4','XBO','PS5','XBS','IPH'],'CONDUCCION').
+videojuegos_multiplataforma('The_Coma_2B:_Catacomb','PC','AVENTURA').
+videojuegos_multiplataforma('Vambrace:_Dungeon_Monarch','PC','ESTRATEGIA').
+videojuegos_multiplataforma('Sworn',['PC','NSW','PS5','XBS'],'ACCION').
+videojuegos_multiplataforma('Stride:_Fates',['PC','PS5'],'ACCION').
 
 
 
@@ -3210,8 +3211,8 @@ juegos(Juegos) :- findall(Juego, videojuegos(Juego, _, _), Juegos),
   
 desarrolladora_juego(Juego, Desarrolladora) :- 
             desarrolladora_de(Desarrolladora, Juego).
-        
-          
+
+%juegos_pc_y_anio_2023(Juego):-ano_de_lanzamiento(Juego,Anio),Anio=2023,videojuegos_de(Juego,'pc'),videojuegos_multiplataforma(Juego,_,_).        
 %musica
 %hip-hop
 artista_de_genero('Rels B', 'Hip Hop').
