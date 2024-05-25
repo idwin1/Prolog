@@ -3437,3 +3437,39 @@ artista_de_genero('Johannes Brahms', 'Clásica').
 artista_de_genero('Johnny Cash', 'Country').
 artista_de_genero('Frank Sinatra', 'Swing').
 
+artistas_Hip_hop(Artista):-artista_de_genero(Artista,'Hip Hop').
+artistas_regueton(Artista):-artista_de_genero(Artista,'Regueton').
+artistas_Rock(Artista):-artista_de_genero(Artista,'Rock').
+artistas_Pop(Artista):-artista_de_genero(Artista,'Pop').
+artistas_Jazz(Artista):-artista_de_genero(Artista,'Jazz').
+artistas_Ranchera(Artista):-artista_de_genero(Artista,'Ranchera').
+artistas_Salsa(Artista):-artista_de_genero(Artista,'Salsa').
+artistas_Punk_Rock(Artista):-artista_de_genero(Artista,'Punk Rock').
+artistas_Folk_Rock(Artista):-artista_de_genero(Artista,'Folk Rock').
+artistas_Hard_Rock(Artista):-artista_de_genero(Artista,'Hard Rock').
+artistas_Rock_Alternativo(Artista):-artista_de_genero(Artista,'Rock Alternativo').
+artistas_Rock_en_espanol(Artista):-artista_de_genero(Artista,'Rock en espanol').
+artistas_Pop_Rock(Artista):-artista_de_genero(Artista,'Pop Rock').
+artistas_Flamenco_Pop(Artista):-artista_de_genero(Artista,'Flamenco Pop').
+artistas_Pop_latino(Artista):-artista_de_genero(Artista,'Pop latino').
+artistas_K_Pop(Artista):-artista_de_genero(Artista,'K-Pop').
+artistas_Pop_Country(Artista):-artista_de_genero(Artista,'Pop Country').
+artistas_Indie_Pop(Artista):-artista_de_genero(Artista,'Indie Pop').
+
+
+:- use_module(library(pcre)).
+
+% Predicado que verifica si el género contiene 'Pop'
+genero_contiene_pop(Genero) :-
+    sub_atom(Genero, _, _, _, 'Pop').
+
+% Predicado para buscar artistas del género 'Pop'
+buscar_artistas_pop(Artistas) :-
+    findall(Artista, (artista_de_genero(Artista, Genero), genero_contiene_pop(Genero)), Artistas).
+
+% Ejecución de la búsqueda
+buscar_artistas_pop(Artistas), writeln(Artistas).
+
+/*
+artista_de_genero('Soda Stereo', 'Rock en espanol').
+*/
