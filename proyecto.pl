@@ -2396,7 +2396,8 @@ disponible_streaming('Mi_amigo_el_gigante', 'Netflix').
 disponible_streaming('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'HBO').
 
 
-%Reglas de Peliculas
+%posibles reglas
+%Regla para verificar si una pelicula esta disponible en una plataforma de streaming especifica:
 genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
 peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
 peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
@@ -2545,8 +2546,7 @@ peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, 
 peliculas_actor_secundario_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
 peliculas_actor_secundario_femenino(Pelicula) :- actor_secundario(Pelicula, Actriz), genero_femenino(Actriz).
 peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
-%que hace esta regla
-peliculas_director_protagonista(Pelicula, Director, Actor) :-
+peliculas_director_protagonista_comun(Pelicula, Director, Actor) :-
     pelicula_director(Pelicula, Director),
     actor_protagonista(Pelicula, Actor).
 peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
@@ -2558,10 +2558,6 @@ basado_Libro(Pelicula, Libro) :- basado_en(Pelicula, Libro,'Libro').
 basado_musical(Pelicula, Musical) :- basado_en(Pelicula, Musical,'Musical').
 basado_otros(Pelicula, Otro) :- basado_en(Pelicula,Otro,'Otro').
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
-esta_en_disney(Pelicula) :- disponible_streaming(Pelicula, 'Disney+').
-esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO').
-esta_en_amazon(Pelicula) :- disponible_streaming(Pelicula, 'Amazon_Prime').
-esta_en_star(Pelicula) :- disponible_streaming(Pelicula, 'Star+').
 %Regla para obtener todas las peliculas disponibles en una plataforma de streaming especifica:
 %Regla para obtener todas las plataformas de streaming donde esta disponible una pelicula especifica:
 plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
@@ -3137,68 +3133,6 @@ es_multijugador('Sworn').
 es_multijugador('Stride:_Fates').
 
 
- % Extraer el nombre del juego a partir del predicado ano_de_lanzamiento
-
- juego(Nombre,Anio) :- ano_de_lanzamiento(Nombre, Anio).
-  
- % Recorrer la lista de predicados ano_de_lanzamiento
-   
-  :- forall(ano_de_lanzamiento(Nombre, _), juego(Nombre,_)).
-   
-%Obtener la plataforma en la que se lanzará un juego:
-plataforma(Juego, Plataforma) :- videojuegos(Juego, _, Plataforma).
-%Consultar si un juego es de un género específico:
-genero(Juego, Genero) :- videojuegos(Juego, Genero, _).
-%Obtener la desarrolladora de un juego:
-desarrolladora(Juego, Desarrolladora) :- desarrolladora_de(Desarrolladora, Juego).
-%Consultar si un juego se lanzará en un año específico:
-lanzamiento(Juego, Anio) :- ano_de_lanzamiento(Juego, Anio).
-%Obtener todos los juegos lanzados en un año específico:
-juegos_lanzados(Anio, Juegos) :-findall(Juego, ano_de_lanzamiento(Juego, Anio), Juegos).
-%Obtener todos los juegos de una desarrolladora específica:
-juegos_desarrolladora(Desarrolladora, Juegos) :- findall(Juego, desarrolladora_de(Desarrolladora, Juego), Juegos).
-%Obtener todos los juegos de un género específico:
-juegos_genero(Genero, Juegos) :- findall(Juego, genero(Juego, Genero), Juegos).
-%Obtener todos los juegos lanzados en una plataforma específica:
-juegos_plataforma(Plataforma, Juegos) :- findall(Juego, videojuegos(Juego, _, Plataforma), Juegos).
-%Combinar consultas:
-juegos_esperados_genero(Genero, Anio, Juegos) :- mas_esperados(Juegos), genero(Juegos, Genero), ano_de_lanzamiento(Juegos, Anio).
-%Contar el número de juegos de un género específico:
-numero_juegos_genero(Genero, Cantidad) :-
-    findall(_, genero(_, Genero), Juegos),
-    length(Juegos, Cantidad).
-%Contar el número de juegos lanzados en un año específico:
-numero_juegos_lanzamiento(Anio, Cantidad) :-
-    findall(_, ano_de_lanzamiento(_, Anio), Juegos),
-    length(Juegos, Cantidad).
-%Contar el número de juegos de una desarrolladora específica:
-numero_juegos_desarrolladora(Desarrolladora, Cantidad) :-
-    findall(_, desarrolladora_de(Desarrolladora, _), Juegos),
-    length(Juegos, Cantidad).
-
-% Obtener todos los juegos lanzados antes de un año específico:
-juegos_antes_2010(Anio, Juegos) :-ano_de_lanzamiento(Juegos, Anio),Anio<2010.
-
-juegos_similares(Juego, JuegosSimilares) :-
-    genero(Juego, Genero),
-    plataforma(Juego, Plataforma),
-    desarrolladora_de(_, Juego),
-    findall(OtroJuego, genero(OtroJuego, Genero), JuegosSimilares),
-findall(OtroJuego, plataforma(OtroJuego, Plataforma), Juego).
-  
-    
-juegos_especificos(Genero, Plataforma, Anio, Juegos) :-
-    genero(Juegos, Genero),
-    plataforma(Juegos, Plataforma),
-    ano_de_lanzamiento(Juegos, Anio).
-
-  
-juegos(Juegos) :- findall(Juego, videojuegos(Juego, _, _), Juegos),
-        forall(member(Juego, Juegos), (write(Juego), nl)).
-      
-  
-desarrolladora_juego(Juego, Desarrolladora) :- 
-            desarrolladora_de(Desarrolladora, Juego).
 
 %juegos_pc_y_anio_2023(Juego):-ano_de_lanzamiento(Juego,Anio),Anio=2023,videojuegos_de(Juego,'pc'),videojuegos_multiplataforma(Juego,_,_).        
 %musica
@@ -3421,222 +3355,6 @@ artista_de_genero('Richard Wagner', 'Clásica').
 artista_de_genero('Johannes Brahms', 'Clásica').
 artista_de_genero('Johnny Cash', 'Country').
 artista_de_genero('Frank Sinatra', 'Swing').
-
-%Canciones de artistas
-cancion_de('Lejos De Ti', 'Rels B').
-cancion_de('Stan', 'Eminem').
-cancion_de('Runaway', 'Kanye West').
-cancion_de('One Dance', 'Drake').
-cancion_de('Goosebumps', 'Travis Scott').
-cancion_de('Industry Baby', 'Lil Nas X').
-cancion_de('Sunflower', 'Post Malone').
-cancion_de('Dear Mama', 'Tupac Shakur').
-cancion_de('Hypnotize', 'The Notorious B.I.G.').
-cancion_de('Empire State of Mind', 'Jay-Z').
-cancion_de('DNA.', 'Kendrick Lamar').
-cancion_de('Anaconda', 'Nicki Minaj').
-cancion_de('Still D.R.E.', 'Dr. Dre').
-cancion_de('Drop It Like It\'s Hot', 'Snoop Dogg').
-cancion_de('Candy Shop', '50 Cent').
-cancion_de('Gangsta Rap Made Me Do It', 'Ice Cube').
-cancion_de('Protect Ya Neck', 'Wu-Tang Clan').
-cancion_de('Bring the Noise', 'Public Enemy').
-cancion_de('My Adidas', 'Run-DMC').
-cancion_de('I Need Love', 'LL Cool J').
-cancion_de('One Mic', 'Nas').
-cancion_de('Ms. Jackson', 'Outkast').
-cancion_de('Work It', 'Missy Elliott').
-cancion_de('Power Trip', 'J. Cole').
-cancion_de('Tití Me Preguntó', 'Bad Bunny').
-cancion_de('Mi Gente', 'J Balvin').
-cancion_de('Taki Taki', 'Ozuna').
-cancion_de('Felices los 4', 'Maluma').
-cancion_de('Tusa', 'Karol G').
-cancion_de('Relación', 'Sech').
-cancion_de('Porfa', 'Feid').
-cancion_de('Criminal', 'Natti Natasha').
-cancion_de('Gasolina', 'Daddy Yankee').
-cancion_de('Rakata', 'Wisin & Yandel').
-cancion_de('Danza Kuduro', 'Don Omar').
-cancion_de('Me Prefieres a Mí', 'Arcángel').
-cancion_de('Travesuras', 'Nicky Jam').
-cancion_de('China', 'Anuel AA').
-cancion_de('Pepas', 'Farruko').
-cancion_de('La Curiosidad', 'Myke Towers').
-cancion_de('Soltera', 'Lunay').
-cancion_de('Todo De Ti', 'Rauw Alejandro').
-cancion_de('Dákiti', 'Jhay Cortez').
-cancion_de('Hey Jude', 'The Beatles').
-cancion_de('Comfortably Numb', 'Pink Floyd').
-cancion_de('Stairway to Heaven', 'Led Zeppelin').
-cancion_de('Light My Fire', 'The Doors').
-cancion_de('Purple Haze', 'Jimi Hendrix').
-cancion_de('Heroes', 'David Bowie').
-cancion_de('Sweet Child o\' Mine', 'Guns N Roses').
-cancion_de('Bohemian Rhapsody', 'Queen').
-cancion_de('(I Can\'t Get No) Satisfaction', 'The Rolling Stones').
-cancion_de('Thunderstruck', 'AC/DC').
-cancion_de('Rayando el Sol', 'Maná').
-cancion_de('Smooth', 'Carlos Santana').
-cancion_de('Baba O\'Riley', 'The Who').
-cancion_de('All the Small Things', 'Blink-182').
-cancion_de('Like a Rolling Stone', 'Bob Dylan').
-cancion_de('Smoke on the Water', 'Deep Purple').
-cancion_de('Pretty Fly (For a White Guy)', 'The Offspring').
-cancion_de('La Ingrata', 'Café Tacvba').
-cancion_de('The Pretender', 'Foo Fighters').
-cancion_de('Soñé', 'Zoé').
-cancion_de('Frijolero', 'Molotov').
-cancion_de('Jailhouse Rock', 'Elvis Presley').
-cancion_de('De Música Ligera', 'Soda Stereo').
-cancion_de('Entre Dos Tierras', 'Héroes del Silencio').
-cancion_de('La Célula Que Explota', 'Caifanes').
-cancion_de('La Camisa Negra', 'Juanes').
-cancion_de('Billie Jean', 'Michael Jackson').
-cancion_de('Hello', 'Adele').
-cancion_de('Yellow', 'Coldplay').
-cancion_de('Rocket Man', 'Elton John').
-cancion_de('Purple Rain', 'Prince').
-cancion_de('Amor a la Mexicana', 'Thalía').
-cancion_de('La Incondicional', 'Luis Miguel').
-cancion_de('Corre', 'Jesse & Joy').
-cancion_de('Mujeres', 'Ricardo Arjona').
-cancion_de('Conga', 'Gloria Estefan').
-cancion_de('Como La Flor', 'Selena').
-cancion_de('Pelo Suelto', 'Gloria Trevi').
-cancion_de('Shape of You', 'Ed Sheeran').
-cancion_de('7 Rings', 'Ariana Grande').
-cancion_de('Uptown Funk', 'Bruno Mars').
-cancion_de('New Rules', 'Dua Lipa').
-cancion_de('Stitches', 'Shawn Mendes').
-cancion_de('Vida de Rico', 'Camilo').
-cancion_de('Poker Face', 'Lady Gaga').
-cancion_de('Sorry', 'Justin Bieber').
-cancion_de('Truth Hurts', 'Lizzo').
-cancion_de('Haven\'t Met You Yet', 'Michael Bublé').
-cancion_de('Stay With Me', 'Sam Smith').
-cancion_de('Watermelon Sugar', 'Harry Styles').
-cancion_de('Drivers License', 'Olivia Rodrigo').
-cancion_de('Levitating', 'Dua Lipa').
-cancion_de('Like a Prayer', 'Madonna').
-cancion_de('...Baby One More Time', 'Britney Spears').
-cancion_de('Roar', 'Katy Perry').
-cancion_de('Can\'t Stop the Feeling!', 'Justin Timberlake').
-cancion_de('Single Ladies (Put a Ring on It)', 'Beyoncé').
-cancion_de('Havana', 'Camila Cabello').
-cancion_de('Hasta la Raíz', 'Natalia Lafourcade').
-cancion_de('Limón y Sal', 'Julieta Venegas').
-cancion_de('Malamente', 'Rosalía').
-cancion_de('Waka Waka (This Time for Africa)', 'Shakira').
-cancion_de('Livin\' la Vida Loca', 'Ricky Martin').
-cancion_de('Bailando', 'Enrique Iglesias').
-cancion_de('Torero', 'Chayanne').
-cancion_de('Despacito', 'Luis Fonsi').
-cancion_de('Dynamite', 'BTS').
-cancion_de('Love Story', 'Taylor Swift').
-cancion_de('Blinding Lights', 'The Weeknd').
-cancion_de('Summertime Sadness', 'Lana Del Rey').
-cancion_de('Bad Guy', 'Billie Eilish').
-cancion_de('So What', 'Miles Davis').
-cancion_de('Symphony No. 5', 'Beethoven').
-cancion_de('Smells Like Teen Spirit', 'Nirvana').
-cancion_de('Redemption Song', 'Bob Marley').
-cancion_de('Summertime', 'Ella Fitzgerald').
-cancion_de('Nuvole Bianche', 'Ludovico Einaudi').
-cancion_de('Get Lucky', 'Daft Punk').
-cancion_de('Creep', 'Radiohead').
-cancion_de('A Love Supreme', 'John Coltrane').
-cancion_de('Nocturne Op. 9 No. 2', 'Chopin').
-cancion_de('Scary Monsters and Nice Sprites', 'Skrillex').
-cancion_de('Umbrella', 'Rihanna').
-cancion_de('Volver, Volver', 'Vicente Fernández').
-cancion_de('Amor Eterno', 'Juan Gabriel').
-cancion_de('Me Dediqué a Perderte', 'Alejandro Fernández').
-cancion_de('La Llorona', 'Lila Downs').
-cancion_de('Jefe de Jefes', 'Los Tigres del Norte').
-cancion_de('Y Llegaste Tú', 'Banda El Recodo').
-cancion_de('Amorcito Corazón', 'Pedro Infante').
-cancion_de('Un Puño de Tierra', 'Antonio Aguilar').
-cancion_de('Simplemente Amigos', 'Ana Gabriel').
-cancion_de('Por Mujeres Como Tú', 'Pepe Aguilar').
-cancion_de('Inolvidable', 'Jenni Rivera').
-cancion_de('Secreto de Amor', 'Joan Sebastian').
-cancion_de('Terrenal', 'Julion Álvarez').
-cancion_de('Tus Mentiras', 'Los Bukis').
-cancion_de('El Próximo Viernes', 'Espinoza Paz').
-cancion_de('Damaso', 'Gerardo Ortiz').
-cancion_de('Que Me Vas a Dar', 'La Arrolladora Banda El Limon').
-cancion_de('Cómo Te Voy a Olvidar', 'Los Ángeles Azules').
-cancion_de('Adiós Amor', 'Christian Nodal').
-cancion_de('A La Antigüita', 'Calibre 50').
-cancion_de('La Chona', 'Los Tucanes de Tijuana').
-cancion_de('¿Y Todo Para Qué?', 'Intocable').
-cancion_de('Por Enamorarme', 'Los Plebes del Rancho de Ariel Camacho').
-cancion_de('Nieves de Enero', 'Chalino Sánchez').
-cancion_de('Dos Coronas a Mi Madre', 'Los Cadetes de Linares').
-cancion_de('Wake Me Up', 'Avicii').
-cancion_de('Animals', 'Martin Garrix').
-cancion_de('One Kiss', 'Calvin Harris').
-cancion_de('Titanium', 'David Guetta').
-cancion_de('Happier', 'Marshmello').
-cancion_de('What a Wonderful World', 'Louis Armstrong').
-cancion_de('Take the "A" Train', 'Duke Ellington').
-cancion_de('Confirmation', 'Charlie Parker').
-cancion_de('Feeling Good', 'Nina Simone').
-cancion_de('Eine kleine Nachtmusik', 'Mozart').
-cancion_de('Toccata and Fugue in D minor', 'Bach').
-cancion_de('Swan Lake', 'Tchaikovsky').
-cancion_de('The Four Seasons', 'Vivaldi').
-cancion_de('Clair de Lune', 'Debussy').
-cancion_de('Enter Sandman', 'Metallica').
-cancion_de('Psychosocial', 'Slipknot').
-cancion_de('Du Hast', 'Rammstein').
-cancion_de('Feel Good Inc.', 'Gorillaz').
-cancion_de('Do I Wanna Know?', 'Arctic Monkeys').
-cancion_de('The Less I Know the Better', 'Tame Impala').
-cancion_de('Tú Me Dejaste de Querer', 'C. Tangana').
-cancion_de('Vivir Mi Vida', 'Marc Anthony').
-cancion_de('La Vida Es Un Carnaval', 'Celia Cruz').
-cancion_de('El Cantante', 'Héctor Lavoe').
-cancion_de('El Gran Varón', 'Willie Colon').
-cancion_de('Pedro Navaja', 'Rubén Blades').
-cancion_de('Paranoid', 'Black Sabbath').
-cancion_de('The Trooper', 'Iron Maiden').
-cancion_de('Breaking the Law', 'Judas Priest').
-cancion_de('Ace of Spades', 'Motörhead').
-cancion_de('Master of Puppets', 'Metallica').
-cancion_de('Symphony of Destruction', 'Megadeth').
-cancion_de('Raining Blood', 'Slayer').
-cancion_de('Caught in a Mosh', 'Anthrax').
-cancion_de('Walk', 'Pantera').
-cancion_de('Chop Suey!', 'System of a Down').
-cancion_de('In the End', 'Linkin Park').
-cancion_de('Freak on a Leash', 'Korn').
-cancion_de('Blitzkrieg Bop', 'Ramones').
-cancion_de('God Save the Queen', 'Sex Pistols').
-cancion_de('London Calling', 'The Clash').
-cancion_de('Black Hole Sun', 'Soundgarden').
-cancion_de('Man in the Box', 'Alice in Chains').
-cancion_de('Plush', 'Stone Temple Pilots').
-cancion_de('Hey Boy, Hey Girl', 'The Chemical Brothers').
-cancion_de('Firestarter', 'The Prodigy').
-cancion_de('The Rockafeller Skank', 'Fatboy Slim').
-cancion_de('Strobe', 'Deadmau5').
-cancion_de('Where Are Ü Now', 'Diplo').
-cancion_de('Closer', 'The Chainsmokers').
-cancion_de('Misty', 'Sarah Vaughan').
-cancion_de('My Funny Valentine', 'Chet Baker').
-cancion_de('A Night in Tunisia', 'Dizzy Gillespie').
-cancion_de('Round Midnight', 'Thelonious Monk').
-cancion_de('Take Five', 'Dave Brubeck').
-cancion_de('Moonlight Sonata', 'Ludwig van Beethoven').
-cancion_de('Serenade No. 13', 'Wolfgang Amadeus Mozart').
-cancion_de('Air on the G String', 'Johann Sebastian Bach').
-cancion_de('Ride of the Valkyries', 'Richard Wagner').
-cancion_de('Hungarian Dance No. 5', 'Johannes Brahms').
-cancion_de('Ring of Fire', 'Johnny Cash').
-cancion_de('My Way', 'Frank Sinatra').
-
 
 artistas_Hip_hop(Artista):-artista_de_genero(Artista,'Hip Hop').
 artistas_regueton(Artista):-artista_de_genero(Artista,'Regueton').
