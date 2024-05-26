@@ -2395,188 +2395,6 @@ disponible_streaming('Paddington_2', 'Netflix').
 disponible_streaming('Mi_amigo_el_gigante', 'Netflix').
 disponible_streaming('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'HBO').
 
-
-%Reglas de Peliculas
-genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
-peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
-peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
-peliculas_comedia(Pelicula) :- pelicula_genero(Pelicula, 'Comedia').
-peliculas_drama(Pelicula) :- pelicula_genero(Pelicula, 'Drama').
-peliculas_terror(Pelicula) :- pelicula_genero(Pelicula, 'Terror').
-peliculas_cienciaficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
-peliculas_fantasia(Pelicula) :- pelicula_genero(Pelicula, 'Fantasia').
-peliculas_musical(Pelicula) :- pelicula_genero(Pelicula, 'Musical').
-peliculas_infantil(Pelicula) :- pelicula_genero(Pelicula, 'Infantil').
-peliculas_romance(Pelicula) :- pelicula_genero(Pelicula, 'Romance').
-peliculas_thriller(Pelicula) :- pelicula_genero(Pelicula, 'Thriller').
-peliculas_misterio(Pelicula) :- pelicula_genero(Pelicula, 'Misterio').
-peliculas_bibliografica(Pelicula) :- pelicula_genero(Pelicula, 'Biografica').
-peliculas_documental(Pelicula) :- pelicula_genero(Pelicula, 'Documental').
-peliculas_historica(Pelicula) :- pelicula_genero(Pelicula, 'Historica').
-peliculas_guerra(Pelicula) :- pelicula_genero(Pelicula, 'Guerra').
-peliculas_western(Pelicula) :- pelicula_genero(Pelicula, 'Western').
-peliculas_espionaje(Pelicula) :- pelicula_genero(Pelicula, 'Espionaje').
-peliculas_coming_of_age(Pelicula) :- pelicula_genero(Pelicula, 'Coming-of-age').
-peliculas_crimen(Pelicula) :- pelicula_genero(Pelicula, 'Crimen').
-peliculas_deporte(Pelicula) :- pelicula_genero(Pelicula, 'Deporte').
-peliculas_noir(Pelicula) :- pelicula_genero(Pelicula, 'Noir').
-peliculas_policial(Pelicula) :- pelicula_genero(Pelicula, 'Policial').
-peliculas_superheroes(Pelicula) :- pelicula_genero(Pelicula, 'Superheroes').
-peliculas_distopia(Pelicula) :- pelicula_genero(Pelicula, 'Distopia').
-peliculas_ciencia_ficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
-peliculas_suspenso(Pelicula) :- pelicula_genero(Pelicula, 'Suspenso').
-
-categoria_infantil(Pelicula, Categoria) :- pelicula_infantil(Pelicula, Categoria).
-mejor_director(Pelicula,Director) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Director',Lista),pelicula_director(Pelicula,Director).
-premio_especial(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Premio_especial_innovacion',Lista).
-mejor_banda_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Banda_Original',Lista).
-
-mejor_cancion_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Cancion_Original',Lista).
-
-mejor_pelicula_de_animacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Pelicula_de_Animacion',Lista).
-
-mejor_banda_sonora_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Banda_Sonora_Original',Lista).
-
-mejor_edicion_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Edicion_de_Sonido',Lista).
-
-mejor_actriz(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Actriz',Lista),actor_protagonista(Pelicula,Actor),genero_femenino(Actor).
-
-mejor_edicion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Edicion',Lista).
-
-mejores_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejores_Efectos_Visuales',Lista).
-
-mejor_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Fotografia',Lista).
-
-mejor_musica(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Musica',Lista).
-
-mejor_musica_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Musica_Original',Lista).
-
-mejor_maquillaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Maquillaje',Lista).
-
-mejor_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Efectos_Visuales',Lista).
-
-mejor_pelicula(Pelicula,Ano) :- gano_oscar_en(Pelicula,Ano,Lista),
-                    member('Mejor_Pelicula',Lista).
-
-mejor_actor(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Actor',Lista),actor_protagonista(Pelicula,Actor),genero_masculino(Actor).
-
-mejor_actor_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Actor_de_Reparto',Lista).
-
-mejor_actriz_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Actriz_de_Reparto',Lista).
-
-mejor_guion_adaptado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Guion_Adaptado',Lista).
-
-mejor_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Sonido',Lista).
-
-mejor_diseno_de_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Diseno_de_Produccion',Lista).
-
-mejor_direccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Direccion',Lista).
-
-mejor_direccion_de_arte(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Direccion_de_Arte',Lista).
-
-mejor_direccion_de_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Direccion_de_Fotografia',Lista).
-
-mejor_montaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Montaje',Lista).
-
-mejor_interpretacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Interpretacion',Lista).
-
-mejor_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Documental',Lista).
-
-mejor_vestuario(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Vestuario',Lista).
-
-mejor_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Produccion',Lista).
-
-mejor_mezcla_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Mezcla_de_Sonido',Lista).
-
-mejor_banda_sonora(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Banda_Sonora',Lista).
-
-mejor_cinematografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Cinematografia',Lista).
-
-mejor_actuacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Actuacion',Lista).
-
-mejor_cortometraje_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Cortometraje_Documental',Lista).
-
-mejor_efectos_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Efectos_de_Sonido',Lista).
-
-mejor_maquillaje_y_peinado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Maquillaje_y_Peinado',Lista).
-
-mejor_montaje_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Montaje_de_Sonido',Lista).
-
-peliculas_alta_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion >= 8.0.
-peliculas_actor_protagonista_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
-peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_femenino(Actor).
-peliculas_actor_secundario_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
-peliculas_actor_secundario_femenino(Pelicula) :- actor_secundario(Pelicula, Actriz), genero_femenino(Actriz).
-peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
-%que hace esta regla
-peliculas_director_protagonista(Pelicula, Director, Actor) :-
-    pelicula_director(Pelicula, Director),
-    actor_protagonista(Pelicula, Actor).
-peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
-
-peliculas_1900(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano =< 1999.
-peliculas_2000(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano >= 2000.
-peliculas_no_EUA(Pelicula,Nacionalidad) :- nacionalidad(Pelicula, Nacionalidad), Nacionalidad \= 'Estados Unidos'.
-basado_Libro(Pelicula, Libro) :- basado_en(Pelicula, Libro,'Libro').
-basado_musical(Pelicula, Musical) :- basado_en(Pelicula, Musical,'Musical').
-basado_otros(Pelicula, Otro) :- basado_en(Pelicula,Otro,'Otro').
-esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
-esta_en_disney(Pelicula) :- disponible_streaming(Pelicula, 'Disney+').
-esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO').
-esta_en_amazon(Pelicula) :- disponible_streaming(Pelicula, 'Amazon_Prime').
-esta_en_star(Pelicula) :- disponible_streaming(Pelicula, 'Star+').
-%Regla para obtener todas las peliculas disponibles en una plataforma de streaming especifica:
-%Regla para obtener todas las plataformas de streaming donde esta disponible una pelicula especifica:
-plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
-%Regla para verificar si una pelicula ha ganado un Oscar:
-gano_oscar(Pelicula) :- gano_oscar_en(Pelicula,_,_).
-
-%Regla para obtener todas las categorias en las que una pelicula ha ganado un Oscar:
-categorias_ganadas( Pelicula,Categorias) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
-
-imprimir_peliculas_ordenadas :-
-    findall(Pelicula, pelicula_genero(Pelicula, _), Peliculas),  
-    msort(Peliculas, PeliculasOrdenadas),
-    forall(member(Pelicula, PeliculasOrdenadas),                
-           format(' - ~a~n', [Pelicula])).
-
 %videojuegos
 %es_videojuego(Nombre_juego).
 
@@ -3729,7 +3547,6 @@ peliculas_director_protagonista(Pelicula, Director, Actor) :-
     pelicula_director(Pelicula, Director),
     actor_protagonista(Pelicula, Actor).
 peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
-
 peliculas_1900(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano =< 1999.
 peliculas_2000(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano >= 2000.
 peliculas_no_EUA(Pelicula,Nacionalidad) :- nacionalidad(Pelicula, Nacionalidad), Nacionalidad \= 'Estados Unidos'.
@@ -3737,14 +3554,18 @@ basado_Libro(Pelicula, Libro) :- basado_en(Pelicula, Libro,'Libro').
 basado_musical(Pelicula, Musical) :- basado_en(Pelicula, Musical,'Musical').
 basado_otros(Pelicula, Otro) :- basado_en(Pelicula,Otro,'Otro').
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
-%Regla para obtener todas las peliculas disponibles en una plataforma de streaming especifica:
-%Regla para obtener todas las plataformas de streaming donde esta disponible una pelicula especifica:
+esta_en_disney(Pelicula) :- disponible_streaming(Pelicula, 'Disney+').
+esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO').
+esta_en_amazon(Pelicula) :- disponible_streaming(Pelicula, 'Amazon_Prime').
+esta_en_star(Pelicula) :- disponible_streaming(Pelicula, 'Star+').
 plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
-%Regla para verificar si una pelicula ha ganado un Oscar:
 gano_oscar(Pelicula) :- gano_oscar_en(Pelicula,_,_).
-
-%Regla para obtener todas las categorias en las que una pelicula ha ganado un Oscar:
 categorias_ganadas( Pelicula,Categorias) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
+imprimir_peliculas_ordenadas :-
+    findall(Pelicula, pelicula_genero(Pelicula, _), Peliculas),  
+    msort(Peliculas, PeliculasOrdenadas),
+    forall(member(Pelicula, PeliculasOrdenadas),                
+           format(' - ~a~n', [Pelicula])).
 
 %---------------------videojuegos
 
