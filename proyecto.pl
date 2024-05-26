@@ -3595,10 +3595,6 @@ juegos_genero(Genero, Juegos) :- findall(Juego, genero(Juego, Genero), Juegos).
 juegos_plataforma(Plataforma, Juegos) :- findall(Juego, videojuegos(Juego, _, Plataforma), Juegos).
 %Combinar consultas:
 juegos_esperados_genero(Genero, Anio, Juegos) :- mas_esperados(Juegos), genero(Juegos, Genero), ano_de_lanzamiento(Juegos, Anio).
-%Contar el número de juegos de un género específico:
-numero_juegos_genero(Genero, Cantidad) :-
-    findall(_, genero(_, Genero), Juegos),
-    length(Juegos, Cantidad).
 %Contar el número de juegos lanzados en un año específico:
 numero_juegos_lanzamiento(Anio, Cantidad) :-
     findall(_, ano_de_lanzamiento(_, Anio), Juegos),
