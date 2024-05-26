@@ -2997,7 +2997,7 @@ artista_de_genero('Natti Natasha', 'Regueton').
 artista_de_genero('Daddy Yankee', 'Regueton').
 artista_de_genero('Wisin & Yandel', 'Regueton').
 artista_de_genero('Don Omar', 'Regueton').
-artista_de_genero('Arcángel', 'Regueton').
+artista_de_genero('Arcangel', 'Regueton').
 artista_de_genero('Nicky Jam', 'Regueton').
 artista_de_genero('Anuel AA', 'Regueton').
 artista_de_genero('Farruko', 'Regueton').
@@ -3016,20 +3016,20 @@ artista_de_genero('Guns N Roses', 'Rock').
 artista_de_genero('Queen', 'Rock').
 artista_de_genero('The Rolling Stones', 'Rock').
 artista_de_genero('AC/DC', 'Rock').
-artista_de_genero('Maná', 'Rock').
+artista_de_genero('Mana', 'Rock').
 artista_de_genero('Carlos Santana', 'Rock').
 artista_de_genero('The Who', 'Rock').
 artista_de_genero('Blink-182', 'Punk Rock').
 artista_de_genero('Bob Dylan', 'Folk Rock').
 artista_de_genero('Deep Purple', 'Hard Rock').
 artista_de_genero('The Offspring', 'Punk Rock').
-artista_de_genero('Café Tacvba', 'Rock Alternativo').
+artista_de_genero('Cafe Tacvba', 'Rock Alternativo').
 artista_de_genero('Foo Fighters', 'Rock Alternativo').
-artista_de_genero('Zoé', 'Rock Alternativo').
+artista_de_genero('Zoe', 'Rock Alternativo').
 artista_de_genero('Molotov', 'Rock Alternativo').
 artista_de_genero('Elvis Presley', 'Rock and Roll').
 artista_de_genero('Soda Stereo', 'Rock en espanol').
-artista_de_genero('Héroes del Silencio', 'Rock en espanol').
+artista_de_genero('Heroes del Silencio', 'Rock en espanol').
 artista_de_genero('Caifanes', 'Rock en espanol').
 artista_de_genero('Juanes', 'Rock en espanol').
 %pop
@@ -3038,7 +3038,7 @@ artista_de_genero('Adele', 'Pop').
 artista_de_genero('Coldplay', 'Pop').
 artista_de_genero('Elton John', 'Pop').
 artista_de_genero('Prince', 'Pop').
-artista_de_genero('Thalía', 'Pop').
+artista_de_genero('Thalia', 'Pop').
 artista_de_genero('Luis Miguel', 'Pop').
 artista_de_genero('Jesse & Joy', 'Pop').
 artista_de_genero('Ricardo Arjona', 'Pop').
@@ -3054,7 +3054,7 @@ artista_de_genero('Camilo', 'Pop').
 artista_de_genero('Lady Gaga', 'Pop').
 artista_de_genero('Justin Bieber', 'Pop').
 artista_de_genero('Lizzo', 'Pop').
-artista_de_genero('Michael Bublé', 'Pop').
+artista_de_genero('Michael Buble', 'Pop').
 artista_de_genero('Sam Smith', 'Pop').
 artista_de_genero('Harry Styles', 'Pop').
 artista_de_genero('Olivia Rodrigo', 'Pop').
@@ -3063,11 +3063,11 @@ artista_de_genero('Madonna', 'Pop').
 artista_de_genero('Britney Spears', 'Pop').
 artista_de_genero('Katy Perry', 'Pop').
 artista_de_genero('Justin Timberlake', 'Pop').
-artista_de_genero('Beyoncé', 'Pop').
+artista_de_genero('Beyonce', 'Pop').
 artista_de_genero('Camila Cabello', 'Pop').
 artista_de_genero('Natalia Lafourcade', 'Pop Rock').
 artista_de_genero('Julieta Venegas', 'Pop Rock').
-artista_de_genero('Rosalía', 'Flamenco Pop').
+artista_de_genero('Rosalia', 'Flamenco Pop').
 artista_de_genero('Shakira', 'Pop latino').
 artista_de_genero('Ricky Martin', 'Pop latino').
 artista_de_genero('Enrique Iglesias', 'Pop latino').
@@ -3079,20 +3079,20 @@ artista_de_genero('The Weeknd', 'R&B').
 artista_de_genero('Lana Del Rey', 'Indie Pop').
 artista_de_genero('Billie Eilish', 'Pop Alternativo').
 artista_de_genero('Miles Davis', 'Jazz').
-artista_de_genero('Beethoven', 'Clásica').
+artista_de_genero('Beethoven', 'Clasica').
 artista_de_genero('Nirvana', 'Grunge').
 artista_de_genero('Bob Marley', 'Reggae').
 artista_de_genero('Ella Fitzgerald', 'Jazz').
-artista_de_genero('Ludovico Einaudi', 'Clásica').
+artista_de_genero('Ludovico Einaudi', 'Clasica').
 artista_de_genero('Daft Punk', 'Electronica').
 artista_de_genero('Radiohead', 'Alternativa').
 artista_de_genero('John Coltrane', 'Jazz').
-artista_de_genero('Chopin', 'Clásica').
+artista_de_genero('Chopin', 'Clasica').
 artista_de_genero('Skrillex', 'Dubstep').
 artista_de_genero('Rihanna', 'R&B').
-artista_de_genero('Vicente Fernández', 'Ranchera').
+artista_de_genero('Vicente Fernandez', 'Ranchera').
 artista_de_genero('Juan Gabriel', 'Ranchera').
-artista_de_genero('Alejandro Fernández', 'Ranchera').
+artista_de_genero('Alejandro Fernandez', 'Ranchera').
 artista_de_genero('Lila Downs', 'Folk').
 artista_de_genero('Los Tigres del Norte', 'Nortena').
 artista_de_genero('Banda El Recodo', 'Banda').
@@ -3102,18 +3102,18 @@ artista_de_genero('Ana Gabriel', 'Ranchera').
 artista_de_genero('Pepe Aguilar', 'Ranchera').
 artista_de_genero('Jenni Rivera', 'Banda').
 artista_de_genero('Joan Sebastian', 'Banda').
-artista_de_genero('Julion Álvarez', 'Banda').
+artista_de_genero('Julion Alvarez', 'Banda').
 artista_de_genero('Los Bukis', 'Banda').
 artista_de_genero('Espinoza Paz', 'Banda').
 artista_de_genero('Gerardo Ortiz', 'Banda').
 artista_de_genero('La Arrolladora Banda El Limon', 'Banda').
-artista_de_genero('Los Ángeles Azules', 'Cumbia').
+artista_de_genero('Los Angeles Azules', 'Cumbia').
 artista_de_genero('Christian Nodal', 'Mariachi').
 artista_de_genero('Calibre 50', 'Nortena').
 artista_de_genero('Los Tucanes de Tijuana', 'Nortena').
 artista_de_genero('Intocable', 'Nortena').
 artista_de_genero('Los Plebes del Rancho de Ariel Camacho', 'Nortena').
-artista_de_genero('Chalino Sánchez', 'Corrido').
+artista_de_genero('Chalino Sanchez', 'Corrido').
 artista_de_genero('Los Cadetes de Linares', 'Corrido').
 artista_de_genero('Avicii', 'Electronica').
 artista_de_genero('Martin Garrix', 'Electronica').
@@ -3124,23 +3124,23 @@ artista_de_genero('Louis Armstrong', 'Jazz').
 artista_de_genero('Duke Ellington', 'Jazz').
 artista_de_genero('Charlie Parker', 'Jazz').
 artista_de_genero('Nina Simone', 'Jazz').
-artista_de_genero('Mozart', 'Clásica').
-artista_de_genero('Bach', 'Clásica').
-artista_de_genero('Tchaikovsky', 'Clásica').
-artista_de_genero('Vivaldi', 'Clásica').
-artista_de_genero('Debussy', 'Clásica').
+artista_de_genero('Mozart', 'Clasica').
+artista_de_genero('Bach', 'Clasica').
+artista_de_genero('Tchaikovsky', 'Clasica').
+artista_de_genero('Vivaldi', 'Clasica').
+artista_de_genero('Debussy', 'Clasica').
 artista_de_genero('Metallica', 'Heavy Metal').
 artista_de_genero('Slipknot', 'Nu Metal').
 artista_de_genero('Rammstein', 'Industrial Metal').
 artista_de_genero('Gorillaz', 'Alternativo').
 artista_de_genero('Arctic Monkeys', 'Indie Rock').
-artista_de_genero('Tame Impala', 'Psicodélico').
+artista_de_genero('Tame Impala', 'Psicodelico').
 artista_de_genero('C. Tangana', 'Urbano').
 artista_de_genero('Marc Anthony', 'Salsa').
 artista_de_genero('Celia Cruz', 'Salsa').
-artista_de_genero('Héctor Lavoe', 'Salsa').
+artista_de_genero('Hector Lavoe', 'Salsa').
 artista_de_genero('Willie Colon', 'Salsa').
-artista_de_genero('Rubén Blades', 'Salsa').
+artista_de_genero('Ruben Blades', 'Salsa').
 artista_de_genero('Black Sabbath', 'Heavy Metal').
 artista_de_genero('Iron Maiden', 'Heavy Metal').
 artista_de_genero('Judas Priest', 'Heavy Metal').
@@ -3170,11 +3170,11 @@ artista_de_genero('Chet Baker', 'Jazz').
 artista_de_genero('Dizzy Gillespie', 'Jazz').
 artista_de_genero('Thelonious Monk', 'Jazz').
 artista_de_genero('Dave Brubeck', 'Jazz').
-artista_de_genero('Ludwig van Beethoven', 'Clásica').
-artista_de_genero('Wolfgang Amadeus Mozart', 'Clásica').
-artista_de_genero('Johann Sebastian Bach', 'Clásica').
-artista_de_genero('Richard Wagner', 'Clásica').
-artista_de_genero('Johannes Brahms', 'Clásica').
+artista_de_genero('Ludwig van Beethoven', 'Clasica').
+artista_de_genero('Wolfgang Amadeus Mozart', 'Clasica').
+artista_de_genero('Johann Sebastian Bach', 'Clasica').
+artista_de_genero('Richard Wagner', 'Clasica').
+artista_de_genero('Johannes Brahms', 'Clasica').
 artista_de_genero('Johnny Cash', 'Country').
 artista_de_genero('Frank Sinatra', 'Swing').
 
@@ -3203,25 +3203,25 @@ cancion_de('One Mic', 'Nas').
 cancion_de('Ms. Jackson', 'Outkast').
 cancion_de('Work It', 'Missy Elliott').
 cancion_de('Power Trip', 'J. Cole').
-cancion_de('Tití Me Preguntó', 'Bad Bunny').
+cancion_de('Titi Me Pregunto', 'Bad Bunny').
 cancion_de('Mi Gente', 'J Balvin').
 cancion_de('Taki Taki', 'Ozuna').
 cancion_de('Felices los 4', 'Maluma').
 cancion_de('Tusa', 'Karol G').
-cancion_de('Relación', 'Sech').
+cancion_de('Relacion', 'Sech').
 cancion_de('Porfa', 'Feid').
 cancion_de('Criminal', 'Natti Natasha').
 cancion_de('Gasolina', 'Daddy Yankee').
 cancion_de('Rakata', 'Wisin & Yandel').
 cancion_de('Danza Kuduro', 'Don Omar').
-cancion_de('Me Prefieres a Mí', 'Arcángel').
+cancion_de('Me Prefieres a Mi', 'Arcangel').
 cancion_de('Travesuras', 'Nicky Jam').
 cancion_de('China', 'Anuel AA').
 cancion_de('Pepas', 'Farruko').
 cancion_de('La Curiosidad', 'Myke Towers').
 cancion_de('Soltera', 'Lunay').
 cancion_de('Todo De Ti', 'Rauw Alejandro').
-cancion_de('Dákiti', 'Jhay Cortez').
+cancion_de('Dakiti', 'Jhay Cortez').
 cancion_de('Hey Jude', 'The Beatles').
 cancion_de('Comfortably Numb', 'Pink Floyd').
 cancion_de('Stairway to Heaven', 'Led Zeppelin').
@@ -3232,28 +3232,28 @@ cancion_de('Sweet Child o\' Mine', 'Guns N Roses').
 cancion_de('Bohemian Rhapsody', 'Queen').
 cancion_de('(I Can\'t Get No) Satisfaction', 'The Rolling Stones').
 cancion_de('Thunderstruck', 'AC/DC').
-cancion_de('Rayando el Sol', 'Maná').
+cancion_de('Rayando el Sol', 'Mana').
 cancion_de('Smooth', 'Carlos Santana').
 cancion_de('Baba O\'Riley', 'The Who').
 cancion_de('All the Small Things', 'Blink-182').
 cancion_de('Like a Rolling Stone', 'Bob Dylan').
 cancion_de('Smoke on the Water', 'Deep Purple').
 cancion_de('Pretty Fly (For a White Guy)', 'The Offspring').
-cancion_de('La Ingrata', 'Café Tacvba').
+cancion_de('La Ingrata', 'Cafe Tacvba').
 cancion_de('The Pretender', 'Foo Fighters').
-cancion_de('Soñé', 'Zoé').
+cancion_de('Sone', 'Zoe').
 cancion_de('Frijolero', 'Molotov').
 cancion_de('Jailhouse Rock', 'Elvis Presley').
-cancion_de('De Música Ligera', 'Soda Stereo').
-cancion_de('Entre Dos Tierras', 'Héroes del Silencio').
-cancion_de('La Célula Que Explota', 'Caifanes').
+cancion_de('De Musica Ligera', 'Soda Stereo').
+cancion_de('Entre Dos Tierras', 'Heroes del Silencio').
+cancion_de('La Celula Que Explota', 'Caifanes').
 cancion_de('La Camisa Negra', 'Juanes').
 cancion_de('Billie Jean', 'Michael Jackson').
 cancion_de('Hello', 'Adele').
 cancion_de('Yellow', 'Coldplay').
 cancion_de('Rocket Man', 'Elton John').
 cancion_de('Purple Rain', 'Prince').
-cancion_de('Amor a la Mexicana', 'Thalía').
+cancion_de('Amor a la Mexicana', 'Thalia').
 cancion_de('La Incondicional', 'Luis Miguel').
 cancion_de('Corre', 'Jesse & Joy').
 cancion_de('Mujeres', 'Ricardo Arjona').
@@ -3269,7 +3269,7 @@ cancion_de('Vida de Rico', 'Camilo').
 cancion_de('Poker Face', 'Lady Gaga').
 cancion_de('Sorry', 'Justin Bieber').
 cancion_de('Truth Hurts', 'Lizzo').
-cancion_de('Haven\'t Met You Yet', 'Michael Bublé').
+cancion_de('Haven\'t Met You Yet', 'Michael Buble').
 cancion_de('Stay With Me', 'Sam Smith').
 cancion_de('Watermelon Sugar', 'Harry Styles').
 cancion_de('Drivers License', 'Olivia Rodrigo').
@@ -3278,11 +3278,11 @@ cancion_de('Like a Prayer', 'Madonna').
 cancion_de('...Baby One More Time', 'Britney Spears').
 cancion_de('Roar', 'Katy Perry').
 cancion_de('Can\'t Stop the Feeling!', 'Justin Timberlake').
-cancion_de('Single Ladies (Put a Ring on It)', 'Beyoncé').
+cancion_de('Single Ladies (Put a Ring on It)', 'Beyonce').
 cancion_de('Havana', 'Camila Cabello').
-cancion_de('Hasta la Raíz', 'Natalia Lafourcade').
-cancion_de('Limón y Sal', 'Julieta Venegas').
-cancion_de('Malamente', 'Rosalía').
+cancion_de('Hasta la Raiz', 'Natalia Lafourcade').
+cancion_de('Limon y Sal', 'Julieta Venegas').
+cancion_de('Malamente', 'Rosalia').
 cancion_de('Waka Waka (This Time for Africa)', 'Shakira').
 cancion_de('Livin\' la Vida Loca', 'Ricky Martin').
 cancion_de('Bailando', 'Enrique Iglesias').
@@ -3305,30 +3305,30 @@ cancion_de('A Love Supreme', 'John Coltrane').
 cancion_de('Nocturne Op. 9 No. 2', 'Chopin').
 cancion_de('Scary Monsters and Nice Sprites', 'Skrillex').
 cancion_de('Umbrella', 'Rihanna').
-cancion_de('Volver, Volver', 'Vicente Fernández').
+cancion_de('Volver, Volver', 'Vicente Fernandez').
 cancion_de('Amor Eterno', 'Juan Gabriel').
-cancion_de('Me Dediqué a Perderte', 'Alejandro Fernández').
+cancion_de('Me Dedique a Perderte', 'Alejandro Fernandez').
 cancion_de('La Llorona', 'Lila Downs').
 cancion_de('Jefe de Jefes', 'Los Tigres del Norte').
-cancion_de('Y Llegaste Tú', 'Banda El Recodo').
-cancion_de('Amorcito Corazón', 'Pedro Infante').
-cancion_de('Un Puño de Tierra', 'Antonio Aguilar').
+cancion_de('Y Llegaste Tu', 'Banda El Recodo').
+cancion_de('Amorcito Corazon', 'Pedro Infante').
+cancion_de('Un Puno de Tierra', 'Antonio Aguilar').
 cancion_de('Simplemente Amigos', 'Ana Gabriel').
-cancion_de('Por Mujeres Como Tú', 'Pepe Aguilar').
+cancion_de('Por Mujeres Como Tu', 'Pepe Aguilar').
 cancion_de('Inolvidable', 'Jenni Rivera').
 cancion_de('Secreto de Amor', 'Joan Sebastian').
-cancion_de('Terrenal', 'Julion Álvarez').
+cancion_de('Terrenal', 'Julion Alvarez').
 cancion_de('Tus Mentiras', 'Los Bukis').
-cancion_de('El Próximo Viernes', 'Espinoza Paz').
+cancion_de('El Proximo Viernes', 'Espinoza Paz').
 cancion_de('Damaso', 'Gerardo Ortiz').
 cancion_de('Que Me Vas a Dar', 'La Arrolladora Banda El Limon').
-cancion_de('Cómo Te Voy a Olvidar', 'Los Ángeles Azules').
-cancion_de('Adiós Amor', 'Christian Nodal').
+cancion_de('Como Te Voy a Olvidar', 'Los Angeles Azules').
+cancion_de('Adios Amor', 'Christian Nodal').
 cancion_de('A La Antigüita', 'Calibre 50').
 cancion_de('La Chona', 'Los Tucanes de Tijuana').
-cancion_de('¿Y Todo Para Qué?', 'Intocable').
+cancion_de('¿Y Todo Para Que?', 'Intocable').
 cancion_de('Por Enamorarme', 'Los Plebes del Rancho de Ariel Camacho').
-cancion_de('Nieves de Enero', 'Chalino Sánchez').
+cancion_de('Nieves de Enero', 'Chalino Sanchez').
 cancion_de('Dos Coronas a Mi Madre', 'Los Cadetes de Linares').
 cancion_de('Wake Me Up', 'Avicii').
 cancion_de('Animals', 'Martin Garrix').
@@ -3350,12 +3350,12 @@ cancion_de('Du Hast', 'Rammstein').
 cancion_de('Feel Good Inc.', 'Gorillaz').
 cancion_de('Do I Wanna Know?', 'Arctic Monkeys').
 cancion_de('The Less I Know the Better', 'Tame Impala').
-cancion_de('Tú Me Dejaste de Querer', 'C. Tangana').
+cancion_de('Tu Me Dejaste de Querer', 'C. Tangana').
 cancion_de('Vivir Mi Vida', 'Marc Anthony').
 cancion_de('La Vida Es Un Carnaval', 'Celia Cruz').
-cancion_de('El Cantante', 'Héctor Lavoe').
-cancion_de('El Gran Varón', 'Willie Colon').
-cancion_de('Pedro Navaja', 'Rubén Blades').
+cancion_de('El Cantante', 'Hector Lavoe').
+cancion_de('El Gran Varon', 'Willie Colon').
+cancion_de('Pedro Navaja', 'Ruben Blades').
 cancion_de('Paranoid', 'Black Sabbath').
 cancion_de('The Trooper', 'Iron Maiden').
 cancion_de('Breaking the Law', 'Judas Priest').
@@ -3577,38 +3577,34 @@ imprimir_peliculas_ordenadas :-
    
   :- forall(ano_de_lanzamiento(Nombre, _), juego(Nombre,_)).
    
-%Obtener la plataforma en la que se lanzará un juego:
+%Obtener la plataforma en la que se lanzara un juego:
 plataforma(Juego, Plataforma) :- videojuegos(Juego, _, Plataforma).
-%Consultar si un juego es de un género específico:
+%Consultar si un juego es de un genero especifico:
 genero(Juego, Genero) :- videojuegos(Juego, Genero, _).
 %Obtener la desarrolladora de un juego:
 desarrolladora(Juego, Desarrolladora) :- desarrolladora_de(Desarrolladora, Juego).
-%Consultar si un juego se lanzará en un año específico:
+%Consultar si un juego se lanzara en un ano especifico:
 lanzamiento(Juego, Anio) :- ano_de_lanzamiento(Juego, Anio).
-%Obtener todos los juegos lanzados en un año específico:
+%Obtener todos los juegos lanzados en un ano especifico:
 juegos_lanzados(Anio, Juegos) :-findall(Juego, ano_de_lanzamiento(Juego, Anio), Juegos).
-%Obtener todos los juegos de una desarrolladora específica:
+%Obtener todos los juegos de una desarrolladora especifica:
 juegos_desarrolladora(Desarrolladora, Juegos) :- findall(Juego, desarrolladora_de(Desarrolladora, Juego), Juegos).
-%Obtener todos los juegos de un género específico:
+%Obtener todos los juegos de un genero especifico:
 juegos_genero(Genero, Juegos) :- findall(Juego, genero(Juego, Genero), Juegos).
-%Obtener todos los juegos lanzados en una plataforma específica:
+%Obtener todos los juegos lanzados en una plataforma especifica:
 juegos_plataforma(Plataforma, Juegos) :- findall(Juego, videojuegos(Juego, _, Plataforma), Juegos).
 %Combinar consultas:
 juegos_esperados_genero(Genero, Anio, Juegos) :- mas_esperados(Juegos), genero(Juegos, Genero), ano_de_lanzamiento(Juegos, Anio).
-%Contar el número de juegos de un género específico:
-numero_juegos_genero(Genero, Cantidad) :-
-    findall(_, genero(_, Genero), Juegos),
-    length(Juegos, Cantidad).
-%Contar el número de juegos lanzados en un año específico:
+%Contar el numero de juegos lanzados en un ano especifico:
 numero_juegos_lanzamiento(Anio, Cantidad) :-
     findall(_, ano_de_lanzamiento(_, Anio), Juegos),
     length(Juegos, Cantidad).
-%Contar el número de juegos de una desarrolladora específica:
+%Contar el numero de juegos de una desarrolladora especifica:
 numero_juegos_desarrolladora(Desarrolladora, Cantidad) :-
     findall(_, desarrolladora_de(Desarrolladora, _), Juegos),
     length(Juegos, Cantidad).
 
-% Obtener todos los juegos lanzados antes de un año específico:
+% Obtener todos los juegos lanzados antes de un ano especifico:
 juegos_antes_2010(Anio, Juegos) :-ano_de_lanzamiento(Juegos, Anio),Anio<2010.
 
 juegos_similares(Juego, JuegosSimilares) :-
@@ -3653,17 +3649,14 @@ artistas_K_Pop(Artista):-artista_de_genero(Artista,'K-Pop').
 artistas_Pop_Country(Artista):-artista_de_genero(Artista,'Pop Country').
 artistas_Indie_Pop(Artista):-artista_de_genero(Artista,'Indie Pop').
 
-cancion_de_artista(Artista, Cancion) :- cancion_de(Cancion, Artista).
-:- use_module(library(pcre)).
+canciones_por_artista(Canciones, Artista) :-
+    findall(Cancion, cancion_de(Cancion, Artista), Canciones).
+artistas_por_cancion(Artistas, Cancion) :-
+    findall(Artista, cancion_de(Cancion, Artista), Artistas).
+canciones_por_genero(Canciones, Genero) :-
+    findall(Cancion, (cancion_de(Cancion, Artista), artista_de_genero(Artista, Genero)), Canciones).
 
-% Predicado que verifica si el género contiene 'Pop'
-genero_contiene_pop(Genero) :-
-    sub_atom(Genero, _, _, _, 'Pop').
-
-% Predicado para buscar artistas del género 'Pop'
 buscar_artistas_pop(Artistas) :-
-    findall(Artista, (artista_de_genero(Artista, Genero), genero_contiene_pop(Genero)), Artistas), writeln(Artistas).
-
-/*
-artista_de_genero('Soda Stereo', 'Rock en espanol').
-*/
+    findall(Artista, (artista_de_genero(Artista, Genero), sub_atom(Genero, _, _, _, 'Pop')), Artistas),
+    writeln(Artistas).
+    
