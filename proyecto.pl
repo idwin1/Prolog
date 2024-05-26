@@ -102,9 +102,7 @@ pelicula_genero('Tiburon','Suspenso').
 pelicula_genero('El_Silencio_de_los_Inocentes','Suspenso').
 pelicula_genero('Zodiaco','Suspenso').
 pelicula_genero('Prisioneros','Suspenso').
-pelicula_genero('Se7en','Suspenso').
 pelicula_genero('La_Isla_Siniestra','Suspenso').
-pelicula_genero('Perdida','Suspenso').
 pelicula_genero('Memento','Suspenso').
 pelicula_genero('El_Sexto_Sentido','Suspenso').
 pelicula_genero('El_Cisne_Negro','Suspenso').
@@ -128,7 +126,6 @@ pelicula_genero('Percy_Jackson_y_el_Ladron_del_Rayo','Fantasia').
 pelicula_genero('El_Cristal_Encantado','Fantasia').
 pelicula_genero('Laberinto','Fantasia').
 pelicula_genero('Eragon','Fantasia').
-pelicula_genero('La_La_Land:_Una_Historia_de_Amor','Musical').
 pelicula_genero('Chicago','Musical').
 pelicula_genero('El_Gran_Showman','Musical').
 pelicula_genero('Los_Miserables','Musical').
@@ -138,7 +135,6 @@ pelicula_genero('Hairspray','Musical').
 pelicula_genero('Amor_Sin_Barreras','Musical').
 pelicula_genero('Cantando_Bajo_la_Lluvia','Musical').
 pelicula_genero('El_Fantasma_de_la_opera','Musical').
-pelicula_genero('Rocky','Deporte').
 pelicula_genero('Toro_Salvaje','Deporte').
 pelicula_genero('El_Peleador','Deporte').
 pelicula_genero('Creed:_Corazon_de_Campeon','Deporte').
@@ -168,7 +164,6 @@ pelicula_genero('WALL-E','Infantil').
 pelicula_genero('Valiente','Infantil').
 pelicula_genero('Lilo_&_Stitch','Infantil').
 pelicula_genero('Los_Aristogatos','Infantil').
-pelicula_genero('Ralph_el_Demoledor','Infantil').
 pelicula_genero('La_Dama_y_el_Vagabundo','Infantil').
 pelicula_genero('La_Princesa_y_el_Sapo','Infantil').
 pelicula_genero('Bolt','Infantil').
@@ -345,7 +340,7 @@ gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion
 gano_oscar_en('El_Exorcista', 1974, ['Mejor_Guion_Adaptado', 'Mejor_Sonido']).
 gano_oscar_en('La_Guerra_de_las_Galaxia', 1978, ['Mejor_Diseno_de_Produccion', 'Mejor_Direccion', 'Mejor_Actor_de_Reparto', 'Mejor_Guion_Original', 'Mejor_Montaje', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
-gano_oscar_en('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero',2006,['Mejor_Maquillaje_y_Peluqueria']).
+gano_oscar_en('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero',2006,['Mejor_Maquillaje_y_Peinado']).
 gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).
 gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).
 gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).
@@ -372,29 +367,27 @@ gano_oscar_en('E.T.,el_Extraterrestre', 1983, ['Mejor_Sonido', 'Mejores_Efectos_
 gano_oscar_en('Volver_al_Futuro', 1986,['Mejor_Edicion_de_Sonido']).
 gano_oscar_en('El_Origen', 2011, ['Mejor_Fotografia', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('Matrix', 2000, ['Mejor_Edicion', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido', 'Mejor_Efectos_Visuales']).
-gano_oscar_en('Avatar', 2010, ['Mejor_Fotografia', 'Mejor_Direccion_Artistica', 'Mejor_Efectos_Visuales']).
+gano_oscar_en('Avatar', 2010, ['Mejor_Fotografia', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('Terminator', 1985,['Mejor_Edicion_de_Sonido']).
 gano_oscar_en('Interestelar', 2015, ['Mejor_Efectos_Visuales']).
 gano_oscar_en('Alien:_El_Octavo_Pasajero', 1980, ['Mejor_Efectos_Visuales']).
 gano_oscar_en('Titanic', 1998, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia', 'Mejor_Mezcla_de_Sonido', 'Mejor_Montaje', 'Mejor_Banda_Sonora', 'Mejor_Cancion_Original', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('Casablanca', 1944, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('Huye', 2018, ['Mejor_Guion_Original']).
-gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
-gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
-gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor_Principal', 'Mejor_Efectos_Visuales']).
-gano_oscar_en('12_Anos_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_Secundaria']).
+gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
+gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
+gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Efectos_Visuales']).
+gano_oscar_en('12_Anos_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto']).
 gano_oscar_en('Quien_Quiere_Ser_Millonario', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).
-gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
+gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
 gano_oscar_en('Tiburon', 1976, ['Mejor_Musica_Original']).
-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Actriz_Principal', 'Mejor_Guion_Adaptado']).
-gano_oscar_en('El_Cisne_Negro', 2011, ['Mejor Actriz Principal']).
+gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).
+gano_oscar_en('El_Cisne_Negro', 2011, ['Mejor_Actriz']).
 gano_oscar_en('El_Mago_de_Oz', 1940, ['Mejor_Cancion_Original', 'Mejor_Banda_Sonora_Original']).
-gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, ['Mejor_Direccion_de_Fotografia', 'Mejor_Direccion_de_Arte', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Direccion', 'Mejor_Actriz']).
-gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Diseno_de_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).
+gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).
 gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).
 gano_oscar_en('Amor_Sin_Barreras', 1962, ['Mejor_Pelicula', 'Mejor_Direccion', 'Mejor_Direccion_de_Fotografia', 'Mejor_Direccion_de_Arte', 'Mejor_Montaje', 'Mejor_Sonido', 'Mejor_Musica_Original', 'Mejor_Cancion_Original']).
-gano_oscar_en('Rocky', 1976, ['Mejor_Pelicula', 'Mejor_Direccion', 'Mejor_Edicion', 'Mejor_Montaje_de_Sonido']).
-gano_oscar_en('El_Peleador', 2010, ['Mejor Actor de Reparto']).
+gano_oscar_en('El_Peleador', 2010, ['Mejor_Actor_de_Reparto']).
 gano_oscar_en('Creed_Corazon_de_Campeon', 2016, ['Mejor_Edicion_de_Sonido']).
 gano_oscar_en('Golpes_del_Destino', 2005, ['Mejor_Actuacion']).
 gano_oscar_en('Recuerdos_de_los_Titanes', 2000, ['Mejor_Montaje']).
@@ -521,7 +514,6 @@ critica_imdb('Tiburon',8.1).
 critica_imdb('El_Silencio_de_los_Inocentes',8.6). 
 critica_imdb('Zodiaco',7.7).
 critica_imdb('Prisioneros',8.2).
-critica_imdb('Se7en',8.6).
 critica_imdb('La_Isla_Siniestra',8.2).
 critica_imdb('Perdida',8.1).
 critica_imdb('Memento',8.4).
@@ -547,7 +539,6 @@ critica_imdb('Percy_Jackson_y_el_Ladron_del_Rayo',5.9).
 critica_imdb('El_Cristal_Encantado',7.1).
 critica_imdb('Laberinto',7.3).
 critica_imdb('Eragon',5.1).
-critica_imdb('La_La_Land:_Una_Historia_de_Amor',8.0). 
 critica_imdb('Chicago',7.6). 
 critica_imdb('El_Gran_Showman',7.5).
 critica_imdb('Los_Miserables',7.5). 
@@ -557,7 +548,6 @@ critica_imdb('Hairspray',6.7).
 critica_imdb('Amor_Sin_Barreras',7.1). 
 critica_imdb('Cantando_Bajo_la_Lluvia',8.3).
 critica_imdb('El_Fantasma_de_la_opera',7.2).
-critica_imdb('Rocky',8.1). 
 critica_imdb('Toro_Salvaje',8.1). 
 critica_imdb('El_Peleador',7.8). 
 critica_imdb('Creed:_Corazon_de_Campeon',7.6).
@@ -747,7 +737,6 @@ pelicula_director('Tiburon', 'Steven Spielberg').
 pelicula_director('El_Silencio_de_los_Inocentes', 'Jonathan Demme').
 pelicula_director('Zodiaco', 'David Fincher').
 pelicula_director('Prisioneros', 'Denis Villeneuve').
-pelicula_director('Se7en', 'David Fincher').
 pelicula_director('La_Isla_Siniestra', 'Martin Scorsese').
 pelicula_director('Perdida', 'David Fincher').
 pelicula_director('Memento', 'Christopher Nolan').
@@ -773,7 +762,6 @@ pelicula_director('Percy_Jackson_y_el_Ladron_del_Rayo', 'Chris Columbus').
 pelicula_director('El_Cristal_Encantado', 'Jim Henson').
 pelicula_director('Laberinto', 'Jim Henson').
 pelicula_director('Eragon', 'Stefen Fangmeier').
-pelicula_director('La_La_Land:_Una_Historia_de_Amor', 'Damien Chazelle').
 pelicula_director('Chicago', 'Rob Marshall').
 pelicula_director('El_Gran_Showman', 'Michael Gracey').
 pelicula_director('Los_Miserables', 'Tom Hooper').
@@ -783,7 +771,6 @@ pelicula_director('Hairspray', 'Adam Shankman').
 pelicula_director('Amor_Sin_Barreras', 'Jerome Robbins').
 pelicula_director('Cantando_Bajo_la_Lluvia', 'Stanley Donen').
 pelicula_director('El_Fantasma_de_la_opera', 'Joel Schumacher').
-pelicula_director('Rocky', 'John G. Avildsen').
 pelicula_director('Toro_Salvaje', 'Martin Scorsese').
 pelicula_director('El_Peleador', 'Gavin OConnor').
 pelicula_director('Creed:_Corazon_de_Campeon', 'Ryan Coogler').
@@ -973,7 +960,6 @@ estreno('Tiburon', 1975).
 estreno('El_Silencio_de_los_Inocentes', 1991).
 estreno('Zodiaco', 2007).
 estreno('Prisioneros', 2013).
-estreno('Se7en', 1995).
 estreno('La_Isla_Siniestra', 2010).
 estreno('Perdida', 2014).
 estreno('Memento', 2000).
@@ -999,7 +985,6 @@ estreno('Percy_Jackson_y_el_Ladron_del_Rayo', 2010).
 estreno('El_Cristal_Encantado', 1982).
 estreno('Laberinto', 1986).
 estreno('Eragon', 2006).
-estreno('La_La_Land:_Una_Historia_de_Amor', 2016).
 estreno('Chicago', 2002).
 estreno('El_Gran_Showman', 2017).
 estreno('Los_Miserables', 2012).
@@ -1009,7 +994,6 @@ estreno('Hairspray', 2007).
 estreno('Amor_Sin_Barreras', 1961).
 estreno('Cantando_Bajo_la_Lluvia', 1952).
 estreno('El_Fantasma_de_la_Opera', 2004).
-estreno('Rocky', 1976).
 estreno('Toro_Salvaje', 1980).
 estreno('El_Peleador', 2010).
 estreno('Creed:_Corazon_de_Campeon', 2015).
@@ -1098,230 +1082,227 @@ estreno('Mi_amigo_el_gigante', 2016).
 estreno('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 2016).
 
 %Idioma Original de la Pelicula
-idioma_original('Mad_Max:_Furia_en_el_Camino', 'Ingles').
-idioma_original('Duro_de_Matar', 'Ingles').
-idioma_original('Indiana_Jones', 'Ingles').
-idioma_original('El_senor_de_los_anillos:_Las_dos_torres', 'Ingles').
-idioma_original('Supercool', 'Ingles').
-idioma_original('Dos_Tontos_en_Fuga', 'Ingles').
-idioma_original('El_Padrino', 'Ingles').
-idioma_original('Suenos_de_Libertad', 'Ingles').
-idioma_original('El_Exorcista', 'Ingles').
-idioma_original('Pesadilla_en_la_Calle_del_Infierno', 'Ingles').
-idioma_original('La_Guerra_de_las_Galaxias', 'Ingles').
-idioma_original('El_Cazador_Implacable', 'Ingles').
-idioma_original('Harry_Potter_y_la_piedra_filosofal', 'Ingles').
-idioma_original('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 'Ingles').
-idioma_original('La_Novicia_Rebelde', 'Ingles').
-idioma_original('La_La_Land._Una_historia_de_amor', 'Ingles').
-idioma_original('Toy_Story', 'Ingles').
-idioma_original('Shrek', 'Ingles').
-idioma_original('Orgullo_y_Prejuicio', 'Ingles').
-idioma_original('Diario_de_una_Nasion', 'Ingles').
-idioma_original('Se7en', 'Ingles').
-idioma_original('Perdida', 'Ingles').
-idioma_original('Sherlock_Holmes', 'Ingles').
-idioma_original('La_Chica_del_Dragon_Tatuado', 'Ingles').
-idioma_original('Red_Social', 'Ingles').
-idioma_original('Gandhi', 'Ingles').
-idioma_original('El_Viaje_del_Emperador', 'Ingles').
-idioma_original('Bowling_for_Columbine', 'Ingles').
-idioma_original('Corazon_Valiente', 'Ingles').
-idioma_original('La_Lista_de_Schindler', 'Ingles').
-idioma_original('Rescatando_al_Soldado_Ryan', 'Ingles').
-idioma_original('Dunkerque', 'Ingles').
-idioma_original('El_Bueno,el_Malo_y_el_Feo', 'Italiano').
-idioma_original('Los_Imperdonables', 'Ingles').
-idioma_original('Mission:_Impossible', 'Ingles').
-idioma_original('James_Bond_at_the_Movies', 'Ingles').
-idioma_original('Stand_by_Me', 'Ingles').
-idioma_original('Lady_Bird', 'Ingles').
-idioma_original('Los_Infiltrados', 'Ingles').
-idioma_original('Tiempos_Violentos', 'Ingles').
-idioma_original('Rocky', 'Ingles').
-idioma_original('El_Juego_de_la_Fortuna', 'Ingles').
-idioma_original('Buscando_a_Nemo', 'Ingles').
-idioma_original('Los_Increibles', 'Ingles').
-idioma_original('Frozen:_Una_Aventura_Congelada', 'Ingles').
-idioma_original('Coco', 'Espanol').
-idioma_original('Pacto_de_Sangre', 'Espanol').
-idioma_original('La_Ciudad_del_Pecado', 'Ingles').
-idioma_original('Fuego_Contra_Fuego', 'Ingles').
-idioma_original('Los_angeles_al_Desnudo', 'Ingles').
-idioma_original('The_Avengers:_Los_Vengadores', 'Ingles').
-idioma_original('Batman:_El_caballero_de_la_noche', 'Ingles').
-idioma_original('Mujer_Bonita', 'Ingles').
-idioma_original('Cuando_Harry_Conocio_a_Sally', 'Ingles').
-idioma_original('El_Laberinto_del_Fauno', 'Espanol').
-idioma_original('La_Forma_del_Agua', 'Ingles').
-idioma_original('Los_Juegos_del_Hambre', 'Ingles').
-idioma_original('Jurassic_Park', 'Ingles').
-idioma_original('E.T.,el_Extraterrestre', 'Ingles').
-idioma_original('Volver_al_Futuro', 'Ingles').
-idioma_original('El_Origen', 'Ingles').
-idioma_original('Matrix', 'Ingles').
-idioma_original('Avatar', 'Ingles').
-idioma_original('Terminator', 'Ingles').
-idioma_original('Interestelar', 'Ingles').
-idioma_original('Alien:_El_Octavo_Pasajero', 'Ingles').
-idioma_original('Guardianes_de_la_Galaxia', 'Ingles').
-idioma_original('Titanic', 'Ingles').
-idioma_original('Romeo_+_Julieta', 'Ingles').
-idioma_original('Un_Paseo_para_Recordar', 'Ingles').
-idioma_original('Bajo_la_Misma_Estrella', 'Ingles').
-idioma_original('Realmente_Amor', 'Ingles').
-idioma_original('El_Diario_de_Bridget_Jones', 'Ingles').
-idioma_original('Moulin_Rouge:_Amor_en_Rojo', 'Ingles').
-idioma_original('Casablanca', 'Ingles').
-idioma_original('Un_Lugar_Llamado_Notting_Hill', 'Ingles').
-idioma_original('Locamente_Millonarios', 'Ingles').
-idioma_original('Scream:_Grita_Antes_de_Morir', 'Ingles').
-idioma_original('El_Conjuro', 'Ingles').
-idioma_original('Eso', 'Ingles').
-idioma_original('Huye', 'Ingles').
-idioma_original('Hereditary:_El_Legado_del_Diablo', 'Ingles').
-idioma_original('El_Babadook', 'Ingles').
-idioma_original('El_Aro', 'Ingles').
-idioma_original('Un_Lugar_en_Silencio', 'Ingles').
-idioma_original('Actividad_Paranormal', 'Ingles').
-idioma_original('Halloween', 'Ingles').
-idioma_original('Forrest_Gump', 'Ingles').
-idioma_original('El_Club_de_la_Pelea', 'Ingles').
-idioma_original('Belleza_Americana', 'Ingles').
-idioma_original('Gladiador', 'Ingles').
-idioma_original('Milagros_Inesperados', 'Ingles').
-idioma_original('Mente_Indomable', 'Ingles').
-idioma_original('En_Busca_de_la_Felicidad', 'Ingles').
-idioma_original('12_Anos_de_Esclavitud', 'Ingles').
-idioma_original('Quien_Quiere_Ser_Millonario', 'Ingles').
-idioma_original('El_Discurso_del_Rey', 'Ingles').
-idioma_original('Tiburon', 'Ingles').
-idioma_original('El_Silencio_de_los_Inocentes', 'Ingles').
-idioma_original('Zodiaco', 'Ingles').
-idioma_original('Prisioneros', 'Ingles').
-idioma_original('Se7en', 'Ingles').
-idioma_original('La_Isla_Siniestra', 'Ingles').
-idioma_original('Perdida', 'Ingles').
-idioma_original('Memento', 'Ingles').
-idioma_original('El_Sexto_Sentido', 'Ingles').
-idioma_original('El_Cisne_Negro', 'Ingles').
-idioma_original('El_Rey_Leon', 'Ingles').
-idioma_original('Buscando_a_Dory', 'Ingles').
-idioma_original('El_Libro_de_la_Selva', 'Ingles').
-idioma_original('Zootopia', 'Ingles').
-idioma_original('Moana:_Un_Mar_de_Aventuras', 'Ingles').
-idioma_original('Grandes_Heroes', 'Ingles').
-idioma_original('Intensa-Mente', 'Ingles').
-idioma_original('Mi_Villano_Favorito', 'Ingles').
-idioma_original('Ralph,El_Demoledor', 'Ingles').
-idioma_original('Como_Entrenar_a_tu_Dragon', 'Ingles').
-idioma_original('El_Mago_de_Oz', 'Ingles').
-idioma_original('Alicia_en_el_Pais_de_las_Maravillas', 'Ingles').
-idioma_original('El_Hobbit:_Un_viaje_inesperado', 'Ingles').
-idioma_original('La_Princesa_Prometida', 'Ingles').
-idioma_original('Stardust:_El_Misterio_de_la_Estrella', 'Ingles').
-idioma_original('La_Historia_Sin_Fin', 'Ingles').
-idioma_original('Percy_Jackson_y_el_Ladron_del_Rayo', 'Ingles').
-idioma_original('El_Cristal_Encantado', 'Ingles').
-idioma_original('Laberinto', 'Ingles').
-idioma_original('Eragon', 'Ingles').
-idioma_original('La_La_Land:_Una_Historia_de_Amor', 'Ingles').
-idioma_original('Chicago', 'Ingles').
-idioma_original('El_Gran_Showman', 'Ingles').
-idioma_original('Los_Miserables', 'Ingles').
-idioma_original('Vaselina', 'Ingles').
-idioma_original('Mamma_Mia!', 'Ingles').
-idioma_original('Hairspray', 'Ingles').
-idioma_original('Amor_Sin_Barreras', 'Ingles').
-idioma_original('Cantando_Bajo_la_Lluvia', 'Ingles').
-idioma_original('El_Fantasma_de_la_opera', 'Ingles').
-idioma_original('Rocky', 'Ingles').
-idioma_original('Toro_Salvaje', 'Ingles').
-idioma_original('El_Peleador', 'Ingles').
-idioma_original('Creed:_Corazon_de_Campeon', 'Ingles').
-idioma_original('Golpes_del_Destino', 'Ingles').
-idioma_original('Recuerdos_de_los_Titanes', 'Ingles').
-idioma_original('Juego_de_Honor', 'Ingles').
-idioma_original('Campo_de_Suenos', 'Ingles').
-idioma_original('Un_Equipo_Muy_Especial', 'Ingles').
-idioma_original('Un_Sueno_Posible', 'Ingles').
-idioma_original('El_Gran_Truco', 'Ingles').
-idioma_original('Blancanieves_y_los_Siete_Enanitos', 'Ingles').
-idioma_original('Cenicienta', 'Ingles').
-idioma_original('Aladdin', 'Ingles').
-idioma_original('Mulan', 'Ingles').
-idioma_original('La_Bella_y_la_Bestia', 'Ingles').
-idioma_original('Bambi', 'Ingles').
-idioma_original('101_Dalmatas', 'Ingles').
-idioma_original('Peter_Pan', 'Ingles').
-idioma_original('Dumbo', 'Ingles').
-idioma_original('Hercules', 'Ingles').
-idioma_original('Pocahontas', 'Ingles').
-idioma_original('Enredados', 'Ingles').
-idioma_original('Cars', 'Ingles').
-idioma_original('Monsters_Inc', 'Ingles').
-idioma_original('Up', 'Ingles').
-idioma_original('WALL-E', 'Ingles').
-idioma_original('Valiente', 'Ingles').
-idioma_original('Lilo_&_Stitch', 'Ingles').
-idioma_original('Los_Aristogatos', 'Ingles').
-idioma_original('Ralph_el_Demoledor', 'Ingles').
-idioma_original('La_Dama_y_el_Vagabundo', 'Ingles').
-idioma_original('La_Princesa_y_el_Sapo', 'Ingles').
-idioma_original('Bolt', 'Ingles').
-idioma_original('Big_Hero_6', 'Ingles').
-idioma_original('El_Jorobado_de_Notre_Dame', 'Ingles').
-idioma_original('Atlantis_El_Imperio_Perdido', 'Ingles').
-idioma_original('Oliver_y_su_Pandilla', 'Ingles').
-idioma_original('Tierra_de_Osos', 'Ingles').
-idioma_original('El_Emperador_y_sus_Locuras', 'Ingles').
-idioma_original('Hermano_Oso', 'Ingles').
-idioma_original('Zafarrancho_en_el_Rancho', 'Ingles').
-idioma_original('Chicken_Little', 'Ingles').
-idioma_original('Rio', 'Ingles').
-idioma_original('El_Camino_hacia_El_Dorado', 'Ingles').
-idioma_original('Kung_Fu_Panda', 'Ingles').
-idioma_original('Madagascar', 'Ingles').
-idioma_original('Mi_Pobre_Angelito', 'Ingles').
-idioma_original('Jumanji', 'Ingles').
-idioma_original('El_Jardin_Secreto', 'Ingles').
-idioma_original('Harry_Potter_y_la_Camara_Secreta', 'Ingles').
-idioma_original('Matilda', 'Ingles').
-idioma_original('Stuart_Little', 'Ingles').
-idioma_original('Una_Noche_en_el_Museo', 'Ingles').
-idioma_original('Chitty_Chitty_Bang_Bang', 'Ingles').
-idioma_original('Willy_Wonka_y_la_Fabrica_de_Chocolate', 'Ingles').
-idioma_original('Los_Goonies', 'Ingles').
-idioma_original('Spy_Kids', 'Ingles').
-idioma_original('Hook', 'Ingles').
-idioma_original('Paddington', 'Ingles').
-idioma_original('Mary_Poppins', 'Ingles').
-idioma_original('Peter_Rabbit', 'Ingles').
-idioma_original('Peter_Rabbit_2_A_la_Fuga', 'Ingles').
-idioma_original('La_Dama_y_el_Vagabundo_2019', 'Ingles').
-idioma_original('El_Rey_Leon_2019', 'Ingles').
-idioma_original('Aladdin_2019', 'Ingles').
-idioma_original('Dumbo_2019', 'Ingles').
-idioma_original('La_Bella_y_la_Bestia_2017', 'Ingles').
-idioma_original('Christopher_Robin', 'Ingles').
-idioma_original('El_Libro_de_la_Selva_2016', 'Ingles').
-idioma_original('Malefica', 'Ingles').
-idioma_original('Malefica_Duena_del_Mal', 'Ingles').
-idioma_original('El_Cascanueces_y_los_Cuatro_Reinos', 'Ingles').
-idioma_original('Alicia_en_el_Pais_de_las_Maravillas_2010', 'Ingles').
-idioma_original('Alicia_a_Traves_del_Espejo', 'Ingles').
-idioma_original('Cenicienta_2015', 'Ingles').
-idioma_original('El_Dragon_de_Pete', 'Ingles').
-idioma_original('Aventuras_en_la_Gran_Ciudad', 'Ingles').
-idioma_original('La_Ninera_Magica', 'Ingles').
-idioma_original('Querida_Encogi_a_los_Ninos', 'Ingles').
-idioma_original('Una_Serie_de_Eventos_Desafortunados', 'Ingles').
-idioma_original('El_Gato_con_Sombrero', 'Ingles').
-idioma_original('Las_Aventuras_de_Sharkboy_y_Lavagirl', 'Ingles').
-idioma_original('Dora_y_la_ciudad_perdida', 'Ingles').
-idioma_original('Paddington_2', 'Ingles').
-idioma_original('Mi_amigo_el_gigante', 'Ingles').
-idioma_original('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Ingles').
+nacionalidad('Mad_Max:_Furia_en_el_Camino', 'Estados Unidos').
+nacionalidad('Duro_de_Matar', 'Estados Unidos').
+nacionalidad('Indiana_Jones', 'Estados Unidos').
+nacionalidad('El_senor_de_los_anillos:_Las_dos_torres', 'Estados Unidos').
+nacionalidad('Supercool', 'Estados Unidos').
+nacionalidad('Dos_Tontos_en_Fuga', 'Estados Unidos').
+nacionalidad('El_Padrino', 'Estados Unidos').
+nacionalidad('Suenos_de_Libertad', 'Estados Unidos').
+nacionalidad('El_Exorcista', 'Estados Unidos').
+nacionalidad('Pesadilla_en_la_Calle_del_Infierno', 'Estados Unidos').
+nacionalidad('La_Guerra_de_las_Galaxias', 'Estados Unidos').
+nacionalidad('El_Cazador_Implacable', 'Estados Unidos').
+nacionalidad('Harry_Potter_y_la_piedra_filosofal', 'Estados Unidos').
+nacionalidad('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 'Estados Unidos').
+nacionalidad('La_Novicia_Rebelde', 'Estados Unidos').
+nacionalidad('La_La_Land._Una_historia_de_amor', 'Estados Unidos').
+nacionalidad('Toy_Story', 'Estados Unidos').
+nacionalidad('Shrek', 'Estados Unidos').
+nacionalidad('Orgullo_y_Prejuicio', 'Estados Unidos').
+nacionalidad('Diario_de_una_Nasion', 'Estados Unidos').
+nacionalidad('Se7en', 'Estados Unidos').
+nacionalidad('Perdida', 'Estados Unidos').
+nacionalidad('Sherlock_Holmes', 'Estados Unidos').
+nacionalidad('La_Chica_del_Dragon_Tatuado', 'Estados Unidos').
+nacionalidad('Red_Social', 'Estados Unidos').
+nacionalidad('Gandhi', 'Estados Unidos').
+nacionalidad('El_Viaje_del_Emperador', 'Estados Unidos').
+nacionalidad('Bowling_for_Columbine', 'Estados Unidos').
+nacionalidad('Corazon_Valiente', 'Estados Unidos').
+nacionalidad('La_Lista_de_Schindler', 'Estados Unidos').
+nacionalidad('Rescatando_al_Soldado_Ryan', 'Estados Unidos').
+nacionalidad('Dunkerque', 'Estados Unidos').
+nacionalidad('El_Bueno,el_Malo_y_el_Feo', 'Italia').
+nacionalidad('Los_Imperdonables', 'Estados Unidos').
+nacionalidad('Mission:_Impossible', 'Estados Unidos').
+nacionalidad('James_Bond_at_the_Movies', 'Estados Unidos').
+nacionalidad('Stand_by_Me', 'Estados Unidos').
+nacionalidad('Lady_Bird', 'Estados Unidos').
+nacionalidad('Los_Infiltrados', 'Estados Unidos').
+nacionalidad('Tiempos_Violentos', 'Estados Unidos').
+nacionalidad('Rocky', 'Estados Unidos').
+nacionalidad('El_Juego_de_la_Fortuna', 'Estados Unidos').
+nacionalidad('Buscando_a_Nemo', 'Estados Unidos').
+nacionalidad('Los_Increibles', 'Estados Unidos').
+nacionalidad('Frozen:_Una_Aventura_Congelada', 'Estados Unidos').
+nacionalidad('Coco', 'Mexico').
+nacionalidad('Pacto_de_Sangre', 'Mexico').
+nacionalidad('La_Ciudad_del_Pecado', 'Estados Unidos').
+nacionalidad('Fuego_Contra_Fuego', 'Estados Unidos').
+nacionalidad('Los_angeles_al_Desnudo', 'Estados Unidos').
+nacionalidad('The_Avengers:_Los_Vengadores', 'Estados Unidos').
+nacionalidad('Batman:_El_caballero_de_la_noche', 'Estados Unidos').
+nacionalidad('Mujer_Bonita', 'Estados Unidos').
+nacionalidad('Cuando_Harry_Conocio_a_Sally', 'Estados Unidos').
+nacionalidad('El_Laberinto_del_Fauno', 'Mexico').
+nacionalidad('La_Forma_del_Agua', 'Estados Unidos').
+nacionalidad('Los_Juegos_del_Hambre', 'Estados Unidos').
+nacionalidad('Jurassic_Park', 'Estados Unidos').
+nacionalidad('E.T.,el_Extraterrestre', 'Estados Unidos').
+nacionalidad('Volver_al_Futuro', 'Estados Unidos').
+nacionalidad('El_Origen', 'Estados Unidos').
+nacionalidad('Matrix', 'Estados Unidos').
+nacionalidad('Avatar', 'Estados Unidos').
+nacionalidad('Terminator', 'Estados Unidos').
+nacionalidad('Interestelar', 'Estados Unidos').
+nacionalidad('Alien:_El_Octavo_Pasajero', 'Estados Unidos').
+nacionalidad('Guardianes_de_la_Galaxia', 'Estados Unidos').
+nacionalidad('Titanic', 'Estados Unidos').
+nacionalidad('Romeo_+_Julieta', 'Estados Unidos').
+nacionalidad('Un_Paseo_para_Recordar', 'Estados Unidos').
+nacionalidad('Bajo_la_Misma_Estrella', 'Estados Unidos').
+nacionalidad('Realmente_Amor', 'Estados Unidos').
+nacionalidad('El_Diario_de_Bridget_Jones', 'Estados Unidos').
+nacionalidad('Moulin_Rouge:_Amor_en_Rojo', 'Estados Unidos').
+nacionalidad('Casablanca', 'Estados Unidos').
+nacionalidad('Un_Lugar_Llamado_Notting_Hill', 'Estados Unidos').
+nacionalidad('Locamente_Millonarios', 'Estados Unidos').
+nacionalidad('Scream:_Grita_Antes_de_Morir', 'Estados Unidos').
+nacionalidad('El_Conjuro', 'Estados Unidos').
+nacionalidad('Eso', 'Estados Unidos').
+nacionalidad('Huye', 'Estados Unidos').
+nacionalidad('Hereditary:_El_Legado_del_Diablo', 'Estados Unidos').
+nacionalidad('El_Babadook', 'Estados Unidos').
+nacionalidad('El_Aro', 'Estados Unidos').
+nacionalidad('Un_Lugar_en_Silencio', 'Estados Unidos').
+nacionalidad('Actividad_Paranormal', 'Estados Unidos').
+nacionalidad('Halloween', 'Estados Unidos').
+nacionalidad('Forrest_Gump', 'Estados Unidos').
+nacionalidad('El_Club_de_la_Pelea', 'Estados Unidos').
+nacionalidad('Belleza_Americana', 'Estados Unidos').
+nacionalidad('Gladiador', 'Estados Unidos').
+nacionalidad('Milagros_Inesperados', 'Estados Unidos').
+nacionalidad('Mente_Indomable', 'Estados Unidos').
+nacionalidad('En_Busca_de_la_Felicidad', 'Estados Unidos').
+nacionalidad('12_Anos_de_Esclavitud', 'Estados Unidos').
+nacionalidad('Quien_Quiere_Ser_Millonario', 'Estados Unidos').
+nacionalidad('El_Discurso_del_Rey', 'Estados Unidos').
+nacionalidad('Tiburon', 'Estados Unidos').
+nacionalidad('El_Silencio_de_los_Inocentes', 'Estados Unidos').
+nacionalidad('Zodiaco', 'Estados Unidos').
+nacionalidad('Prisioneros', 'Estados Unidos').
+nacionalidad('La_Isla_Siniestra', 'Estados Unidos').
+nacionalidad('Perdida', 'Estados Unidos').
+nacionalidad('Memento', 'Estados Unidos').
+nacionalidad('El_Sexto_Sentido', 'Estados Unidos').
+nacionalidad('El_Cisne_Negro', 'Estados Unidos').
+nacionalidad('El_Rey_Leon', 'Estados Unidos').
+nacionalidad('Buscando_a_Dory', 'Estados Unidos').
+nacionalidad('El_Libro_de_la_Selva', 'Estados Unidos').
+nacionalidad('Zootopia', 'Estados Unidos').
+nacionalidad('Moana:_Un_Mar_de_Aventuras', 'Estados Unidos').
+nacionalidad('Grandes_Heroes', 'Estados Unidos').
+nacionalidad('Intensa-Mente', 'Estados Unidos').
+nacionalidad('Mi_Villano_Favorito', 'Estados Unidos').
+nacionalidad('Ralph,El_Demoledor', 'Estados Unidos').
+nacionalidad('Como_Entrenar_a_tu_Dragon', 'Estados Unidos').
+nacionalidad('El_Mago_de_Oz', 'Estados Unidos').
+nacionalidad('Alicia_en_el_Pais_de_las_Maravillas', 'Estados Unidos').
+nacionalidad('El_Hobbit:_Un_viaje_inesperado', 'Estados Unidos').
+nacionalidad('La_Princesa_Prometida', 'Estados Unidos').
+nacionalidad('Stardust:_El_Misterio_de_la_Estrella', 'Estados Unidos').
+nacionalidad('La_Historia_Sin_Fin', 'Estados Unidos').
+nacionalidad('Percy_Jackson_y_el_Ladron_del_Rayo', 'Estados Unidos').
+nacionalidad('El_Cristal_Encantado', 'Estados Unidos').
+nacionalidad('Laberinto', 'Estados Unidos').
+nacionalidad('Eragon', 'Estados Unidos').
+nacionalidad('Chicago', 'Estados Unidos').
+nacionalidad('El_Gran_Showman', 'Estados Unidos').
+nacionalidad('Los_Miserables', 'Estados Unidos').
+nacionalidad('Vaselina', 'Estados Unidos').
+nacionalidad('Mamma_Mia!', 'Estados Unidos').
+nacionalidad('Hairspray', 'Estados Unidos').
+nacionalidad('Amor_Sin_Barreras', 'Estados Unidos').
+nacionalidad('Cantando_Bajo_la_Lluvia', 'Estados Unidos').
+nacionalidad('El_Fantasma_de_la_opera', 'Estados Unidos').
+nacionalidad('Toro_Salvaje', 'Estados Unidos').
+nacionalidad('El_Peleador', 'Estados Unidos').
+nacionalidad('Creed:_Corazon_de_Campeon', 'Estados Unidos').
+nacionalidad('Golpes_del_Destino', 'Estados Unidos').
+nacionalidad('Recuerdos_de_los_Titanes', 'Estados Unidos').
+nacionalidad('Juego_de_Honor', 'Estados Unidos').
+nacionalidad('Campo_de_Suenos', 'Estados Unidos').
+nacionalidad('Un_Equipo_Muy_Especial', 'Estados Unidos').
+nacionalidad('Un_Sueno_Posible', 'Estados Unidos').
+nacionalidad('El_Gran_Truco', 'Estados Unidos').
+nacionalidad('Blancanieves_y_los_Siete_Enanitos', 'Estados Unidos').
+nacionalidad('Cenicienta', 'Estados Unidos').
+nacionalidad('Aladdin', 'Estados Unidos').
+nacionalidad('Mulan', 'Estados Unidos').
+nacionalidad('La_Bella_y_la_Bestia', 'Estados Unidos').
+nacionalidad('Bambi', 'Estados Unidos').
+nacionalidad('101_Dalmatas', 'Estados Unidos').
+nacionalidad('Peter_Pan', 'Estados Unidos').
+nacionalidad('Dumbo', 'Estados Unidos').
+nacionalidad('Hercules', 'Estados Unidos').
+nacionalidad('Pocahontas', 'Estados Unidos').
+nacionalidad('Enredados', 'Estados Unidos').
+nacionalidad('Cars', 'Estados Unidos').
+nacionalidad('Monsters_Inc', 'Estados Unidos').
+nacionalidad('Up', 'Estados Unidos').
+nacionalidad('WALL-E', 'Estados Unidos').
+nacionalidad('Valiente', 'Estados Unidos').
+nacionalidad('Lilo_&_Stitch', 'Estados Unidos').
+nacionalidad('Los_Aristogatos', 'Estados Unidos').
+nacionalidad('Ralph_el_Demoledor', 'Estados Unidos').
+nacionalidad('La_Dama_y_el_Vagabundo', 'Estados Unidos').
+nacionalidad('La_Princesa_y_el_Sapo', 'Estados Unidos').
+nacionalidad('Bolt', 'Estados Unidos').
+nacionalidad('Big_Hero_6', 'Estados Unidos').
+nacionalidad('El_Jorobado_de_Notre_Dame', 'Estados Unidos').
+nacionalidad('Atlantis_El_Imperio_Perdido', 'Estados Unidos').
+nacionalidad('Oliver_y_su_Pandilla', 'Estados Unidos').
+nacionalidad('Tierra_de_Osos', 'Estados Unidos').
+nacionalidad('El_Emperador_y_sus_Locuras', 'Estados Unidos').
+nacionalidad('Hermano_Oso', 'Estados Unidos').
+nacionalidad('Zafarrancho_en_el_Rancho', 'Estados Unidos').
+nacionalidad('Chicken_Little', 'Estados Unidos').
+nacionalidad('Rio', 'Estados Unidos').
+nacionalidad('El_Camino_hacia_El_Dorado', 'Estados Unidos').
+nacionalidad('Kung_Fu_Panda', 'Estados Unidos').
+nacionalidad('Madagascar', 'Estados Unidos').
+nacionalidad('Mi_Pobre_Angelito', 'Estados Unidos').
+nacionalidad('Jumanji', 'Estados Unidos').
+nacionalidad('El_Jardin_Secreto', 'Estados Unidos').
+nacionalidad('Harry_Potter_y_la_Camara_Secreta', 'Estados Unidos').
+nacionalidad('Matilda', 'Estados Unidos').
+nacionalidad('Stuart_Little', 'Estados Unidos').
+nacionalidad('Una_Noche_en_el_Museo', 'Estados Unidos').
+nacionalidad('Chitty_Chitty_Bang_Bang', 'Estados Unidos').
+nacionalidad('Willy_Wonka_y_la_Fabrica_de_Chocolate', 'Estados Unidos').
+nacionalidad('Los_Goonies', 'Estados Unidos').
+nacionalidad('Spy_Kids', 'Estados Unidos').
+nacionalidad('Hook', 'Estados Unidos').
+nacionalidad('Paddington', 'Estados Unidos').
+nacionalidad('Mary_Poppins', 'Estados Unidos').
+nacionalidad('Peter_Rabbit', 'Estados Unidos').
+nacionalidad('Peter_Rabbit_2_A_la_Fuga', 'Estados Unidos').
+nacionalidad('La_Dama_y_el_Vagabundo_2019', 'Estados Unidos').
+nacionalidad('El_Rey_Leon_2019', 'Estados Unidos').
+nacionalidad('Aladdin_2019', 'Estados Unidos').
+nacionalidad('Dumbo_2019', 'Estados Unidos').
+nacionalidad('La_Bella_y_la_Bestia_2017', 'Estados Unidos').
+nacionalidad('Christopher_Robin', 'Estados Unidos').
+nacionalidad('El_Libro_de_la_Selva_2016', 'Estados Unidos').
+nacionalidad('Malefica', 'Estados Unidos').
+nacionalidad('Malefica_Duena_del_Mal', 'Estados Unidos').
+nacionalidad('El_Cascanueces_y_los_Cuatro_Reinos', 'Estados Unidos').
+nacionalidad('Alicia_en_el_Pais_de_las_Maravillas_2010', 'Estados Unidos').
+nacionalidad('Alicia_a_Traves_del_Espejo', 'Estados Unidos').
+nacionalidad('Cenicienta_2015', 'Estados Unidos').
+nacionalidad('El_Dragon_de_Pete', 'Estados Unidos').
+nacionalidad('Aventuras_en_la_Gran_Ciudad', 'Estados Unidos').
+nacionalidad('La_Ninera_Magica', 'Estados Unidos').
+nacionalidad('Querida_Encogi_a_los_Ninos', 'Estados Unidos').
+nacionalidad('Una_Serie_de_Eventos_Desafortunados', 'Estados Unidos').
+nacionalidad('El_Gato_con_Sombrero', 'Estados Unidos').
+nacionalidad('Las_Aventuras_de_Sharkboy_y_Lavagirl', 'Estados Unidos').
+nacionalidad('Dora_y_la_ciudad_perdida', 'Estados Unidos').
+nacionalidad('Paddington_2', 'Estados Unidos').
+nacionalidad('Mi_amigo_el_gigante', 'Estados Unidos').
+nacionalidad('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Estados Unidos').
 
 %Actor o actriz protagonista de la pelicula
 actor_protagonista('Mad_Max:_Furia_en_el_Camino', 'Tom Hardy').
@@ -1339,7 +1320,7 @@ actor_protagonista('El_Cazador_Implacable', 'Robert De Niro').
 actor_protagonista('Harry_Potter_y_la_piedra_filosofal', 'Daniel Radcliffe').
 actor_protagonista('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero', 'Georgie Henley').
 actor_protagonista('La_Novicia_Rebelde', 'Julie Andrews').
-actor_protagonista('La_La_Land._Una_historia_de_amor', 'Ryan Gosling').
+actor_protagonista('La_La_Land._Una_historia_de_amor', 'Emma Stone').
 actor_protagonista('Toy_Story', 'Tom Hanks').
 actor_protagonista('Shrek', 'Mike Myers').
 actor_protagonista('Orgullo_y_Prejuicio', 'Keira Knightley').
@@ -1425,7 +1406,6 @@ actor_protagonista('Tiburon', 'Roy Scheider').
 actor_protagonista('El_Silencio_de_los_Inocentes', 'Jodie Foster').
 actor_protagonista('Zodiaco', 'Jake Gyllenhaal').
 actor_protagonista('Prisioneros', 'Hugh Jackman').
-actor_protagonista('Se7en', 'Brad Pitt').
 actor_protagonista('La_Isla_Siniestra', 'Leonardo DiCaprio').
 actor_protagonista('Perdida', 'Ben Affleck').
 actor_protagonista('Memento', 'Guy Pearce').
@@ -1451,7 +1431,6 @@ actor_protagonista('Percy_Jackson_y_el_Ladron_del_Rayo', 'Logan Lerman').
 actor_protagonista('El_Cristal_Encantado', 'Stephen Garlick').
 actor_protagonista('Laberinto', 'David Bowie').
 actor_protagonista('Eragon', 'Edward Speleers').
-actor_protagonista('La_La_Land:_Una_Historia_de_Amor', 'Ryan Gosling').
 actor_protagonista('Chicago', 'Renee Zellweger').
 actor_protagonista('El_Gran_Showman', 'Hugh Jackman').
 actor_protagonista('Los_Miserables', 'Hugh Jackman').
@@ -1461,7 +1440,6 @@ actor_protagonista('Hairspray', 'John Travolta').
 actor_protagonista('Amor_Sin_Barreras', 'Natalie Wood').
 actor_protagonista('Cantando_Bajo_la_Lluvia', 'Gene Kelly').
 actor_protagonista('El_Fantasma_de_la_opera', 'Gerard Butler').
-actor_protagonista('Rocky', 'Sylvester Stallone').
 actor_protagonista('Toro_Salvaje', 'Robert De Niro').
 actor_protagonista('El_Peleador', 'Mark Wahlberg').
 actor_protagonista('Creed:_Corazon_de_Campeon', 'Michael B. Jordan').
@@ -1651,7 +1629,6 @@ actor_secundario('Tiburon', 'Robert Shaw').
 actor_secundario('El_Silencio_de_los_Inocentes', 'Anthony Hopkins').
 actor_secundario('Zodiaco', 'Mark Ruffalo').
 actor_secundario('Prisioneros', 'Jake Gyllenhaal').
-actor_secundario('Se7en', 'Brad Pitt').
 actor_secundario('La_Isla_Siniestra', 'Mark Ruffalo').
 actor_secundario('Perdida', 'Neil Patrick Harris').
 actor_secundario('Memento', 'Carrie-Anne Moss').
@@ -1677,7 +1654,6 @@ actor_secundario('Percy_Jackson_y_el_Ladron_del_Rayo', 'Pierce Brosnan').
 actor_secundario('El_Cristal_Encantado', 'Jim Henson').
 actor_secundario('Laberinto', 'David Bowie').
 actor_secundario('Eragon', 'Jeremy Irons').
-actor_secundario('La_La_Land:_Una_Historia_de_Amor', 'Ryan Gosling').
 actor_secundario('Chicago', 'Richard Gere').
 actor_secundario('El_Gran_Showman', 'Zac Efron').
 actor_secundario('Los_Miserables', 'Russell Crowe').
@@ -1687,7 +1663,6 @@ actor_secundario('Hairspray', 'John Travolta').
 actor_secundario('Amor_Sin_Barreras', 'George Chakiris').
 actor_secundario('Cantando_Bajo_la_Lluvia', 'Donald OConnor').
 actor_secundario('El_Fantasma_de_la_opera', 'Patrick Wilson').
-actor_secundario('Rocky', 'Burgess Meredith').
 actor_secundario('Toro_Salvaje', 'Joe Pesci').
 actor_secundario('El_Peleador', 'Christian Bale').
 actor_secundario('Creed:_Corazon_de_Campeon', 'Sylvester Stallone').
@@ -1788,7 +1763,6 @@ genero_masculino('Mark Hamill').
 genero_masculino('Robert De Niro').
 genero_masculino('Daniel Radcliffe').
 genero_masculino('Ryan Gosling').
-genero_masculino('Tom Hanks').
 genero_masculino('Mike Myers').
 genero_masculino('Brad Pitt').
 genero_masculino('Ben Affleck').
@@ -1992,7 +1966,6 @@ genero_masculino('George Chakiris').
 genero_masculino('Donald OConnor').
 genero_masculino('Patrick Wilson').
 genero_masculino('Joe Pesci').
-genero_masculino('Christian Bale').
 genero_masculino('Sylvester Stallone').
 genero_masculino('Will Patton').
 genero_masculino('Rob Brown').
@@ -2047,7 +2020,6 @@ genero_femenino('Ellen Burstyn').
 genero_femenino('Heather Langenkamp').
 genero_femenino('Georgie Henley').
 genero_femenino('Julie Andrews').
-genero_femenino('Keira Knightley').
 genero_femenino('Rooney Mara').
 genero_femenino('Kristen Bell').
 genero_femenino('Julia Roberts').
@@ -2139,7 +2111,6 @@ genero_femenino('Geena Davis').
 genero_femenino('Sally Ann Howes').
 genero_femenino('Hayley Atwell').
 genero_femenino('Michelle Pfeiffer').
-genero_femenino('Keira Knightley').
 genero_femenino('Helena Bonham Carter').
 genero_femenino('Eva Green').
 genero_femenino('Betty Lou Gerson').
@@ -2181,8 +2152,6 @@ basado_en('Gandhi', 'Gandhi: An Autobiography por Mohandas K. Gandhi','Libro').
 basado_en('La_Lista_de_Schindler', 'Schindler Ark por Thomas Keneally','Libro').
 basado_en('Stand_by_Me', 'The Body por Stephen King','Libro').
 basado_en('Los_Infiltrados', 'Infernal Affairs pelicula hongkonesa','Libro').
-basado_en('Tiempos_Violentos', 'No esta basado en un libro','Libro').
-basado_en('Rocky', 'No esta basado en un libro','Libro').
 basado_en('El_Juego_de_la_Fortuna', 'Moneyball: The Art of Winning an Unfair Game por Michael Lewis','Libro').
 basado_en('Frozen:_Una_Aventura_Congelada', 'The Snow Queen por Hans Christian Andersen','Libro').
 basado_en('Pacto_de_Sangre', 'Double Indemnity por James M. Cain','Libro').
@@ -2223,7 +2192,6 @@ basado_en('La_Historia_Sin_Fin', 'The NeverEnding Story por Michael Ende','Libro
 basado_en('Percy_Jackson_y_el_Ladron_del_Rayo', 'Percy Jackson & the Olympians: The Lightning Thief por Rick Riordan','Libro').
 basado_en('Eragon', 'Eragon por Christopher Paolini','Libro').
 basado_en('Chicago', 'Chicago por Maurine Dallas Watkins','Musical').
-basado_en('El_Gran_Showman', 'No esta basado en un libro','Libro').
 basado_en('Los_Miserables', 'Les Miserables por Victor Hugo','Libro').
 basado_en('Vaselina', 'Grease por Jim Jacobs y Warren Casey','Musical').
 basado_en('Mamma_Mia!', 'Mamma Mia! por Catherine Johnson','Musical').
@@ -2283,11 +2251,11 @@ basado_en('El_Gato_con_Sombrero', 'The Cat in the Hat por Dr. Seuss','Libro').
 basado_en('Paddington_2', 'A Bear Called Paddington por Michael Bond','Libro').
 basado_en('Mi_amigo_el_gigante', 'The BFG por Roald Dahl','Libro').
 basado_en('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Miss Peregrine Home for Peculiar Children por Ransom Riggs','Libro').
-basado_en('The_Avengers:_Los_Vengadores', 'Personajes de Marvel Comics').
-basado_en('Batman:_El_caballero_de_la_noche','Personajes de DC Comics').
-basado_en('Hercules', 'Mitologia griega').
-basado_en('Pocahontas', 'Historica').
-basado_en('Guardianes_de_la_Galaxia', 'Personajes de Marvel Comics').
+basado_en('The_Avengers:_Los_Vengadores', 'Personajes de Marvel Comics','Otro').
+basado_en('Batman:_El_caballero_de_la_noche','Personajes de DC Comics','Otro').
+basado_en('Hercules', 'Mitologia griega','Otro').
+basado_en('Pocahontas', 'Historica','Otro').
+basado_en('Guardianes_de_la_Galaxia', 'Personajes de Marvel Comics','Otro').
 
 %En donde se puede ver la pelicula
 disponible_streaming('Mad_Max:_Furia_en_el_Camino',['Prime_Video', 'Star+']).
@@ -2391,7 +2359,6 @@ disponible_streaming('Tiburon', 'HBO_Max').
 disponible_streaming('El_Silencio_de_los_Inocentes', 'HBO_Max').
 disponible_streaming('Zodiaco', 'HBO_Max').
 disponible_streaming('Prisioneros', 'Netflix').
-disponible_streaming('Se7en', 'Netflix').
 disponible_streaming('La_Isla_Siniestra', 'HBO_Max').
 disponible_streaming('Perdida', 'Netflix').
 disponible_streaming('Memento', 'HBO_Max').
@@ -2417,7 +2384,6 @@ disponible_streaming('Percy_Jackson_y_el_Ladron_del_Rayo', 'Disney+').
 disponible_streaming('El_Cristal_Encantado', 'Netflix').
 disponible_streaming('Laberinto', 'HBO_Max').
 disponible_streaming('Eragon', 'Disney+').
-disponible_streaming('La_La_Land:_Una_Historia_de_Amor', 'HBO_Max').
 disponible_streaming('Chicago', 'HBO_Max').
 disponible_streaming('El_Gran_Showman', 'Disney+').
 disponible_streaming('Los_Miserables', 'Netflix').
@@ -2427,7 +2393,6 @@ disponible_streaming('Hairspray', 'HBO_Max').
 disponible_streaming('Amor_Sin_Barreras', 'Disney+').
 disponible_streaming('Cantando_Bajo_la_Lluvia', 'HBO_Max').
 disponible_streaming('El_Fantasma_de_la_opera', 'HBO_Max').
-disponible_streaming('Rocky', 'HBO_Max').
 disponible_streaming('Toro_Salvaje', 'HBO_Max').
 disponible_streaming('El_Peleador', 'HBO_Max').
 disponible_streaming('Creed:_Corazon_de_Campeon', ['Prime_Video', 'HBO_Max']).
@@ -2518,7 +2483,8 @@ disponible_streaming('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'HBO').
 
 %posibles reglas
 %Regla para verificar si una pelicula esta disponible en una plataforma de streaming especifica:
-peliculas_accion(Pelicula) :- (pelicula_genero(Pelicula, 'Accion')).
+genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
+peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
 peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
 peliculas_comedia(Pelicula) :- pelicula_genero(Pelicula, 'Comedia').
 peliculas_drama(Pelicula) :- pelicula_genero(Pelicula, 'Drama').
@@ -2546,6 +2512,118 @@ peliculas_distopia(Pelicula) :- pelicula_genero(Pelicula, 'Distopia').
 peliculas_ciencia_ficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
 peliculas_suspenso(Pelicula) :- pelicula_genero(Pelicula, 'Suspenso').
 
+categoria_infantil(Pelicula, Categoria) :- pelicula_infantil(Pelicula, Categoria).
+mejor_director(Pelicula,Director) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Director',Lista),pelicula_director(Pelicula,Director).
+premio_especial(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Premio_especial_innovacion',Lista).
+mejor_banda_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Banda_Original',Lista).
+
+mejor_cancion_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Cancion_Original',Lista).
+
+mejor_pelicula_de_animacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Pelicula_de_Animacion',Lista).
+
+mejor_banda_sonora_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Banda_Sonora_Original',Lista).
+
+mejor_edicion_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Edicion_de_Sonido',Lista).
+
+mejor_actriz(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Actriz',Lista),actor_protagonista(Pelicula,Actor),genero_femenino(Actor).
+
+mejor_edicion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Edicion',Lista).
+
+mejores_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejores_Efectos_Visuales',Lista).
+
+mejor_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Fotografia',Lista).
+
+mejor_musica(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Musica',Lista).
+
+mejor_musica_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Musica_Original',Lista).
+
+mejor_maquillaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Maquillaje',Lista).
+
+mejor_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Efectos_Visuales',Lista).
+
+mejor_pelicula(Pelicula,Ano) :- gano_oscar_en(Pelicula,Ano,Lista),
+                    member('Mejor_Pelicula',Lista).
+
+mejor_actor(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Actor',Lista),actor_protagonista(Pelicula,Actor),genero_masculino(Actor).
+
+mejor_actor_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Actor_de_Reparto',Lista).
+
+mejor_actriz_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Actriz_de_Reparto',Lista).
+
+mejor_guion_adaptado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Guion_Adaptado',Lista).
+
+mejor_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Sonido',Lista).
+
+mejor_diseno_de_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Diseno_de_Produccion',Lista).
+
+mejor_direccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Direccion',Lista).
+
+mejor_direccion_de_arte(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Direccion_de_Arte',Lista).
+
+mejor_direccion_de_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Direccion_de_Fotografia',Lista).
+
+mejor_montaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Montaje',Lista).
+
+mejor_interpretacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Interpretacion',Lista).
+
+mejor_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Documental',Lista).
+
+mejor_vestuario(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Vestuario',Lista).
+
+mejor_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Produccion',Lista).
+
+mejor_mezcla_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Mezcla_de_Sonido',Lista).
+
+mejor_banda_sonora(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Banda_Sonora',Lista).
+
+mejor_cinematografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Cinematografia',Lista).
+
+mejor_actuacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Actuacion',Lista).
+
+mejor_cortometraje_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Cortometraje_Documental',Lista).
+
+mejor_efectos_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Efectos_de_Sonido',Lista).
+
+mejor_maquillaje_y_peinado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Maquillaje_y_Peinado',Lista).
+
+mejor_montaje_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Montaje_de_Sonido',Lista).
 
 peliculas_alta_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion >= 8.0.
 peliculas_actor_protagonista_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
@@ -2556,26 +2634,23 @@ peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
 peliculas_director_protagonista_comun(Pelicula, Director, Actor) :-
     pelicula_director(Pelicula, Director),
     actor_protagonista(Pelicula, Actor).
-
-
 peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
 
-mejor_director(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Director',Lista).
+peliculas_1900(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano =< 1999.
+peliculas_2000(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano >= 2000.
+peliculas_no_EUA(Pelicula,Nacionalidad) :- nacionalidad(Pelicula, Nacionalidad), Nacionalidad \= 'Estados Unidos'.
+basado_Libro(Pelicula, Libro) :- basado_en(Pelicula, Libro,'Libro').
+basado_musical(Pelicula, Musical) :- basado_en(Pelicula, Musical,'Musical').
+basado_otros(Pelicula, Otro) :- basado_en(Pelicula,Otro,'Otro').
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
 %Regla para obtener todas las peliculas disponibles en una plataforma de streaming especifica:
-%ver que peliculas hay en una plataforma especifica
-peliculas_en_plataforma(Peliculas, Plataforma) :- findall(Pelicula, disponible_streaming(Pelicula, Plataforma), Peliculas).
 %Regla para obtener todas las plataformas de streaming donde esta disponible una pelicula especifica:
 plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
 %Regla para verificar si una pelicula ha ganado un Oscar:
 gano_oscar(Pelicula) :- gano_oscar_en(Pelicula,_,_).
-%Regla para obtener todas las peliculas que han ganado un Oscar:
-peliculas_con_oscar(Peliculas) :-
-    findall(Pelicula, gano_oscar_en(Pelicula, _, _), Peliculas),
-    forall(member(Pelicula, Peliculas), (write(Pelicula), nl)).
+
 %Regla para obtener todas las categorias en las que una pelicula ha ganado un Oscar:
-categorias_ganadas(Categorias, Pelicula) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
+categorias_ganadas( Pelicula,Categorias) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
 
 
 %videojuegos
@@ -3144,12 +3219,12 @@ es_multijugador('Stride:_Fates').
   
  % Recorrer la lista de predicados ano_de_lanzamiento
    
-  :- forall(ano_de_lanzamiento(Nombre, _), juego(Nombre)).
+  :- forall(ano_de_lanzamiento(Nombre, _), juego(Nombre,_)).
    
 %Obtener la plataforma en la que se lanzará un juego:
 plataforma(Juego, Plataforma) :- videojuegos(Juego, _, Plataforma).
 %Consultar si un juego es de un género específico:
-genero(Juego, Genero) :- videojuegos(Juego, Generos, _).
+genero(Juego, Genero) :- videojuegos(Juego, Genero, _).
 %Obtener la desarrolladora de un juego:
 desarrolladora(Juego, Desarrolladora) :- desarrolladora_de(Desarrolladora, Juego).
 %Consultar si un juego se lanzará en un año específico:
@@ -3183,9 +3258,9 @@ juegos_antes_2010(Anio, Juegos) :-ano_de_lanzamiento(Juegos, Anio),Anio<2010.
 juegos_similares(Juego, JuegosSimilares) :-
     genero(Juego, Genero),
     plataforma(Juego, Plataforma),
-    desarrolladora_de(Desarrolladora, Juego),
-    findall(OtroJuego, genero(OtroJuego, Genero), JuegosSimilares1),
-findall(OtroJuego, plataforma(OtroJuego, Plataforma), Juegos).
+    desarrolladora_de(_, Juego),
+    findall(OtroJuego, genero(OtroJuego, Genero), JuegosSimilares),
+findall(OtroJuego, plataforma(OtroJuego, Plataforma), Juego).
   
     
 juegos_especificos(Genero, Plataforma, Anio, Juegos) :-
@@ -3454,10 +3529,7 @@ genero_contiene_pop(Genero) :-
 
 % Predicado para buscar artistas del género 'Pop'
 buscar_artistas_pop(Artistas) :-
-    findall(Artista, (artista_de_genero(Artista, Genero), genero_contiene_pop(Genero)), Artistas).
-
-% Ejecución de la búsqueda
-buscar_artistas_pop(Artistas), writeln(Artistas).
+    findall(Artista, (artista_de_genero(Artista, Genero), genero_contiene_pop(Genero)), Artistas), writeln(Artistas).
 
 /*
 artista_de_genero('Soda Stereo', 'Rock en espanol').
