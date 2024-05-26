@@ -1,3 +1,4 @@
+:- dynamic ano_de_lanzamiento/2.
 %Peliculas
 %_Peliculas_y_generos
 pelicula_genero('Mad_Max:_Furia_en_el_Camino','Accion').
@@ -1774,6 +1775,391 @@ actor_secundario('Paddington_2', 'Hugh Grant').
 actor_secundario('Mi_amigo_el_gigante', 'Mark Rylance').
 actor_secundario('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Eva Green').
 
+
+genero_masculino('Tom Hardy').
+genero_masculino('Bruce Willis').
+genero_masculino('Harrison Ford').
+genero_masculino('Elijah Wood').
+genero_masculino('Jonah Hill').
+genero_masculino('Steve Martin').
+genero_masculino('Marlon Brando').
+genero_masculino('Tim Robbins').
+genero_masculino('Mark Hamill').
+genero_masculino('Robert De Niro').
+genero_masculino('Daniel Radcliffe').
+genero_masculino('Ryan Gosling').
+genero_masculino('Tom Hanks').
+genero_masculino('Mike Myers').
+genero_masculino('Brad Pitt').
+genero_masculino('Ben Affleck').
+genero_masculino('Robert Downey Jr.').
+genero_masculino('Jesse Eisenberg').
+genero_masculino('Ben Kingsley').
+genero_masculino('Morgan Freeman').
+genero_masculino('Michael Moore').
+genero_masculino('Mel Gibson').
+genero_masculino('Liam Neeson').
+genero_masculino('Fionn Whitehead').
+genero_masculino('Clint Eastwood').
+genero_masculino('Tom Cruise').
+genero_masculino('Sean Connery').
+genero_masculino('Wil Wheaton').
+genero_masculino('Leonardo DiCaprio').
+genero_masculino('John Travolta').
+genero_masculino('Sylvester Stallone').
+genero_masculino('Kevin Spacey').
+genero_masculino('Albert Brooks').
+genero_masculino('Craig T. Nelson').
+genero_masculino('Anthony Gonzalez').
+genero_masculino('Jack Nicholson').
+genero_masculino('Al Pacino').
+genero_masculino('Nicolas Cage').
+genero_masculino('Christian Bale').
+genero_masculino('Billy Crystal').
+genero_masculino('Sam Neill').
+genero_masculino('Henry Thomas').
+genero_masculino('Michael J. Fox').
+genero_masculino('Keanu Reeves').
+genero_masculino('Sam Worthington').
+genero_masculino('Arnold Schwarzenegger').
+genero_masculino('Matthew McConaughey').
+genero_masculino('Chris Pratt').
+genero_masculino('Shane West').
+genero_masculino('Hugh Grant').
+genero_masculino('Humphrey Bogart').
+genero_masculino('Bill Skarsgård').
+genero_masculino('Daniel Kaluuya').
+genero_masculino('Jake Gyllenhaal').
+genero_masculino('Hugh Jackman').
+genero_masculino('Guy Pearce').
+genero_masculino('Matthew Broderick').
+genero_masculino('Neel Sethi').
+genero_masculino('Scott Adsit').
+genero_masculino('Steve Carell').
+genero_masculino('John C. Reilly').
+genero_masculino('Jay Baruchel').
+genero_masculino('Martin Freeman').
+genero_masculino('Cary Elwes').
+genero_masculino('Charlie Cox').
+genero_masculino('Noah Hathaway').
+genero_masculino('Logan Lerman').
+genero_masculino('Stephen Garlick').
+genero_masculino('David Bowie').
+genero_masculino('Edward Speleers').
+genero_masculino('Gene Kelly').
+genero_masculino('Gerard Butler').
+genero_masculino('Mark Wahlberg').
+genero_masculino('Michael B. Jordan').
+genero_masculino('Denzel Washington').
+genero_masculino('Samuel L. Jackson').
+genero_masculino('Kevin Costner').
+genero_masculino('Gene Hackman').
+genero_masculino('Mena Massoud').
+genero_masculino('Hardie Albright').
+genero_masculino('Rod Taylor').
+genero_masculino('Bobby Driscoll').
+genero_masculino('Edward Brophy').
+genero_masculino('Tate Donovan').
+genero_masculino('Owen Wilson').
+genero_masculino('John Goodman').
+genero_masculino('Edward Asner').
+genero_masculino('Ben Burtt').
+genero_masculino('Tom Hulce').
+genero_masculino('Joey Lawrence').
+genero_masculino('Joaquin Phoenix').
+genero_masculino('David Spade').
+genero_masculino('Zach Braff').
+genero_masculino('Kevin Kline').
+genero_masculino('Jack Black').
+genero_masculino('Ben Stiller').
+genero_masculino('Macaulay Culkin').
+genero_masculino('Robin Williams').
+genero_masculino('Dick Van Dyke').
+genero_masculino('Gene Wilder').
+genero_masculino('Sean Astin').
+genero_masculino('Ben Whishaw').
+genero_masculino('James Corden').
+genero_masculino('Donald Glover').
+genero_masculino('Colin Farrell').
+genero_masculino('Ewan McGregor').
+genero_masculino('Joe Mantegna').
+genero_masculino('Jim Carrey').
+genero_masculino('Taylor Lautner').
+genero_masculino('Asa Butterfield').
+genero_masculino('Alan Rickman').
+genero_masculino('Sean Astin').
+genero_masculino('Jonah Hill').
+genero_masculino('Martin Lawrence').
+genero_masculino('James Caan').
+genero_masculino('Morgan Freeman').
+genero_masculino('Max von Sydow').
+genero_masculino('Harrison Ford').
+genero_masculino('Christopher Walken').
+genero_masculino('Rupert Grint').
+genero_masculino('Christopher Plummer').
+genero_masculino('Ryan Gosling').
+genero_masculino('Tim Allen').
+genero_masculino('Eddie Murphy').
+genero_masculino('Matthew Macfadyen').
+genero_masculino('James Garner').
+genero_masculino('Tyler Perry').
+genero_masculino('Jude Law').
+genero_masculino('Stellan Skarsgård').
+genero_masculino('Andrew Garfield').
+genero_masculino('Michael Moore').
+genero_masculino('Ben Kingsley').
+genero_masculino('Matt Damon').
+genero_masculino('Tom Hardy').
+genero_masculino('Lee Van Cleef').
+genero_masculino('Gene Hackman').
+genero_masculino('Jon Voight').
+genero_masculino('Sean Connery').
+genero_masculino('River Phoenix').
+genero_masculino('Matt Damon').
+genero_masculino('Samuel L. Jackson').
+genero_masculino('Burgess Meredith').
+genero_masculino('Edward G. Robinson').
+genero_masculino('Clive Owen').
+genero_masculino('Val Kilmer').
+genero_masculino('Danny DeVito').
+genero_masculino('Chris Evans').
+genero_masculino('Aaron Eckhart').
+genero_masculino('Jason Alexander').
+genero_masculino('Bruno Kirby').
+genero_masculino('Sergi Lopez').
+genero_masculino('Michael Shannon').
+genero_masculino('Josh Hutcherson').
+genero_masculino('Jeff Goldblum').
+genero_masculino('Robert MacNaughton').
+genero_masculino('Christopher Lloyd').
+genero_masculino('Joseph Gordon-Levitt').
+genero_masculino('Laurence Fishburne').
+genero_masculino('Michael Biehn').
+genero_masculino('John Hurt').
+genero_masculino('Bradley Cooper').
+genero_masculino('Billy Zane').
+genero_masculino('John Leguizamo').
+genero_masculino('Peter Coyote').
+genero_masculino('Nat Wolff').
+genero_masculino('Hugh Grant').
+genero_masculino('Colin Firth').
+genero_masculino('Claude Rains').
+genero_masculino('Rhys Ifans').
+genero_masculino('Skeet Ulrich').
+genero_masculino('Ron Livingston').
+genero_masculino('Finn Wolfhard').
+genero_masculino('Bradley Whitford').
+genero_masculino('Alex Wolff').
+genero_masculino('Daniel Henshall').
+genero_masculino('Brian Cox').
+genero_masculino('Micah Sloat').
+genero_masculino('Donald Pleasence').
+genero_masculino('Jared Leto').
+genero_masculino('Joaquin Phoenix').
+genero_masculino('Michael Clarke Duncan').
+genero_masculino('Robin Williams').
+genero_masculino('Michael Fassbender').
+genero_masculino('Anil Kapoor').
+genero_masculino('Geoffrey Rush').
+genero_masculino('Robert Shaw').
+genero_masculino('Anthony Hopkins').
+genero_masculino('Mark Ruffalo').
+genero_masculino('Jake Gyllenhaal').
+genero_masculino('Brad Pitt').
+genero_masculino('Neil Patrick Harris').
+genero_masculino('Haley Joel Osment').
+genero_masculino('Jeremy Irons').
+genero_masculino('Bill Murray').
+genero_masculino('Jason Bateman').
+genero_masculino('Dwayne Johnson').
+genero_masculino('Scott Adsit').
+genero_masculino('Jason Segel').
+genero_masculino('Jack McBrayer').
+genero_masculino('Gerard Butler').
+genero_masculino('Ray Bolger').
+genero_masculino('Ed Wynn').
+genero_masculino('Martin Freeman').
+genero_masculino('Mandy Patinkin').
+genero_masculino('Robert De Niro').
+genero_masculino('Pierce Brosnan').
+genero_masculino('Jim Henson').
+genero_masculino('David Bowie').
+genero_masculino('Richard Gere').
+genero_masculino('Zac Efron').
+genero_masculino('Russell Crowe').
+genero_masculino('John Travolta').
+genero_masculino('George Chakiris').
+genero_masculino('Donald OConnor').
+genero_masculino('Patrick Wilson').
+genero_masculino('Joe Pesci').
+genero_masculino('Christian Bale').
+genero_masculino('Sylvester Stallone').
+genero_masculino('Will Patton').
+genero_masculino('Rob Brown').
+genero_masculino('James Earl Jones').
+genero_masculino('Tom Hanks').
+genero_masculino('Quinton Aaron').
+genero_masculino('Richard Madden').
+genero_masculino('Will Smith').
+genero_masculino('Dan Stevens').
+genero_masculino('Stan Alexander').
+genero_masculino('Danny DeVito').
+genero_masculino('Mel Gibson').
+genero_masculino('Zachary Levi').
+genero_masculino('Paul Newman').
+genero_masculino('Billy Crystal').
+genero_masculino('Chris Sanders').
+genero_masculino('John Travolta').
+genero_masculino('Ryan Potter').
+genero_masculino('Michael J. Fox').
+genero_masculino('Joey Lawrence').
+genero_masculino('David Spade').
+genero_masculino('Rick Moranis').
+genero_masculino('Zach Braff').
+genero_masculino('Kevin Kline').
+genero_masculino('Jack Black').
+genero_masculino('Ben Stiller').
+genero_masculino('Jack Albertson').
+genero_masculino('Josh Brolin').
+genero_masculino('Antonio Banderas').
+genero_masculino('Dustin Hoffman').
+genero_masculino('Hugh Bonneville').
+genero_masculino('Lin-Manuel Miranda').
+genero_masculino('Domhnall Gleeson').
+genero_masculino('David Oyelowo').
+genero_masculino('Justin Theroux').
+genero_masculino('Seth Rogen').
+genero_masculino('Colin Farrell').
+genero_masculino('Luke Evans').
+genero_masculino('Bill Murray').
+genero_masculino('Sharlto Copley').
+genero_masculino('Johnny Depp').
+genero_masculino('Robert Redford').
+genero_masculino('Keith Coogan').
+genero_masculino('Jim Carrey').
+genero_masculino('Mike Myers').
+genero_masculino('George Lopez').
+genero_masculino('Eugenio Derbez').
+genero_masculino('Mark Rylance').
+genero_masculino('Herman Bing').
+
+genero_femenino('Ellen Burstyn').
+genero_femenino('Heather Langenkamp').
+genero_femenino('Georgie Henley').
+genero_femenino('Julie Andrews').
+genero_femenino('Keira Knightley').
+genero_femenino('Rooney Mara').
+genero_femenino('Kristen Bell').
+genero_femenino('Julia Roberts').
+genero_femenino('Ivana Baquero').
+genero_femenino('Sally Hawkins').
+genero_femenino('Jennifer Lawrence').
+genero_femenino('Sigourney Weaver').
+genero_femenino('Shailene Woodley').
+genero_femenino('Renee Zellweger').
+genero_femenino('Nicole Kidman').
+genero_femenino('Julia Roberts').
+genero_femenino('Constance Wu').
+genero_femenino('Neve Campbell').
+genero_femenino('Vera Farmiga').
+genero_femenino('Toni Collette').
+genero_femenino('Essie Davis').
+genero_femenino('Naomi Watts').
+genero_femenino('Emily Blunt').
+genero_femenino('Katie Featherston').
+genero_femenino('Jamie Lee Curtis').
+genero_femenino('Jodie Foster').
+genero_femenino('Natalie Portman').
+genero_femenino('Ellen DeGeneres').
+genero_femenino('Ginnifer Goodwin').
+genero_femenino('Auliʻi Cravalho').
+genero_femenino('Amy Poehler').
+genero_femenino('Judy Garland').
+genero_femenino('Mia Wasikowska').
+genero_femenino('Kate Maberly').
+genero_femenino('Mara Wilson').
+genero_femenino('Alexa PenaVega').
+genero_femenino('Emily Blunt').
+genero_femenino('Tessa Thompson').
+genero_femenino('Emma Watson').
+genero_femenino('Angelina Jolie').
+genero_femenino('Angelina Jolie').
+genero_femenino('Mackenzie Foy').
+genero_femenino('Mia Wasikowska').
+genero_femenino('Mia Wasikowska').
+genero_femenino('Lily James').
+genero_femenino('Emma Thompson').
+genero_femenino('Isabela Moner').
+genero_femenino('Ruby Barnhill').
+genero_femenino('Adriana Caselotti').
+genero_femenino('Lily James').
+genero_femenino('Ming-Na Wen').
+genero_femenino('Emma Watson').
+genero_femenino('Irene Bedard').
+genero_femenino('Mandy Moore').
+genero_femenino('Kelly Macdonald').
+genero_femenino('Daveigh Chase').
+genero_femenino('Barbara Luddy').
+genero_femenino('Anika Noni Rose').
+genero_femenino('Roseanne Barr').
+genero_femenino('Kate Maberly').
+genero_femenino('Alexa PenaVega').
+genero_femenino('Emily Blunt').
+genero_femenino('Emma Watson').
+genero_femenino('Angelina Jolie').
+genero_femenino('Charlize Theron').
+genero_femenino('Karen Allen').
+genero_femenino('Heather Langenkamp').
+genero_femenino('Tilda Swinton').
+genero_femenino('Candice Bergen').
+genero_femenino('Sophie Marceau').
+genero_femenino('Laurie Metcalf').
+genero_femenino('Ellen DeGeneres').
+genero_femenino('Holly Hunter').
+genero_femenino('Idina Menzel').
+genero_femenino('Sigourney Weaver').
+genero_femenino('Jessica Chastain').
+genero_femenino('Robin Wright').
+genero_femenino('Thora Birch').
+genero_femenino('Thandie Newton').
+genero_femenino('Carrie-Anne Moss').
+genero_femenino('Mila Kunis').
+genero_femenino('Phyllis Smith').
+genero_femenino('Tami Stronach').
+genero_femenino('Elissa Knight').
+genero_femenino('Emma Thompson').
+genero_femenino('Eva Gabor').
+genero_femenino('Sarah Silverman').
+genero_femenino('Barbara Luddy').
+genero_femenino('Demi Moore').
+genero_femenino('Roseanne Barr').
+genero_femenino('Anne Hathaway').
+genero_femenino('Maggie Smith').
+genero_femenino('Geena Davis').
+genero_femenino('Sally Ann Howes').
+genero_femenino('Hayley Atwell').
+genero_femenino('Michelle Pfeiffer').
+genero_femenino('Keira Knightley').
+genero_femenino('Helena Bonham Carter').
+genero_femenino('Eva Green').
+genero_femenino('Betty Lou Gerson').
+genero_femenino('Kathryn Beaumont').
+genero_femenino('Lucille La Verne').
+genero_femenino('Elissa Knight').
+genero_femenino('Emma Thompson').
+genero_femenino('Sarah Silverman').
+genero_femenino('Barbara Luddy').
+genero_femenino('Phyllis Smith').
+genero_femenino('Roseanne Barr').
+genero_femenino('Anne Hathaway').
+genero_femenino('Maggie Smith').
+genero_femenino('Geena Davis').
+genero_femenino('Sally Ann Howes').
+genero_femenino('Michelle Pfeiffer').
+genero_femenino('Keira Knightley').
+genero_femenino('Helena Bonham Carter').
+genero_femenino('Eva Green').
+
 %basa en libro, comic, musical...
 basado_en('Duro_de_Matar', 'Nothing Lasts Forever por Roderick Thorp','Libro').
 basado_en('El_senor_de_los_anillos:_Las_dos_torres', 'The Two Towers por J.R.R. Tolkien','Libro').
@@ -2159,6 +2545,21 @@ peliculas_superheroes(Pelicula) :- pelicula_genero(Pelicula, 'Superheroes').
 peliculas_distopia(Pelicula) :- pelicula_genero(Pelicula, 'Distopia').
 peliculas_ciencia_ficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
 peliculas_suspenso(Pelicula) :- pelicula_genero(Pelicula, 'Suspenso').
+
+
+peliculas_alta_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion >= 8.0.
+peliculas_actor_protagonista_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
+peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_femenino(Actor).
+peliculas_actor_secundario_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
+peliculas_actor_secundario_femenino(Pelicula) :- actor_secundario(Pelicula, Actriz), genero_femenino(Actriz).
+peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
+peliculas_director_protagonista_comun(Pelicula, Director, Actor) :-
+    pelicula_director(Pelicula, Director),
+    actor_protagonista(Pelicula, Actor).
+
+
+peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
+
 mejor_director(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Director',Lista).
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
@@ -2362,55 +2763,55 @@ videojuegos_de('Crowsworn','pc').
 videojuegos_de('Silent_Hill_Townfall','pc').
 videojuegos_de('Unrecord','pc').
 
-videojuegos_de('Pathless Woods','pc',['RPG','SIMULACION']).
-videojuegos_de('Industria_2','pc',['ACCION']).
-videojuegos_de('Knights_in_Tight_Spaces','pc',['ESTRATEGIA']).
-videojuegos_de('Worshippers_of_Cthulhu',['PC','PS5','XBS'],'SIMULACION').
-videojuegos_de('Content_Warning','PC',['ACCION','AVENTURA']).
-videojuegos_de('Hordes_of_Hunger','PC','ACCION').
-videojuegos_de('Farewell_North',['PC','NSW','XBS'],'AVENTURA').
-videojuegos_de('Robobeat','PC','ACCION').
-videojuegos_de('OVRDARK:_a_Do_Not_Open_story',['PC','PS5'],['ACCION','AVENTURA']).
-videojuegos_de('Assassins_Creed_Shadows',['PC','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('Batman:_Arkham_Shadow','PC',['ACCION','AVENTURA']).
-videojuegos_de('Funko_Fusion','PC',['PC','NSW','PS4','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('Alien:_Rogue_Incursion',['PC','PS5'],['ACCION','AVENTURA']).
-videojuegos_de('Kingdom_Come:_Deliverance_2',['PC','PS5','XBS'],['ACCION','RPG']).
-videojuegos_de('Yars_Rising',['PC','NSW','PS4','XBO','PS5','XBS'],['ACCION','PLATAFORMAS']).
-videojuegos_de('Teenage_Mutant_Ninja_Turtles:_Splintered_Fate',['IPH','IPD','NSW'],'ACCION').
-videojuegos_de('SteamWorld_Heist_2',['XBO','NSW','PS5','XBS','PC','PS4'],'ESTRATEGIA').
-videojuegos_de('Kill_Knight',['PC','NSW','PS5','XBS'],'ACCION').
-videojuegos_de('Never_Alone_2','PC','AVENTURA').
-videojuegos_de('Slay_the_Spire_2','PC','ESTRATEGIA').
-videojuegos_de('The_Rogue_Prince_of_Persia','PC',['ACCION','PLATAFORMAS']).
-videojuegos_de('Spirit_City:_','PC',['ACCION','PLATAFORMAS']).
-videojuegos_de('The_Rogue_Prince_of_Persia','PC','SIMULACION').
-videojuegos_de('63 Days','PC','ESTRATEGIA').
-videojuegos_de('Tiny_Tires','PC','CONDUCCION').
-videojuegos_de('Divine Rush','PC','PLATAFORMAS').
-videojuegos_de('PuzzMix',['NSW','PC','PS4','PS5'],'PUZLE').
-videojuegos_de('Flint:_Treasure_of_Oblivion',['PC','PS5','XBS'],['RPG','ESTRATEGIA']).
-videojuegos_de('The_Crush_House','PC',['SIMULACION','AVENTURA']).
-videojuegos_de('Beat_Slayer','PC','ACCION').
-videojuegos_de('Age_of_Water',['PC','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('NeoSprint',['PC','NSW','PS4','XBO','PS5','XBS'],'CONDUCCION').
-videojuegos_de('Triggerheart_Exelica',['360','PC','NSW'],'ACCION').
-videojuegos_de('Soldner-X_Complete_Collection','NSW','ACCION').
-videojuegos_de('Eternal_Strands',['PC','PS5','XBS'],['ACCION','AVENTURA']).
-videojuegos_de('POed:_Definitive_Edition',['PC','NSW','PS4','XBO','PS5','XBS'],'ACCION').
-videojuegos_de('Duckside','PC','ACCION').
-videojuegos_de('The_Kindeman_Remedy',['PC','NSW','PS4','XBO','PS5','XBS'],'ESTRATEGIA').
-videojuegos_de('As_We_Descend','PC','ESTRATEGIA').
-videojuegos_de('Nine_Sols','PC',['ACCION','PLATAFORMAS']).
-videojuegos_de('Metal:_Hellsinger_VR',['PS5','PC'],'ACCION').
-videojuegos_de('Corpse_Party_2:_Darkness_Distortion',['PC','NSW','PS4'],'AVENTURA').
-videojuegos_de('Dollhouse: Behind the Broken Mirror',['PS5','XBS','PC'],'AVENTURA').
-videojuegos_de('Rauniot','PC','AVENTURA_GRAFICA').
-videojuegos_de('Asphalt_Legends_Unite',['PC','NSW','PS4','XBO','PS5','XBS','IPH'],'CONDUCCION').
-videojuegos_de('The_Coma_2B:_Catacomb','PC','AVENTURA').
-videojuegos_de('Vambrace:_Dungeon_Monarch','PC','ESTRATEGIA').
-videojuegos_de('Sworn',['PC','NSW','PS5','XBS'],'ACCION').
-videojuegos_de('Stride:_Fates',['PC','PS5'],'ACCION').
+videojuegos_multiplataforma('Pathless Woods','pc',['RPG','SIMULACION']).
+videojuegos_multiplataforma('Industria_2','pc',['ACCION']).
+videojuegos_multiplataforma('Knights_in_Tight_Spaces','pc',['ESTRATEGIA']).
+videojuegos_multiplataforma('Worshippers_of_Cthulhu',['PC','PS5','XBS'],'SIMULACION').
+videojuegos_multiplataforma('Content_Warning','PC',['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Hordes_of_Hunger','PC','ACCION').
+videojuegos_multiplataforma('Farewell_North',['PC','NSW','XBS'],'AVENTURA').
+videojuegos_multiplataforma('Robobeat','PC','ACCION').
+videojuegos_multiplataforma('OVRDARK:_a_Do_Not_Open_story',['PC','PS5'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Assassins_Creed_Shadows',['PC','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Batman:_Arkham_Shadow','PC',['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Funko_Fusion',['PC','NSW','PS4','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Alien:_Rogue_Incursion',['PC','PS5'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('Kingdom_Come:_Deliverance_2',['PC','PS5','XBS'],['ACCION','RPG']).
+videojuegos_multiplataforma('Yars_Rising',['PC','NSW','PS4','XBO','PS5','XBS'],['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('Teenage_Mutant_Ninja_Turtles:_Splintered_Fate',['IPH','IPD','NSW'],'ACCION').
+videojuegos_multiplataforma('SteamWorld_Heist_2',['XBO','NSW','PS5','XBS','PC','PS4'],'ESTRATEGIA').
+videojuegos_multiplataforma('Kill_Knight',['PC','NSW','PS5','XBS'],'ACCION').
+videojuegos_multiplataforma('Never_Alone_2','PC','AVENTURA').
+videojuegos_multiplataforma('Slay_the_Spire_2','PC','ESTRATEGIA').
+videojuegos_multiplataforma('The_Rogue_Prince_of_Persia','PC',['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('Spirit_City:_','PC',['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('The_Rogue_Prince_of_Persia','PC','SIMULACION').
+videojuegos_multiplataforma('63 Days','PC','ESTRATEGIA').
+videojuegos_multiplataforma('Tiny_Tires','PC','CONDUCCION').
+videojuegos_multiplataforma('Divine Rush','PC','PLATAFORMAS').
+videojuegos_multiplataforma('PuzzMix',['NSW','PC','PS4','PS5'],'PUZLE').
+videojuegos_multiplataforma('Flint:_Treasure_of_Oblivion',['PC','PS5','XBS'],['RPG','ESTRATEGIA']).
+videojuegos_multiplataforma('The_Crush_House','PC',['SIMULACION','AVENTURA']).
+videojuegos_multiplataforma('Beat_Slayer','PC','ACCION').
+videojuegos_multiplataforma('Age_of_Water',['PC','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('NeoSprint',['PC','NSW','PS4','XBO','PS5','XBS'],'CONDUCCION').
+videojuegos_multiplataforma('Triggerheart_Exelica',['360','PC','NSW'],'ACCION').
+videojuegos_multiplataforma('Soldner-X_Complete_Collection','NSW','ACCION').
+videojuegos_multiplataforma('Eternal_Strands',['PC','PS5','XBS'],['ACCION','AVENTURA']).
+videojuegos_multiplataforma('POed:_Definitive_Edition',['PC','NSW','PS4','XBO','PS5','XBS'],'ACCION').
+videojuegos_multiplataforma('Duckside','PC','ACCION').
+videojuegos_multiplataforma('The_Kindeman_Remedy',['PC','NSW','PS4','XBO','PS5','XBS'],'ESTRATEGIA').
+videojuegos_multiplataforma('As_We_Descend','PC','ESTRATEGIA').
+videojuegos_multiplataforma('Nine_Sols','PC',['ACCION','PLATAFORMAS']).
+videojuegos_multiplataforma('Metal:_Hellsinger_VR',['PS5','PC'],'ACCION').
+videojuegos_multiplataforma('Corpse_Party_2:_Darkness_Distortion',['PC','NSW','PS4'],'AVENTURA').
+videojuegos_multiplataforma('Dollhouse: Behind the Broken Mirror',['PS5','XBS','PC'],'AVENTURA').
+videojuegos_multiplataforma('Rauniot','PC','AVENTURA_GRAFICA').
+videojuegos_multiplataforma('Asphalt_Legends_Unite',['PC','NSW','PS4','XBO','PS5','XBS','IPH'],'CONDUCCION').
+videojuegos_multiplataforma('The_Coma_2B:_Catacomb','PC','AVENTURA').
+videojuegos_multiplataforma('Vambrace:_Dungeon_Monarch','PC','ESTRATEGIA').
+videojuegos_multiplataforma('Sworn',['PC','NSW','PS5','XBS'],'ACCION').
+videojuegos_multiplataforma('Stride:_Fates',['PC','PS5'],'ACCION').
 
 
 
@@ -2593,9 +2994,9 @@ desarrolladora_de('Playstack', 'Hordes of Hunger').
 desarrolladora_de('Seatribe Entertainment', 'Farewell North').
 desarrolladora_de('Rhythm Beast Entertainment', 'Robobeat').
 desarrolladora_de('Basic42 Games', 'OVRDARK: a Do Not Open story').
-desarrolladora_de('Ubisoft Montreal', 'Assassin\'s Creed Shadows').
+desarrolladora_de('Ubisoft Montreal', 'Assassins Creed Shadows').
 desarrolladora_de('Neowiz', 'Batman: Arkham Shadow').
-desarrolladora_de('Funko Games', 'Funko Fusion').
+desarrolladora_de('Funko Games', 'Funko_Fusion').
 desarrolladora_de('Nacon', 'Alien: Rogue Incursion').
 desarrolladora_de('Warhorse Studios', 'Kingdom Come: Deliverance 2').
 desarrolladora_de('Black Lamb Studios', 'Yars Rising').
@@ -2736,6 +3137,71 @@ es_multijugador('Vambrace:_Dungeon_Monarch').
 es_multijugador('Sworn'). 
 es_multijugador('Stride:_Fates').
 
+
+ % Extraer el nombre del juego a partir del predicado ano_de_lanzamiento
+
+ juego(Nombre,Anio) :- ano_de_lanzamiento(Nombre, Anio).
+  
+ % Recorrer la lista de predicados ano_de_lanzamiento
+   
+  :- forall(ano_de_lanzamiento(Nombre, _), juego(Nombre)).
+   
+%Obtener la plataforma en la que se lanzará un juego:
+plataforma(Juego, Plataforma) :- videojuegos(Juego, _, Plataforma).
+%Consultar si un juego es de un género específico:
+genero(Juego, Genero) :- videojuegos(Juego, Generos, _).
+%Obtener la desarrolladora de un juego:
+desarrolladora(Juego, Desarrolladora) :- desarrolladora_de(Desarrolladora, Juego).
+%Consultar si un juego se lanzará en un año específico:
+lanzamiento(Juego, Anio) :- ano_de_lanzamiento(Juego, Anio).
+%Obtener todos los juegos lanzados en un año específico:
+juegos_lanzados(Anio, Juegos) :-findall(Juego, ano_de_lanzamiento(Juego, Anio), Juegos).
+%Obtener todos los juegos de una desarrolladora específica:
+juegos_desarrolladora(Desarrolladora, Juegos) :- findall(Juego, desarrolladora_de(Desarrolladora, Juego), Juegos).
+%Obtener todos los juegos de un género específico:
+juegos_genero(Genero, Juegos) :- findall(Juego, genero(Juego, Genero), Juegos).
+%Obtener todos los juegos lanzados en una plataforma específica:
+juegos_plataforma(Plataforma, Juegos) :- findall(Juego, videojuegos(Juego, _, Plataforma), Juegos).
+%Combinar consultas:
+juegos_esperados_genero(Genero, Anio, Juegos) :- mas_esperados(Juegos), genero(Juegos, Genero), ano_de_lanzamiento(Juegos, Anio).
+%Contar el número de juegos de un género específico:
+numero_juegos_genero(Genero, Cantidad) :-
+    findall(_, genero(_, Genero), Juegos),
+    length(Juegos, Cantidad).
+%Contar el número de juegos lanzados en un año específico:
+numero_juegos_lanzamiento(Anio, Cantidad) :-
+    findall(_, ano_de_lanzamiento(_, Anio), Juegos),
+    length(Juegos, Cantidad).
+%Contar el número de juegos de una desarrolladora específica:
+numero_juegos_desarrolladora(Desarrolladora, Cantidad) :-
+    findall(_, desarrolladora_de(Desarrolladora, _), Juegos),
+    length(Juegos, Cantidad).
+
+% Obtener todos los juegos lanzados antes de un año específico:
+juegos_antes_2010(Anio, Juegos) :-ano_de_lanzamiento(Juegos, Anio),Anio<2010.
+
+juegos_similares(Juego, JuegosSimilares) :-
+    genero(Juego, Genero),
+    plataforma(Juego, Plataforma),
+    desarrolladora_de(Desarrolladora, Juego),
+    findall(OtroJuego, genero(OtroJuego, Genero), JuegosSimilares1),
+findall(OtroJuego, plataforma(OtroJuego, Plataforma), Juegos).
+  
+    
+juegos_especificos(Genero, Plataforma, Anio, Juegos) :-
+    genero(Juegos, Genero),
+    plataforma(Juegos, Plataforma),
+    ano_de_lanzamiento(Juegos, Anio).
+
+  
+juegos(Juegos) :- findall(Juego, videojuegos(Juego, _, _), Juegos),
+        forall(member(Juego, Juegos), (write(Juego), nl)).
+      
+  
+desarrolladora_juego(Juego, Desarrolladora) :- 
+            desarrolladora_de(Desarrolladora, Juego).
+
+%juegos_pc_y_anio_2023(Juego):-ano_de_lanzamiento(Juego,Anio),Anio=2023,videojuegos_de(Juego,'pc'),videojuegos_multiplataforma(Juego,_,_).        
 %musica
 %hip-hop
 artista_de_genero('Rels B', 'Hip Hop').
@@ -2762,6 +3228,7 @@ artista_de_genero('Nas', 'Hip Hop').
 artista_de_genero('Outkast', 'Hip Hop').
 artista_de_genero('Missy Elliott', 'Hip Hop').
 artista_de_genero('J. Cole', 'Hip Hop').
+%
 %Regueton
 artista_de_genero('Bad Bunny', 'Regueton').
 artista_de_genero('Bad Bunny', 'Regueton').
@@ -2959,3 +3426,39 @@ artista_de_genero('Johannes Brahms', 'Clásica').
 artista_de_genero('Johnny Cash', 'Country').
 artista_de_genero('Frank Sinatra', 'Swing').
 
+artistas_Hip_hop(Artista):-artista_de_genero(Artista,'Hip Hop').
+artistas_regueton(Artista):-artista_de_genero(Artista,'Regueton').
+artistas_Rock(Artista):-artista_de_genero(Artista,'Rock').
+artistas_Pop(Artista):-artista_de_genero(Artista,'Pop').
+artistas_Jazz(Artista):-artista_de_genero(Artista,'Jazz').
+artistas_Ranchera(Artista):-artista_de_genero(Artista,'Ranchera').
+artistas_Salsa(Artista):-artista_de_genero(Artista,'Salsa').
+artistas_Punk_Rock(Artista):-artista_de_genero(Artista,'Punk Rock').
+artistas_Folk_Rock(Artista):-artista_de_genero(Artista,'Folk Rock').
+artistas_Hard_Rock(Artista):-artista_de_genero(Artista,'Hard Rock').
+artistas_Rock_Alternativo(Artista):-artista_de_genero(Artista,'Rock Alternativo').
+artistas_Rock_en_espanol(Artista):-artista_de_genero(Artista,'Rock en espanol').
+artistas_Pop_Rock(Artista):-artista_de_genero(Artista,'Pop Rock').
+artistas_Flamenco_Pop(Artista):-artista_de_genero(Artista,'Flamenco Pop').
+artistas_Pop_latino(Artista):-artista_de_genero(Artista,'Pop latino').
+artistas_K_Pop(Artista):-artista_de_genero(Artista,'K-Pop').
+artistas_Pop_Country(Artista):-artista_de_genero(Artista,'Pop Country').
+artistas_Indie_Pop(Artista):-artista_de_genero(Artista,'Indie Pop').
+
+
+:- use_module(library(pcre)).
+
+% Predicado que verifica si el género contiene 'Pop'
+genero_contiene_pop(Genero) :-
+    sub_atom(Genero, _, _, _, 'Pop').
+
+% Predicado para buscar artistas del género 'Pop'
+buscar_artistas_pop(Artistas) :-
+    findall(Artista, (artista_de_genero(Artista, Genero), genero_contiene_pop(Genero)), Artistas).
+
+% Ejecución de la búsqueda
+buscar_artistas_pop(Artistas), writeln(Artistas).
+
+/*
+artista_de_genero('Soda Stereo', 'Rock en espanol').
+*/
