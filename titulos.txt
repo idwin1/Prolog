@@ -1,41 +1,220 @@
-Mejor_Banda_Original
-Mejor_Cancion_Original
-Mejor_Pelicula_de_Animacion
-Mejor_Banda_Sonora_Original
-Mejor_Edicion_de_Sonido
-Mejor_Actriz
-Mejor_Edicion
-Mejores_Efectos_Visuales
-Mejor_Fotografia
-Mejor_Musica
-Mejor_Musica_Original
-Mejor_Maquillaje
-Mejor_Efectos_Visuales
-Mejor_Pelicula
-Mejor_Actor
-Mejor_Actor_de_Reparto
-Mejor_Actriz_de_Reparto
-Mejor_Actor_Principal
-Mejor_Guion_Adaptado
-Mejor_Sonido
-Mejor_Diseno_de_Produccion
-Mejor_Direccion
-Mejor_Direccion_de_Arte
-Mejor_Direccion_de_Fotografia
-Mejor_Montaje
-Mejor_Interpretacion
-Mejor_Documental
-Mejor_Vestuario
-Mejor_Produccion
-Mejor_Mezcla_de_Sonido
-Mejor_Banda_Sonora
-Mejor_Cinematografia
-Mejor_Actor_de_Reparto
-Mejor_Actuacion
-Mejor_Cortometraje_Documental
-Mejor_Efectos_de_Sonido
-Mejor_Actriz_Secundaria
-Mejor Actriz Principal
-Mejor_Actriz_de_Reparto
-Mejor_Maquillaje_y_Peinado
-Mejor_Montaje_de_Sonido
+critica_imdb('Mad_Max:_Furia_en_el_Camino',8.1).
+critica_imdb('Duro_de_Matar',8.2).
+critica_imdb('Indiana_Jones',7.5).
+critica_imdb('El_senor_de_los_anillos:_Las_dos_torres',8.8).
+critica_imdb('Supercool',7.6).
+critica_imdb('Dos_Tontos_en_Fuga',6.5).
+critica_imdb('El_Padrino',9.2).
+critica_imdb('Suenos_de_Libertad',8.4).
+critica_imdb('El_Exorcista',8.1).
+critica_imdb('Pesadilla_en_la_Calle_del_Infierno',7.4).
+critica_imdb('La_Guerra_de_las_Galaxias',8.6).
+critica_imdb('El_Cazador_Implacable',8.1).
+critica_imdb('Harry_Potter_y_la_piedra_filosofal',7.6).
+critica_imdb('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero',6.9).
+critica_imdb('La_Novicia_Rebelde',8.1).
+critica_imdb('La_La_Land._Una_historia_de_amor',8.0).
+critica_imdb('Toy_Story',8.3).
+critica_imdb('Shrek',7.9).
+critica_imdb('Orgullo_y_Prejuicio',7.8).
+critica_imdb('Diario_de_una_Pasion',7.8).
+critica_imdb('Se7en',8.6).
+critica_imdb('Perdida',8.1).
+critica_imdb('Sherlock_Holmes',7.6).
+critica_imdb('La_Chica_del_Dragon_Tatuado',7.8).
+critica_imdb('Red_Social',7.8).
+critica_imdb('Gandhi',8.0).
+critica_imdb('El_Viaje_del_Emperador',7.5).
+critica_imdb('Bowling_for_Columbine',8.0).
+critica_imdb('Corazon_Valiente',8.3).
+critica_imdb('La_Lista_de_Schindler',9.0).
+critica_imdb('Rescatando_al_Soldado_Ryan',8.6).
+critica_imdb('Dunkerque',7.8).
+critica_imdb('El_Bueno,el_Malo_y_el_Feo',8.8).
+critica_imdb('Los_Imperdonables',8.2).
+critica_imdb('Mission:_Impossible',7.2).
+critica_imdb('James_Bond_at_the_Movies',7.6).
+critica_imdb('Stand_by_Me',8.1).
+critica_imdb('Lady_Bird',7.4).
+critica_imdb('Los_Infiltrados',8.5).
+critica_imdb('Tiempos_Violentos',8.9).
+critica_imdb('Rocky',8.1).
+critica_imdb('El_Juego_de_la_Fortuna',7.6).
+critica_imdb('Buscando_a_Nemo',8.2).
+critica_imdb('Los_Increibles',8.0).
+critica_imdb('Frozen:_Una_Aventura_Congelada',7.4).
+critica_imdb('Coco',8.4).
+critica_imdb('Pacto_de_Sangre',8.3).
+critica_imdb('La_Ciudad_del_Pecado',8.0).
+critica_imdb('Fuego_Contra_Fuego',8.3).
+critica_imdb('Los_angeles_al_Desnudo',8.2).
+critica_imdb('The_Avengers:_Los_Vengadores',8.0).
+critica_imdb('Batman:_El_caballero_de_la_noche',9.0).
+critica_imdb('Mujer_Bonita',7.1).
+critica_imdb('Cuando_Harry_Conocio_a_Sally',7.7).
+critica_imdb('El_Laberinto_del_Fauno',8.2).
+critica_imdb('La_Forma_del_Agua',7.3).
+critica_imdb('Los_Juegos_del_Hambre',7.2).
+critica_imdb('Jurassic_Park',8.2).
+critica_imdb('E.T.,el_Extraterrestre',7.9).
+critica_imdb('Volver_al_Futuro',8.5).
+critica_imdb('El_Origen',8.8).
+critica_imdb('Matrix',8.7).
+critica_imdb('Avatar',7.9).
+critica_imdb('Terminator',8.1).
+critica_imdb('Interestelar',8.7).
+critica_imdb('Alien:_El_Octavo_Pasajero',8.5).
+critica_imdb('Guardianes_de_la_Galaxia',8.0).
+critica_imdb('Titanic',7.9).
+critica_imdb('Romeo_+_Julieta',6.7).
+critica_imdb('Un_Paseo_para_Recordar',7.3).
+critica_imdb('Bajo_la_Misma_Estrella',7.7).
+critica_imdb('Realmente_Amor',7.6).
+critica_imdb('El_Diario_de_Bridget_Jones',6.8).
+critica_imdb('Moulin_Rouge:_Amor_en_Rojo',7.6).
+critica_imdb('Casablanca',8.5).
+critica_imdb('Un_Lugar_Llamado_Notting_Hill',7.2).
+critica_imdb('Locamente_Millonarios',6.9).
+critica_imdb('Scream:_Grita_Antes_de_Morir',7.4).
+critica_imdb('El_Conjuro',7.5).
+critica_imdb('Eso',6.8).
+critica_imdb('Huye',7.8).
+critica_imdb('Hereditary:_El_Legado_del_Diablo',7.3).
+critica_imdb('El_Babadook',6.8).
+critica_imdb('El_Aro',7.1).
+critica_imdb('Un_Lugar_en_Silencio',7.5).
+critica_imdb('Actividad_Paranormal',6.3).
+critica_imdb('Halloween',7.7).
+critica_imdb('Forrest_Gump',8.8).
+critica_imdb('El_Club_de_la_Pelea',8.8).
+critica_imdb('Belleza_Americana',8.3).  
+critica_imdb('Gladiador',8.5).   
+critica_imdb('Milagros_Inesperados',8.6).  
+critica_imdb('Mente_Indomable',8.3). 
+critica_imdb('En_Busca_de_la_Felicidad',8.0).
+critica_imdb('12_Anos_de_Esclavitud',8.1).  
+critica_imdb('Quien_Quiere_Ser_Millonario',8.0). 
+critica_imdb('El_Discurso_del_Rey',8.0). 
+critica_imdb('Tiburon',8.1). 
+critica_imdb('El_Silencio_de_los_Inocentes',8.6). 
+critica_imdb('Zodiaco',7.7).
+critica_imdb('Prisioneros',8.2).
+critica_imdb('La_Isla_Siniestra',8.2).
+critica_imdb('Memento',8.4).
+critica_imdb('El_Sexto_Sentido',8.2).
+critica_imdb('El_Cisne_Negro',8.0). 
+critica_imdb('El_Rey_Leon',8.5). 
+critica_imdb('Buscando_a_Dory',7.2).
+critica_imdb('El_Libro_de_la_Selva',7.4).
+critica_imdb('Zootopia',8.0). 
+critica_imdb('Moana:_Un_Mar_de_Aventuras',7.6).
+critica_imdb('Grandes_Heroes',7.8). 
+critica_imdb('Intensa-Mente',8.1). 
+critica_imdb('Mi_Villano_Favorito',7.6).
+critica_imdb('Ralph,El_Demoledor',7.7).
+critica_imdb('Como_Entrenar_a_tu_Dragon',8.1).
+critica_imdb('El_Mago_de_Oz',8.1). 
+critica_imdb('Alicia_en_el_Pais_de_las_Maravillas',6.4). 
+critica_imdb('El Hobbit:_Un_viaje_inesperado',7.8).
+critica_imdb('La_Princesa_Prometida',8.0).
+critica_imdb('Stardust:_El_Misterio_de_la_Estrella',7.6).
+critica_imdb('La_Historia_Sin_Fin',7.3).
+critica_imdb('Percy_Jackson_y_el_Ladron_del_Rayo',5.9).
+critica_imdb('El_Cristal_Encantado',7.1).
+critica_imdb('Laberinto',7.3).
+critica_imdb('Eragon',5.1).
+critica_imdb('Chicago',7.6). 
+critica_imdb('El_Gran_Showman',7.5).
+critica_imdb('Los_Miserables',7.5). 
+critica_imdb('Vaselina',7.2).
+critica_imdb('Mamma_Mia!',6.5).
+critica_imdb('Hairspray',6.7).
+critica_imdb('Amor_Sin_Barreras',7.1). 
+critica_imdb('Cantando_Bajo_la_Lluvia',8.3).
+critica_imdb('El_Fantasma_de_la_opera',7.2).
+critica_imdb('Toro_Salvaje',8.1). 
+critica_imdb('El_Peleador',7.8). 
+critica_imdb('Creed:_Corazon_de_Campeon',7.6).
+critica_imdb('Golpes_del_Destino',7.1).
+critica_imdb('Recuerdos_de_los_Titanes',8.1). 
+critica_imdb('Juego_de_Honor',7.3).
+critica_imdb('Campo_de_Suenos',7.5).
+critica_imdb('Un_Equipo_Muy_Especial',7.3).
+critica_imdb('Un_Sueno_Posible',7.6).
+critica_imdb('El_Gran_Truco',8.5).
+critica_imdb('Blancanieves_y_los_Siete_Enanitos', 7.6).
+critica_imdb('Cenicienta', 7.3).
+critica_imdb('Aladdin', 8.0).
+critica_imdb('Mulan', 7.6).
+critica_imdb('La_Bella_y_la_Bestia', 8.0).
+critica_imdb('Bambi', 7.3).
+critica_imdb('101_Dalmatas', 7.3).
+critica_imdb('Peter_Pan', 7.3).
+critica_imdb('Dumbo', 7.2).
+critica_imdb('Hercules', 7.2).
+critica_imdb('Pocahontas', 6.7).
+critica_imdb('Enredados', 7.7).
+critica_imdb('Cars', 7.2).
+critica_imdb('Monsters_Inc', 8.1).
+critica_imdb('Up', 8.3).
+critica_imdb('WALL-E', 8.4).
+critica_imdb('Valiente', 7.1).
+critica_imdb('Lilo_&_Stitch', 7.3).
+critica_imdb('Los_Aristogatos', 7.1).
+critica_imdb('Ralph_el_Demoledor', 7.7).
+critica_imdb('La_Dama_y_el_Vagabundo', 7.3).
+critica_imdb('La_Princesa_y_el_Sapo', 7.1).
+critica_imdb('Bolt', 6.8).
+critica_imdb('Big_Hero_6', 7.8).
+critica_imdb('El_Jorobado_de_Notre_Dame', 7.0).
+critica_imdb('Atlantis_El_Imperio_Perdido', 6.9).
+critica_imdb('Oliver_y_su_Pandilla', 6.7).
+critica_imdb('Tierra_de_Osos', 6.8).
+critica_imdb('El_Emperador_y_sus_Locuras', 7.4).
+critica_imdb('Hermano_Oso', 6.8).
+critica_imdb('Zafarrancho_en_el_Rancho', 5.4).
+critica_imdb('Chicken_Little', 5.7).
+critica_imdb('Rio', 6.9).
+critica_imdb('El_Camino_hacia_El_Dorado', 6.9).
+critica_imdb('Kung_Fu_Panda', 7.6).
+critica_imdb('Madagascar', 6.9).
+critica_imdb('Mary_Poppins', 7.8).
+critica_imdb('Mi_Pobre_Angelito', 7.7).
+critica_imdb('Jumanji', 7.0).
+critica_imdb('El_Jardin_Secreto', 7.3).
+critica_imdb('Harry_Potter_y_la_Camara_Secreta', 7.4).
+critica_imdb('Matilda', 6.9).
+critica_imdb('Stuart_Little', 6.0).
+critica_imdb('Una_Noche_en_el_Museo', 6.4).
+critica_imdb('Chitty_Chitty_Bang_Bang', 6.9).
+critica_imdb('Willy_Wonka_y_la_Fabrica_de_Chocolate', 7.8).
+critica_imdb('Los_Goonies', 7.8).
+critica_imdb('Spy_Kids', 5.6).
+critica_imdb('Hook', 6.8).
+critica_imdb('Paddington', 7.2).
+critica_imdb('Peter_Rabbit', 6.6).
+critica_imdb('Peter_Rabbit_2_A_la_Fuga', 6.2).
+critica_imdb('La_Dama_y_el_Vagabundo_2019', 6.2).
+critica_imdb('El_Rey_Leon_2019', 6.8).
+critica_imdb('Aladdin_2019', 6.9).
+critica_imdb('Dumbo_2019', 6.3).
+critica_imdb('La_Bella_y_la_Bestia_2017', 7.1).
+critica_imdb('Christopher_Robin', 7.3).
+critica_imdb('El_Libro_de_la_Selva_2016', 7.4).
+critica_imdb('Malefica', 7.0).
+critica_imdb('Malefica_Duena_del_Mal', 6.6).
+critica_imdb('El_Cascanueces_y_los_Cuatro_Reinos', 5.5).
+critica_imdb('Alicia_en_el_Pais_de_las_Maravillas_2010', 6.4).
+critica_imdb('Alicia_a_Traves_del_Espejo', 6.2).
+critica_imdb('Cenicienta_2015', 6.9).
+critica_imdb('El_Dragon_de_Pete', 6.7).
+critica_imdb('Aventuras_en_la_Gran_Ciudad', 6.9).
+critica_imdb('La_Ninera_Magica', 6.6).
+critica_imdb('Querida_Encogi_a_los_Ninos', 6.4).
+critica_imdb('Una_Serie_de_Eventos_Desafortunados', 6.8).
+critica_imdb('El_Gato_con_Sombrero', 4.0).
+critica_imdb('Las_Aventuras_de_Sharkboy_y_Lavagirl', 3.7).
+critica_imdb('Dora_y_la_ciudad_perdida', 6.1).
+critica_imdb('Paddington_2', 7.8).
+critica_imdb('Mi_amigo_el_gigante', 6.3).
+critica_imdb('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 6.7).

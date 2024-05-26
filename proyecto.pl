@@ -1,4 +1,3 @@
-:- dynamic ano_de_lanzamiento/2.
 %Peliculas
 %_Peliculas_y_generos
 pelicula_genero('Mad_Max:_Furia_en_el_Camino','Accion').
@@ -221,8 +220,7 @@ pelicula_genero('Paddington_2','Infantil').
 pelicula_genero('Mi_amigo_el_gigante','Infantil').
 pelicula_genero('El_hogar_de_Miss_Peregrine_para_ninos_peculiares','Infantil').
 
-
-%Peliculas_infantiles_de_animacion
+%Peliculas infantiles de animacion 
 pelicula_infantil('Toy_Story','animacion').
 pelicula_infantil('El_Rey_Leon','animacion').
 pelicula_infantil('Blancanieves_y_los_siete_enanitos','animacion').
@@ -515,7 +513,6 @@ critica_imdb('El_Silencio_de_los_Inocentes',8.6).
 critica_imdb('Zodiaco',7.7).
 critica_imdb('Prisioneros',8.2).
 critica_imdb('La_Isla_Siniestra',8.2).
-critica_imdb('Perdida',8.1).
 critica_imdb('Memento',8.4).
 critica_imdb('El_Sexto_Sentido',8.2).
 critica_imdb('El_Cisne_Negro',8.0). 
@@ -577,7 +574,6 @@ critica_imdb('WALL-E', 8.4).
 critica_imdb('Valiente', 7.1).
 critica_imdb('Lilo_&_Stitch', 7.3).
 critica_imdb('Los_Aristogatos', 7.1).
-critica_imdb('Ralph_el_Demoledor', 7.7).
 critica_imdb('La_Dama_y_el_Vagabundo', 7.3).
 critica_imdb('La_Princesa_y_el_Sapo', 7.1).
 critica_imdb('Bolt', 6.8).
@@ -738,7 +734,6 @@ pelicula_director('El_Silencio_de_los_Inocentes', 'Jonathan Demme').
 pelicula_director('Zodiaco', 'David Fincher').
 pelicula_director('Prisioneros', 'Denis Villeneuve').
 pelicula_director('La_Isla_Siniestra', 'Martin Scorsese').
-pelicula_director('Perdida', 'David Fincher').
 pelicula_director('Memento', 'Christopher Nolan').
 pelicula_director('El_Sexto_Sentido', 'M. Night Shyamalan').
 pelicula_director('El_Cisne_Negro', 'Darren Aronofsky').
@@ -800,7 +795,6 @@ pelicula_director('WALL-E', 'Andrew Stanton').
 pelicula_director('Valiente', 'Mark Andrews').
 pelicula_director('Lilo_&_Stitch', 'Dean DeBlois').
 pelicula_director('Los_Aristogatos', 'Wolfgang Reitherman').
-pelicula_director('Ralph_el_Demoledor', 'Rich Moore').
 pelicula_director('La_Dama_y_el_Vagabundo', 'Hamilton Luske').
 pelicula_director('La_Princesa_y_el_Sapo', 'Ron Clements').
 pelicula_director('Bolt', 'Byron Howard').
@@ -961,7 +955,6 @@ estreno('El_Silencio_de_los_Inocentes', 1991).
 estreno('Zodiaco', 2007).
 estreno('Prisioneros', 2013).
 estreno('La_Isla_Siniestra', 2010).
-estreno('Perdida', 2014).
 estreno('Memento', 2000).
 estreno('El_Sexto_Sentido', 1999).
 estreno('El_Cisne_Negro', 2010).
@@ -1023,7 +1016,6 @@ estreno('WALL-E', 2008).
 estreno('Valiente', 2012).
 estreno('Lilo_&_Stitch', 2002).
 estreno('Los_Aristogatos', 1970).
-estreno('Ralph_el_Demoledor', 2012).
 estreno('La_Dama_y_el_Vagabundo', 1955).
 estreno('La_Princesa_y_el_Sapo', 2009).
 estreno('Bolt', 2008).
@@ -1081,7 +1073,7 @@ estreno('Paddington_2', 2017).
 estreno('Mi_amigo_el_gigante', 2016).
 estreno('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 2016).
 
-%Idioma Original de la Pelicula
+%Nacionalidad de la Pelicula
 nacionalidad('Mad_Max:_Furia_en_el_Camino', 'Estados Unidos').
 nacionalidad('Duro_de_Matar', 'Estados Unidos').
 nacionalidad('Indiana_Jones', 'Estados Unidos').
@@ -1184,7 +1176,6 @@ nacionalidad('El_Silencio_de_los_Inocentes', 'Estados Unidos').
 nacionalidad('Zodiaco', 'Estados Unidos').
 nacionalidad('Prisioneros', 'Estados Unidos').
 nacionalidad('La_Isla_Siniestra', 'Estados Unidos').
-nacionalidad('Perdida', 'Estados Unidos').
 nacionalidad('Memento', 'Estados Unidos').
 nacionalidad('El_Sexto_Sentido', 'Estados Unidos').
 nacionalidad('El_Cisne_Negro', 'Estados Unidos').
@@ -1246,7 +1237,6 @@ nacionalidad('WALL-E', 'Estados Unidos').
 nacionalidad('Valiente', 'Estados Unidos').
 nacionalidad('Lilo_&_Stitch', 'Estados Unidos').
 nacionalidad('Los_Aristogatos', 'Estados Unidos').
-nacionalidad('Ralph_el_Demoledor', 'Estados Unidos').
 nacionalidad('La_Dama_y_el_Vagabundo', 'Estados Unidos').
 nacionalidad('La_Princesa_y_el_Sapo', 'Estados Unidos').
 nacionalidad('Bolt', 'Estados Unidos').
@@ -1407,7 +1397,6 @@ actor_protagonista('El_Silencio_de_los_Inocentes', 'Jodie Foster').
 actor_protagonista('Zodiaco', 'Jake Gyllenhaal').
 actor_protagonista('Prisioneros', 'Hugh Jackman').
 actor_protagonista('La_Isla_Siniestra', 'Leonardo DiCaprio').
-actor_protagonista('Perdida', 'Ben Affleck').
 actor_protagonista('Memento', 'Guy Pearce').
 actor_protagonista('El_Sexto_Sentido', 'Bruce Willis').
 actor_protagonista('El_Cisne_Negro', 'Natalie Portman').
@@ -1469,7 +1458,6 @@ actor_protagonista('WALL-E', 'Ben Burtt').
 actor_protagonista('Valiente', 'Kelly Macdonald').
 actor_protagonista('Lilo_&_Stitch', 'Daveigh Chase').
 actor_protagonista('Los_Aristogatos', 'Phil Harris').
-actor_protagonista('Ralph_el_Demoledor', 'John C. Reilly').
 actor_protagonista('La_Dama_y_el_Vagabundo', 'Barbara Luddy').
 actor_protagonista('La_Princesa_y_el_Sapo', 'Anika Noni Rose').
 actor_protagonista('Bolt', 'John Travolta').
@@ -1630,7 +1618,6 @@ actor_secundario('El_Silencio_de_los_Inocentes', 'Anthony Hopkins').
 actor_secundario('Zodiaco', 'Mark Ruffalo').
 actor_secundario('Prisioneros', 'Jake Gyllenhaal').
 actor_secundario('La_Isla_Siniestra', 'Mark Ruffalo').
-actor_secundario('Perdida', 'Neil Patrick Harris').
 actor_secundario('Memento', 'Carrie-Anne Moss').
 actor_secundario('El_Sexto_Sentido', 'Haley Joel Osment').
 actor_secundario('El_Cisne_Negro', 'Mila Kunis').
@@ -1692,7 +1679,6 @@ actor_secundario('WALL-E', 'Elissa Knight').
 actor_secundario('Valiente', 'Emma Thompson').
 actor_secundario('Lilo_&_Stitch', 'Chris Sanders').
 actor_secundario('Los_Aristogatos', 'Eva Gabor').
-actor_secundario('Ralph_el_Demoledor', 'Sarah Silverman').
 actor_secundario('La_Dama_y_el_Vagabundo', 'Barbara Luddy').
 actor_secundario('La_Princesa_y_el_Sapo', 'Bruno Campos').
 actor_secundario('Bolt', 'John Travolta').
@@ -1750,7 +1736,7 @@ actor_secundario('Paddington_2', 'Hugh Grant').
 actor_secundario('Mi_amigo_el_gigante', 'Mark Rylance').
 actor_secundario('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Eva Green').
 
-
+%Actores de genero masculino
 genero_masculino('Tom Hardy').
 genero_masculino('Bruce Willis').
 genero_masculino('Harrison Ford').
@@ -1818,7 +1804,6 @@ genero_masculino('Charlie Cox').
 genero_masculino('Noah Hathaway').
 genero_masculino('Logan Lerman').
 genero_masculino('Stephen Garlick').
-genero_masculino('David Bowie').
 genero_masculino('Edward Speleers').
 genero_masculino('Gene Kelly').
 genero_masculino('Gerard Butler').
@@ -1861,17 +1846,12 @@ genero_masculino('Jim Carrey').
 genero_masculino('Taylor Lautner').
 genero_masculino('Asa Butterfield').
 genero_masculino('Alan Rickman').
-genero_masculino('Sean Astin').
-genero_masculino('Jonah Hill').
 genero_masculino('Martin Lawrence').
 genero_masculino('James Caan').
-genero_masculino('Morgan Freeman').
 genero_masculino('Max von Sydow').
-genero_masculino('Harrison Ford').
 genero_masculino('Christopher Walken').
 genero_masculino('Rupert Grint').
 genero_masculino('Christopher Plummer').
-genero_masculino('Ryan Gosling').
 genero_masculino('Tim Allen').
 genero_masculino('Eddie Murphy').
 genero_masculino('Matthew Macfadyen').
@@ -1880,17 +1860,10 @@ genero_masculino('Tyler Perry').
 genero_masculino('Jude Law').
 genero_masculino('Stellan Skarsgård').
 genero_masculino('Andrew Garfield').
-genero_masculino('Michael Moore').
-genero_masculino('Ben Kingsley').
 genero_masculino('Matt Damon').
-genero_masculino('Tom Hardy').
 genero_masculino('Lee Van Cleef').
-genero_masculino('Gene Hackman').
 genero_masculino('Jon Voight').
-genero_masculino('Sean Connery').
 genero_masculino('River Phoenix').
-genero_masculino('Matt Damon').
-genero_masculino('Samuel L. Jackson').
 genero_masculino('Burgess Meredith').
 genero_masculino('Edward G. Robinson').
 genero_masculino('Clive Owen').
@@ -1915,7 +1888,6 @@ genero_masculino('Billy Zane').
 genero_masculino('John Leguizamo').
 genero_masculino('Peter Coyote').
 genero_masculino('Nat Wolff').
-genero_masculino('Hugh Grant').
 genero_masculino('Colin Firth').
 genero_masculino('Claude Rains').
 genero_masculino('Rhys Ifans').
@@ -1929,44 +1901,33 @@ genero_masculino('Brian Cox').
 genero_masculino('Micah Sloat').
 genero_masculino('Donald Pleasence').
 genero_masculino('Jared Leto').
-genero_masculino('Joaquin Phoenix').
 genero_masculino('Michael Clarke Duncan').
-genero_masculino('Robin Williams').
 genero_masculino('Michael Fassbender').
 genero_masculino('Anil Kapoor').
 genero_masculino('Geoffrey Rush').
 genero_masculino('Robert Shaw').
 genero_masculino('Anthony Hopkins').
 genero_masculino('Mark Ruffalo').
-genero_masculino('Jake Gyllenhaal').
-genero_masculino('Brad Pitt').
 genero_masculino('Neil Patrick Harris').
 genero_masculino('Haley Joel Osment').
 genero_masculino('Jeremy Irons').
-genero_masculino('Bill Murray').
 genero_masculino('Jason Bateman').
 genero_masculino('Dwayne Johnson').
-genero_masculino('Scott Adsit').
 genero_masculino('Jason Segel').
 genero_masculino('Jack McBrayer').
-genero_masculino('Gerard Butler').
 genero_masculino('Ray Bolger').
 genero_masculino('Ed Wynn').
-genero_masculino('Martin Freeman').
 genero_masculino('Mandy Patinkin').
-genero_masculino('Robert De Niro').
 genero_masculino('Pierce Brosnan').
 genero_masculino('Jim Henson').
 genero_masculino('David Bowie').
 genero_masculino('Richard Gere').
 genero_masculino('Zac Efron').
 genero_masculino('Russell Crowe').
-genero_masculino('John Travolta').
 genero_masculino('George Chakiris').
 genero_masculino('Donald OConnor').
 genero_masculino('Patrick Wilson').
 genero_masculino('Joe Pesci').
-genero_masculino('Sylvester Stallone').
 genero_masculino('Will Patton').
 genero_masculino('Rob Brown').
 genero_masculino('James Earl Jones').
@@ -1976,22 +1937,11 @@ genero_masculino('Richard Madden').
 genero_masculino('Will Smith').
 genero_masculino('Dan Stevens').
 genero_masculino('Stan Alexander').
-genero_masculino('Danny DeVito').
-genero_masculino('Mel Gibson').
 genero_masculino('Zachary Levi').
 genero_masculino('Paul Newman').
-genero_masculino('Billy Crystal').
 genero_masculino('Chris Sanders').
-genero_masculino('John Travolta').
 genero_masculino('Ryan Potter').
-genero_masculino('Michael J. Fox').
-genero_masculino('Joey Lawrence').
-genero_masculino('David Spade').
 genero_masculino('Rick Moranis').
-genero_masculino('Zach Braff').
-genero_masculino('Kevin Kline').
-genero_masculino('Jack Black').
-genero_masculino('Ben Stiller').
 genero_masculino('Jack Albertson').
 genero_masculino('Josh Brolin').
 genero_masculino('Antonio Banderas').
@@ -2002,20 +1952,18 @@ genero_masculino('Domhnall Gleeson').
 genero_masculino('David Oyelowo').
 genero_masculino('Justin Theroux').
 genero_masculino('Seth Rogen').
-genero_masculino('Colin Farrell').
 genero_masculino('Luke Evans').
 genero_masculino('Bill Murray').
 genero_masculino('Sharlto Copley').
 genero_masculino('Johnny Depp').
 genero_masculino('Robert Redford').
 genero_masculino('Keith Coogan').
-genero_masculino('Jim Carrey').
-genero_masculino('Mike Myers').
 genero_masculino('George Lopez').
 genero_masculino('Eugenio Derbez').
 genero_masculino('Mark Rylance').
 genero_masculino('Herman Bing').
 
+%Actrices de genero femenino
 genero_femenino('Ellen Burstyn').
 genero_femenino('Heather Langenkamp').
 genero_femenino('Georgie Henley').
@@ -2030,14 +1978,12 @@ genero_femenino('Sigourney Weaver').
 genero_femenino('Shailene Woodley').
 genero_femenino('Renee Zellweger').
 genero_femenino('Nicole Kidman').
-genero_femenino('Julia Roberts').
 genero_femenino('Constance Wu').
 genero_femenino('Neve Campbell').
 genero_femenino('Vera Farmiga').
 genero_femenino('Toni Collette').
 genero_femenino('Essie Davis').
 genero_femenino('Naomi Watts').
-genero_femenino('Emily Blunt').
 genero_femenino('Katie Featherston').
 genero_femenino('Jamie Lee Curtis').
 genero_femenino('Jodie Foster').
@@ -2048,19 +1994,10 @@ genero_femenino('Auliʻi Cravalho').
 genero_femenino('Amy Poehler').
 genero_femenino('Judy Garland').
 genero_femenino('Mia Wasikowska').
-genero_femenino('Kate Maberly').
 genero_femenino('Mara Wilson').
-genero_femenino('Alexa PenaVega').
-genero_femenino('Emily Blunt').
 genero_femenino('Tessa Thompson').
-genero_femenino('Emma Watson').
-genero_femenino('Angelina Jolie').
 genero_femenino('Angelina Jolie').
 genero_femenino('Mackenzie Foy').
-genero_femenino('Mia Wasikowska').
-genero_femenino('Mia Wasikowska').
-genero_femenino('Lily James').
-genero_femenino('Emma Thompson').
 genero_femenino('Isabela Moner').
 genero_femenino('Ruby Barnhill').
 genero_femenino('Adriana Caselotti').
@@ -2071,25 +2008,19 @@ genero_femenino('Irene Bedard').
 genero_femenino('Mandy Moore').
 genero_femenino('Kelly Macdonald').
 genero_femenino('Daveigh Chase').
-genero_femenino('Barbara Luddy').
 genero_femenino('Anika Noni Rose').
-genero_femenino('Roseanne Barr').
 genero_femenino('Kate Maberly').
 genero_femenino('Alexa PenaVega').
 genero_femenino('Emily Blunt').
-genero_femenino('Emma Watson').
 genero_femenino('Angelina Jolie').
 genero_femenino('Charlize Theron').
 genero_femenino('Karen Allen').
-genero_femenino('Heather Langenkamp').
 genero_femenino('Tilda Swinton').
 genero_femenino('Candice Bergen').
 genero_femenino('Sophie Marceau').
 genero_femenino('Laurie Metcalf').
-genero_femenino('Ellen DeGeneres').
 genero_femenino('Holly Hunter').
 genero_femenino('Idina Menzel').
-genero_femenino('Sigourney Weaver').
 genero_femenino('Jessica Chastain').
 genero_femenino('Robin Wright').
 genero_femenino('Thora Birch').
@@ -2098,20 +2029,11 @@ genero_femenino('Carrie-Anne Moss').
 genero_femenino('Mila Kunis').
 genero_femenino('Phyllis Smith').
 genero_femenino('Tami Stronach').
-genero_femenino('Elissa Knight').
-genero_femenino('Emma Thompson').
 genero_femenino('Eva Gabor').
-genero_femenino('Sarah Silverman').
 genero_femenino('Barbara Luddy').
 genero_femenino('Demi Moore').
 genero_femenino('Roseanne Barr').
-genero_femenino('Anne Hathaway').
-genero_femenino('Maggie Smith').
-genero_femenino('Geena Davis').
-genero_femenino('Sally Ann Howes').
 genero_femenino('Hayley Atwell').
-genero_femenino('Michelle Pfeiffer').
-genero_femenino('Helena Bonham Carter').
 genero_femenino('Eva Green').
 genero_femenino('Betty Lou Gerson').
 genero_femenino('Kathryn Beaumont').
@@ -2119,9 +2041,6 @@ genero_femenino('Lucille La Verne').
 genero_femenino('Elissa Knight').
 genero_femenino('Emma Thompson').
 genero_femenino('Sarah Silverman').
-genero_femenino('Barbara Luddy').
-genero_femenino('Phyllis Smith').
-genero_femenino('Roseanne Barr').
 genero_femenino('Anne Hathaway').
 genero_femenino('Maggie Smith').
 genero_femenino('Geena Davis').
@@ -2129,7 +2048,6 @@ genero_femenino('Sally Ann Howes').
 genero_femenino('Michelle Pfeiffer').
 genero_femenino('Keira Knightley').
 genero_femenino('Helena Bonham Carter').
-genero_femenino('Eva Green').
 
 %basa en libro, comic, musical...
 basado_en('Duro_de_Matar', 'Nothing Lasts Forever por Roderick Thorp','Libro').
@@ -2178,7 +2096,6 @@ basado_en('Tiburon', 'Jaws por Peter Benchley','Libro').
 basado_en('El_Silencio_de_los_Inocentes', 'The Silence of the Lambs por Thomas Harris','Libro').
 basado_en('Zodiaco', 'Zodiac por Robert Graysmith','Libro').
 basado_en('La_Isla_Siniestra', 'Shutter Island por Dennis Lehane','Libro').
-basado_en('Perdida', 'Gone Girl por Gillian Flynn','Libro').
 basado_en('Memento', 'Memento Mori por Jonathan Nolan','Libro').
 basado_en('El_Libro_de_la_Selva', 'The Jungle Book por Rudyard Kipling','Libro').
 basado_en('Grandes_Heroes', 'Big Hero 6 por Steven T. Seagle y Duncan Rouleau','Marvel Comics').
@@ -2279,7 +2196,6 @@ disponible_streaming('Shrek', 'Peacock').
 disponible_streaming('Orgullo_y_Prejuicio', 'HBO_Max').
 disponible_streaming('Diario_de_una_Pasion', 'HBO_Max').
 disponible_streaming('Se7en', 'HBO_Max').
-disponible_streaming('Perdida', 'Hulu').
 disponible_streaming('Sherlock_Holmes', ['HBO_Max', 'Netflix']).
 disponible_streaming('La_Chica_del_Dragon_Tatuado', 'Amazon_Prime').
 disponible_streaming('Red_Social', 'Netflix').
@@ -2422,7 +2338,6 @@ disponible_streaming('WALL-E', 'Disney+').
 disponible_streaming('Valiente', 'Disney+').
 disponible_streaming('Lilo_&_Stitch', 'Disney+').
 disponible_streaming('Los_Aristogatos', 'Disney+').
-disponible_streaming('Ralph_el_Demoledor', 'Disney+').
 disponible_streaming('La_Dama_y_el_Vagabundo', 'Disney+').
 disponible_streaming('La_Princesa_y_el_Sapo', 'Disney+').
 disponible_streaming('Bolt', 'Disney+').
@@ -2481,8 +2396,7 @@ disponible_streaming('Mi_amigo_el_gigante', 'Netflix').
 disponible_streaming('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'HBO').
 
 
-%posibles reglas
-%Regla para verificar si una pelicula esta disponible en una plataforma de streaming especifica:
+%Reglas de Peliculas
 genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
 peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
 peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
@@ -2631,7 +2545,8 @@ peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, 
 peliculas_actor_secundario_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
 peliculas_actor_secundario_femenino(Pelicula) :- actor_secundario(Pelicula, Actriz), genero_femenino(Actriz).
 peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
-peliculas_director_protagonista_comun(Pelicula, Director, Actor) :-
+%que hace esta regla
+peliculas_director_protagonista(Pelicula, Director, Actor) :-
     pelicula_director(Pelicula, Director),
     actor_protagonista(Pelicula, Actor).
 peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
@@ -2643,6 +2558,10 @@ basado_Libro(Pelicula, Libro) :- basado_en(Pelicula, Libro,'Libro').
 basado_musical(Pelicula, Musical) :- basado_en(Pelicula, Musical,'Musical').
 basado_otros(Pelicula, Otro) :- basado_en(Pelicula,Otro,'Otro').
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
+esta_en_disney(Pelicula) :- disponible_streaming(Pelicula, 'Disney+').
+esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO').
+esta_en_amazon(Pelicula) :- disponible_streaming(Pelicula, 'Amazon_Prime').
+esta_en_star(Pelicula) :- disponible_streaming(Pelicula, 'Star+').
 %Regla para obtener todas las peliculas disponibles en una plataforma de streaming especifica:
 %Regla para obtener todas las plataformas de streaming donde esta disponible una pelicula especifica:
 plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
@@ -2652,6 +2571,11 @@ gano_oscar(Pelicula) :- gano_oscar_en(Pelicula,_,_).
 %Regla para obtener todas las categorias en las que una pelicula ha ganado un Oscar:
 categorias_ganadas( Pelicula,Categorias) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
 
+imprimir_peliculas_ordenadas :-
+    findall(Pelicula, pelicula_genero(Pelicula, _), Peliculas),  
+    msort(Peliculas, PeliculasOrdenadas),
+    forall(member(Pelicula, PeliculasOrdenadas),                
+           format(' - ~a~n', [Pelicula])).
 
 %videojuegos
 %es_videojuego(Nombre_juego).
@@ -3398,7 +3322,6 @@ artista_de_genero('Taylor Swift', 'Pop Country').
 artista_de_genero('The Weeknd', 'R&B').
 artista_de_genero('Lana Del Rey', 'Indie Pop').
 artista_de_genero('Billie Eilish', 'Pop Alternativo').
-
 artista_de_genero('Miles Davis', 'Jazz').
 artista_de_genero('Beethoven', 'Clásica').
 artista_de_genero('Nirvana', 'Grunge').
@@ -3417,7 +3340,6 @@ artista_de_genero('Alejandro Fernández', 'Ranchera').
 artista_de_genero('Lila Downs', 'Folk').
 artista_de_genero('Los Tigres del Norte', 'Nortena').
 artista_de_genero('Banda El Recodo', 'Banda').
-
 artista_de_genero('Pedro Infante', 'Ranchera').
 artista_de_genero('Antonio Aguilar', 'Ranchera').
 artista_de_genero('Ana Gabriel', 'Ranchera').
@@ -3458,7 +3380,6 @@ artista_de_genero('Gorillaz', 'Alternativo').
 artista_de_genero('Arctic Monkeys', 'Indie Rock').
 artista_de_genero('Tame Impala', 'Psicodélico').
 artista_de_genero('C. Tangana', 'Urbano').
-
 artista_de_genero('Marc Anthony', 'Salsa').
 artista_de_genero('Celia Cruz', 'Salsa').
 artista_de_genero('Héctor Lavoe', 'Salsa').
@@ -3501,6 +3422,222 @@ artista_de_genero('Johannes Brahms', 'Clásica').
 artista_de_genero('Johnny Cash', 'Country').
 artista_de_genero('Frank Sinatra', 'Swing').
 
+%Canciones de artistas
+cancion_de('Lejos De Ti', 'Rels B').
+cancion_de('Stan', 'Eminem').
+cancion_de('Runaway', 'Kanye West').
+cancion_de('One Dance', 'Drake').
+cancion_de('Goosebumps', 'Travis Scott').
+cancion_de('Industry Baby', 'Lil Nas X').
+cancion_de('Sunflower', 'Post Malone').
+cancion_de('Dear Mama', 'Tupac Shakur').
+cancion_de('Hypnotize', 'The Notorious B.I.G.').
+cancion_de('Empire State of Mind', 'Jay-Z').
+cancion_de('DNA.', 'Kendrick Lamar').
+cancion_de('Anaconda', 'Nicki Minaj').
+cancion_de('Still D.R.E.', 'Dr. Dre').
+cancion_de('Drop It Like It\'s Hot', 'Snoop Dogg').
+cancion_de('Candy Shop', '50 Cent').
+cancion_de('Gangsta Rap Made Me Do It', 'Ice Cube').
+cancion_de('Protect Ya Neck', 'Wu-Tang Clan').
+cancion_de('Bring the Noise', 'Public Enemy').
+cancion_de('My Adidas', 'Run-DMC').
+cancion_de('I Need Love', 'LL Cool J').
+cancion_de('One Mic', 'Nas').
+cancion_de('Ms. Jackson', 'Outkast').
+cancion_de('Work It', 'Missy Elliott').
+cancion_de('Power Trip', 'J. Cole').
+cancion_de('Tití Me Preguntó', 'Bad Bunny').
+cancion_de('Mi Gente', 'J Balvin').
+cancion_de('Taki Taki', 'Ozuna').
+cancion_de('Felices los 4', 'Maluma').
+cancion_de('Tusa', 'Karol G').
+cancion_de('Relación', 'Sech').
+cancion_de('Porfa', 'Feid').
+cancion_de('Criminal', 'Natti Natasha').
+cancion_de('Gasolina', 'Daddy Yankee').
+cancion_de('Rakata', 'Wisin & Yandel').
+cancion_de('Danza Kuduro', 'Don Omar').
+cancion_de('Me Prefieres a Mí', 'Arcángel').
+cancion_de('Travesuras', 'Nicky Jam').
+cancion_de('China', 'Anuel AA').
+cancion_de('Pepas', 'Farruko').
+cancion_de('La Curiosidad', 'Myke Towers').
+cancion_de('Soltera', 'Lunay').
+cancion_de('Todo De Ti', 'Rauw Alejandro').
+cancion_de('Dákiti', 'Jhay Cortez').
+cancion_de('Hey Jude', 'The Beatles').
+cancion_de('Comfortably Numb', 'Pink Floyd').
+cancion_de('Stairway to Heaven', 'Led Zeppelin').
+cancion_de('Light My Fire', 'The Doors').
+cancion_de('Purple Haze', 'Jimi Hendrix').
+cancion_de('Heroes', 'David Bowie').
+cancion_de('Sweet Child o\' Mine', 'Guns N Roses').
+cancion_de('Bohemian Rhapsody', 'Queen').
+cancion_de('(I Can\'t Get No) Satisfaction', 'The Rolling Stones').
+cancion_de('Thunderstruck', 'AC/DC').
+cancion_de('Rayando el Sol', 'Maná').
+cancion_de('Smooth', 'Carlos Santana').
+cancion_de('Baba O\'Riley', 'The Who').
+cancion_de('All the Small Things', 'Blink-182').
+cancion_de('Like a Rolling Stone', 'Bob Dylan').
+cancion_de('Smoke on the Water', 'Deep Purple').
+cancion_de('Pretty Fly (For a White Guy)', 'The Offspring').
+cancion_de('La Ingrata', 'Café Tacvba').
+cancion_de('The Pretender', 'Foo Fighters').
+cancion_de('Soñé', 'Zoé').
+cancion_de('Frijolero', 'Molotov').
+cancion_de('Jailhouse Rock', 'Elvis Presley').
+cancion_de('De Música Ligera', 'Soda Stereo').
+cancion_de('Entre Dos Tierras', 'Héroes del Silencio').
+cancion_de('La Célula Que Explota', 'Caifanes').
+cancion_de('La Camisa Negra', 'Juanes').
+cancion_de('Billie Jean', 'Michael Jackson').
+cancion_de('Hello', 'Adele').
+cancion_de('Yellow', 'Coldplay').
+cancion_de('Rocket Man', 'Elton John').
+cancion_de('Purple Rain', 'Prince').
+cancion_de('Amor a la Mexicana', 'Thalía').
+cancion_de('La Incondicional', 'Luis Miguel').
+cancion_de('Corre', 'Jesse & Joy').
+cancion_de('Mujeres', 'Ricardo Arjona').
+cancion_de('Conga', 'Gloria Estefan').
+cancion_de('Como La Flor', 'Selena').
+cancion_de('Pelo Suelto', 'Gloria Trevi').
+cancion_de('Shape of You', 'Ed Sheeran').
+cancion_de('7 Rings', 'Ariana Grande').
+cancion_de('Uptown Funk', 'Bruno Mars').
+cancion_de('New Rules', 'Dua Lipa').
+cancion_de('Stitches', 'Shawn Mendes').
+cancion_de('Vida de Rico', 'Camilo').
+cancion_de('Poker Face', 'Lady Gaga').
+cancion_de('Sorry', 'Justin Bieber').
+cancion_de('Truth Hurts', 'Lizzo').
+cancion_de('Haven\'t Met You Yet', 'Michael Bublé').
+cancion_de('Stay With Me', 'Sam Smith').
+cancion_de('Watermelon Sugar', 'Harry Styles').
+cancion_de('Drivers License', 'Olivia Rodrigo').
+cancion_de('Levitating', 'Dua Lipa').
+cancion_de('Like a Prayer', 'Madonna').
+cancion_de('...Baby One More Time', 'Britney Spears').
+cancion_de('Roar', 'Katy Perry').
+cancion_de('Can\'t Stop the Feeling!', 'Justin Timberlake').
+cancion_de('Single Ladies (Put a Ring on It)', 'Beyoncé').
+cancion_de('Havana', 'Camila Cabello').
+cancion_de('Hasta la Raíz', 'Natalia Lafourcade').
+cancion_de('Limón y Sal', 'Julieta Venegas').
+cancion_de('Malamente', 'Rosalía').
+cancion_de('Waka Waka (This Time for Africa)', 'Shakira').
+cancion_de('Livin\' la Vida Loca', 'Ricky Martin').
+cancion_de('Bailando', 'Enrique Iglesias').
+cancion_de('Torero', 'Chayanne').
+cancion_de('Despacito', 'Luis Fonsi').
+cancion_de('Dynamite', 'BTS').
+cancion_de('Love Story', 'Taylor Swift').
+cancion_de('Blinding Lights', 'The Weeknd').
+cancion_de('Summertime Sadness', 'Lana Del Rey').
+cancion_de('Bad Guy', 'Billie Eilish').
+cancion_de('So What', 'Miles Davis').
+cancion_de('Symphony No. 5', 'Beethoven').
+cancion_de('Smells Like Teen Spirit', 'Nirvana').
+cancion_de('Redemption Song', 'Bob Marley').
+cancion_de('Summertime', 'Ella Fitzgerald').
+cancion_de('Nuvole Bianche', 'Ludovico Einaudi').
+cancion_de('Get Lucky', 'Daft Punk').
+cancion_de('Creep', 'Radiohead').
+cancion_de('A Love Supreme', 'John Coltrane').
+cancion_de('Nocturne Op. 9 No. 2', 'Chopin').
+cancion_de('Scary Monsters and Nice Sprites', 'Skrillex').
+cancion_de('Umbrella', 'Rihanna').
+cancion_de('Volver, Volver', 'Vicente Fernández').
+cancion_de('Amor Eterno', 'Juan Gabriel').
+cancion_de('Me Dediqué a Perderte', 'Alejandro Fernández').
+cancion_de('La Llorona', 'Lila Downs').
+cancion_de('Jefe de Jefes', 'Los Tigres del Norte').
+cancion_de('Y Llegaste Tú', 'Banda El Recodo').
+cancion_de('Amorcito Corazón', 'Pedro Infante').
+cancion_de('Un Puño de Tierra', 'Antonio Aguilar').
+cancion_de('Simplemente Amigos', 'Ana Gabriel').
+cancion_de('Por Mujeres Como Tú', 'Pepe Aguilar').
+cancion_de('Inolvidable', 'Jenni Rivera').
+cancion_de('Secreto de Amor', 'Joan Sebastian').
+cancion_de('Terrenal', 'Julion Álvarez').
+cancion_de('Tus Mentiras', 'Los Bukis').
+cancion_de('El Próximo Viernes', 'Espinoza Paz').
+cancion_de('Damaso', 'Gerardo Ortiz').
+cancion_de('Que Me Vas a Dar', 'La Arrolladora Banda El Limon').
+cancion_de('Cómo Te Voy a Olvidar', 'Los Ángeles Azules').
+cancion_de('Adiós Amor', 'Christian Nodal').
+cancion_de('A La Antigüita', 'Calibre 50').
+cancion_de('La Chona', 'Los Tucanes de Tijuana').
+cancion_de('¿Y Todo Para Qué?', 'Intocable').
+cancion_de('Por Enamorarme', 'Los Plebes del Rancho de Ariel Camacho').
+cancion_de('Nieves de Enero', 'Chalino Sánchez').
+cancion_de('Dos Coronas a Mi Madre', 'Los Cadetes de Linares').
+cancion_de('Wake Me Up', 'Avicii').
+cancion_de('Animals', 'Martin Garrix').
+cancion_de('One Kiss', 'Calvin Harris').
+cancion_de('Titanium', 'David Guetta').
+cancion_de('Happier', 'Marshmello').
+cancion_de('What a Wonderful World', 'Louis Armstrong').
+cancion_de('Take the "A" Train', 'Duke Ellington').
+cancion_de('Confirmation', 'Charlie Parker').
+cancion_de('Feeling Good', 'Nina Simone').
+cancion_de('Eine kleine Nachtmusik', 'Mozart').
+cancion_de('Toccata and Fugue in D minor', 'Bach').
+cancion_de('Swan Lake', 'Tchaikovsky').
+cancion_de('The Four Seasons', 'Vivaldi').
+cancion_de('Clair de Lune', 'Debussy').
+cancion_de('Enter Sandman', 'Metallica').
+cancion_de('Psychosocial', 'Slipknot').
+cancion_de('Du Hast', 'Rammstein').
+cancion_de('Feel Good Inc.', 'Gorillaz').
+cancion_de('Do I Wanna Know?', 'Arctic Monkeys').
+cancion_de('The Less I Know the Better', 'Tame Impala').
+cancion_de('Tú Me Dejaste de Querer', 'C. Tangana').
+cancion_de('Vivir Mi Vida', 'Marc Anthony').
+cancion_de('La Vida Es Un Carnaval', 'Celia Cruz').
+cancion_de('El Cantante', 'Héctor Lavoe').
+cancion_de('El Gran Varón', 'Willie Colon').
+cancion_de('Pedro Navaja', 'Rubén Blades').
+cancion_de('Paranoid', 'Black Sabbath').
+cancion_de('The Trooper', 'Iron Maiden').
+cancion_de('Breaking the Law', 'Judas Priest').
+cancion_de('Ace of Spades', 'Motörhead').
+cancion_de('Master of Puppets', 'Metallica').
+cancion_de('Symphony of Destruction', 'Megadeth').
+cancion_de('Raining Blood', 'Slayer').
+cancion_de('Caught in a Mosh', 'Anthrax').
+cancion_de('Walk', 'Pantera').
+cancion_de('Chop Suey!', 'System of a Down').
+cancion_de('In the End', 'Linkin Park').
+cancion_de('Freak on a Leash', 'Korn').
+cancion_de('Blitzkrieg Bop', 'Ramones').
+cancion_de('God Save the Queen', 'Sex Pistols').
+cancion_de('London Calling', 'The Clash').
+cancion_de('Black Hole Sun', 'Soundgarden').
+cancion_de('Man in the Box', 'Alice in Chains').
+cancion_de('Plush', 'Stone Temple Pilots').
+cancion_de('Hey Boy, Hey Girl', 'The Chemical Brothers').
+cancion_de('Firestarter', 'The Prodigy').
+cancion_de('The Rockafeller Skank', 'Fatboy Slim').
+cancion_de('Strobe', 'Deadmau5').
+cancion_de('Where Are Ü Now', 'Diplo').
+cancion_de('Closer', 'The Chainsmokers').
+cancion_de('Misty', 'Sarah Vaughan').
+cancion_de('My Funny Valentine', 'Chet Baker').
+cancion_de('A Night in Tunisia', 'Dizzy Gillespie').
+cancion_de('Round Midnight', 'Thelonious Monk').
+cancion_de('Take Five', 'Dave Brubeck').
+cancion_de('Moonlight Sonata', 'Ludwig van Beethoven').
+cancion_de('Serenade No. 13', 'Wolfgang Amadeus Mozart').
+cancion_de('Air on the G String', 'Johann Sebastian Bach').
+cancion_de('Ride of the Valkyries', 'Richard Wagner').
+cancion_de('Hungarian Dance No. 5', 'Johannes Brahms').
+cancion_de('Ring of Fire', 'Johnny Cash').
+cancion_de('My Way', 'Frank Sinatra').
+
+
 artistas_Hip_hop(Artista):-artista_de_genero(Artista,'Hip Hop').
 artistas_regueton(Artista):-artista_de_genero(Artista,'Regueton').
 artistas_Rock(Artista):-artista_de_genero(Artista,'Rock').
@@ -3520,7 +3657,7 @@ artistas_K_Pop(Artista):-artista_de_genero(Artista,'K-Pop').
 artistas_Pop_Country(Artista):-artista_de_genero(Artista,'Pop Country').
 artistas_Indie_Pop(Artista):-artista_de_genero(Artista,'Indie Pop').
 
-
+cancion_de_artista(Artista, Cancion) :- cancion_de(Cancion, Artista).
 :- use_module(library(pcre)).
 
 % Predicado que verifica si el género contiene 'Pop'
