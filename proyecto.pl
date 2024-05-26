@@ -197,7 +197,7 @@ pelicula_genero('Los_Goonies','Infantil').
 pelicula_genero('Spy_Kids','Infantil').
 pelicula_genero('Hook','Infantil').
 pelicula_genero('Paddington','Infantil').
-pelicula_genero('El_Regreso_de_Mary_Poppins','Infantil').
+pelicula_genero('Mary_Poppins','Infantil').
 pelicula_genero('Peter_Rabbit','Infantil').
 pelicula_genero('Peter_Rabbit_2_A_la_Fuga','Infantil').
 pelicula_genero('La_Dama_y_el_Vagabundo_2019','Infantil').
@@ -279,7 +279,6 @@ pelicula_infantil('Madagascar','animacion').
 pelicula_infantil('Como_entrenar_a_tu_dragon','animacion').
 
 %_Peliculas_infantiles_live_action
-pelicula_infantil('Mary_Poppins','live_action').
 pelicula_infantil('Mi_pobre_angelito','live_action').
 pelicula_infantil('Jumanji','live_action').
 pelicula_infantil('El_jardin_secreto','live_action').
@@ -297,7 +296,7 @@ pelicula_infantil('Hook','live_action').
 pelicula_infantil('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero','live_action').
 pelicula_infantil('La_princesa_prometida','live_action').
 pelicula_infantil('Paddington','live_action').
-pelicula_infantil('El_regreso_de_Mary_Poppins','live_action').
+pelicula_infantil('Mary_Poppins','live_action').
 pelicula_infantil('Peter_Rabbit','live_action').
 pelicula_infantil('Peter_Rabbit_2:_A_la_fuga','live_action').
 pelicula_infantil('La_dama_y_el_vagabundo_(2019)','live_action').
@@ -325,83 +324,84 @@ pelicula_infantil('Paddington_2','live_action').
 pelicula_infantil('Mi_amigo_el_gigante','live_action').
 pelicula_infantil('El_hogar_de_Miss_Peregrine_para_ninos_peculiares','live_action').
 
+
+
 %Ganadoras de oscar
 gano_oscar_en('Toy_Story', 1996, ['Premio_especial_innovacion', 'Mejor_Guion_Original']).
 gano_oscar_en('El_Rey_Leon', 1995, ['Mejor_Banda_Original', 'Mejor_Cancion_Original']).
 gano_oscar_en('Frozen:_Una_Aventura_Congelada', 2014, ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original']).
 gano_oscar_en('Up', 2010, ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original']).
-gano_oscar_en('WALL_E',2009,'Mejor_Pelicula_de_Animacion').
 gano_oscar_en('Coco', 2018, ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original']).
-gano_oscar_en('Ratatouille',2008,'Mejor_Pelicula_de_Animacion').
-gano_oscar_en('Buscando_a_Nemo',2004,'Mejor_Pelicula_de_Animacion').
+gano_oscar_en('Ratatouille',2008,['Mejor_Pelicula_de_Animacion']).
+gano_oscar_en('Buscando_a_Nemo',2004,['Mejor_Pelicula_de_Animacion']).
 gano_oscar_en('Los_Increibles', 2005, ['Mejor_Pelicula_de_Animacion', 'Mejor_Edicion_de_Sonido']).
-gano_oscar_en('Shrek',2002,'Mejor_Pelicula_de_Animacion').
+gano_oscar_en('Shrek',2002,['Mejor_Pelicula_de_Animacion']).
 gano_oscar_en('Mary_Poppins', 1965, ['Mejor_Actriz', 'Mejor_Edicion', 'Mejores_Efectos_Visuales', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
 gano_oscar_en('El_Jorobado_de_Notre_Dame', 1939, ['Mejor_Fotografia', 'Mejor_Musica']).
-gano_oscar_en('El_Libro_de_la_Selva_(2016)',2017,'Mejores_Efectos_Visuales').
+gano_oscar_en('El_Libro_de_la_Selva_(2016)',2017,['Mejores_Efectos_Visuales']).
 gano_oscar_en('El_senor_de_los_anillos:_Las_dos_torres', 2002, ['Mejor_Fotografia', 'Mejor_Maquillaje', 'Mejor_Banda_Sonora_Original', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion_Adaptado']).
 gano_oscar_en('El_Exorcista', 1974, ['Mejor_Guion_Adaptado', 'Mejor_Sonido']).
 gano_oscar_en('La_Guerra_de_las_Galaxia', 1978, ['Mejor_Diseno_de_Produccion', 'Mejor_Direccion', 'Mejor_Actor_de_Reparto', 'Mejor_Guion_Original', 'Mejor_Montaje', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
-gano_oscar_en('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero',2006,'Mejor_Maquillaje_y_Peluqueria').
+gano_oscar_en('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero',2006,['Mejor_Maquillaje_y_Peluqueria']).
 gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).
 gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).
 gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).
-gano_oscar_en('La_Chica_del_Dragon_Tatuado',2012,'Mejor_Montaje').
+gano_oscar_en('La_Chica_del_Dragon_Tatuado',2012,['Mejor_Montaje']).
 gano_oscar_en('Red_Social', 2011, ['Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Montaje']).
 gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).
-gano_oscar_en('El_Viaje_del_Emperador',2006,'Mejor_Documental').
-gano_oscar_en('Bowling_for_Columbine',2003,'Mejor_Documental').
+gano_oscar_en('El_Viaje_del_Emperador',2006,['Mejor_Documental']).
+gano_oscar_en('Bowling_for_Columbine',2003,['Mejor_Documental']).
 gano_oscar_en('Corazon_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).
 gano_oscar_en('La_Lista_de_Schindler', 1994, ['Mejor_Pelicula', 'Mejor_Guion_Original']).
 gano_oscar_en('Rescatando_al_Soldado_Ryan', 1999, ['Mejor_Director', 'Mejor_Fotografia']).
-gano_oscar_en('Dunkerque',2018,'Mejor_Banda_Sonora_Original').
+gano_oscar_en('Dunkerque',2018,['Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).
 gano_oscar_en('Los_Infiltrados', 2007, ['Mejor_Pelicula', 'Mejor_Guion_Adaptado']).
-gano_oscar_en('Tiempos_Violentos',2007,'Mejor_Guion_Original').
+gano_oscar_en('Tiempos_Violentos',2007,['Mejor_Guion_Original']).
 gano_oscar_en('Rocky', 1977, ['Mejor_Director', 'Mejor_Pelicula', 'Mejor_Montaje']).
 gano_oscar_en('Los_angeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).
-gano_oscar_en('Batman:_El_caballero_de_la_noche',2009,'Mejor_Interpretacion').
+gano_oscar_en('Batman:_El_caballero_de_la_noche',2009,['Mejor_Interpretacion']).
 gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).
 gano_oscar_en('La_Forma_del_Agua', 2018, ['Mejor_Director', 'Mejor_Pelicula']).
 gano_oscar_en('Mad_Max:_Furia_en_el_Camino', 2018, ['Mejor_Vestuario', 'Mejor_Produccion', 'Mejor_Maquillaje_y_Peinado', 'Mejor_Edicion', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido']).
 gano_oscar_en('Jurassic_Park', 1994, ['Mejor_Edicion_de_Sonido', 'Mejores_Efectos_Visuales', 'Mejor_Sonido']).
 gano_oscar_en('E.T.,el_Extraterrestre', 1983, ['Mejor_Sonido', 'Mejores_Efectos_Visuales', 'Mejor_Efectos_de_Sonido', 'Mejor_Banda_Sonora_Original']).
-gano_oscar_en('Volver_al_Futuro', 1986, 'Mejor_Edicion_de_Sonido').
+gano_oscar_en('Volver_al_Futuro', 1986,['Mejor_Edicion_de_Sonido']).
 gano_oscar_en('El_Origen', 2011, ['Mejor_Fotografia', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('Matrix', 2000, ['Mejor_Edicion', 'Mejor_Edicion_de_Sonido', 'Mejor_Mezcla_de_Sonido', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('Avatar', 2010, ['Mejor_Fotografia', 'Mejor_Direccion_Artistica', 'Mejor_Efectos_Visuales']).
-gano_oscar_en('Terminator', 1985, 'Mejor_Edicion_de_Sonido').
-gano_oscar_en('Interestelar', 2015, 'Mejor_Efectos_Visuales').
-gano_oscar_en('Alien:_El_Octavo_Pasajero', 1980, 'Mejor_Efectos_Visuales').
+gano_oscar_en('Terminator', 1985,['Mejor_Edicion_de_Sonido']).
+gano_oscar_en('Interestelar', 2015, ['Mejor_Efectos_Visuales']).
+gano_oscar_en('Alien:_El_Octavo_Pasajero', 1980, ['Mejor_Efectos_Visuales']).
 gano_oscar_en('Titanic', 1998, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia', 'Mejor_Mezcla_de_Sonido', 'Mejor_Montaje', 'Mejor_Banda_Sonora', 'Mejor_Cancion_Original', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('Casablanca', 1944, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado']).
-gano_oscar_en('Huye', 2018, 'Mejor_Guion_Original').
+gano_oscar_en('Huye', 2018, ['Mejor_Guion_Original']).
 gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
 gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
 gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor_Principal', 'Mejor_Efectos_Visuales']).
 gano_oscar_en('12_Anos_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_Secundaria']).
 gano_oscar_en('Quien_Quiere_Ser_Millonario', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).
 gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Guion_Original']).
-gano_oscar_en('Tiburon', 1976, 'Mejor_Musica_Original').
+gano_oscar_en('Tiburon', 1976, ['Mejor_Musica_Original']).
 gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_Principal', 'Mejor_Actriz_Principal', 'Mejor_Guion_Adaptado']).
-gano_oscar_en('El_Cisne_Negro', 2011, 'Mejor Actriz Principal').
+gano_oscar_en('El_Cisne_Negro', 2011, ['Mejor Actriz Principal']).
 gano_oscar_en('El_Mago_de_Oz', 1940, ['Mejor_Cancion_Original', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('La_La_Land_Una_Historia_de_Amor', 2017, ['Mejor_Direccion_de_Fotografia', 'Mejor_Direccion_de_Arte', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Direccion', 'Mejor_Actriz']).
 gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Diseno_de_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).
 gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).
 gano_oscar_en('Amor_Sin_Barreras', 1962, ['Mejor_Pelicula', 'Mejor_Direccion', 'Mejor_Direccion_de_Fotografia', 'Mejor_Direccion_de_Arte', 'Mejor_Montaje', 'Mejor_Sonido', 'Mejor_Musica_Original', 'Mejor_Cancion_Original']).
 gano_oscar_en('Rocky', 1976, ['Mejor_Pelicula', 'Mejor_Direccion', 'Mejor_Edicion', 'Mejor_Montaje_de_Sonido']).
-gano_oscar_en('El_Peleador', 2010, 'Mejor Actor de Reparto').
-gano_oscar_en('Creed_Corazon_de_Campeon', 2016, 'Mejor_Edicion_de_Sonido').
-gano_oscar_en('Golpes_del_Destino', 2005, 'Mejor_Actuacion').
-gano_oscar_en('Recuerdos_de_los_Titanes', 2000, 'Mejor_Montaje').
-gano_oscar_en('Juego_de_Honor', 2009, 'Mejor_Mezcla_de_Sonido').
-gano_oscar_en('Campo_de_Suenos', 1990, 'Mejor_Musica_Original').
-gano_oscar_en('Un_Equipo_Muy_Especial', 2007, 'Mejor_Cortometraje_Documental').
-gano_oscar_en('Un_Sueno_Posible', 2010, 'Mejor_Actuacion').
-gano_oscar_en('El_Gran_Truco', 2006, 'Mejor_Fotografia').
+gano_oscar_en('El_Peleador', 2010, ['Mejor Actor de Reparto']).
+gano_oscar_en('Creed_Corazon_de_Campeon', 2016, ['Mejor_Edicion_de_Sonido']).
+gano_oscar_en('Golpes_del_Destino', 2005, ['Mejor_Actuacion']).
+gano_oscar_en('Recuerdos_de_los_Titanes', 2000, ['Mejor_Montaje']).
+gano_oscar_en('Juego_de_Honor', 2009, ['Mejor_Mezcla_de_Sonido']).
+gano_oscar_en('Campo_de_Suenos', 1990, ['Mejor_Musica_Original']).
+gano_oscar_en('Un_Equipo_Muy_Especial', 2007, ['Mejor_Cortometraje_Documental']).
+gano_oscar_en('Un_Sueno_Posible', 2010, ['Mejor_Actuacion']).
+gano_oscar_en('El_Gran_Truco', 2006, ['Mejor_Fotografia']).
 gano_oscar_en('Cenicienta', 1950, ['Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Aladdin', 1992, ['Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
 gano_oscar_en('Mulan', 1998, ['Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
@@ -412,12 +412,10 @@ gano_oscar_en('Peter_Pan', 1953, ['Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Dumbo', 1941, ['Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Pocahontas', 1995, ['Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
 gano_oscar_en('Cars', 2006, ['Mejor_Pelicula_de_Animacion']).
-gano_oscar_en('Up', 2009, ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('WALL-E', 2008, ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Valiente', 2012, ['Mejor_Pelicula_de_Animacion']).
 gano_oscar_en('La_Princesa_y_el_Sapo', 2009, ['Mejor_Banda_Sonora_Original']).
 gano_oscar_en('Big_Hero_6', 2014, ['Mejor_Pelicula_de_Animacion']).
-gano_oscar_en('Mary_Poppins', 1964, ['Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido']).
 
 
 %critica_imdb
@@ -619,7 +617,6 @@ critica_imdb('Los_Goonies', 7.8).
 critica_imdb('Spy_Kids', 5.6).
 critica_imdb('Hook', 6.8).
 critica_imdb('Paddington', 7.2).
-critica_imdb('El_Regreso_de_Mary_Poppins', 6.7).
 critica_imdb('Peter_Rabbit', 6.6).
 critica_imdb('Peter_Rabbit_2_A_la_Fuga', 6.2).
 critica_imdb('La_Dama_y_el_Vagabundo_2019', 6.2).
@@ -845,7 +842,7 @@ pelicula_director('Los_Goonies', 'Richard Donner').
 pelicula_director('Spy_Kids', 'Robert Rodriguez').
 pelicula_director('Hook', 'Steven Spielberg').
 pelicula_director('Paddington', 'Paul King').
-pelicula_director('El_Regreso_de_Mary_Poppins', 'Rob Marshall').
+pelicula_director('Mary_Poppins', 'Rob Marshall').
 pelicula_director('Peter_Rabbit', 'Will Gluck').
 pelicula_director('Peter_Rabbit_2_A_la_Fuga', 'Will Gluck').
 pelicula_director('La_Dama_y_el_Vagabundo_2019', 'Charlie Bean').
@@ -1071,7 +1068,7 @@ estreno('Los_Goonies', 1985).
 estreno('Spy_Kids', 2001).
 estreno('Hook', 1991).
 estreno('Paddington', 2014).
-estreno('El_Regreso_de_Mary_Poppins', 2018).
+estreno('Mary_Poppins', 1964).
 estreno('Peter_Rabbit', 2018).
 estreno('Peter_Rabbit_2_A_la_Fuga', 2021).
 estreno('La_Dama_y_el_Vagabundo_2019', 2019).
@@ -1297,7 +1294,7 @@ idioma_original('Los_Goonies', 'Ingles').
 idioma_original('Spy_Kids', 'Ingles').
 idioma_original('Hook', 'Ingles').
 idioma_original('Paddington', 'Ingles').
-idioma_original('El_Regreso_de_Mary_Poppins', 'Ingles').
+idioma_original('Mary_Poppins', 'Ingles').
 idioma_original('Peter_Rabbit', 'Ingles').
 idioma_original('Peter_Rabbit_2_A_la_Fuga', 'Ingles').
 idioma_original('La_Dama_y_el_Vagabundo_2019', 'Ingles').
@@ -1523,7 +1520,7 @@ actor_protagonista('Los_Goonies', 'Sean Astin').
 actor_protagonista('Spy_Kids', 'Alexa PenaVega').
 actor_protagonista('Hook', 'Robin Williams').
 actor_protagonista('Paddington', 'Ben Whishaw').
-actor_protagonista('El_Regreso_de_Mary_Poppins', 'Emily Blunt').
+actor_protagonista('Mary_Poppins', 'Julie Andrews').
 actor_protagonista('Peter_Rabbit', 'James Corden').
 actor_protagonista('Peter_Rabbit_2_A_la_Fuga', 'James Corden').
 actor_protagonista('La_Dama_y_el_Vagabundo_2019', 'Tessa Thompson').
@@ -1749,7 +1746,7 @@ actor_secundario('Los_Goonies', 'Josh Brolin').
 actor_secundario('Spy_Kids', 'Antonio Banderas').
 actor_secundario('Hook', 'Dustin Hoffman').
 actor_secundario('Paddington', 'Hugh Bonneville').
-actor_secundario('El_Regreso_de_Mary_Poppins', 'Lin-Manuel Miranda').
+actor_secundario('Mary_Poppins', 'Dick Van Dyke').
 actor_secundario('Peter_Rabbit', 'Domhnall Gleeson').
 actor_secundario('Peter_Rabbit_2_A_la_Fuga', 'David Oyelowo').
 actor_secundario('La_Dama_y_el_Vagabundo_2019', 'Justin Theroux').
@@ -1878,7 +1875,7 @@ basado_en('Chitty_Chitty_Bang_Bang', 'Chitty-Chitty-Bang-Bang por Ian Fleming','
 basado_en('Willy_Wonka_y_la_Fabrica_de_Chocolate', 'Charlie and the Chocolate Factory por Roald Dahl','Libro').
 basado_en('Hook', 'Personajes de J.M. Barrie','Libro').
 basado_en('Paddington', 'A Bear Called Paddington por Michael Bond','Libro').
-basado_en('El_Regreso_de_Mary_Poppins', 'Mary Poppins por P.L. Travers','Libro').
+basado_en('Mary_Poppins', 'Mary Poppins por P.L. Travers','Libro').
 basado_en('Peter_Rabbit', 'The Tale of Peter Rabbit por Beatrix Potter','Libro').
 basado_en('Peter_Rabbit_2_A_la_Fuga', 'The Tale of Peter Rabbit por Beatrix Potter','Libro').
 basado_en('La_Dama_y_el_Vagabundo_2019', 'Happy Dan, The Cynical Dog por Ward Greene','Libro').
@@ -2104,7 +2101,7 @@ disponible_streaming('Los_Goonies', 'HBO').
 disponible_streaming('Spy_Kids', 'Netflix').
 disponible_streaming('Hook', 'Netflix').
 disponible_streaming('Paddington', 'Netflix').
-disponible_streaming('El_Regreso_de_Mary_Poppins', 'Disney+').
+disponible_streaming('Mary_Poppins', 'Disney+').
 disponible_streaming('Peter_Rabbit', 'Netflix').
 disponible_streaming('Peter_Rabbit_2_A_la_Fuga', 'HBO').
 disponible_streaming('La_Dama_y_el_Vagabundo_2019', 'Disney+').
@@ -2135,7 +2132,7 @@ disponible_streaming('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'HBO').
 
 %posibles reglas
 %Regla para verificar si una pelicula esta disponible en una plataforma de streaming especifica:
-peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
+peliculas_accion(Pelicula) :- (pelicula_genero(Pelicula, 'Accion')).
 peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
 peliculas_comedia(Pelicula) :- pelicula_genero(Pelicula, 'Comedia').
 peliculas_drama(Pelicula) :- pelicula_genero(Pelicula, 'Drama').
@@ -2159,17 +2156,15 @@ peliculas_deporte(Pelicula) :- pelicula_genero(Pelicula, 'Deporte').
 peliculas_noir(Pelicula) :- pelicula_genero(Pelicula, 'Noir').
 peliculas_policial(Pelicula) :- pelicula_genero(Pelicula, 'Policial').
 peliculas_superheroes(Pelicula) :- pelicula_genero(Pelicula, 'Superheroes').
-peliculas_romance(Pelicula) :- pelicula_genero(Pelicula, 'Romance').
 peliculas_distopia(Pelicula) :- pelicula_genero(Pelicula, 'Distopia').
 peliculas_ciencia_ficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
 peliculas_suspenso(Pelicula) :- pelicula_genero(Pelicula, 'Suspenso').
-
+mejor_director(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
+                    member('Mejor_Director',Lista).
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
 %Regla para obtener todas las peliculas disponibles en una plataforma de streaming especifica:
 %ver que peliculas hay en una plataforma especifica
 peliculas_en_plataforma(Peliculas, Plataforma) :- findall(Pelicula, disponible_streaming(Pelicula, Plataforma), Peliculas).
-%Regla para verificar si una pelicula esta disponible en cualquier plataforma de streaming:
-disponible_en_cualquier_plataforma(Pelicula,Plataforma) :- disponible_streaming(Pelicula, Plataforma).
 %Regla para obtener todas las plataformas de streaming donde esta disponible una pelicula especifica:
 plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
 %Regla para verificar si una pelicula ha ganado un Oscar:
@@ -2180,13 +2175,7 @@ peliculas_con_oscar(Peliculas) :-
     forall(member(Pelicula, Peliculas), (write(Pelicula), nl)).
 %Regla para obtener todas las categorias en las que una pelicula ha ganado un Oscar:
 categorias_ganadas(Categorias, Pelicula) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
-%Regla para obtener todas las peliculas que han ganado un Oscar en una categoria especifica:
-peliculas_ganadoras_categoria(Peliculas, Categoria) :-
-    findall(Pelicula, (
-        gano_oscar_en(Pelicula, _, Categorias), 
-        (is_list(Categorias), member(Categoria, Categorias); Categorias = Categoria)
-    ), Peliculas),
-    forall(member(Pelicula, Peliculas), (write(Pelicula), nl)). % Imprime cada película
+
 
 %videojuegos
 %es_videojuego(Nombre_juego).

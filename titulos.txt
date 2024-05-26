@@ -222,3 +222,8 @@
 'Paddington_2',
 'Mi_amigo_el_gigante',
 'El_hogar_de_Miss_Peregrine_para_niños_peculiares',
+
+
+
+
+peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion'),pelicula_tipo(Pelicula,'Accion').
