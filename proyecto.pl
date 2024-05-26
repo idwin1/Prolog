@@ -2955,8 +2955,6 @@ es_multijugador('Sworn').
 es_multijugador('Stride:_Fates').
 
 
-
-%juegos_pc_y_anio_2023(Juego):-ano_de_lanzamiento(Juego,Anio),Anio=2023,videojuegos_de(Juego,'pc'),videojuegos_multiplataforma(Juego,_,_).        
 %musica
 %hip-hop
 artista_de_genero('Rels B', 'Hip Hop').
@@ -3627,6 +3625,8 @@ juegos(Juegos) :- findall(Juego, videojuegos(Juego, _, _), Juegos),
   
 desarrolladora_juego(Juego, Desarrolladora) :- 
             desarrolladora_de(Desarrolladora, Juego).
+
+juegos_pc_y_anio_2023(Juego):-ano_de_lanzamiento(Juego,Anio),Anio==2023,videojuegos_de(Juego,'pc').        
 
 
 %musica
