@@ -1,219 +1,131 @@
-pelicula_genero('Mad_Max:_Furia_en_el_Camino','Accion').
-pelicula_genero('Duro_de_Matar','Accion').
-pelicula_genero('Indiana_Jones','Aventura').
-pelicula_genero('El_senor_de_los_anillos:_Las_dos_torres','Aventura').
-pelicula_genero('Supercool','Comedia').
-pelicula_genero('Dos_Tontos_en_Fuga','Comedia').
-pelicula_genero('El_Padrino','Drama').
-pelicula_genero('Suenos_de_Libertad','Drama').
-pelicula_genero('El_Exorcista','Terror').
-pelicula_genero('Pesadilla_en_la_Calle_del_Infierno','Terror').
-pelicula_genero('La_Guerra_de_las_Galaxias','Ciencia_ficcion').
-pelicula_genero('El_Cazador_Implacable','Ciencia_ficcion').
-pelicula_genero('Harry_Potter_y_la_piedra_filosofal','Fantasia').
-pelicula_genero('Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero','Fantasia').
-pelicula_genero('La_Novicia_Rebelde','Musical').
-pelicula_genero('La_La_Land._Una_historia_de_amor','Musical').
-pelicula_genero('Toy_Story','Infantil').
-pelicula_genero('Shrek','Infantil').
-pelicula_genero('Orgullo_y_Prejuicio','Romance').
-pelicula_genero('Diario_de_una_Pasion','Romance').
-pelicula_genero('Se7en','Thriller').
-pelicula_genero('Perdida','Thriller').
-pelicula_genero('Sherlock_Holmes','Misterio').
-pelicula_genero('La_Chica_del_Dragon_Tatuado','Misterio').
-pelicula_genero('Red_Social','Biografica').
-pelicula_genero('Gandhi','Biografica').
-pelicula_genero('El_Viaje_del_Emperador','Documental').
-pelicula_genero('Bowling_for_Columbine','Documental').
-pelicula_genero('Corazon_Valiente','Historica').
-pelicula_genero('La_Lista_de_Schindler','Historica').
-pelicula_genero('Rescatando_al_Soldado_Ryan','Guerra').
-pelicula_genero('Dunkerque','Guerra').
-pelicula_genero('El_Bueno,el_Malo_y_el_Feo','Western').
-pelicula_genero('Los_Imperdonables','Western').
-pelicula_genero('Mission:_Impossible','Espionaje').
-pelicula_genero('James_Bond_at_the_Movies','Espionaje').
-pelicula_genero('Stand_by_Me','Coming-of-age').
-pelicula_genero('Lady_Bird','Coming-of-age').
-pelicula_genero('Los_Infiltrados','Crimen').
-pelicula_genero('Tiempos_Violentos','Crimen').
-pelicula_genero('Rocky','Deporte').
-pelicula_genero('El_Juego_de_la_Fortuna','Deporte').
-pelicula_genero('Buscando_a_Nemo','Infantil').
-pelicula_genero('Los_Increibles','Infantil').
-pelicula_genero('Frozen:_Una_Aventura_Congelada','Infantil').
-pelicula_genero('Coco','Infantil').
-pelicula_genero('Pacto_de_Sangre','Noir').
-pelicula_genero('La_Ciudad_del_Pecado','Noir').
-pelicula_genero('Fuego_Contra_Fuego','Policial').
-pelicula_genero('Los_angeles_al_Desnudo','Policial').
-pelicula_genero('The_Avengers:_Los_Vengadores','Superheroes').
-pelicula_genero('Batman:_El_caballero_de_la_noche','Superheroes').
-pelicula_genero('Mujer_Bonita','Romance').
-pelicula_genero('Cuando_Harry_Conocio_a_Sally','Romance').
-pelicula_genero('El_Laberinto_del_Fauno','Fantasia').
-pelicula_genero('La_Forma_del_Agua','Fantasia').
-pelicula_genero('Los_Juegos_del_Hambre','Distopia').
-pelicula_genero('Jurassic_Park','Ciencia_ficcion').
-pelicula_genero('E.T.,el_Extraterrestre','Ciencia_ficcion').
-pelicula_genero('Volver_al_Futuro','Ciencia_ficcion').
-pelicula_genero('El_Origen','Ciencia_ficcion').
-pelicula_genero('Matrix','Ciencia_ficcion').
-pelicula_genero('Avatar','Ciencia_ficcion').
-pelicula_genero('Terminator','Ciencia_ficcion').
-pelicula_genero('Interestelar','Ciencia_ficcion').
-pelicula_genero('Alien:_El_Octavo_Pasajero','Ciencia_ficcion').
-pelicula_genero('Guardianes_de_la_Galaxia','Ciencia_ficcion').
-pelicula_genero('Titanic','Romance').
-pelicula_genero('Romeo_+_Julieta','Romance').
-pelicula_genero('Un_Paseo_para_Recordar','Romance').
-pelicula_genero('Bajo_la_Misma_Estrella','Romance').
-pelicula_genero('Realmente_Amor','Romance').
-pelicula_genero('El_Diario_de_Bridget_Jones','Romance').
-pelicula_genero('Moulin_Rouge:_Amor_en_Rojo','Romance').
-pelicula_genero('Casablanca','Romance').
-pelicula_genero('Un_Lugar_Llamado_Notting_Hill','Romance').
-pelicula_genero('Locamente_Millonarios','Romance').
-pelicula_genero('Scream:_Grita_Antes_de_Morir','Terror').
-pelicula_genero('El_Conjuro','Terror').
-pelicula_genero('Eso','Terror').
-pelicula_genero('Huye','Terror').
-pelicula_genero('Hereditary:_El_Legado_del_Diablo','Terror').
-pelicula_genero('El_Babadook','Terror').
-pelicula_genero('El_Aro','Terror').
-pelicula_genero('Un_Lugar_en_Silencio','Terror').
-pelicula_genero('Actividad_Paranormal','Terror').
-pelicula_genero('Halloween','Terror').
-pelicula_genero('Forrest_Gump','Drama').
-pelicula_genero('El_Club_de_la_Pelea','Drama').
-pelicula_genero('Belleza_Americana','Drama').
-pelicula_genero('Gladiador','Drama').
-pelicula_genero('Milagros_Inesperados','Drama').
-pelicula_genero('Mente_Indomable','Drama').
-pelicula_genero('En_Busca_de_la_Felicidad','Drama').
-pelicula_genero('12_Anos_de_Esclavitud','Drama').
-pelicula_genero('Quien_Quiere_Ser_Millonario','Drama').
-pelicula_genero('El_Discurso_del_Rey','Drama').
-pelicula_genero('Tiburon','Suspenso').
-pelicula_genero('El_Silencio_de_los_Inocentes','Suspenso').
-pelicula_genero('Zodiaco','Suspenso').
-pelicula_genero('Prisioneros','Suspenso').
-pelicula_genero('La_Isla_Siniestra','Suspenso').
-pelicula_genero('Memento','Suspenso').
-pelicula_genero('El_Sexto_Sentido','Suspenso').
-pelicula_genero('El_Cisne_Negro','Suspenso').
-pelicula_genero('El_Rey_Leon','Infantil').
-pelicula_genero('Buscando_a_Dory','Infantil').
-pelicula_genero('El_Libro_de_la_Selva','Infantil').
-pelicula_genero('Zootopia','Infantil').
-pelicula_genero('Moana:_Un_Mar_de_Aventuras','Infantil').
-pelicula_genero('Grandes_Heroes','Infantil').
-pelicula_genero('Intensa-Mente','Infantil').
-pelicula_genero('Mi_Villano_Favorito','Infantil').
-pelicula_genero('Ralph,El_Demoledor','Infantil').
-pelicula_genero('Como_Entrenar_a_tu_Dragon','Infantil').
-pelicula_genero('El_Mago_de_Oz','Fantasia').
-pelicula_genero('Alicia_en_el_Pais_de_las_Maravillas','Infantil').
-pelicula_genero('El Hobbit:_Un_viaje_inesperado','Fantasia').
-pelicula_genero('La_Princesa_Prometida','Fantasia').
-pelicula_genero('Stardust:_El_Misterio_de_la_Estrella','Fantasia').
-pelicula_genero('La_Historia_Sin_Fin','Fantasia').
-pelicula_genero('Percy_Jackson_y_el_Ladron_del_Rayo','Fantasia').
-pelicula_genero('El_Cristal_Encantado','Fantasia').
-pelicula_genero('Laberinto','Fantasia').
-pelicula_genero('Eragon','Fantasia').
-pelicula_genero('Chicago','Musical').
-pelicula_genero('El_Gran_Showman','Musical').
-pelicula_genero('Los_Miserables','Musical').
-pelicula_genero('Vaselina','Musical').
-pelicula_genero('Mamma_Mia!','Musical').
-pelicula_genero('Hairspray','Musical').
-pelicula_genero('Amor_Sin_Barreras','Musical').
-pelicula_genero('Cantando_Bajo_la_Lluvia','Musical').
-pelicula_genero('El_Fantasma_de_la_opera','Musical').
-pelicula_genero('Toro_Salvaje','Deporte').
-pelicula_genero('El_Peleador','Deporte').
-pelicula_genero('Creed:_Corazon_de_Campeon','Deporte').
-pelicula_genero('Golpes_del_Destino','Deporte').
-pelicula_genero('Recuerdos_de_los_Titanes','Deporte').
-pelicula_genero('Juego_de_Honor','Deporte').
-pelicula_genero('Campo_de_Suenos','Deporte').
-pelicula_genero('Un_Equipo_Muy_Especial','Deporte').
-pelicula_genero('Un_Sueno_Posible','Deporte').
-pelicula_genero('El_Gran_Truco','Thriller').
-pelicula_genero('Blancanieves_y_los_Siete_Enanitos','Infantil').
-pelicula_genero('Cenicienta','Infantil').
-pelicula_genero('Aladdin','Infantil').
-pelicula_genero('Mulan','Infantil').
-pelicula_genero('La_Bella_y_la_Bestia','Infantil').
-pelicula_genero('Bambi','Infantil').
-pelicula_genero('101_Dalmatas','Infantil').
-pelicula_genero('Peter_Pan','Infantil').
-pelicula_genero('Dumbo','Infantil').
-pelicula_genero('Hercules','Infantil').
-pelicula_genero('Pocahontas','Infantil').
-pelicula_genero('Enredados','Infantil').
-pelicula_genero('Cars','Infantil').
-pelicula_genero('Monsters_Inc','Infantil').
-pelicula_genero('Up','Infantil').
-pelicula_genero('WALL-E','Infantil').
-pelicula_genero('Valiente','Infantil').
-pelicula_genero('Lilo_&_Stitch','Infantil').
-pelicula_genero('Los_Aristogatos','Infantil').
-pelicula_genero('La_Dama_y_el_Vagabundo','Infantil').
-pelicula_genero('La_Princesa_y_el_Sapo','Infantil').
-pelicula_genero('Bolt','Infantil').
-pelicula_genero('Big_Hero_6','Infantil').
-pelicula_genero('El_Jorobado_de_Notre_Dame','Infantil').
-pelicula_genero('Atlantis_El_Imperio_Perdido','Infantil').
-pelicula_genero('Oliver_y_su_Pandilla','Infantil').
-pelicula_genero('Tierra_de_Osos','Infantil').
-pelicula_genero('El_Emperador_y_sus_Locuras','Infantil').
-pelicula_genero('Hermano_Oso','Infantil').
-pelicula_genero('Zafarrancho_en_el_Rancho','Infantil').
-pelicula_genero('Chicken_Little','Infantil').
-pelicula_genero('Rio','Infantil').
-pelicula_genero('El_Camino_hacia_El_Dorado','Infantil').
-pelicula_genero('Kung_Fu_Panda','Infantil').
-pelicula_genero('Madagascar','Infantil').
-pelicula_genero('Mi_Pobre_Angelito','Infantil').
-pelicula_genero('Jumanji','Infantil').
-pelicula_genero('El_Jardin_Secreto','Infantil').
-pelicula_genero('Harry_Potter_y_la_Camara_Secreta','Infantil').
-pelicula_genero('Matilda','Infantil').
-pelicula_genero('Stuart_Little','Infantil').
-pelicula_genero('Una_Noche_en_el_Museo','Infantil').
-pelicula_genero('Chitty_Chitty_Bang_Bang','Infantil').
-pelicula_genero('Willy_Wonka_y_la_Fabrica_de_Chocolate','Infantil').
-pelicula_genero('Los_Goonies','Infantil').
-pelicula_genero('Spy_Kids','Infantil').
-pelicula_genero('Hook','Infantil').
-pelicula_genero('Paddington','Infantil').
-pelicula_genero('Mary_Poppins','Infantil').
-pelicula_genero('Peter_Rabbit','Infantil').
-pelicula_genero('Peter_Rabbit_2_A_la_Fuga','Infantil').
-pelicula_genero('La_Dama_y_el_Vagabundo_2019','Infantil').
-pelicula_genero('El_Rey_Leon_2019','Infantil').
-pelicula_genero('Aladdin_2019','Infantil').
-pelicula_genero('Dumbo_2019','Infantil').
-pelicula_genero('La_Bella_y_la_Bestia_2017','Infantil').
-pelicula_genero('Christopher_Robin','Infantil').
-pelicula_genero('El_Libro_de_la_Selva_2016','Infantil').
-pelicula_genero('Malefica','Infantil').
-pelicula_genero('Malefica_Duena_del_Mal','Infantil').
-pelicula_genero('El_Cascanueces_y_los_Cuatro_Reinos','Infantil').
-pelicula_genero('Alicia_en_el_Pais_de_las_Maravillas_2010','Infantil').
-pelicula_genero('Alicia_a_Traves_del_Espejo','Infantil').
-pelicula_genero('Cenicienta_2015','Infantil').
-pelicula_genero('El_Dragon_de_Pete','Infantil').
-pelicula_genero('Aventuras_en_la_Gran_Ciudad','Infantil').
-pelicula_genero('La_Ninera_Magica','Infantil').
-pelicula_genero('Querida_Encogi_a_los_Ninos','Infantil').
-pelicula_genero('Una_Serie_de_Eventos_Desafortunados','Infantil').
-pelicula_genero('El_Gato_con_Sombrero','Infantil').
-pelicula_genero('Las_Aventuras_de_Sharkboy_y_Lavagirl','Infantil').
-pelicula_genero('Dora_y_la_ciudad_perdida','Infantil').
-pelicula_genero('Paddington_2','Infantil').
-pelicula_genero('Mi_amigo_el_gigante','Infantil').
-pelicula_genero('El_hogar_de_Miss_Peregrine_para_ninos_peculiares','Infantil').
+genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
+peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
+peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
+peliculas_comedia(Pelicula) :- pelicula_genero(Pelicula, 'Comedia').
+peliculas_drama(Pelicula) :- pelicula_genero(Pelicula, 'Drama').
+peliculas_terror(Pelicula) :- pelicula_genero(Pelicula, 'Terror').
+peliculas_cienciaficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
+peliculas_fantasia(Pelicula) :- pelicula_genero(Pelicula, 'Fantasia').
+peliculas_musical(Pelicula) :- pelicula_genero(Pelicula, 'Musical').
+peliculas_infantil(Pelicula) :- pelicula_genero(Pelicula, 'Infantil').
+peliculas_romance(Pelicula) :- pelicula_genero(Pelicula, 'Romance').
+peliculas_thriller(Pelicula) :- pelicula_genero(Pelicula, 'Thriller').
+peliculas_misterio(Pelicula) :- pelicula_genero(Pelicula, 'Misterio').
+peliculas_bibliografica(Pelicula) :- pelicula_genero(Pelicula, 'Biografica').
+peliculas_documental(Pelicula) :- pelicula_genero(Pelicula, 'Documental').
+peliculas_historica(Pelicula) :- pelicula_genero(Pelicula, 'Historica').
+peliculas_guerra(Pelicula) :- pelicula_genero(Pelicula, 'Guerra').
+peliculas_western(Pelicula) :- pelicula_genero(Pelicula, 'Western').
+peliculas_espionaje(Pelicula) :- pelicula_genero(Pelicula, 'Espionaje').
+peliculas_coming_of_age(Pelicula) :- pelicula_genero(Pelicula, 'Coming-of-age').
+peliculas_crimen(Pelicula) :- pelicula_genero(Pelicula, 'Crimen').
+peliculas_deporte(Pelicula) :- pelicula_genero(Pelicula, 'Deporte').
+peliculas_noir(Pelicula) :- pelicula_genero(Pelicula, 'Noir').
+peliculas_policial(Pelicula) :- pelicula_genero(Pelicula, 'Policial').
+peliculas_superheroes(Pelicula) :- pelicula_genero(Pelicula, 'Superheroes').
+peliculas_distopia(Pelicula) :- pelicula_genero(Pelicula, 'Distopia').
+peliculas_ciencia_ficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
+peliculas_suspenso(Pelicula) :- pelicula_genero(Pelicula, 'Suspenso').
+categoria_infantil(Pelicula, Categoria) :- pelicula_infantil(Pelicula, Categoria).
+mejor_director(Pelicula,Director) :- gano_oscar_en(Pelicula,_,Lista),             member('Mejor_Director',Lista),pelicula_director(Pelicula,Director).
+premio_especial(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Premio_especial_innovacion',Lista).
+mejor_banda_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Banda_Original',Lista).
+mejor_cancion_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Cancion_Original',Lista).
+mejor_pelicula_de_animacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Pelicula_de_Animacion',Lista).
+mejor_banda_sonora_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Banda_Sonora_Original',Lista).
+mejor_edicion_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Edicion_de_Sonido',Lista).
+mejor_actriz(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Actriz',Lista),actor_protagonista(Pelicula,Actor),genero_femenino(Actor).
+mejor_edicion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Edicion',Lista).
+mejores_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejores_Efectos_Visuales',Lista).
+mejor_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Fotografia',Lista).
+mejor_musica(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Musica',Lista).
+mejor_musica_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Musica_Original',Lista).
+mejor_maquillaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Maquillaje',Lista).
+mejor_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Efectos_Visuales',Lista).
+mejor_pelicula(Pelicula,Ano) :- gano_oscar_en(Pelicula,Ano,Lista),                    member('Mejor_Pelicula',Lista).
+mejor_actor(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Actor',Lista),actor_protagonista(Pelicula,Actor),genero_masculino(Actor).
+mejor_actor_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Actor_de_Reparto',Lista).
+mejor_actriz_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Actriz_de_Reparto',Lista).
+mejor_guion_adaptado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Guion_Adaptado',Lista).
+mejor_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Sonido',Lista).
+mejor_diseno_de_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Diseno_de_Produccion',Lista).
+mejor_direccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Direccion',Lista).
+mejor_direccion_de_arte(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Direccion_de_Arte',Lista).
+mejor_direccion_de_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Direccion_de_Fotografia',Lista).
+mejor_montaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Montaje',Lista).
+mejor_interpretacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Interpretacion',Lista).
+mejor_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Documental',Lista).
+mejor_vestuario(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Vestuario',Lista).
+mejor_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Produccion',Lista).
+mejor_mezcla_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Mezcla_de_Sonido',Lista).
+mejor_banda_sonora(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Banda_Sonora',Lista).
+mejor_cinematografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Cinematografia',Lista).
+mejor_actuacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Actuacion',Lista).
+mejor_cortometraje_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Cortometraje_Documental',Lista).
+mejor_efectos_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Efectos_de_Sonido',Lista).
+mejor_maquillaje_y_peinado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Maquillaje_y_Peinado',Lista).
+mejor_montaje_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),                    member('Mejor_Montaje_de_Sonido',Lista).
+peliculas_alta_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion >= 8.0.
+peliculas_actor_protagonista_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
+peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_femenino(Actor).
+peliculas_actor_secundario_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
+peliculas_actor_secundario_femenino(Pelicula) :- actor_secundario(Pelicula, Actriz), genero_femenino(Actriz).
+peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
+peliculas_director_protagonista(Pelicula, Director, Actor) :-pelicula_director(Pelicula, Director),actor_protagonista(Pelicula, Actor).
+peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
+peliculas_1900(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano =< 1999.
+peliculas_2000(Pelicula,Ano) :- estreno(Pelicula, Ano), Ano >= 2000.
+peliculas_no_EUA(Pelicula,Nacionalidad) :- nacionalidad(Pelicula, Nacionalidad), Nacionalidad \= 'Estados Unidos'.
+basado_Libro(Pelicula, Libro) :- basado_en(Pelicula, Libro,'Libro').
+basado_musical(Pelicula, Musical) :- basado_en(Pelicula, Musical,'Musical').
+basado_otros(Pelicula, Otro) :- basado_en(Pelicula,Otro,'Otro').
+esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
+esta_en_disney(Pelicula) :- disponible_streaming(Pelicula, 'Disney+').
+esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO').
+esta_en_amazon(Pelicula) :- disponible_streaming(Pelicula, 'Amazon_Prime').
+esta_en_star(Pelicula) :- disponible_streaming(Pelicula, 'Star+').
+plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
+gano_oscar(Pelicula) :- gano_oscar_en(Pelicula,_,_).
+categorias_ganadas( Pelicula,Categorias) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
+imprimir_peliculas_ordenadas :-    findall(Pelicula, pelicula_genero(Pelicula, _), Peliculas),  msort(Peliculas, PeliculasOrdenadas),    forall(member(Pelicula, PeliculasOrdenadas),                  format(' - ~a~n', [Pelicula])).
+ juego(Nombre,Anio) :- ano_de_lanzamiento(Nombre, Anio).
+plataforma(Juego, Plataforma) :- videojuegos(Juego, _, Plataforma).
+genero(Juego, Genero) :- videojuegos(Juego, Genero, _).
+desarrolladora(Juego, Desarrolladora) :- desarrolladora_de(Desarrolladora, Juego).
+lanzamiento(Juego, Anio) :- ano_de_lanzamiento(Juego, Anio).
+juegos_lanzados(Anio, Juegos) :-findall(Juego, ano_de_lanzamiento(Juego, Anio), Juegos).
+juegos_desarrolladora(Desarrolladora, Juegos) :- findall(Juego, desarrolladora_de(Desarrolladora, Juego), Juegos).
+juegos_genero(Genero, Juegos) :- findall(Juego, genero(Juego, Genero), Juegos).
+juegos_plataforma(Plataforma, Juegos) :- findall(Juego, videojuegos(Juego, _, Plataforma), Juegos).
+juegos_esperados_genero(Genero, Anio, Juegos) :- mas_esperados(Juegos), genero(Juegos, Genero), ano_de_lanzamiento(Juegos, Anio).
+numero_juegos_genero(Genero, Cantidad) :-findall(_, genero(_, Genero), Juegos),length(Juegos, Cantidad).
+numero_juegos_lanzamiento(Anio, Cantidad) :-findall(_, ano_de_lanzamiento(_, Anio), Juegos),length(Juegos, Cantidad).
+numero_juegos_desarrolladora(Desarrolladora, Cantidad) :-    findall(_, desarrolladora_de(Desarrolladora, _), Juegos),length(Juegos, Cantidad).
+juegos_antes_2010(Anio, Juegos) :-ano_de_lanzamiento(Juegos, Anio),Anio<2010.
+juegos_similares(Juego, JuegosSimilares) :-    genero(Juego, Genero),    plataforma(Juego, Plataforma),    desarrolladora_de(_, Juego),    findall(OtroJuego, genero(OtroJuego, Genero), JuegosSimilares),findall(OtroJuego, plataforma(OtroJuego, Plataforma), Juego).
+juegos_especificos(Genero, Plataforma, Anio, Juegos) :-    genero(Juegos, Genero),plataforma(Juegos, Plataforma),    ano_de_lanzamiento(Juegos, Anio).
+juegos(Juegos) :- findall(Juego, videojuegos(Juego, _, _), Juegos),        forall(member(Juego, Juegos), (write(Juego), nl)).
+desarrolladora_juego(Juego, Desarrolladora) :-             desarrolladora_de(Desarrolladora, Juego).
+artistas_Hip_hop(Artista):-artista_de_genero(Artista,'Hip Hop').
+artistas_regueton(Artista):-artista_de_genero(Artista,'Regueton').
+artistas_Rock(Artista):-artista_de_genero(Artista,'Rock').
+artistas_Pop(Artista):-artista_de_genero(Artista,'Pop').
+artistas_Jazz(Artista):-artista_de_genero(Artista,'Jazz').
+artistas_Ranchera(Artista):-artista_de_genero(Artista,'Ranchera').
+artistas_Salsa(Artista):-artista_de_genero(Artista,'Salsa').
+artistas_Punk_Rock(Artista):-artista_de_genero(Artista,'Punk Rock').
+artistas_Folk_Rock(Artista):-artista_de_genero(Artista,'Folk Rock').
+artistas_Hard_Rock(Artista):-artista_de_genero(Artista,'Hard Rock').
+artistas_Rock_Alternativo(Artista):-artista_de_genero(Artista,'Rock Alternativo').
+artistas_Rock_en_espanol(Artista):-artista_de_genero(Artista,'Rock en espanol').
+artistas_Pop_Rock(Artista):-artista_de_genero(Artista,'Pop Rock').
+artistas_Flamenco_Pop(Artista):-artista_de_genero(Artista,'Flamenco Pop').
+artistas_Pop_latino(Artista):-artista_de_genero(Artista,'Pop latino').
+artistas_K_Pop(Artista):-artista_de_genero(Artista,'K-Pop').
+artistas_Pop_Country(Artista):-artista_de_genero(Artista,'Pop Country').
+artistas_Indie_Pop(Artista):-artista_de_genero(Artista,'Indie Pop').
+canciones_por_artista(Canciones, Artista) :-findall(Cancion, cancion_de(Cancion, Artista), Canciones).
+artistas_por_cancion(Artistas, Cancion) :-findall(Artista, cancion_de(Cancion, Artista), Artistas).
+canciones_por_genero(Canciones, Genero) :-findall(Cancion, (cancion_de(Cancion, Artista), artista_de_genero(Artista, Genero)), Canciones).
+genero_contiene_pop(Genero) :-sub_atom(Genero, _, _, _, 'Pop').
+buscar_artistas_pop(Artistas) :-findall(Artista, (artista_de_genero(Artista, Genero), genero_contiene_pop(Genero)), Artistas), writeln(Artistas).
