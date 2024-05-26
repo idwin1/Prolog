@@ -2396,7 +2396,6 @@ disponible_streaming('Mi_amigo_el_gigante', 'Netflix').
 disponible_streaming('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'HBO').
 
 
-<<<<<<< HEAD
 %Reglas de Peliculas
 genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
 peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
@@ -2571,8 +2570,6 @@ gano_oscar(Pelicula) :- gano_oscar_en(Pelicula,_,_).
 
 %Regla para obtener todas las categorias en las que una pelicula ha ganado un Oscar:
 categorias_ganadas( Pelicula,Categorias) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
-=======
->>>>>>> 14778b3b1a2c8afad38cfe450e094b02874ed10f
 
 imprimir_peliculas_ordenadas :-
     findall(Pelicula, pelicula_genero(Pelicula, _), Peliculas),  
@@ -3363,7 +3360,6 @@ artista_de_genero('Johannes Brahms', 'Clásica').
 artista_de_genero('Johnny Cash', 'Country').
 artista_de_genero('Frank Sinatra', 'Swing').
 
-<<<<<<< HEAD
 %Canciones de artistas
 cancion_de('Lejos De Ti', 'Rels B').
 cancion_de('Stan', 'Eminem').
@@ -3580,11 +3576,7 @@ cancion_de('Ring of Fire', 'Johnny Cash').
 cancion_de('My Way', 'Frank Sinatra').
 
 
-=======
-
-%-------------------------------------------------peiliculas
-%posibles reglas
-%Regla para verificar si una pelicula esta disponible en una plataforma de streaming especifica:
+%Reglas
 genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
 peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
 peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
@@ -3820,9 +3812,7 @@ desarrolladora_juego(Juego, Desarrolladora) :-
             desarrolladora_de(Desarrolladora, Juego).
 
 
-%--------------------musica
-
->>>>>>> 14778b3b1a2c8afad38cfe450e094b02874ed10f
+%musica
 artistas_Hip_hop(Artista):-artista_de_genero(Artista,'Hip Hop').
 artistas_regueton(Artista):-artista_de_genero(Artista,'Regueton').
 artistas_Rock(Artista):-artista_de_genero(Artista,'Rock').
