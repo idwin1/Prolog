@@ -3421,7 +3421,7 @@ peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, 
 peliculas_actor_secundario_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
 peliculas_actor_secundario_femenino(Pelicula) :- actor_secundario(Pelicula, Actriz), genero_femenino(Actriz).
 peliculas_estrenadas_ano(Pelicula, Anio) :- estreno(Pelicula, Anio).
-peliculas_director_protagonista_comun(Pelicula, Director, Actor) :-
+peliculas_director_protagonista(Pelicula, Director, Actor) :-
     pelicula_director(Pelicula, Director),
     actor_protagonista(Pelicula, Actor).
 peliculas_baja_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion < 8.0.
