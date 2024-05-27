@@ -1539,7 +1539,7 @@ actor_secundario('Diario_de_una_Pasion', 'James Garner').
 actor_secundario('Se7en', 'Morgan Freeman').
 actor_secundario('Perdida', 'Tyler Perry').
 actor_secundario('Sherlock_Holmes', 'Jude Law').
-actor_secundario('La_Chica_del_Dragon_Tatuado', 'Stellan Skarsgård').
+actor_secundario('La_Chica_del_Dragon_Tatuado', 'Stellan Skarsgard').
 actor_secundario('Red_Social', 'Andrew Garfield').
 actor_secundario('Gandhi', 'Candice Bergen').
 actor_secundario('El_Viaje_del_Emperador', 'Morgan Freeman').
@@ -1858,7 +1858,7 @@ genero_masculino('Matthew Macfadyen').
 genero_masculino('James Garner').
 genero_masculino('Tyler Perry').
 genero_masculino('Jude Law').
-genero_masculino('Stellan Skarsgård').
+genero_masculino('Stellan Skarsgard').
 genero_masculino('Andrew Garfield').
 genero_masculino('Matt Damon').
 genero_masculino('Lee Van Cleef').
@@ -4484,105 +4484,105 @@ buscar_artistas_pop(Artistas) :-
 98. genero_masculino('Jay Baruchel'):- actor_protagonista('Como_Entrenar_a_tu_Dragon', 'Jay Baruchel').
 99. genero_masculino('Martin Freeman'):-actor_protagonista('El_Hobbit:_Un_viaje_inesperado', 'Martin Freeman').
 100. genero_masculino('Cary Elwes'):-actor_protagonista('La_Princesa_Prometida', 'Cary Elwes').
-101. genero_masculino('Charlie Cox').
-102. genero_masculino('Noah Hathaway').
-genero_masculino('Logan Lerman').
-genero_masculino('Stephen Garlick').
-genero_masculino('Edward Speleers').
-genero_masculino('Gene Kelly').
-genero_masculino('Gerard Butler').
-genero_masculino('Mark Wahlberg').
-genero_masculino('Michael B. Jordan').
-genero_masculino('Denzel Washington').
-genero_masculino('Samuel L. Jackson').
-genero_masculino('Kevin Costner').
-genero_masculino('Gene Hackman').
-genero_masculino('Mena Massoud').
-genero_masculino('Hardie Albright').
-genero_masculino('Rod Taylor').
-genero_masculino('Bobby Driscoll').
-genero_masculino('Edward Brophy').
-genero_masculino('Tate Donovan').
-genero_masculino('Owen Wilson').
-genero_masculino('John Goodman').
-genero_masculino('Edward Asner').
-genero_masculino('Ben Burtt').
-genero_masculino('Tom Hulce').
-genero_masculino('Joey Lawrence').
-genero_masculino('Joaquin Phoenix').
-genero_masculino('David Spade').
-genero_masculino('Zach Braff').
-genero_masculino('Kevin Kline').
-genero_masculino('Jack Black').
-genero_masculino('Ben Stiller').
-genero_masculino('Macaulay Culkin').
-genero_masculino('Robin Williams').
-genero_masculino('Dick Van Dyke').
-genero_masculino('Gene Wilder').
-genero_masculino('Sean Astin').
-genero_masculino('Ben Whishaw').
-genero_masculino('James Corden').
-genero_masculino('Donald Glover').
-genero_masculino('Colin Farrell').
-genero_masculino('Ewan McGregor').
-genero_masculino('Joe Mantegna').
-genero_masculino('Jim Carrey').
-genero_masculino('Taylor Lautner').
-genero_masculino('Asa Butterfield').
-genero_masculino('Alan Rickman').
-genero_masculino('Martin Lawrence').
-genero_masculino('James Caan').
-genero_masculino('Max von Sydow').
-genero_masculino('Christopher Walken').
-genero_masculino('Rupert Grint').
-genero_masculino('Christopher Plummer').
-genero_masculino('Tim Allen').
-genero_masculino('Eddie Murphy').
-genero_masculino('Matthew Macfadyen').
-genero_masculino('James Garner').
-genero_masculino('Tyler Perry').
-genero_masculino('Jude Law').
-genero_masculino('Stellan Skarsgård').
-genero_masculino('Andrew Garfield').
-genero_masculino('Matt Damon').
-genero_masculino('Lee Van Cleef').
-genero_masculino('Jon Voight').
-genero_masculino('River Phoenix').
-genero_masculino('Burgess Meredith').
-genero_masculino('Edward G. Robinson').
-genero_masculino('Clive Owen').
-genero_masculino('Val Kilmer').
-genero_masculino('Danny DeVito').
-genero_masculino('Chris Evans').
-genero_masculino('Aaron Eckhart').
-genero_masculino('Jason Alexander').
-genero_masculino('Bruno Kirby').
-genero_masculino('Sergi Lopez').
-genero_masculino('Michael Shannon').
-genero_masculino('Josh Hutcherson').
-genero_masculino('Jeff Goldblum').
-genero_masculino('Robert MacNaughton').
-genero_masculino('Christopher Lloyd').
-genero_masculino('Joseph Gordon-Levitt').
-genero_masculino('Laurence Fishburne').
-genero_masculino('Michael Biehn').
-genero_masculino('John Hurt').
-genero_masculino('Bradley Cooper').
-genero_masculino('Billy Zane').
-genero_masculino('John Leguizamo').
-genero_masculino('Peter Coyote').
-genero_masculino('Nat Wolff').
-genero_masculino('Colin Firth').
-genero_masculino('Claude Rains').
-genero_masculino('Rhys Ifans').
-genero_masculino('Skeet Ulrich').
-genero_masculino('Ron Livingston').
-genero_masculino('Finn Wolfhard').
-genero_masculino('Bradley Whitford').
-genero_masculino('Alex Wolff').
-genero_masculino('Daniel Henshall').
-genero_masculino('Brian Cox').
-genero_masculino('Micah Sloat').
+101. genero_masculino('Charlie Cox'):-actor_protagonista('Stardust:_El_Misterio_de_la_Estrella', 'Charlie Cox').
+102. genero_masculino('Noah Hathaway'):-actor_protagonista('La_Historia_Sin_Fin', 'Noah Hathaway').
+103. genero_masculino('Logan Lerman'):-actor_protagonista('Percy_Jackson_y_el_Ladron_del_Rayo', 'Logan Lerman').
+104. genero_masculino('Stephen Garlick'):-actor_protagonista('El_Cristal_Encantado', 'Stephen Garlick').
+105. genero_masculino('Edward Speleers'):-actor_protagonista('Eragon', 'Edward Speleers').
+106. genero_masculino('Gene Kelly'):-actor_protagonista('Cantando_Bajo_la_Lluvia', 'Gene Kelly').
+107. genero_masculino('Gerard Butler'):-actor_protagonista('El_Fantasma_de_la_opera', 'Gerard Butler').
+108. genero_masculino('Mark Wahlberg'):-actor_protagonista('El_Peleador', 'Mark Wahlberg').
+109. genero_masculino('Michael B. Jordan'):-actor_protagonista('Creed:_Corazon_de_Campeon', 'Michael B. Jordan').
+110. genero_masculino('Denzel Washington'):-actor_protagonista('Recuerdos_de_los_Titanes', 'Denzel Washington').
+111. genero_masculino('Samuel L. Jackson'):-actor_protagonista('Juego_de_Honor', 'Samuel L. Jackson').
+112. genero_masculino('Kevin Costner'):-actor_protagonista('Campo_de_Suenos', 'Kevin Costner').
+113. genero_masculino('Gene Hackman'):-actor_protagonista('Un_Equipo_Muy_Especial', 'Gene Hackman').
+114. genero_masculino('Mena Massoud'):-actor_protagonista('Aladdin', 'Mena Massoud').
+115. genero_masculino('Hardie Albright'):-actor_protagonista('Bambi', 'Hardie Albright').
+116. genero_masculino('Rod Taylor'):-actor_protagonista('101_Dalmatas', 'Rod Taylor').
+117. genero_masculino('Bobby Driscoll'):-actor_protagonista('Peter_Pan', 'Bobby Driscoll').
+118. genero_masculino('Edward Brophy'):-actor_protagonista('Dumbo', 'Edward Brophy').
+119. genero_masculino('Tate Donovan'):-actor_protagonista('Hercules', 'Tate Donovan').
+120. genero_masculino('Owen Wilson'):-actor_protagonista('Cars', 'Owen Wilson').
+121. genero_masculino('John Goodman'):-actor_protagonista('Monsters_Inc', 'John Goodman').
+122. genero_masculino('Edward Asner'):-actor_protagonista('Up', 'Edward Asner').
+123. genero_masculino('Ben Burtt'):-actor_protagonista('WALL-E', 'Ben Burtt').
+124. genero_masculino('Tom Hulce'):-actor_protagonista('El_Jorobado_de_Notre_Dame', 'Tom Hulce').
+125. genero_masculino('Joey Lawrence'):-actor_protagonista('Oliver_y_su_Pandilla', 'Joey Lawrence').
+126. genero_masculino('Joaquin Phoenix'):-actor_protagonista('Tierra_de_Osos', 'Joaquin Phoenix').
+127. genero_masculino('David Spade'):-actor_protagonista('El_Emperador_y_sus_Locuras', 'David Spade').
+128. genero_masculino('Zach Braff'):-actor_protagonista('Chicken_Little', 'Zach Braff').
+129. genero_masculino('Kevin Kline'):-actor_protagonista('El_Camino_hacia_El_Dorado', 'Kevin Kline').
+130. genero_masculino('Jack Black'):-actor_protagonista('Kung_Fu_Panda', 'Jack Black').
+131. genero_masculino('Ben Stiller'):-actor_protagonista('Madagascar', 'Ben Stiller').
+132. genero_masculino('Macaulay Culkin'):-actor_protagonista('Mi_Pobre_Angelito', 'Macaulay Culkin').
+133. genero_masculino('Robin Williams'):-actor_protagonista('Jumanji', 'Robin Williams').
+134. genero_masculino('Dick Van Dyke'):-actor_protagonista('Chitty_Chitty_Bang_Bang', 'Dick Van Dyke').
+135. genero_masculino('Gene Wilder'):-actor_protagonista('Willy_Wonka_y_la_Fabrica_de_Chocolate', 'Gene Wilder').
+136. genero_masculino('Sean Astin'):-actor_protagonista('Los_Goonies', 'Sean Astin').
+137. genero_masculino('Ben Whishaw'):-actor_protagonista('Paddington', 'Ben Whishaw').
+138. genero_masculino('James Corden'):-actor_protagonista('Peter_Rabbit_2_A_la_Fuga', 'James Corden').
+139. genero_masculino('Donald Glover'):-actor_protagonista('El_Rey_Leon_2019', 'Donald Glover').
+140. genero_masculino('Colin Farrell'):-actor_protagonista('Dumbo_2019', 'Colin Farrell').
+141. genero_masculino('Ewan McGregor'):-actor_protagonista('Christopher_Robin', 'Ewan McGregor').
+142. genero_masculino('Joe Mantegna'):-actor_protagonista('Aventuras_en_la_Gran_Ciudad', 'Joe Mantegna').
+143. genero_masculino('Jim Carrey'):-actor_protagonista('Una_Serie_de_Eventos_Desafortunados', 'Jim Carrey').
+144. genero_masculino('Taylor Lautner'):- actor_protagonista('Las_Aventuras_de_Sharkboy_y_Lavagirl', 'Taylor Lautner').
+145. genero_masculino('Asa Butterfield'):-actor_protagonista('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Asa Butterfield').
+146. genero_masculino('Alan Rickman'):-actor_secundario('Duro_de_Matar', 'Alan Rickman').
+147. genero_masculino('Martin Lawrence'):-actor_secundario('Dos_Tontos_en_Fuga', 'Martin Lawrence').
+148. genero_masculino('James Caan'):-actor_secundario('El_Padrino', 'James Caan').
+149. genero_masculino('Max von Sydow'):-actor_secundario('El_Exorcista', 'Max von Sydow').
+150. genero_masculino('Christopher Walken'):-actor_secundario('El_Cazador_Implacable', 'Christopher Walken').
+151. genero_masculino('Rupert Grint'):-actor_secundario('Harry_Potter_y_la_piedra_filosofal', 'Rupert Grint').
+152. genero_masculino('Christopher Plummer'):-actor_secundario('La_Novicia_Rebelde', 'Christopher Plummer').
+153. genero_masculino('Tim Allen'):-actor_secundario('Toy_Story', 'Tim Allen').
+154. genero_masculino('Eddie Murphy'):-actor_secundario('Shrek', 'Eddie Murphy').
+156. genero_masculino('James Garner'):- actor_secundario('Diario_de_una_Pasion', 'James Garner').
+157. genero_masculino('Matthew Macfadyen'):-actor_protagonista('Orgullo_y_Prejuicio', 'Matthew Macfadyen').
+158. genero_masculino('Tyler Perry'):- actor_secundario('Perdida', 'Tyler Perry').
+159. genero_masculino('Jude Law'):- actor_secundario('Sherlock_Holmes', 'Jude Law').
+160. genero_masculino('Stellan Skarsgard'):-actor_secundario('La_Chica_del_Dragon_Tatuado', 'Stellan Skarsgard').
+161. genero_masculino('Andrew Garfield'):-actor_secundario('Red_Social', 'Andrew Garfield').
+162. genero_masculino('Matt Damon'):-actor_secundario('Rescatando_al_Soldado_Ryan', 'Matt Damon').
+163. genero_masculino('Lee Van Cleef'):-actor_secundario('El_Bueno,el_Malo_y_el_Feo', 'Lee Van Cleef').
+164. genero_masculino('Jon Voight'):-actor_secundario('Mission:_Impossible', 'Jon Voight').
+165. genero_masculino('River Phoenix'):-actor_secundario('Stand_by_Me', 'River Phoenix').
+166. genero_masculino('Burgess Meredith'):-actor_secundario('Rocky', 'Burgess Meredith').
+167. genero_masculino('Edward G. Robinson'):-actor_secundario('Pacto_de_Sangre', 'Edward G. Robinson').
+168. genero_masculino('Clive Owen'):-actor_secundario('La_Ciudad_del_Pecado', 'Clive Owen').
+169. genero_masculino('Val Kilmer'):-actor_secundario('Fuego_Contra_Fuego', 'Val Kilmer').
+170. genero_masculino('Danny DeVito'):-actor_secundario('Los_angeles_al_Desnudo', 'Danny DeVito').
+171. genero_masculino('Chris Evans'):- actor_secundario('The_Avengers:_Los_Vengadores', 'Chris Evans').
+172. genero_masculino('Aaron Eckhart'):-actor_secundario('Batman:_El_caballero_de_la_noche', 'Aaron Eckhart').
+173. genero_masculino('Jason Alexander'):-actor_secundario('Mujer_Bonita', 'Jason Alexander').
+174. genero_masculino('Bruno Kirby'):-actor_secundario('Cuando_Harry_Conocio_a_Sally', 'Bruno Kirby').
+175. genero_masculino('Sergi Lopez'):-actor_secundario('El_Laberinto_del_Fauno', 'Sergi Lopez').
+176. genero_masculino('Michael Shannon'):-actor_secundario('La_Forma_del_Agua', 'Michael Shannon').
+177. genero_masculino('Josh Hutcherson'):-actor_secundario('Los_Juegos_del_Hambre', 'Josh Hutcherson').
+178. genero_masculino('Jeff Goldblum'):-actor_secundario('Jurassic_Park', 'Jeff Goldblum').
+179. genero_masculino('Robert MacNaughton'):-actor_secundario('E.T.,el_Extraterrestre', 'Robert MacNaughton').
+180. genero_masculino('Christopher Lloyd'):-actor_secundario('Volver_al_Futuro', 'Christopher Lloyd').
+181. genero_masculino('Joseph Gordon-Levitt'):-actor_secundario('El_Origen', 'Joseph Gordon-Levitt').
+182. genero_masculino('Laurence Fishburne'):-actor_secundario('Matrix', 'Laurence Fishburne').
+183. genero_masculino('Michael Biehn'):-actor_secundario('Terminator', 'Michael Biehn').
+184. genero_masculino('John Hurt'):-actor_secundario('Alien:_El_Octavo_Pasajero', 'John Hurt').
+185. genero_masculino('Bradley Cooper'):-actor_secundario('Guardianes_de_la_Galaxia', 'Bradley Cooper').
+186. genero_masculino('Billy Zane'):-actor_secundario('Titanic', 'Billy Zane').
+187. genero_masculino('John Leguizamo'):-actor_secundario('Romeo_+_Julieta', 'John Leguizamo').
+188. genero_masculino('Peter Coyote'):-actor_secundario('Un_Paseo_para_Recordar', 'Peter Coyote').
+189. genero_masculino('Nat Wolff'):-actor_secundario('Bajo_la_Misma_Estrella', 'Nat Wolff').
+190. genero_masculino('Colin Firth'):-actor_secundario('El_Diario_de_Bridget_Jones', 'Colin Firth').
+191. genero_masculino('Claude Rains'):-actor_secundario('Casablanca', 'Claude Rains').
+192. genero_masculino('Rhys Ifans'):-actor_secundario('Un_Lugar_Llamado_Notting_Hill', 'Rhys Ifans').
+193. genero_masculino('Skeet Ulrich'):-actor_secundario('Scream:_Grita_Antes_de_Morir', 'Skeet Ulrich').
+194. genero_masculino('Ron Livingston'):-actor_secundario('El_Conjuro', 'Ron Livingston').
+195. genero_masculino('Finn Wolfhard'):-actor_secundario('Eso', 'Finn Wolfhard').
+196. genero_masculino('Bradley Whitford'):-actor_secundario('Huye', 'Bradley Whitford').
+197. genero_masculino('Alex Wolff'):-actor_secundario('Hereditary:_El_Legado_del_Diablo', 'Alex Wolff').
+198. genero_masculino('Daniel Henshall'):-actor_secundario('El_Babadook', 'Daniel Henshall').
+199. genero_masculino('Brian Cox'):-actor_secundario('El_Aro', 'Brian Cox').
+200. genero_masculino('Micah Sloat'):-actor_secundario('Actividad_Paranormal', 'Micah Sloat').
 genero_masculino('Donald Pleasence').
 genero_masculino('Jared Leto').
 genero_masculino('Michael Clarke Duncan').
