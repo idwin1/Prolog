@@ -2984,7 +2984,6 @@ artista_de_genero('J. Cole', 'Hip Hop').
 %
 %Regueton
 artista_de_genero('Bad Bunny', 'Regueton').
-artista_de_genero('Bad Bunny', 'Regueton').
 artista_de_genero('J Balvin', 'Regueton').
 artista_de_genero('Ozuna', 'Regueton').
 artista_de_genero('Maluma', 'Regueton').
@@ -3532,9 +3531,6 @@ mejor_efectos_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
 mejor_maquillaje_y_peinado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Maquillaje_y_Peinado',Lista).
 
-mejor_montaje_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
-                    member('Mejor_Montaje_de_Sonido',Lista).
-
 peliculas_alta_critica_imdb(Pelicula) :- critica_imdb(Pelicula, Calificacion), Calificacion >= 8.0.
 peliculas_actor_protagonista_masculino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_masculino(Actor).
 peliculas_actor_protagonista_femenino(Pelicula) :- actor_protagonista(Pelicula, Actor), genero_femenino(Actor).
@@ -3553,7 +3549,7 @@ basado_musical(Pelicula, Musical) :- basado_en(Pelicula, Musical,'Musical').
 basado_otros(Pelicula, Otro) :- basado_en(Pelicula,Otro,'Otro').
 esta_en_netflix(Pelicula) :- disponible_streaming(Pelicula, 'Netflix').
 esta_en_disney(Pelicula) :- disponible_streaming(Pelicula, 'Disney+').
-esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO').
+esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO_Max').
 esta_en_amazon(Pelicula) :- disponible_streaming(Pelicula, 'Amazon_Prime').
 esta_en_star(Pelicula) :- disponible_streaming(Pelicula, 'Star+').
 plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
@@ -3604,14 +3600,6 @@ numero_juegos_desarrolladora(Desarrolladora, Cantidad) :-
 
 % Obtener todos los juegos lanzados antes de un ano especifico:
 juegos_antes_2010(Anio, Juegos) :-ano_de_lanzamiento(Juegos, Anio),Anio<2010.
-
-juegos_similares(Juego, JuegosSimilares) :-
-    genero(Juego, Genero),
-    plataforma(Juego, Plataforma),
-    desarrolladora_de(_, Juego),
-    findall(OtroJuego, genero(OtroJuego, Genero), JuegosSimilares),
-findall(OtroJuego, plataforma(OtroJuego, Plataforma), Juego).
-  
     
 juegos_especificos(Genero, Plataforma, Anio, Juegos) :-
     genero(Juegos, Genero),
@@ -3660,3 +3648,737 @@ buscar_artistas_pop(Artistas) :-
     findall(Artista, (artista_de_genero(Artista, Genero), sub_atom(Genero, _, _, _, 'Pop')), Artistas),
     writeln(Artistas).
     
+%Razonamiento logico
+/*
+1. Algunas peliculas son de accion, entonces Mad Max: Furia en el Camino es una pelicula de accion.
+2. Algunas peliculas son de drama, entonces El Padrino es una pelicula de drama.
+3. Algunas peliculas son de terror, entonces El Exorcista es una pelicula de terror.
+4. Algunas peliculas son de ciencia ficcion, entonces Matrix es una pelicula de ciencia ficcion.
+5. Algunas peliculas son de fantasia, entonces Harry Potter y la Piedra Filosofal es una pelicula de fantasia.
+6. Algunas peliculas son de musical, entonces La La Land. Una historia de amor es una pelicula de musical.
+7. Algunas peliculas son infantiles, entonces Toy Story es una pelicula infantil.
+8. Algunas peliculas son de romance, entonces Titanic es una pelicula de romance.
+9. Algunas peliculas son de Suspenso, entonces El Silencio de los Inocentes es una pelicula de Suspenso.
+10. Algunas peliculas son de misterio, entonces Sherlock Holmes es una pelicula de misterio.
+11. Algunas peliculas son biograficas, entonces Gandhi es una pelicula biografica.
+12. Algunas peliculas son documentales, entonces Bowling for Columbine es una pelicula documental.
+13. Algunas peliculas son historicas, entonces La Lista de Schindler es una pelicula historica.
+14. Algunas peliculas son de guerra, entonces Rescatando al Soldado Ryan es una pelicula de guerra.
+15. Algunas peliculas son western, entonces El Bueno,el Malo y el Feo es una pelicula western.
+16. Algunas peliculas son de espionaje, entonces James Bond at the Movies es una pelicula de espionaje.
+17. Algunas peliculas son coming-of-age, entonces Stand by Me es una pelicula coming-of-age.
+18. Algunas peliculas son de crimen, entonces Los Infiltrados es una pelicula de crimen.
+19. Algunas peliculas son de deporte, entonces Rocky es una pelicula de deporte.
+20. Algunas peliculas son noir, entonces Pacto de Sangre es una pelicula noir.
+21. Algunas peliculas son policial, entonces Fuego Contra Fuego es una pelicula policial.
+22. Algunas peliculas son de superheroes entonces The Avengers: Los Vengadores es una pelicula de superheroes.
+23. Algunas peliculas son de distopia entonces Los Juegos del Hambre es una pelicula de distopia.
+24. Algunas peliculas son de thriller entonces El Gran Truco es una pelicula de thriller.
+25. Todas las peliculas pueden ganar un oscar, entonces Toy Story gano un oscar en 1996.
+26. Todas las peliculas pueden ganar un oscar, entonces El rey leon gano un oscar en 1995.
+27. Todas las peliculas pueden ganar un oscar, entonces Frozen: Una Aventura Congelada gano un oscar en 2014.
+28. Todas las peliculas pueden ganar un oscar, entonces up gano un oscar en 2010.
+29. Todas las peliculas pueden ganar un oscar, entonces coco gano un oscar en 2018.
+30. Todas las peliculas pueden ganar un oscar, entonces Ratatouille gano un oscar en 2008.
+31. Todas las peliculas pueden ganar un oscar, entonces Buscando a Nemo gano un oscar en 2004.
+32. Todas las peliculas pueden ganar un oscar, entonces Los Increibles gano un oscar en 2005.
+33. Todas las peliculas pueden ganar un oscar, entonces Shrek gano un oscar en 2002.
+34. Todas las peliculas pueden ganar un oscar, entonces Mary Poppins gano un oscar en 1965.
+35. Algunas peliculas pueden ganar un oscar en Mejor actriz, entonces Mary Poppins gano el oscar a Mejor actriz.
+36. Algunas peliculas pueden ganar un oscar en Mejor Fotografia, entonces El Jorobado de Notre Dame gano el oscar a Mejor Fotografia.
+37. Algunas peliculas pueden ganar un oscar en Mejores Efectos Visuales, entonces  El Libro de la Selva (2016) gano el oscar a Mejores Efectos Visuales.
+38. Algunas peliculas pueden ganar un oscar en Mejor Pelicula, entonces El Padrino gano el oscar a Mejor Pelicula.
+39. Algunas peliculas pueden ganar un oscar en Mejor Guion Adaptado, entonces El Exorcista gano el oscar a Mejor Guion Adaptado.
+40. Algunas peliculas pueden ganar un oscar en Mejor Diseño de Produccion, entonces La Guerra de las Galaxia gano el oscar a Mejor Diseño de Produccion.
+41. Algunas peliculas pueden ganar un oscar en Mejor Director, entonces El Cazador Implacable gano el oscar a Mejor Director.
+42. Algunas peliculas pueden ganar un oscar en Mejor Edicion, entonces La Novicia Rebelde gano el oscar a Mejor Edicion.
+43. Algunas peliculas pueden ganar un oscar en Mejor Banda Sonora Original, entonces La La Land. Una historia de amor gano el oscar a Mejor Banda Sonora Original.
+44. Algunas peliculas pueden ganar un oscar en Mejor Montaje, entonces La Chica del Dragon Tatuado gano el oscar a Mejor Montaje.
+45. Algunas peliculas pueden ganar un oscar en Mejor Actor de Reparto, entonces Gandhi gano el oscar a Mejor Actor de Reparto.
+46. Algunas peliculas pueden ganar un oscar en Mejor Actriz de Reparto, entonces Los Imperdonables gano el oscar a Mejor Actriz de Reparto.
+47. Algunas peliculas pueden ganar un oscar en Mejor Maquillaje, entonces El senor de los anillos: Las dos torres gano el oscar a Mejor Maquillaje.
+48. Algunas peliculas pueden ganar un oscar en Mejor Guion Original, entonces Tiempos Violentos gano el oscar a Mejor Guion Original.
+49. Algunas peliculas pueden ganar un oscar en Mejor Interpretacion, entonces Batman: El caballero de la noche gano el oscar a Mejor Interpretacion.
+50. Algunas peliculas pueden ganar un oscar en Mejor Vestuario, entonces Mad Max: Furia en el Camino gano el oscar a Mejor Vestuario.
+51. Algunas peliculas pueden ganar un oscar en Mejor Guion Original, entonces Tiempos Violentos gano el oscar a Mejor Guion Original.
+52. Algunas peliculas pueden ganar un oscar en Mejor Cancion Original, entonces Frozen: Una Aventura Congeladae gano el oscar a Mejor Cancion Original.
+53. Algunas peliculas pueden ganar un oscar en Mejor Produccion, entonces Mad Max: Furia en el Camino gano el oscar a Mejor Produccion.
+54. Algunas peliculas pueden ganar un oscar en Mejor Edicion de Sonido, entonces Mad Max: Furia en el Camino gano el oscar a Mejor Edicion de Sonido.
+55. Algunas peliculas son buenas, entonces Duro de Matar es buena.
+56. Algunas peliculas son malas, entonces Eragon es mala.
+57. Todas las peliculas son dirigidas por un director, entonces La Froma del Agua es dirigida por Guillermo del Toro.
+58. Algunas películas pueden tener una calificación alta en IMDb, por lo tanto, El Padrino tiene una calificación de 9.2 en IMDb.
+59. Algunas peliculas pueden tener una calificacion alta en IMDb, entonces Duro de Matar tiene una calificacion de 8.2 en IMDb.
+60. Algunas peliculas pueden tener una calificacion alta en IMDb, entonces Mad Max: Furia en el Camino tiene una calificacion de 8.1 en IMDb.
+61. Algunas peliculas pueden tener una calificacion alta en IMDb, entonces La Guerra de las Galaxias tiene una calificacion de 8.6 en IMDb.
+62. Algunas peliculas pueden tener una calificacion baja en IMDb, entonces Eragon tiene una calificacion de 5.1 en IMDb.
+63. Algunas peliculas pueden tener una calificacion baja en IMDb, entonces Oliver y su Pandilla tiene una calificacion de 6.7 en IMDb.
+64. Algunas peliculas pueden tener una calificacion baja en IMDb, entonces Dos Tontos en Fuga tiene una calificacion de 6.5 en IMDb.
+65. Algunas peliculas pueden tener una calificacion baja en IMDb, entonces Locamente Millonarios tiene una calificacion de 6.9 en IMDb.
+66. Algunas peliculas se estrenaron en el 2015, entonces Mad Max: Furia en el Camino se estreno en el 2015.
+67. Algunas peliculas se estrenaron en el 1988, entonces Duro de Matar se estreno en el 1988.
+68. Algunas peliculas se estrenaron en 2001, entonces Indiana Jones se estreno en el 2001.
+69. Algunas peliculas se estrenaron en 1981, entonces Shrek se estreno en el 1981.
+70. Algunas peliculas se estrenaron en 2005, entonces Orgullo y Prejuicio se estreno en el 2005.
+71. Algunas peliculas se estrenaron en 2004, entonces Diario de una Pasion se estreno en el 2004.
+72. Algunas peliculas se estrenaron en 1995, entonces Se7en se estreno en el 1995.
+73. Algunas peliculas se estrenaron en 2014, entonces Perdida se estreno en el 2014.
+74. Algunas peliculas son Estado unidences, entonces Indiana Jones es Estado unidences.
+75. Algunas peliculas son italianas, entonces El Bueno,el Malo y el Feo es italiana.
+76. Algunas peliculas son Mexicanas, entonces Pacto de Sangre es Mexicana.
+77. Algunos actores son protagonistas, entonces Leonardo DiCaprio es protagonista
+78. Algunos actores son secundarios, entonces 
+79. Todas las peliculas tienen actores, entonces Brad Pitt es un actor.
+80. Todas las peliculas tienen actrices, entonces Emma Watson es un actor.
+81. Todos los actores son hombres, entonces Tom Hardy es hombre.
+82. Todas las actices son mujeres, entonces Ellen Burstyn es mujer.
+83. Algunas peliculas estan basadas en libros, entonces El Mago de Oz esta basado en The Wonderful Wizard of Oz.
+84. Algunas peliculas estan basadas en musicales, entonces El Fantasma de la Opera esta basado en el musical de Andrew Lloyd Webber.
+85. Algunas peliculas estan basadas en comics,entonces Grandes Heroes esta basada en Big Hero 6.
+86. Algunas peliculas estan basadas en Musical,entonces Chicago esta basada en un Musical.
+87. Algunas peliculas estan basadas en mitologia griega,entonces Hercules esta basada en mitologia griega.
+88. Algunas peliculas estan en Netflix, entonces Rescatando al Soldado Ryan esta en Netflix.
+89. Algunas peliculas estan en Disney+, entonces Toy Story esta en Disney+.
+90. Algunas peliculas estan en HBO, entonces El Exorcista esta en HBO.
+91. Algunas peliculas estan en Amazon Prime, entonces Tiempos Violentos esta en Amazon Prime.
+92. Algunas peliculas estan en Star+, entonces Mujer Bonita esta en Star+.
+93. Algunas peliculas estan en Hulu, entonces Dos Tontos en Fuga esta en Hulu.
+94. Algunas peliculas estan en Paramount+, entonces Indiana Jones esta en Paramount+.
+95. Algunas peliculas estan en Peacock, entonces La Lista de Schindler esta en Peacock.
+96. Todos los videojuegos tienen un genero, entonces Nine Sols es un videojuego de aventura.
+97. Todos los videojuegos tienen una plataforma, entonces Asphalt Legends Unite es un videojuego de Pc.
+98. Todos los videojuegos tienen una desarrolladora, entonces Ragtag Studio es un videojuego de Rauniot.
+99. Todos los videojuegos tienen un año de lanzamiento, entonces Routine se lanzo en 2017.
+101. Algunos videojuegos son de accion, entonces Industria 2 es un videojuego de accion.
+102. Algunos videojuegos son de aventura, entonces Content Warning es un videojuego de aventura.
+103. Algunos videojuegos son de estrategia, entonces Vambrace: Dungeon Monarch es un videojuego de estrategia.
+104. Algunos videojuegos son de simulacion, entonces The Crush House es un videojuego de simulacion.
+105. Algunos videojuegos son de rol, entonces Tale of Ronin es un videojuego de rol.
+106. Algunos videojuegos son de terror, entonces Negative Atmosphere es un videojuego de terror.
+107. Algunos videojuegos son de Aventura_de_accion , entonces Beyond_Good_&_Evil_2 es un videojuego de Aventura_de_accion.
+108. Algunos videojuegos son de Granjas, entonces Farm_Folks es un videojuego de Granjas.
+109. Algunos videojuegos son de Tactical_RPG, entonces Metal_Slug_Tactics es un videojuego de Tactical_RPG.
+110. Algunos videojuegos son de Autobuses, entonces SimBus es un videojuego de Autobuses.
+111. Algunos videojuegos son de Shooter_en_primera_persona , entonces Unrecord es un videojuego de Shooter_en_primera_persona.
+112. Algunos videojuegos son de Aventura_narrativa, entonces Silent_Hill_Townfall es un videojuego de Aventura_narrativa.
+113. Algunos videojuegos son de Mundo_abierto, entonces Damnview:_Built_From_Nothing es un videojuego de Mundo_abierto.
+114. Algunos videojuegos son de Lucha, entonces Dragon_Ball:_Sparking!_Zero es un videojuego de Lucha.
+115. Algunos videojuegos se juegan en plataforma pc, entonces Pathless Woods se juega en pc.
+116. Algunos videojuegos se juegan en plataforma ps5, entonces Worshippers_of_Cthulhu se juega en ps5
+117. Algunos videojuegos se juegan en plataforma XBS, entonces Farewell_North se juega en XBS
+118. Algunos videojuegos se juegan en plataforma NSW, entonces Funko_Fusion se juega en NSW
+119. Algunos videojuegos se juegan en plataforma PS4, entonces SteamWorld_Heist_2 se juega en PS4
+120. Algunos videojuegos se juegan en plataforma XBO, entonces NeoSprint se juega en XBO
+121. Algunos videojuegos se juegan en multiplataforma, entonces Triggerheart_Exelica se juega en multiplataforma
+122. Algunos juegos son desarrolados por Foambre Games, entonces Age of Water es desarrollado por Foambre Games
+123. Algunos artistas cantan Hip Hop, entonces Eminem es un artista de Hip Hop.
+124. Algunos artistas cantan Regueton, entonces Daddy Yankee es un artista de Regueton.
+125. Algunos artistas cantan Rock, entonces Queen es un artista de Rock.
+126. Algunos artistas cantan Pop, entonces Michael Jackson es un artista de Pop.
+127. Algunos artistas cantan Jazz, entonces Louis Armstrong es un artista de Jazz.
+128. Algunos artistas cantan Ranchera, entonces Vicente Fernandez es un artista de Ranchera.
+129. Algunos artistas cantan Salsa, entonces Hector Lavoe es un artista de Salsa.
+130. Algunos artistas cantan Punk Rock, entonces Blink-182 es un artista de Punk Rock.
+131. Algunos artistas cantan Folk Rock, entonces Bob Dylan es un artista de Folk Rock.
+132. Algunos artistas cantan Hard Rock, entonces Deep Purple es un artista de Hard Rock.
+133. Algunos artistas cantan Rock Alternativo, entonces Foo Fighters es un artista de Rock Alternativo.
+134. Algunos artistas cantan Rock en espanol, entonces Soda Stereo es un artista de Rock en espanol.
+135. Algunos artistas cantan Pop Rock, entonces Julieta Venegas es un artista de Pop Rock.
+136. Algunos artistas cantan Flamenco Pop, entonces Rosalia es un artista de Flamenco Pop.
+137. Algunos artistas cantan Pop latino, entonces Shakira es un artista de Pop latino.
+138. Algunos artistas cantan K-Pop, entonces BTS es un artista de K-Pop.
+139. Algunos artistas cantan Pop Country, entonces Taylor Swift es un artista de Pop Country.
+140. Algunos artistas cantan Indie Pop, entonces Lana Del Rey es un artista de Indie Pop.
+141. Todos los artistas tienen canciones, entonces Rels B canta Lejos de Ti.
+142. Todos los artistas tienen canciones, entonces Eminem canta Stan.
+143. Todos los artistas tienen canciones, entonces Queen canta Bohemian Rhapsody.
+144. Todos los artistas tienen canciones, entonces Michael Jackson canta Billie Jean.
+145. Todos los artistas tienen canciones, entonces Louis Armstrong canta What a Wonderful World.
+146. Todos los artistas tienen canciones, entonces Vicente Fernandez canta Volver, Volver.
+147. Todos los artistas tienen canciones, entonces Hector Lavoe tiene canta El Cantante.
+148. Todos los artistas tienen canciones, entonces Blink-182 tiene canta All the Small Things.
+149. Todos los artistas tienen canciones, entonces Bob Dylan tiene canta Like a Rolling Stone.
+150. Todos los artistas tienen canciones, entonces Deep Purple tiene canta Smoke on the Water.
+
+*/
+
+
+
+%Consultas
+/*
+1.  ?-genero_pelicula(Pelicula, Genero).  
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino',
+    Genero = 'Accion' ;
+
+2.  ?- peliculas_accion(Pelicula).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+
+3.  ?- peliculas_aventura(Pelicula).
+    Pelicula = 'Indiana_Jones' ;
+    Pelicula = 'El_senor_de_los_anillos:_Las_dos_torres'.
+
+4.  ?- peliculas_comedia(Pelicula).
+    Pelicula = 'Supercool' ;
+    Pelicula = 'Dos_Tontos_en_Fuga'.
+
+5.  ?- peliculas_drama(Pelicula).
+    Pelicula = 'El_Padrino' ;
+    Pelicula = 'Suenos_de_Libertad' ;
+
+6.  ?- peliculas_terror(Pelicula).
+    Pelicula = 'El_Exorcista' ;
+    Pelicula = 'Pesadilla_en_la_Calle_del_Infierno' ;
+
+7.  ?- peliculas_cienciaficcion(Pelicula).
+    Pelicula = 'La_Guerra_de_las_Galaxias' ;
+    Pelicula = 'El_Cazador_Implacable' ;
+
+8.  ?- peliculas_fantasia(Pelicula).
+    Pelicula = 'Harry_Potter_y_la_piedra_filosofal' ;
+    Pelicula = 'Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero' ;
+
+9. ?- peliculas_musical(Pelicula).
+    Pelicula = 'La_Novicia_Rebelde' ;
+    Pelicula = 'La_La_Land._Una_historia_de_amor' ;
+    Pelicula = 'Chicago' ;
+    Pelicula = 'El_Gran_Showman' ;
+    Pelicula = 'Los_Miserables' ;
+    Pelicula = 'Vaselina' ;
+    Pelicula = 'Mamma_Mia!' ;
+    Pelicula = 'Hairspray' ;
+    Pelicula = 'Amor_Sin_Barreras' ;
+    Pelicula = 'Cantando_Bajo_la_Lluvia' ;
+    Pelicula = 'El_Fantasma_de_la_opera'.
+
+10. ?- peliculas_infantil(Pelicula).
+    Pelicula = 'Toy_Story' ;
+    Pelicula = 'Shrek' ;
+
+11. ?- peliculas_romance(Pelicula).
+    Pelicula = 'Orgullo_y_Prejuicio' ;
+    Pelicula = 'Diario_de_una_Pasion' ;
+
+12. ?- peliculas_thriller(Pelicula).
+    Pelicula = 'Se7en' ;
+    Pelicula = 'Perdida' ;
+    Pelicula = 'El_Gran_Truco'.
+
+13. ?- peliculas_misterio(Pelicula).
+    Pelicula = 'Sherlock_Holmes' ;
+    Pelicula = 'La_Chica_del_Dragon_Tatuado'.
+
+14. ?-  peliculas_bibliografica(Pelicula).
+    Pelicula = 'Red_Social' ;
+    Pelicula = 'Gandhi'.
+
+15. ?- peliculas_documental(Pelicula).
+    Pelicula = 'El_Viaje_del_Emperador' ;
+    Pelicula = 'Bowling_for_Columbine'.
+
+16. ?- peliculas_historica(Pelicula).
+    Pelicula = 'Corazon_Valiente' ;
+    Pelicula = 'La_Lista_de_Schindler'.
+
+17. ?- peliculas_guerra(Pelicula).
+    Pelicula = 'Rescatando_al_Soldado_Ryan' ;
+    Pelicula = 'Dunkerque'.
+
+18. ?-  peliculas_western(Pelicula).
+    Pelicula = 'El_Bueno,el_Malo_y_el_Feo' ;
+    Pelicula = 'Los_Imperdonables'.
+
+19. ?-  peliculas_espionaje(Pelicula).
+    Pelicula = 'Mission:_Impossible' ;
+    Pelicula = 'James_Bond_at_the_Movies'.
+
+20. ?- peliculas_coming_of_age(Pelicula).
+    Pelicula = 'Stand_by_Me' ;
+    Pelicula = 'Lady_Bird'.
+
+21. ?-  peliculas_crimen(Pelicula).
+    Pelicula = 'Los_Infiltrados' ;
+    Pelicula = 'Tiempos_Violentos'.
+
+22. ?-  peliculas_deporte(Pelicula).
+    Pelicula = 'Rocky' ;
+    Pelicula = 'El_Juego_de_la_Fortuna' ;
+    
+23. ?- peliculas_noir(Pelicula).
+    Pelicula = 'Pacto_de_Sangre' ;
+    Pelicula = 'La_Ciudad_del_Pecado'.
+
+24. ?-  peliculas_policial(Pelicula).
+    Pelicula = 'Fuego_Contra_Fuego' ;
+    Pelicula = 'Los_angeles_al_Desnudo'.
+
+25. ?-  peliculas_superheroes(Pelicula) .
+    Pelicula = 'The_Avengers:_Los_Vengadores' ;
+    Pelicula = 'Batman:_El_caballero_de_la_noche'.
+
+26. ?-  peliculas_distopia(Pelicula).
+    Pelicula = 'Los_Juegos_del_Hambre'.
+
+27. ?- peliculas_ciencia_ficcion(Pelicula).
+    Pelicula = 'La_Guerra_de_las_Galaxias' ;
+    Pelicula = 'El_Cazador_Implacable' ;
+
+29. ?- peliculas_suspenso(Pelicula).
+    Pelicula = 'Tiburon' ;
+    Pelicula = 'El_Silencio_de_los_Inocentes' ;
+
+30. ?- categoria_infantil(Pelicula, Categoria).
+    Pelicula = 'Toy_Story',
+    Categoria = animacion ;
+
+31. ?- mejor_director(Pelicula,Director).
+    Pelicula = 'El_Cazador_Implacable',
+    Director = 'Ridley Scott' ;
+
+32. ?- premio_especial(Pelicula).
+    Pelicula = 'Toy_Story' ;
+    false.
+
+33. ?- mejor_banda_original(Pelicula).
+    Pelicula = 'El_Rey_Leon' ;
+    false.
+
+34. ?- mejor_cancion_original(Pelicula).
+    Pelicula = 'El_Rey_Leon' ;
+    Pelicula = 'Frozen:_Una_Aventura_Congelada' ;
+
+35. ?- mejor_pelicula_de_animacion(Pelicula).
+    Pelicula = 'Frozen:_Una_Aventura_Congelada' ;
+    Pelicula = 'Up' ;
+
+36. ?- mejor_banda_sonora_original(Pelicula).
+    Pelicula = 'Up' ;
+    Pelicula = 'Mary_Poppins' ;
+
+37. ?- mejor_edicion_de_sonido(Pelicula).
+    Pelicula = 'Los_Increibles' ;
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+
+38. ?- mejor_actriz(Pelicula,Actor).
+    Pelicula = 'Mary_Poppins',
+    Actor = 'Julie Andrews' ;
+
+39. ?- mejor_edicion(Pelicula).
+    Pelicula = 'Mary_Poppins' ;
+
+40. ?- mejores_efectos_visuales(Pelicula).
+    Pelicula = 'Mary_Poppins' ;
+    
+41. ?- mejor_fotografia(Pelicula).
+    Pelicula = 'El_Jorobado_de_Notre_Dame' ;
+    Pelicula = 'El_senor_de_los_anillos:_Las_dos_torres' ;
+
+42. ?- mejor_musica(Pelicula).
+    Pelicula = 'El_Jorobado_de_Notre_Dame' ;
+    false.
+
+43. ?- mejor_musica_original(Pelicula).
+    Pelicula = 'Tiburon' ;
+    Pelicula = 'Amor_Sin_Barreras' ;
+    Pelicula = 'Campo_de_Suenos' ;
+    false.
+
+44. ?- mejor_maquillaje(Pelicula).
+    Pelicula = 'El_senor_de_los_anillos:_Las_dos_torres' ;
+    false.
+
+45. ?- mejor_efectos_visuales(Pelicula).
+    Pelicula = 'El_senor_de_los_anillos:_Las_dos_torres' ;
+    Pelicula = 'El_Origen' ;
+
+
+46. ?- mejor_pelicula(Pelicula,Ano).
+    Pelicula = 'El_Padrino',
+    Ano = 1973 ; 
+
+47. ?- mejor_actor(Pelicula,Actor).
+    Pelicula = 'El_Padrino',
+    Actor = 'Marlon Brando' ;
+
+48. ?- mejor_actor_de_reparto(Pelicula).
+    Pelicula = 'La_Guerra_de_las_Galaxia' ;
+    Pelicula = 'El_Cazador_Implacable' ;
+
+49. ?- mejor_actriz_de_reparto(Pelicula).
+    Pelicula = 'Los_Imperdonables' ;
+    Pelicula = '12_Anos_de_Esclavitud' ;
+
+50. ?- mejor_guion_adaptado(Pelicula) .
+    Pelicula = 'El_Padrino' ;
+
+51. ?- mejor_sonido(Pelicula).
+    Pelicula = 'El_Exorcista' ;
+    Pelicula = 'El_Cazador_Implacable' ;
+
+52. ?- mejor_diseno_de_produccion(Pelicula).
+    Pelicula = 'La_Guerra_de_las_Galaxia' ;
+    Pelicula = 'La_La_Land._Una_historia_de_amor' ;
+    false.
+
+53. ?- mejor_direccion(Pelicula).
+    Pelicula = 'La_Guerra_de_las_Galaxia' ;
+    Pelicula = 'Amor_Sin_Barreras' ;
+    false.
+
+54. ?- mejor_direccion_de_arte(Pelicula).
+    Pelicula = 'Avatar' ;
+    Pelicula = 'Titanic' ;
+
+55. ?- mejor_direccion_de_fotografia(Pelicula).
+    Pelicula = 'Amor_Sin_Barreras' ;
+    false.
+
+56. ?-  mejor_montaje(Pelicula).
+    Pelicula = 'La_Guerra_de_las_Galaxia' ;
+    Pelicula = 'El_Cazador_Implacable' ;
+
+
+57. ?- mejor_interpretacion(Pelicula).
+    Pelicula = 'Batman:_El_caballero_de_la_noche' ;
+    false.
+
+58. ?- mejor_documental(Pelicula) .
+    Pelicula = 'El_Viaje_del_Emperador' ;
+    Pelicula = 'Bowling_for_Columbine' ;
+    false.
+
+59. ?- mejor_vestuario(Pelicula).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    Pelicula = 'Chicago' ;
+    false.
+
+60. ?- mejor_produccion(Pelicula).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    false.
+
+61. ?-  mejor_mezcla_de_sonido(Pelicula).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    Pelicula = 'El_Origen' ;
+    Pelicula = 'Matrix' ;
+
+62. ?- mejor_banda_sonora(Pelicula).
+    Pelicula = 'Titanic' ;
+    Pelicula = 'Forrest_Gump' ;
+    false.
+
+63. ?-  mejor_cinematografia(Pelicula).
+    Pelicula = 'Quien_Quiere_Ser_Millonario' ;
+    false.
+
+64. ?-  mejor_actuacion(Pelicula) .
+    Pelicula = 'Golpes_del_Destino' ;
+    Pelicula = 'Un_Sueno_Posible' ;
+    false.
+
+65. ?- mejor_cortometraje_documental(Pelicula).
+    Pelicula = 'Un_Equipo_Muy_Especial' ;
+    false.
+
+66. ?- mejor_efectos_de_sonido(Pelicula) .
+    Pelicula = 'E.T.,el_Extraterrestre' ;
+    false.
+
+67. ?- mejor_maquillaje_y_peinado(Pelicula).
+    Pelicula = 'Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero' ;
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    Pelicula = 'Los_Miserables' ;
+    false.
+
+68. ?- peliculas_alta_critica_imdb(Pelicula).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    Pelicula = 'Duro_de_Matar' ;
+
+69. ?- peliculas_actor_protagonista_masculino(Pelicula) .
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    Pelicula = 'Duro_de_Matar' ;
+    Pelicula = 'Indiana_Jones'
+
+70. ?- peliculas_actor_protagonista_femenino(Pelicula).
+    Pelicula = 'El_Exorcista' ;
+    Pelicula = 'Pesadilla_en_la_Calle_del_Infierno' ;
+
+71. ?- peliculas_actor_secundario_masculino(Pelicula) .
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    Pelicula = 'Duro_de_Matar' ;
+
+72. ?- peliculas_actor_secundario_femenino(Pelicula).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino' ;
+    Pelicula = 'Indiana_Jones' ;
+
+73. ?- peliculas_estrenadas_ano(Pelicula, Anio).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino',
+    Anio = 2015 ;
+
+74. ?- peliculas_director_protagonista(Pelicula, Director, Actor).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino',
+    Director = 'George Miller',
+    Actor = 'Tom Hardy'
+
+75. ?- peliculas_baja_critica_imdb(Pelicula).
+    Pelicula = 'Indiana_Jones' ;
+    Pelicula = 'Supercool' ;
+
+76. ?- peliculas_1900(Pelicula,Ano) .
+    Pelicula = 'Duro_de_Matar',
+    Ano = 1988 ;
+    Pelicula = 'Indiana_Jones',
+    Ano = 1981
+
+77. ?- peliculas_2000(Pelicula,Ano).
+    Pelicula = 'Mad_Max:_Furia_en_el_Camino',
+    Ano = 2015 ;
+    Pelicula = 'El_senor_de_los_anillos:_Las_dos_torres',
+    Ano = 2002
+
+78. ?- peliculas_no_EUA(Pelicula,Nacionalidad). 
+    Pelicula = 'El_Bueno,el_Malo_y_el_Feo',
+    Nacionalidad = 'Italia' ;
+
+79. ?- basado_Libro(Pelicula, Libro).
+    Pelicula = 'Duro_de_Matar',
+    Libro = 'Nothing Lasts Forever por Roderick Thorp' ;
+
+80. ?- basado_musical(Pelicula, Musical) .
+    Pelicula = 'Chicago',
+    Musical = 'Chicago por Maurine Dallas Watkins' ;
+    Pelicula = 'Vaselina',
+
+81. ?- basado_otros(Pelicula, Otro).
+    Pelicula = 'The_Avengers:_Los_Vengadores',
+    Otro = 'Personajes de Marvel Comics'
+
+82. ?- esta_en_netflix(Pelicula).
+    Pelicula = 'Suenos_de_Libertad' ;
+    Pelicula = 'La_La_Land._Una_historia_de_amor'
+
+82. ?- esta_en_disney(Pelicula).
+    Pelicula = 'La_Guerra_de_las_Galaxias' ;
+    Pelicula = 'Las_cronicas_de_Narnia:_El_leon,la_bruja_y_el_ropero'
+
+83. ?- esta_en_hbo(Pelicula) .
+    Pelicula = 'El_Jardin_Secreto' ;
+    Pelicula = 'Harry_Potter_y_la_Camara_Secreta' ;
+    Pelicula = 'Matilda'
+
+84. ?- esta_en_amazon(Pelicula).
+    Pelicula = 'Duro_de_Matar' ;
+    Pelicula = 'El_Padrino' ;
+    Pelicula = 'La_Chica_del_Dragon_Tatuado'
+
+85. ?- esta_en_star(Pelicula).
+    Pelicula = 'La_Forma_del_Agua' ;
+    Pelicula = 'Alien:_El_Octavo_Pasajero' ;
+    Pelicula = 'Titanic'
+
+
+86. ?- plataformas_de_pelicula(Plataformas, Pelicula).
+    Plataformas = [['Prime_Video', 'Star+'], 'Amazon_Prime', 'Paramount+', ['HBO_Max', 'Amazon_Prime'], 'Hulu', 'Hulu', 'Amazon_Prime', 'Netflix', 'HBO_Max'|...].
+
+87. ?- gano_oscar(Pelicula) .
+    Pelicula = 'Toy_Story' ;
+    Pelicula = 'El_Rey_Leon' ;
+    Pelicula = 'Frozen:_Una_Aventura_Congelada'
+
+88. ?- categorias_ganadas( Pelicula,Categorias).
+    Categorias = [['Premio_especial_innovacion', 'Mejor_Guion_Original'], ['Mejor_Banda_Original', 'Mejor_Cancion_Original'],
+    ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original'], ['Mejor_Pelicula_de_Animacion', 'Mejor_Banda_Sonora_Original'],
+    ['Mejor_Pelicula_de_Animacion', 'Mejor_Cancion_Original'], ['Mejor_Pelicula_de_Animacion'], ['Mejor_Pelicula_de_Animacion'],
+    ['Mejor_Pelicula_de_Animacion'|...], [...]|...].
+
+89. ?- imprimir_peliculas_ordenadas.
+    - 101_Dalmatas
+    - 12_Anos_de_Esclavitud
+    - Actividad_Paranormal
+    - Aladdin
+    - Aladdin_2019
+    - Alicia_a_Traves_del_Espejo
+    - Alicia_en_el_Pais_de_las_Maravillas
+    - Alicia_en_el_Pais_de_las_Maravillas_2010
+    - Alien:_El_Octavo_Pasajero
+    - Amor_Sin_Barreras
+    - Atlantis_El_Imperio_Perdido
+    - Avatar
+    - Aventuras_en_la_Gran_Ciudad
+    - Bajo_la_Misma_Estrella
+    - Bambi
+    - Batman:_El_caballero_de_la_noche
+    - Belleza_Americana
+    - Big_Hero_6
+    - Blancanieves_y_los_Siete_Enanitos
+    - Bolt
+    - Bowling_for_Columbine
+
+90. ?- juego(Nombre,Anio).
+    Nombre = 'Blue_Protocol',
+    Anio = 2023 ;
+
+91. ?- plataforma(Juego, Plataforma).
+    Juego = 'Blue_Protocol',
+    Plataforma = pc ;
+
+92. ?- genero(Juego, Genero).
+    Juego = 'Blue_Protocol',
+    Genero = ['MMORPG'] ;
+
+93. ?- desarrolladora(Juego, Desarrolladora).
+    Juego = 'Blue Protocol',
+    Desarrolladora = 'Bandai Namco Studios'
+
+94. ?- lanzamiento(Juego, Anio).
+    Juego = 'Blue_Protocol',
+    Anio = 2023
+
+95. ?- juegos_lanzados(Anio, Juegos).
+    Juegos = ['Blue_Protocol', 'Star_Citizen', 'Hollow_Knight:_Silksong', 'Beyond_Good_&_Evil_2', 'Lost_Soul_Aside', 'Grand_Theft_Auto_VI', 'The_Elder_Scrolls_VI', 'STALKER_2', 'Bus_Controller_Simulator'|...]
+
+96. ?- juegos_desarrolladora(Desarrolladora, Juegos).
+    Juegos = ['Blue Protocol', 'Star Citizen', 'Hollow Knight: Silksong', 'Beyond Good & Evil 2', 'Lost Soul Aside', 'Grand Theft Auto VI', 'The Elder Scrolls VI', 'S.T.A.L.K.E.R. 2', 'Bus Controller Simulator'|...].
+
+97. ?- juegos_genero(Genero, Juegos).
+    Juegos = ['Blue_Protocol', 'Star_Citizen', 'Hollow_Knight:_Silksong', 'Beyond_Good_&_Evil_2', 'Lost_Soul_Aside', 'Grand_Theft_Auto_VI', 'The_Elder_Scrolls_VI', 'STALKER_2', 'Bus_Controller_Simulator'|...].
+
+98. ?- juegos_plataforma(Plataforma, Juegos) .
+    Juegos = ['Blue_Protocol', 'Star_Citizen', 'Hollow_Knight:_Silksong', 'Beyond_Good_&_Evil_2', 'Lost_Soul_Aside', 'Grand_Theft_Auto_VI', 'The_Elder_Scrolls_VI', 'STALKER_2', 'Bus_Controller_Simulator'|...].
+
+99. ?- juegos_esperados_genero(Genero, Anio, Juegos).
+    Genero = ['MMORPG'],
+    Anio = 2023,
+    Juegos = 'Blue_Protocol'
+
+100. ?- numero_juegos_lanzamiento(Anio, Cantidad).
+     Cantidad = 107.
+
+101. ?- numero_juegos_lanzamiento(2023, Cantidad).  
+     Cantidad = 10.
+
+102. ?- numero_juegos_desarrolladora(Desarrolladora, Cantidad).
+     Cantidad = 106.
+
+103. ?- numero_juegos_desarrolladora('Bandai Namco Studios', Cantidad). 
+     Cantidad = 1.
+
+104. ?- juegos_antes_2010(Anio, Juegos).
+     Anio = 2003,
+     Juegos = 'Beyond_Good_&_Evil_2' ;
+
+105. ?- juegos_especificos(Genero, Plataforma, Anio, Juegos).
+     Genero = ['MMORPG'],
+     Plataforma = pc,
+     Anio = 2023,
+     Juegos = 'Blue_Protocol'
+
+106. ?- juegos(Juegos).
+     Blue_Protocol
+     Star_Citizen
+     Hollow_Knight:_Silksong
+     Beyond_Good_&_Evil_2
+     Lost_Soul_Aside
+     Grand_Theft_Auto_VI
+     The_Elder_Scrolls_VI
+     STALKER_2
+     Bus_Controller_Simulator
+     Black_Myth:_Wukong
+
+107. ?-desarrolladora_juego(Juego, Desarrolladora) .
+     Juego = 'Blue Protocol',
+     Desarrolladora = 'Bandai Namco Studios' ;
+
+108. ?- juegos_pc_y_anio_2023(Juego).
+     Juego = 'Blue_Protocol' ;
+     Juego = 'Replaced' ;
+
+110. ?- artistas_Hip_hop(Artista).
+     Artista = 'Rels B' ;
+     Artista = 'Eminem' ;
+
+111. ?- artistas_regueton(Artista).
+     Artista = 'Bad Bunny' ;
+     Artista = 'J Balvin'
+
+112. ?- artistas_Rock(Artista).
+     Artista = 'The Beatles' ;
+     Artista = 'Pink Floyd' ;
+
+113. ?- artistas_Pop(Artista).
+     Artista = 'Michael Jackson' ;
+     Artista = 'Adele' ;
+
+114. ?- artistas_Jazz(Artista).
+     Artista = 'Miles Davis' ;
+     Artista = 'Ella Fitzgerald' ;
+
+115. ?- artistas_Ranchera(Artista).
+     Artista = 'Vicente Fernandez' ;
+     Artista = 'Juan Gabriel' ;
+
+116. ?- artistas_Salsa(Artista).
+     Artista = 'Marc Anthony' ;
+     Artista = 'Celia Cruz' ;
+
+117. ?- artistas_Punk_Rock(Artista).
+     Artista = 'Blink-182' ;
+     Artista = 'The Offspring'.
+
+118. ?-  artistas_Folk_Rock(Artista).
+     Artista = 'Bob Dylan'.
+
+119. ?- artistas_Hard_Rock(Artista).
+     Artista = 'Deep Purple'.
+
+120. ?- artistas_Rock_Alternativo(Artista).
+     Artista = 'Cafe Tacvba' ;
+     Artista = 'Foo Fighters' ;
+
+121. ?- artistas_Rock_en_espanol(Artista).
+     Artista = 'Soda Stereo' ;
+     Artista = 'Heroes del Silencio' ;
+     Artista = 'Caifanes'
+
+122. ?- artistas_Pop_Rock(Artista).
+     Artista = 'Natalia Lafourcade' ;
+     Artista = 'Julieta Venegas'.
+
+123. ?-  artistas_Flamenco_Pop(Artista).
+     Artista = 'Rosalia'.
+
+124. ?- artistas_Pop_latino(Artista).
+     Artista = 'Shakira' ;
+     Artista = 'Ricky Martin' ;
+     Artista = 'Enrique Iglesias'
+
+125. ?- artistas_K_Pop(Artista).
+     Artista = 'BTS'.
+
+126. ?- artistas_Pop_Country(Artista).
+     Artista = 'Taylor Swift'.
+
+127. ?- artistas_Indie_Pop(Artista).
+    Artista = 'Lana Del Rey'.
+
+
+128. ?- canciones_por_artista(Canciones, Artista).
+     Canciones = ['Lejos De Ti', 'Stan', 'Runaway', 'One Dance', 'Goosebumps', 'Industry Baby', 'Sunflower',
+     Dear Mama', 'Hypnotize'|...].
+
+129. ?- artistas_por_cancion(Artistas, Cancion).
+     Artistas = ['Rels B', 'Eminem', 'Kanye West', 'Drake', 'Travis Scott', 'Lil Nas X', 'Post Malone', 
+     'Tupac Shakur', 'The Notorious B.I.G.'|...].
+
+130. ?- canciones_por_genero(Canciones, Genero) .
+     Canciones = ['Lejos De Ti', 'Stan', 'Runaway', 'One Dance', 'Goosebumps', 'Industry Baby', 'Sunflower', 
+     'Dear Mama', 'Hypnotize'|...].
+
+131. ?- buscar_artistas_pop(Artistas).
+     [Michael Jackson,Adele,Coldplay,Elton John,Prince,Thalia,Luis Miguel,Jesse & Joy,Ricardo Arjona,
+     Gloria Estefan,Selena,Gloria Trevi,Ed Sheeran,Ariana Grande,Bruno Mars,Dua Lipa,Shawn Mendes,Camilo,Lady Gaga,
+     Justin Bieber,Lizzo,Michael Buble,Sam Smith,Harry Styles,Olivia Rodrigo,Dua Lipa,Madonna,Britney Spears,
+     Katy Perry,Justin Timberlake,Beyonce,Camila Cabello,Natalia Lafourcade,Julieta Venegas,Rosalia,Shakira,
+     Ricky Martin,Enrique Iglesias,Chayanne,Luis Fonsi,BTS,Taylor Swift,Lana Del Rey,Billie Eilish]
+     Artistas = ['Michael Jackson', 'Adele', 'Coldplay', 'Elton John', 'Prince', 'Thalia', 'Luis Miguel',
+     'Jesse & Joy', 'Ricardo Arjona'|...].
+
+*/
