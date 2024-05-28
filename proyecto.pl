@@ -1539,7 +1539,7 @@ actor_secundario('Diario_de_una_Pasion', 'James Garner').
 actor_secundario('Se7en', 'Morgan Freeman').
 actor_secundario('Perdida', 'Tyler Perry').
 actor_secundario('Sherlock_Holmes', 'Jude Law').
-actor_secundario('La_Chica_del_Dragon_Tatuado', 'Stellan Skarsgård').
+actor_secundario('La_Chica_del_Dragon_Tatuado', 'Stellan Skarsgard').
 actor_secundario('Red_Social', 'Andrew Garfield').
 actor_secundario('Gandhi', 'Candice Bergen').
 actor_secundario('El_Viaje_del_Emperador', 'Morgan Freeman').
@@ -1858,7 +1858,7 @@ genero_masculino('Matthew Macfadyen').
 genero_masculino('James Garner').
 genero_masculino('Tyler Perry').
 genero_masculino('Jude Law').
-genero_masculino('Stellan Skarsgård').
+genero_masculino('Stellan Skarsgard').
 genero_masculino('Andrew Garfield').
 genero_masculino('Matt Damon').
 genero_masculino('Lee Van Cleef').
@@ -3583,7 +3583,8 @@ esta_en_disney(Pelicula) :- disponible_streaming(Pelicula, 'Disney+').
 esta_en_hbo(Pelicula) :- disponible_streaming(Pelicula, 'HBO_Max').
 esta_en_amazon(Pelicula) :- disponible_streaming(Pelicula, 'Amazon_Prime').
 esta_en_star(Pelicula) :- disponible_streaming(Pelicula, 'Star+').
-plataformas_de_pelicula(Plataformas, Pelicula) :- findall(Plataforma, disponible_streaming(Pelicula, Plataforma), Plataformas).
+plataformas_de_pelicula(Pelicula,Plataforma) :- disponible_streaming(Pelicula,Lista),
+member(Pelicula,Lista);disponible_streaming(Pelicula,Plataforma).
 gano_oscar(Pelicula) :- gano_oscar_en(Pelicula,_,_).
 categorias_ganadas( Pelicula,Categorias) :- findall(Categoria, gano_oscar_en(Pelicula,_, Categoria), Categorias).
 imprimir_peliculas_ordenadas :-
@@ -4415,205 +4416,340 @@ buscar_artistas_pop(Artistas) :-
 */
 %Razonamineto Logico
 /*
-1. pelicula_director('El_Cazador_Implacable', 'Ridley Scott'):-gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
-2. pelicula_director('La_Novicia_Rebelde', 'Robert Wise'):-gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).
-3. pelicula_director('La_La_Land._Una_historia_de_amor', 'Damien Chazelle'):-gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).
-4. pelicula_director('Gandhi', 'Richard Attenborough'):-gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).
-5. pelicula_director('Corazon_Valiente', 'Mel Gibson'):-gano_oscar_en('Corazon_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).
-6. pelicula_director('Rescatando_al_Soldado_Ryan', 'Steven Spielberg'):-gano_oscar_en('Rescatando_al_Soldado_Ryan', 1999, ['Mejor_Director', 'Mejor_Fotografia']).
-7. pelicula_director('Los_Imperdonables', 'Clint Eastwood'):-gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).
-8. pelicula_director('Rocky', 'John G. Avildsen'):-gano_oscar_en('Rocky', 1977, ['Mejor_Director', 'Mejor_Pelicula', 'Mejor_Montaje']).
-9. pelicula_director('El_Laberinto_del_Fauno', 'Guillermo del Toro'):-gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).
-10. pelicula_director('La_Forma_del_Agua', 'Guillermo del Toro'):-gano_oscar_en('La_Forma_del_Agua', 2018, ['Mejor_Director', 'Mejor_Pelicula']).
-11. pelicula_director('Titanic', 'James Cameron'):-gano_oscar_en('Titanic', 1998, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia', 'Mejor_Mezcla_de_Sonido', 'Mejor_Montaje', 'Mejor_Banda_Sonora', 'Mejor_Cancion_Original', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).
-12. pelicula_director('Casablanca', 'Michael Curtiz'):-gano_oscar_en('Casablanca', 1944, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado']).
-13. pelicula_director('Forrest_Gump', 'Robert Zemeckis'):-gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
-14. pelicula_director('Belleza_Americana', 'Sam Mendes'):-gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
-15. pelicula_director('Quien_Quiere_Ser_Millonario', 'Danny Boyle'):-gano_oscar_en('Quien_Quiere_Ser_Millonario', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).
-16. pelicula_director('El_Discurso_del_Rey', 'Tom Hooper'):-gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
-17. pelicula_director('El_Silencio_de_los_Inocentes', 'Jonathan Demme'):-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).
-18. actor_protagonista('El_Padrino', 'Marlon Brando'):-gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion_Adaptado']).
-19. actor_protagonista('Forrest_Gump', 'Tom Hanks'):-gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
-20. actor_protagonista('Belleza_Americana', 'Kevin Spacey'):-gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
-21. actor_protagonista('Gladiador', 'Russell Crowe'):-gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Efectos_Visuales']).
-22. actor_protagonista('El_Discurso_del_Rey', 'Colin Firth'):-gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
-23. actor_protagonista('El_Silencio_de_los_Inocentes', 'Jodie Foster'):-gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).
-24. actor_secundario('La_Guerra_de_las_Galaxias', 'Harrison Ford'):-gano_oscar_en('La_Guerra_de_las_Galaxia', 1978, ['Mejor_Diseno_de_Produccion', 'Mejor_Direccion', 'Mejor_Actor_de_Reparto', 'Mejor_Guion_Original', 'Mejor_Montaje', 'Mejor_Banda_Sonora_Original']).
-25. actor_secundario('El_Cazador_Implacable', 'Christopher Walken'):-gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
-26. actor_secundario('Gandhi', 'Candice Bergen'):-gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).
-27. actor_secundario('El_Peleador', 'Christian Bale'):-gano_oscar_en('El_Peleador', 2010, ['Mejor_Actor_de_Reparto']).
-28. actor_protagonista('Mary_Poppins', 'Julie Andrews'):-gano_oscar_en('Mary_Poppins', 1965, ['Mejor_Actriz', 'Mejor_Edicion', 'Mejores_Efectos_Visuales', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
-29. actor_protagonista('La_La_Land._Una_historia_de_amor', 'Emma Stone'):-gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).
-30. actor_protagonista('Orgullo_y_Prejuicio', 'Keira Knightley'):-gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).
-31. actor_protagonista('Los_angeles_al_Desnudo', 'Nicolas Cage'):-gano_oscar_en('Los_angeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).
-32. actor_protagonista('El_Laberinto_del_Fauno', 'Ivana Baquero'):-gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).
-33. actor_protagonista('El_Cisne_Negro', 'Natalie Portman'):-gano_oscar_en('El_Cisne_Negro', 2011, ['Mejor_Actriz']).
-34. actor_secundario('Los_Imperdonables', 'Gene Hackman'):-gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).
-35. actor_secundario('12_Anos_de_Esclavitud', 'Michael Fassbender'):-gano_oscar_en('12_Anos_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto']).
-36. actor_secundario('Chicago', 'Richard Gere'):-gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).
-37. actor_secundario('Los_Miserables', 'Russell Crowe'):-gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).
-38. genero_masculino('Tom Hardy'):-actor_protagonista('Mad_Max:_Furia_en_el_Camino', 'Tom Hardy').
-39. genero_masculino('Bruce Willis'):-actor_protagonista('Duro_de_Matar', 'Bruce Willis').
-40. genero_masculino('Harrison Ford'):-actor_protagonista('Indiana_Jones', 'Harrison Ford').
-41. genero_masculino('Elijah Wood'):-actor_protagonista('El_senor_de_los_anillos:_Las_dos_torres', 'Elijah Wood').
-42. genero_masculino('Jonah Hill'):-actor_protagonista('Supercool', 'Jonah Hill').
-43. genero_masculino('Steve Martin'):-actor_protagonista('Dos_Tontos_en_Fuga', 'Steve Martin').
-44. genero_masculino('Marlon Brando'):-actor_protagonista('El_Padrino', 'Marlon Brando').
-45. genero_masculino('Tim Robbins'):-actor_protagonista('Suenos_de_Libertad', 'Tim Robbins').
-46. genero_masculino('Mark Hamill'):-actor_protagonista('La_Guerra_de_las_Galaxias', 'Mark Hamill').
-47. genero_masculino('Robert De Niro'):-actor_protagonista('El_Cazador_Implacable', 'Robert De Niro').
-48. genero_masculino('Daniel Radcliffe'):-actor_protagonista('Harry_Potter_y_la_piedra_filosofal', 'Daniel Radcliffe').
-49. genero_masculino('Ryan Gosling'):-actor_secundario('La_La_Land:_Una_historia_de_amor', 'Ryan Gosling').
-50. genero_masculino('Mike Myers'):-actor_secundario('El_Gato_con_Sombrero', 'Mike Myers').
-51. genero_masculino('Brad Pitt'):-actor_protagonista('Se7en', 'Brad Pitt').
-52. genero_masculino('Ben Affleck'):-actor_protagonista('Perdida', 'Ben Affleck').
-53. genero_masculino('Robert Downey Jr.'):-actor_protagonista('Sherlock_Holmes', 'Robert Downey Jr.').
-54. genero_masculino('Jesse Eisenberg'):-actor_protagonista('Red_Social', 'Jesse Eisenberg').
-55. genero_masculino('Ben Kingsley'):-actor_protagonista('Gandhi', 'Ben Kingsley').
-56. genero_masculino('Morgan Freeman'):-actor_protagonista('El_Viaje_del_Emperador', 'Morgan Freeman').
-57. genero_masculino('Michael Moore'):-actor_protagonista('Bowling_for_Columbine', 'Michael Moore').
-58. genero_masculino('Mel Gibson'):-actor_protagonista('Corazon_Valiente', 'Mel Gibson').
-59. genero_masculino('Liam Neeson'):-actor_protagonista('La_Lista_de_Schindler', 'Liam Neeson').
-60. genero_masculino('Fionn Whitehead'):-actor_protagonista('Dunkerque', 'Fionn Whitehead').
-61. genero_masculino('Clint Eastwood'):-actor_protagonista('El_Bueno,el_Malo_y_el_Feo', 'Clint Eastwood').
-62. genero_masculino('Tom Cruise'):-actor_protagonista('Mission:_Impossible', 'Tom Cruise').
-63. genero_masculino('Sean Connery'):-actor_protagonista('James_Bond_at_the_Movies', 'Sean Connery').
-64. genero_masculino('Wil Wheaton'):-actor_protagonista('Stand_by_Me', 'Wil Wheaton').
-65. genero_masculino('Leonardo DiCaprio'):-actor_protagonista('Los_Infiltrados', 'Leonardo DiCaprio').
-66. genero_masculino('John Travolta'):-actor_protagonista('Tiempos_Violentos', 'John Travolta').
-67. genero_masculino('Sylvester Stallone'):-actor_protagonista('Rocky', 'Sylvester Stallone').
-68. genero_masculino('Kevin Spacey'):-actor_protagonista('El_Juego_de_la_Fortuna', 'Kevin Spacey').
-69. genero_masculino('Albert Brooks'):-actor_protagonista('Buscando_a_Nemo', 'Albert Brooks').
-70. genero_masculino('Craig T. Nelson'):-actor_protagonista('Los_Increibles', 'Craig T. Nelson').
-71. genero_masculino('Anthony Gonzalez'):-actor_protagonista('Coco', 'Anthony Gonzalez').
-72. genero_masculino('Jack Nicholson'):-actor_protagonista('Pacto_de_Sangre', 'Jack Nicholson').
-73. genero_masculino('Al Pacino'):-actor_protagonista('Fuego_Contra_Fuego', 'Al Pacino').
-74. genero_masculino('Nicolas Cage'):-actor_protagonista('Los_angeles_al_Desnudo', 'Nicolas Cage').
-75. genero_masculino('Christian Bale'):-actor_protagonista('Batman:_El_caballero_de_la_noche', 'Christian Bale').
-76. genero_masculino('Billy Crystal'):-actor_protagonista('Cuando_Harry_Conocio_a_Sally', 'Billy Crystal').
-77. genero_masculino('Sam Neill'):-actor_protagonista('Jurassic_Park', 'Sam Neill').
-78. genero_masculino('Henry Thomas'):-actor_protagonista('E.T.,el_Extraterrestre', 'Henry Thomas').
-79. genero_masculino('Michael J. Fox'):-actor_protagonista('Volver_al_Futuro', 'Michael J. Fox').
-80. genero_masculino('Keanu Reeves'):-actor_protagonista('Matrix', 'Keanu Reeves').
-81. genero_masculino('Sam Worthington'):-actor_protagonista('Avatar', 'Sam Worthington').
-82. genero_masculino('Arnold Schwarzenegger'):-actor_protagonista('Terminator', 'Arnold Schwarzenegger').
-83. genero_masculino('Matthew McConaughey'):-actor_protagonista('Interestelar', 'Matthew McConaughey').
-84. genero_masculino('Chris Pratt'):-actor_protagonista('Guardianes_de_la_Galaxia', 'Chris Pratt').
-85. genero_masculino('Shane West'):-actor_protagonista('Un_Paseo_para_Recordar', 'Shane West').
-86. genero_masculino('Hugh Grant'):-actor_protagonista('Realmente_Amor', 'Hugh Grant').
-87. genero_masculino('Humphrey Bogart'):-actor_protagonista('Casablanca', 'Humphrey Bogart').
-88. genero_masculino('Bill Skarsgård'):-actor_protagonista('Eso', 'Bill Skarsgård').
-89. genero_masculino('Daniel Kaluuya'):-actor_protagonista('Huye', 'Daniel Kaluuya').
-90. genero_masculino('Jake Gyllenhaal'):-actor_protagonista('Zodiaco', 'Jake Gyllenhaal').
-91. genero_masculino('Hugh Jackman'):-actor_protagonista('Prisioneros', 'Hugh Jackman').
-92. genero_masculino('Guy Pearce'):-actor_protagonista('Memento', 'Guy Pearce').
-93. genero_masculino('Matthew Broderick'):-actor_protagonista('El_Rey_Leon', 'Matthew Broderick').
-94. genero_masculino('Neel Sethi'):-actor_protagonista('El_Libro_de_la_Selva', 'Neel Sethi').
-95. genero_masculino('Scott Adsit'):-actor_protagonista('Grandes_Heroes', 'Scott Adsit').
-96. genero_masculino('Steve Carell'):-actor_protagonista('Mi_Villano_Favorito', 'Steve Carell').
-97. genero_masculino('John C. Reilly'):-actor_protagonista('Ralph,El_Demoledor', 'John C. Reilly').
-98. genero_masculino('Jay Baruchel'):- actor_protagonista('Como_Entrenar_a_tu_Dragon', 'Jay Baruchel').
-99. genero_masculino('Martin Freeman'):-actor_protagonista('El_Hobbit:_Un_viaje_inesperado', 'Martin Freeman').
-100. genero_masculino('Cary Elwes'):-actor_protagonista('La_Princesa_Prometida', 'Cary Elwes').
-101. genero_masculino('Charlie Cox').
-102. genero_masculino('Noah Hathaway').
-genero_masculino('Logan Lerman').
-genero_masculino('Stephen Garlick').
-genero_masculino('Edward Speleers').
-genero_masculino('Gene Kelly').
-genero_masculino('Gerard Butler').
-genero_masculino('Mark Wahlberg').
-genero_masculino('Michael B. Jordan').
-genero_masculino('Denzel Washington').
-genero_masculino('Samuel L. Jackson').
-genero_masculino('Kevin Costner').
-genero_masculino('Gene Hackman').
-genero_masculino('Mena Massoud').
-genero_masculino('Hardie Albright').
-genero_masculino('Rod Taylor').
-genero_masculino('Bobby Driscoll').
-genero_masculino('Edward Brophy').
-genero_masculino('Tate Donovan').
-genero_masculino('Owen Wilson').
-genero_masculino('John Goodman').
-genero_masculino('Edward Asner').
-genero_masculino('Ben Burtt').
-genero_masculino('Tom Hulce').
-genero_masculino('Joey Lawrence').
-genero_masculino('Joaquin Phoenix').
-genero_masculino('David Spade').
-genero_masculino('Zach Braff').
-genero_masculino('Kevin Kline').
-genero_masculino('Jack Black').
-genero_masculino('Ben Stiller').
-genero_masculino('Macaulay Culkin').
-genero_masculino('Robin Williams').
-genero_masculino('Dick Van Dyke').
-genero_masculino('Gene Wilder').
-genero_masculino('Sean Astin').
-genero_masculino('Ben Whishaw').
-genero_masculino('James Corden').
-genero_masculino('Donald Glover').
-genero_masculino('Colin Farrell').
-genero_masculino('Ewan McGregor').
-genero_masculino('Joe Mantegna').
-genero_masculino('Jim Carrey').
-genero_masculino('Taylor Lautner').
-genero_masculino('Asa Butterfield').
-genero_masculino('Alan Rickman').
-genero_masculino('Martin Lawrence').
-genero_masculino('James Caan').
-genero_masculino('Max von Sydow').
-genero_masculino('Christopher Walken').
-genero_masculino('Rupert Grint').
-genero_masculino('Christopher Plummer').
-genero_masculino('Tim Allen').
-genero_masculino('Eddie Murphy').
-genero_masculino('Matthew Macfadyen').
-genero_masculino('James Garner').
-genero_masculino('Tyler Perry').
-genero_masculino('Jude Law').
-genero_masculino('Stellan Skarsgård').
-genero_masculino('Andrew Garfield').
-genero_masculino('Matt Damon').
-genero_masculino('Lee Van Cleef').
-genero_masculino('Jon Voight').
-genero_masculino('River Phoenix').
-genero_masculino('Burgess Meredith').
-genero_masculino('Edward G. Robinson').
-genero_masculino('Clive Owen').
-genero_masculino('Val Kilmer').
-genero_masculino('Danny DeVito').
-genero_masculino('Chris Evans').
-genero_masculino('Aaron Eckhart').
-genero_masculino('Jason Alexander').
-genero_masculino('Bruno Kirby').
-genero_masculino('Sergi Lopez').
-genero_masculino('Michael Shannon').
-genero_masculino('Josh Hutcherson').
-genero_masculino('Jeff Goldblum').
-genero_masculino('Robert MacNaughton').
-genero_masculino('Christopher Lloyd').
-genero_masculino('Joseph Gordon-Levitt').
-genero_masculino('Laurence Fishburne').
-genero_masculino('Michael Biehn').
-genero_masculino('John Hurt').
-genero_masculino('Bradley Cooper').
-genero_masculino('Billy Zane').
-genero_masculino('John Leguizamo').
-genero_masculino('Peter Coyote').
-genero_masculino('Nat Wolff').
-genero_masculino('Colin Firth').
-genero_masculino('Claude Rains').
-genero_masculino('Rhys Ifans').
-genero_masculino('Skeet Ulrich').
-genero_masculino('Ron Livingston').
-genero_masculino('Finn Wolfhard').
-genero_masculino('Bradley Whitford').
-genero_masculino('Alex Wolff').
-genero_masculino('Daniel Henshall').
-genero_masculino('Brian Cox').
-genero_masculino('Micah Sloat').
+Si el cazador implacable gano un oscar a mejor director entonces el director de la pelicula es Ridley Scott.
+1. gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).-->pelicula_director('El_Cazador_Implacable', 'Ridley Scott').
+Si la novicia rebelde gano un oscar a mejor director entonces el director de la pelicula es Robert Wise.
+2. gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).-->pelicula_director('La_Novicia_Rebelde', 'Robert Wise').
+Si la la la land una historia de amor gano un oscar a mejor director entonces el director de la pelicula es Damien Chazelle.
+3. gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).-->pelicula_director('La_La_Land._Una_historia_de_amor', 'Damien Chazelle').
+Si gandhi gano un oscar a mejor director entonces el director de la pelicula es Richard Attenborough.
+4. gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).-->pelicula_director('Gandhi', 'Richard Attenborough').
+Si corazon valiente gano un oscar a mejor director entonces el director de la pelicula es Mel Gibson.
+5. gano_oscar_en('Corazon_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).-->pelicula_director('Corazon_Valiente', 'Mel Gibson').
+Si rescatando al soldado ryan gano un oscar a mejor director entonces el director de la pelicula es Steven Spielberg.
+6. gano_oscar_en('Rescatando_al_Soldado_Ryan', 1999, ['Mejor_Director', 'Mejor_Fotografia']).-->pelicula_director('Rescatando_al_Soldado_Ryan', 'Steven Spielberg')
+Si los imperdonables gano un oscar a mejor director entonces el director de la pelicula es Clint Eastwood.
+7. gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).-->pelicula_director('Los_Imperdonables', 'Clint Eastwood').
+Si rocky gano un oscar a mejor director entonces el director de la pelicula es John G. Avildsen.
+8. gano_oscar_en('Rocky', 1977, ['Mejor_Director', 'Mejor_Pelicula', 'Mejor_Montaje']).-->pelicula_director('Rocky', 'John G. Avildsen').
+Si el laberinto del fauno gano un oscar a mejor director entonces el director de la pelicula es Guillermo del Toro.
+9. gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).-->pelicula_director('El_Laberinto_del_Fauno', 'Guillermo del Toro').
+Si la forma del agua gano un oscar a mejor director entonces el director de la pelicula es Guillermo del Toro.
+10. gano_oscar_en('La_Forma_del_Agua', 2018, ['Mejor_Director', 'Mejor_Pelicula']).-->pelicula_director('La_Forma_del_Agua', 'Guillermo del Toro').
+Si titanic gano un oscar a mejor director entonces el director de la pelicula es James Cameron.
+11. gano_oscar_en('Titanic', 1998, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia', 'Mejor_Mezcla_de_Sonido', 'Mejor_Montaje', 'Mejor_Banda_Sonora', 'Mejor_Cancion_Original', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).-->pelicula_director('Titanic', 'James Cameron').
+Si casablanca gano un oscar a mejor director entonces el director de la pelicula es Michael Curtiz.
+12. gano_oscar_en('Casablanca', 1944, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado']).-->pelicula_director('Casablanca', 'Michael Curtiz').
+Si forrest gump gano un oscar a mejor director entonces el director de la pelicula es Robert Zemeckis.
+13. gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).-->pelicula_director('Forrest_Gump', 'Robert Zemeckis').
+Si belleza americana gano un oscar a mejor director entonces el director de la pelicula es Sam Mendes.
+14. gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->pelicula_director('Belleza_Americana', 'Sam Mendes').
+Si quien quiere ser millonario gano un oscar a mejor director entonces el director de la pelicula es Danny Boyle.
+15. gano_oscar_en('Quien_Quiere_Ser_Millonario', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).-->pelicula_director('Quien_Quiere_Ser_Millonario', 'Danny Boyle').
+Si el discurso del rey gano un oscar a mejor director entonces el director de la pelicula es Tom Hooper.
+16. gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->pelicula_director('El_Discurso_del_Rey', 'Tom Hooper').
+Si el silencio de los inocentes gano un oscar a mejor director entonces el director de la pelicula es Jonathan Demme.
+17. gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).-->pelicula_director('El_Silencio_de_los_Inocentes', 'Jonathan Demme').
+Si el padrino gano oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Marlon Brando.
+18. gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion_Adaptado']).-->actor_protagonista('El_Padrino', 'Marlon Brando').
+Si forrest gump gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Tom Hanks.
+19. gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).-->actor_protagonista('Forrest_Gump', 'Tom Hanks').
+Si belleza americana gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Kevin Spacey.
+20. gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->actor_protagonista('Belleza_Americana', 'Kevin Spacey').
+Si gladiador gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Russell Crowe.
+21. gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Efectos_Visuales']).-->actor_protagonista('Gladiador', 'Russell Crowe').
+Si el discurso del rey gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Colin Firth.
+22. gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->actor_protagonista('El_Discurso_del_Rey', 'Colin Firth').
+Si el silencio de los inocentes gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Jodie Foster.
+23. gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).-->actor_protagonista('El_Silencio_de_los_Inocentes', 'Jodie Foster').
+Si la la land una historia de amor gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Harrison Ford.
+24. gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).-->actor_secundario('La_La_Land._Una_historia_de_amor', 'Harrison Ford').
+Si el cazador implacable gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Christopher Walken.
+25. gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).-->actor_secundario('El_Cazador_Implacable', 'Christopher Walken').
+Si gandhi gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Candice Bergen.
+26. gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).-->actor_secundario('Gandhi', 'Candice Bergen').
+Si el peleador gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Christian Bale.
+27. gano_oscar_en('El_Peleador', 2010, ['Mejor_Actor_de_Reparto']).-->actor_secundario('El_Peleador', 'Christian Bale').
+Si mary poppins gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Julie Andrews.
+28. gano_oscar_en('Mary_Poppins', 1965, ['Mejor_Actriz', 'Mejor_Edicion', 'Mejores_Efectos_Visuales', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).-->actor_protagonista('Mary_Poppins', 'Julie Andrews').
+Si la la land una historia de amor gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Emma Stone.
+29. gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).-->actor_protagonista('La_La_Land._Una_historia_de_amor', 'Emma Stone').
+Si orgullo y prejuicio gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Keira Knightley.
+30. gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).-->actor_protagonista('Orgullo_y_Prejuicio', 'Keira Knightley').
+Si los angeles al desnudo gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Nicolas Cage.
+31. gano_oscar_en('Los_angeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).-->actor_protagonista('Los_angeles_al_Desnudo', 'Nicolas Cage').
+Si el laberinto del fauno gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Ivana Baquero.
+32. gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).-->actor_protagonista('El_Laberinto_del_Fauno', 'Ivana Baquero').
+Si el cisne negro gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Natalie Portman
+33. gano_oscar_en('El_Cisne_Negro', 2011, ['Mejor_Actriz']).-->actor_protagonista('El_Cisne_Negro', 'Natalie Portman').
+Si los imperdonables gano un oscar a mejor actriz de reparto entonces la actriz secundaria es Gene Hackman
+34. gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).-->actor_secundario('Los_Imperdonables', 'Gene Hackman').
+Si 12 años de esclavitud gano un oscar a mejor actriz de reparto entonces la actriz de reparto es Michael Fassbender
+35. gano_oscar_en('12_Anos_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto']).-->actor_secundario('12_Anos_de_Esclavitud', 'Michael Fassbender')
+Si chicago gano un oscar a mejor actriz de reparto entoces la actriz secundarias es Richard Gere
+36. gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).-->actor_secundario('Chicago', 'Richard Gere')
+Si los miserables ganaron un oscar a mejor actriz de reparto entonces la actriz secundaria es Russell Crowe
+37. gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).-->actor_secundario('Los_Miserables', 'Russell Crowe').
+Si el actor de Mad Max: Furia en el camino es Tom Hardy entonces el genero de Tom Hardy es masculino
+38. actor_protagonista('Mad_Max:_Furia_en_el_Camino', 'Tom Hardy').-->genero_masculino('Tom Hardy').
+Si el actor de Duro de Matar es Bruce Willis entonces el genero de Bruce Willis es masculino
+39. actor_protagonista('Duro_de_Matar', 'Bruce Willis').-->genero_masculino('Bruce Willis').
+Si el actor de Indiana Jones es Harrison Ford entonces el genero de Harrison Ford es masculino
+40. actor_protagonista('Indiana_Jones', 'Harrison Ford').-->genero_masculino('Harrison Ford').
+Si el actor de El señor de los anillos: Las dos torres es Elijah Wood entonces el genero de Elijah Wood es masculino
+41. actor_protagonista('El_senor_de_los_anillos:_Las_dos_torres', 'Elijah Wood').-->genero_masculino('Elijah Wood').
+Si el actor de Supercool es Jonah Hill entonces el genero de Jonah Hill es masculino
+42. actor_protagonista('Supercool', 'Jonah Hill').-->genero_masculino('Jonah Hill').
+Si el actor de Dos Tontos en Fuga es Steve Martin entonces el genero de Steve Martin es masculino
+43. actor_protagonista('Dos_Tontos_en_Fuga', 'Steve Martin').-->genero_masculino('Steve Martin').
+Si el actor de El Padrino es Marlon Brando entonces el genero de Marlon Brando es masculino
+44. actor_protagonista('El_Padrino', 'Marlon Brando').-->genero_masculino('Marlon Brando').
+Si el actor de Sueños de Libertad es Tim Robbins entonces el genero de Tim Robbins es masculino
+45. actor_protagonista('Suenos_de_Libertad', 'Tim Robbins').-->genero_masculino('Tim Robbins').
+Si el actor de La Guerra de las Galaxias es Mark Hamill entonces el genero de Mark Hamill es masculino
+46. actor_protagonista('La_Guerra_de_las_Galaxias', 'Mark Hamill').-->genero_masculino('Mark Hamill').
+Si el actor de El Cazador Implacable es Robert De Niro entonces el genero de Robert De Niro es masculino
+47. actor_protagonista('El_Cazador_Implacable', 'Robert De Niro').-->genero_masculino('Robert De Niro').
+Si el actor de Harry Potter y la piedra filosofal es Daniel Radcliffe entonces el genero de Daniel Radcliffe es masculino
+48. actor_protagonista('Harry_Potter_y_la_piedra_filosofal', 'Daniel Radcliffe').-->genero_masculino('Daniel Radcliffe').
+Si el actor de La La Land: Una historia de amor es Ryan Gosling entonces el genero de Ryan Gosling es masculino
+49. actor_secundario('La_La_Land:_Una_historia_de_amor', 'Ryan Gosling').-->genero_masculino('Ryan Gosling').
+Si el actor de El Gato con Sombrero es Mike Myers entonces el genero de Mike Myers es masculino
+50. actor_secundario('El_Gato_con_Sombrero', 'Mike Myers').-->genero_masculino('Mike Myers').
+Si el actor de Se7en es Brad Pitt entonces el genero de Brad Pitt es masculino
+51. actor_protagonista('Se7en', 'Brad Pitt').-->genero_masculino('Brad Pitt').
+Si el actor de Perdida es Ben Affleck entonces el genero de Ben Affleck es masculino
+52. actor_protagonista('Perdida', 'Ben Affleck').-->genero_masculino('Ben Affleck').
+Si el actor de Sherlock Holmes es Robert Downey Jr. entonces el genero de Robert Downey Jr. es masculino
+53. actor_protagonista('Sherlock_Holmes', 'Robert Downey Jr.').-->genero_masculino('Robert Downey Jr.').
+Si el actor de Red Social es Jesse Eisenberg entonces el genero de Jesse Eisenberg es masculino
+54. actor_protagonista('Red_Social', 'Jesse Eisenberg').-->genero_masculino('Jesse Eisenberg').
+Si el actor de Gandhi es Ben Kingsley entonces el genero de Ben Kingsley es masculino
+55. actor_protagonista('Gandhi', 'Ben Kingsley').-->genero_masculino('Ben Kingsley').
+Si el actor de El Viaje del Emperador es Morgan Freeman entonces el genero de Morgan Freeman es masculino
+56. actor_protagonista('El_Viaje_del_Emperador', 'Morgan Freeman').-->genero_masculino('Morgan Freeman').
+Si el actor de Bowling for Columbine es Michael Moore entonces el genero de Michael Moore es masculino
+57. actor_protagonista('Bowling_for_Columbine', 'Michael Moore').-->genero_masculino('Michael Moore').
+Si el actor de Corazon Valiente es Mel Gibson entonces el genero de Mel Gibson es masculino
+58. actor_protagonista('Corazon_Valiente', 'Mel Gibson').-->genero_masculino('Mel Gibson').
+Si el actor de La Lista de Schindler es Liam Neeson entonces el genero de Liam Neeson es masculino
+59. actor_protagonista('La_Lista_de_Schindler', 'Liam Neeson').-->genero_masculino('Liam Neeson').
+Si el actor de Dunkerque es Fionn Whitehead entonces el genero de Fionn Whitehead es masculino
+60. actor_protagonista('Dunkerque', 'Fionn Whitehead').-->genero_masculino('Fionn Whitehead').
+Si el actor de El Bueno, el Malo y el Feo es Clint Eastwood entonces el genero de Clint Eastwood es masculino
+61. actor_protagonista('El_Bueno,el_Malo_y_el_Feo', 'Clint Eastwood').-->genero_masculino('Clint Eastwood').
+Si el actor de Mission: Impossible es Tom Cruise entonces el genero de Tom Cruise es masculino
+62. actor_protagonista('Mission:_Impossible', 'Tom Cruise').-->genero_masculino('Tom Cruise').
+Si el actor de James Bond at the Movies es Sean Connery entonces el genero de Sean Connery es masculino
+63. actor_protagonista('James_Bond_at_the_Movies', 'Sean Connery').-->genero_masculino('Sean Connery').
+Si el actor de Stand by Me es Wil Wheaton entonces el genero de Wil Wheaton es masculino
+64. actor_protagonista('Stand_by_Me', 'Wil Wheaton').-->genero_masculino('Wil Wheaton').
+Si el actor de Los Infiltrados es Leonardo DiCaprio entonces el genero de Leonardo DiCaprio es masculino
+65. actor_protagonista('Los_Infiltrados', 'Leonardo DiCaprio').-->genero_masculino('Leonardo DiCaprio').
+Si el actor de Tiempos Violentos es John Travolta entonces el genero de John Travolta es masculino
+66. actor_protagonista('Tiempos_Violentos', 'John Travolta').-->genero_masculino('John Travolta').
+Si el actor de Rocky es Sylvester Stallone entonces el genero de Sylvester Stallone es masculino
+67. actor_protagonista('Rocky', 'Sylvester Stallone').-->genero_masculino('Sylvester Stallone').
+Si el actor de El Juego de la Fortuna es Kevin Spacey entonces el genero de Kevin Spacey es masculino
+68. actor_protagonista('El_Juego_de_la_Fortuna', 'Kevin Spacey').-->genero_masculino('Kevin Spacey').
+Si el actor de Buscando a Nemo es Albert Brooks entonces el genero de Albert Brooks es masculino
+69. actor_protagonista('Buscando_a_Nemo', 'Albert Brooks').-->genero_masculino('Albert Brooks').
+Si el actor de Los Increibles es Craig T. Nelson entonces el genero de Craig T. Nelson es masculino
+70. actor_protagonista('Los_Increibles', 'Craig T. Nelson').-->genero_masculino('Craig T. Nelson').
+Si el actor de Coco es Anthony Gonzalez entonces el genero de Anthony Gonzalez es masculino
+71. actor_protagonista('Coco', 'Anthony Gonzalez').-->genero_masculino('Anthony Gonzalez').
+Si el actor de Pacto de Sangre es Jack Nicholson entonces el genero de Jack Nicholson es masculino
+72. actor_protagonista('Pacto_de_Sangre', 'Jack Nicholson').-->genero_masculino('Jack Nicholson').
+Si el actor de Fuego Contra Fuego es Al Pacino entonces el genero de Al Pacino es masculino
+73. actor_protagonista('Fuego_Contra_Fuego', 'Al Pacino').-->genero_masculino('Al Pacino').
+Si el actor de Los angeles al Desnudo es Nicolas Cage entonces el genero de Nicolas Cage es masculino
+74. actor_protagonista('Los_angeles_al_Desnudo', 'Nicolas Cage').-->genero_masculino('Nicolas Cage').
+Si el actor de Batman: El caballero de la noche es Christian Bale entonces el genero de Christian Bale es masculino
+75. actor_protagonista('Batman:_El_caballero_de_la_noche', 'Christian Bale').-->genero_masculino('Christian Bale').
+Si el actor de Cuando Harry Conocio a Sally es Billy Crystal entonces el genero de Billy Crystal es masculino
+76. actor_protagonista('Cuando_Harry_Conocio_a_Sally', 'Billy Crystal').-->genero_masculino('Billy Crystal').
+Si el actor de Jurassic Park es Sam Neill entonces el genero de Sam Neill es masculino
+77. actor_protagonista('Jurassic_Park', 'Sam Neill').-->genero_masculino('Sam Neill').
+Si el actor de E.T., el Extraterrestre es Henry Thomas entonces el genero de Henry Thomas es masculino
+78. actor_protagonista('E.T.,el_Extraterrestre', 'Henry Thomas').-->genero_masculino('Henry Thomas').
+Si el actor de Volver al Futuro es Michael J. Fox entonces el genero de Michael J. Fox es masculino
+79. actor_protagonista('Volver_al_Futuro', 'Michael J. Fox').-->genero_masculino('Michael J. Fox').
+Si el actor de Matrix es Keanu Reeves entonces el genero de Keanu Reeves es masculino
+80. actor_protagonista('Matrix', 'Keanu Reeves').-->genero_masculino('Keanu Reeves').
+Si el actor de Avatar es Sam Worthington entonces el genero de Sam Worthington es masculino
+81. actor_protagonista('Avatar', 'Sam Worthington').-->genero_masculino('Sam Worthington').
+Si el actor de Terminator es Arnold Schwarzenegger entonces el genero de Arnold Schwarzenegger es masculino
+82. actor_protagonista('Terminator', 'Arnold Schwarzenegger').-->genero_masculino('Arnold Schwarzenegger').
+Si el actor de Interestelar es Matthew McConaughey entonces el genero de Matthew McConaughey es masculino
+83. actor_protagonista('Interestelar', 'Matthew McConaughey').-->genero_masculino('Matthew McConaughey').
+Si el actor de Guardianes de la Galaxia es Chris Pratt entonces el genero de Chris Pratt es masculino
+84. actor_protagonista('Guardianes_de_la_Galaxia', 'Chris Pratt').-->genero_masculino('Chris Pratt').
+Si el actor de Un Paseo para Recordar es Shane West entonces el genero de Shane West es masculino
+85. actor_protagonista('Un_Paseo_para_Recordar', 'Shane West').-->genero_masculino('Shane West').
+Si el actor de Realmente Amor es Hugh Grant entonces el genero de Hugh Grant es masculino
+86. actor_protagonista('Realmente_Amor', 'Hugh Grant').-->genero_masculino('Hugh Grant').
+Si el actor de Casablanca es Humphrey Bogart entonces el genero de Humphrey Bogart es masculino
+87. actor_protagonista('Casablanca', 'Humphrey Bogart').-->genero_masculino('Humphrey Bogart').
+Si el actor de Eso es Bill Skarsgård entonces el genero de Bill Skarsgård es masculino
+88. actor_protagonista('Eso', 'Bill Skarsgård').-->genero_masculino('Bill Skarsgård').
+Si el actor de Huye es Daniel Kaluuya entonces el genero de Daniel Kaluuya es masculino
+89. actor_protagonista('Huye', 'Daniel Kaluuya').-->genero_masculino('Daniel Kaluuya').
+Si el actor de Zodiaco es Jake Gyllenhaal entonces el genero de Jake Gyllenhaal es masculino
+90. actor_protagonista('Zodiaco', 'Jake Gyllenhaal').-->genero_masculino('Jake Gyllenhaal').
+Si el actor de Prisioneros es Hugh Jackman entonces el genero de Hugh Jackman es masculino
+91. actor_protagonista('Prisioneros', 'Hugh Jackman').-->genero_masculino('Hugh Jackman').
+Si el actor de Memento es Guy Pearce entonces el genero de Guy Pearce es masculino
+92. actor_protagonista('Memento', 'Guy Pearce').-->genero_masculino('Guy Pearce').
+Si el actor de El Rey Leon es Matthew Broderick entonces el genero de Matthew Broderick es masculino
+93. actor_protagonista('El_Rey_Leon', 'Matthew Broderick').-->genero_masculino('Matthew Broderick').
+Si el actor de El Libro de la Selva es Neel Sethi entonces el genero de Neel Sethi es masculino
+94. actor_protagonista('El_Libro_de_la_Selva', 'Neel Sethi').-->genero_masculino('Neel Sethi').
+Si el actor de Grandes Heroes es Scott Adsit entonces el genero de Scott Adsit es masculino
+95. actor_protagonista('Grandes_Heroes', 'Scott Adsit').-->genero_masculino('Scott Adsit').
+Si el actor de Mi Villano Favorito es Steve Carell entonces el genero de Steve Carell es masculino
+96. actor_protagonista('Mi_Villano_Favorito', 'Steve Carell').-->genero_masculino('Steve Carell').
+Si el actor de Ralph, El Demoledor es John C. Reilly entonces el genero de John C. Reilly es masculino
+97. actor_protagonista('Ralph,El_Demoledor', 'John C. Reilly').-->genero_masculino('John C. Reilly').
+Si el actor de Como Entrenar a tu Dragon es Jay Baruchel entonces el genero de Jay Baruchel es masculino
+98. actor_protagonista('Como_Entrenar_a_tu_Dragon', 'Jay Baruchel').-->genero_masculino('Jay Baruchel').
+Si el actor de El Hobbit: Un viaje inesperado es Martin Freeman entonces el genero de Martin Freeman es masculino
+99. actor_protagonista('El_Hobbit:_Un_viaje_inesperado', 'Martin Freeman').-->genero_masculino('Martin Freeman').
+Si el actor de La Princesa Prometida es Cary Elwes entonces el genero de Cary Elwes es masculino
+100. actor_protagonista('La_Princesa_Prometida', 'Cary Elwes').-->genero_masculino('Cary Elwes').
+Si el actor de Stardust: El Misterio de la Estrella es Charlie Cox entonces el genero de Charlie Cox es masculino
+101. actor_protagonista('Stardust:_El_Misterio_de_la_Estrella', 'Charlie Cox').-->genero_masculino('Charlie Cox').
+Si el actor de La Historia Sin Fin es Noah Hathaway entonces el genero de Noah Hathaway es masculino
+102. actor_protagonista('La_Historia_Sin_Fin', 'Noah Hathaway').-->genero_masculino('Noah Hathaway').
+Si el actor de Percy Jackson y el Ladron del Rayo es Logan Lerman entonces el genero de Logan Lerman es masculino
+103. actor_protagonista('Percy_Jackson_y_el_Ladron_del_Rayo', 'Logan Lerman').-->genero_masculino('Logan Lerman').
+Si el actor de El Cristal Encantado es Stephen Garlick entonces el genero de Stephen Garlick es masculino
+104. actor_protagonista('El_Cristal_Encantado', 'Stephen Garlick').-->genero_masculino('Stephen Garlick').
+Si el actor de Eragon es Edward Speleers entonces el genero de Edward Speleers es masculino
+105. actor_protagonista('Eragon', 'Edward Speleers').-->genero_masculino('Edward Speleers').
+Si el actor de Cantando Bajo la Lluvia es Gene Kelly entonces el genero de Gene Kelly es masculino
+106. actor_protagonista('Cantando_Bajo_la_Lluvia', 'Gene Kelly').-->genero_masculino('Gene Kelly').
+Si el actor de El Fantasma de la opera es Gerard Butler entonces el genero de Gerard Butler es masculino
+107. actor_protagonista('El_Fantasma_de_la_opera', 'Gerard Butler').-->genero_masculino('Gerard Butler').
+Si el actor de El Peleador es Mark Wahlberg entonces el genero de Mark Wahlberg es masculino
+108. actor_protagonista('El_Peleador', 'Mark Wahlberg').-->genero_masculino('Mark Wahlberg').
+Si el actor de Creed: Corazon de Campeon es Michael B. Jordan entonces el genero de Michael B. Jordan es masculino
+109. actor_protagonista('Creed:_Corazon_de_Campeon', 'Michael B. Jordan').-->genero_masculino('Michael B. Jordan').
+Si el actor de Recuerdos de los Titanes es Denzel Washington entonces el genero de Denzel Washington es masculino
+110. actor_protagonista('Recuerdos_de_los_Titanes', 'Denzel Washington').-->genero_masculino('Denzel Washington').
+Si el actor de Juego de Honor es Samuel L. Jackson entonces el genero de Samuel L. Jackson es masculino
+111. actor_protagonista('Juego_de_Honor', 'Samuel L. Jackson').-->genero_masculino('Samuel L. Jackson').
+Si el actor de Campo de Suenos es Kevin Costner entonces el genero de Kevin Costner es masculino
+112. actor_protagonista('Campo_de_Suenos', 'Kevin Costner').-->genero_masculino('Kevin Costner').
+Si el actor de Un Equipo Muy Especial es Gene Hackman entonces el genero de Gene Hackman es masculino
+113. actor_protagonista('Un_Equipo_Muy_Especial', 'Gene Hackman').-->genero_masculino('Gene Hackman').
+Si el actor de Aladdin es Mena Massoud entonces el genero de Mena Massoud es masculino
+114. actor_protagonista('Aladdin', 'Mena Massoud').-->genero_masculino('Mena Massoud').
+Si el actor de Bambi es Hardie Albright entonces el genero de Hardie Albright es masculino
+115. actor_protagonista('Bambi', 'Hardie Albright').-->genero_masculino('Hardie Albright').
+Si el actor de 101 Dalmatas es Rod Taylor entonces el genero de Rod Taylor es masculino
+116. actor_protagonista('101_Dalmatas', 'Rod Taylor').-->genero_masculino('Rod Taylor').
+Si el actor de Peter Pan es Bobby Driscoll entonces el genero de Bobby Driscoll es masculino
+117. actor_protagonista('Peter_Pan', 'Bobby Driscoll').-->genero_masculino('Bobby Driscoll').
+Si el actor de Dumbo es Edward Brophy entonces el genero de Edward Brophy es masculino
+118. actor_protagonista('Dumbo', 'Edward Brophy').-->genero_masculino('Edward Brophy').
+Si el actor de Hercules es Tate Donovan entonces el genero de Tate Donovan es masculino
+119. actor_protagonista('Hercules', 'Tate Donovan').-->genero_masculino('Tate Donovan').
+Si el actor de Cars es Owen Wilson entonces el genero de Owen Wilson es masculino
+120. actor_protagonista('Cars', 'Owen Wilson').-->genero_masculino('Owen Wilson').
+Si el actor de Monsters Inc es John Goodman entonces el genero de John Goodman es masculino
+121. actor_protagonista('Monsters_Inc', 'John Goodman').-->genero_masculino('John Goodman').
+Si el actor de Up es Edward Asner entonces el genero de Edward Asner es masculino
+122. actor_protagonista('Up', 'Edward Asner').-->genero_masculino('Edward Asner').
+Si el actor de WALL-E es Ben Burtt entonces el genero de Ben Burtt es masculino
+123. actor_protagonista('WALL-E', 'Ben Burtt').-->genero_masculino('Ben Burtt').
+Si el actor de El Jorobado de Notre Dame es Tom Hulce entonces el genero de Tom Hulce es masculino
+124. actor_protagonista('El_Jorobado_de_Notre_Dame', 'Tom Hulce').-->genero_masculino('Tom Hulce').
+Si el actor de Oliver y su Pandilla es Joey Lawrence entonces el genero de Joey Lawrence es masculino
+125. actor_protagonista('Oliver_y_su_Pandilla', 'Joey Lawrence').-->genero_masculino('Joey Lawrence').
+Si el actor de Tierra de Osos es Joaquin Phoenix entonces el genero de Joaquin Phoenix es masculino
+126. actor_protagonista('Tierra_de_Osos', 'Joaquin Phoenix').-->genero_masculino('Joaquin Phoenix').
+Si el actor de El Emperador y sus Locuras es David Spade entonces el genero de David Spade es masculino
+127. actor_protagonista('El_Emperador_y_sus_Locuras', 'David Spade').-->genero_masculino('David Spade').
+Si el actor de Chicken Little es Zach Braff entonces el genero de Zach Braff es masculino
+128. actor_protagonista('Chicken_Little', 'Zach Braff').-->genero_masculino('Zach Braff').
+Si el actor de El Camino hacia El Dorado es Kevin Kline entonces el genero de Kevin Kline es masculino
+129. actor_protagonista('El_Camino_hacia_El_Dorado', 'Kevin Kline').-->genero_masculino('Kevin Kline').
+Si el actor de Kung Fu Panda es Jack Black entonces el genero de Jack Black es masculino
+130. actor_protagonista('Kung_Fu_Panda', 'Jack Black').-->genero_masculino('Jack Black').
+Si el actor de Madagascar es Ben Stiller entonces el genero de Ben Stiller es masculino
+131. actor_protagonista('Madagascar', 'Ben Stiller').-->genero_masculino('Ben Stiller').
+Si el actor de Mi Pobre Angelito es Macaulay Culkin entonces el genero de Macaulay Culkin es masculino
+132. actor_protagonista('Mi_Pobre_Angelito', 'Macaulay Culkin').-->genero_masculino('Macaulay Culkin').
+Si el actor de Jumanji es Robin Williams entonces el genero de Robin Williams es masculino
+133. actor_protagonista('Jumanji', 'Robin Williams').-->genero_masculino('Robin Williams').
+Si el actor de Chitty Chitty Bang Bang es Dick Van Dyke entonces el genero de Dick Vam Dyke es masculino
+134. actor_protagonista('Chitty_Chitty_Bang_Bang', 'Dick Van Dyke').-->genero_masculino('Dick Van Dyke').
+Si el actor de willy wonka y 
+135. genero_masculino('Gene Wilder'):-actor_protagonista('Willy_Wonka_y_la_Fabrica_de_Chocolate', 'Gene Wilder').
+136. genero_masculino('Sean Astin'):-actor_protagonista('Los_Goonies', 'Sean Astin').
+137. genero_masculino('Ben Whishaw'):-actor_protagonista('Paddington', 'Ben Whishaw').
+138. genero_masculino('James Corden'):-actor_protagonista('Peter_Rabbit_2_A_la_Fuga', 'James Corden').
+139. genero_masculino('Donald Glover'):-actor_protagonista('El_Rey_Leon_2019', 'Donald Glover').
+140. genero_masculino('Colin Farrell'):-actor_protagonista('Dumbo_2019', 'Colin Farrell').
+141. genero_masculino('Ewan McGregor'):-actor_protagonista('Christopher_Robin', 'Ewan McGregor').
+142. genero_masculino('Joe Mantegna'):-actor_protagonista('Aventuras_en_la_Gran_Ciudad', 'Joe Mantegna').
+143. genero_masculino('Jim Carrey'):-actor_protagonista('Una_Serie_de_Eventos_Desafortunados', 'Jim Carrey').
+144. genero_masculino('Taylor Lautner'):- actor_protagonista('Las_Aventuras_de_Sharkboy_y_Lavagirl', 'Taylor Lautner').
+145. genero_masculino('Asa Butterfield'):-actor_protagonista('El_hogar_de_Miss_Peregrine_para_ninos_peculiares', 'Asa Butterfield').
+146. genero_masculino('Alan Rickman'):-actor_secundario('Duro_de_Matar', 'Alan Rickman').
+147. genero_masculino('Martin Lawrence'):-actor_secundario('Dos_Tontos_en_Fuga', 'Martin Lawrence').
+148. genero_masculino('James Caan'):-actor_secundario('El_Padrino', 'James Caan').
+149. genero_masculino('Max von Sydow'):-actor_secundario('El_Exorcista', 'Max von Sydow').
+150. genero_masculino('Christopher Walken'):-actor_secundario('El_Cazador_Implacable', 'Christopher Walken').
+151. genero_masculino('Rupert Grint'):-actor_secundario('Harry_Potter_y_la_piedra_filosofal', 'Rupert Grint').
+152. genero_masculino('Christopher Plummer'):-actor_secundario('La_Novicia_Rebelde', 'Christopher Plummer').
+153. genero_masculino('Tim Allen'):-actor_secundario('Toy_Story', 'Tim Allen').
+154. genero_masculino('Eddie Murphy'):-actor_secundario('Shrek', 'Eddie Murphy').
+156. genero_masculino('James Garner'):- actor_secundario('Diario_de_una_Pasion', 'James Garner').
+157. genero_masculino('Matthew Macfadyen'):-actor_protagonista('Orgullo_y_Prejuicio', 'Matthew Macfadyen').
+158. genero_masculino('Tyler Perry'):- actor_secundario('Perdida', 'Tyler Perry').
+159. genero_masculino('Jude Law'):- actor_secundario('Sherlock_Holmes', 'Jude Law').
+160. genero_masculino('Stellan Skarsgard'):-actor_secundario('La_Chica_del_Dragon_Tatuado', 'Stellan Skarsgard').
+161. genero_masculino('Andrew Garfield'):-actor_secundario('Red_Social', 'Andrew Garfield').
+162. genero_masculino('Matt Damon'):-actor_secundario('Rescatando_al_Soldado_Ryan', 'Matt Damon').
+163. genero_masculino('Lee Van Cleef'):-actor_secundario('El_Bueno,el_Malo_y_el_Feo', 'Lee Van Cleef').
+164. genero_masculino('Jon Voight'):-actor_secundario('Mission:_Impossible', 'Jon Voight').
+165. genero_masculino('River Phoenix'):-actor_secundario('Stand_by_Me', 'River Phoenix').
+166. genero_masculino('Burgess Meredith'):-actor_secundario('Rocky', 'Burgess Meredith').
+167. genero_masculino('Edward G. Robinson'):-actor_secundario('Pacto_de_Sangre', 'Edward G. Robinson').
+168. genero_masculino('Clive Owen'):-actor_secundario('La_Ciudad_del_Pecado', 'Clive Owen').
+169. genero_masculino('Val Kilmer'):-actor_secundario('Fuego_Contra_Fuego', 'Val Kilmer').
+170. genero_masculino('Danny DeVito'):-actor_secundario('Los_angeles_al_Desnudo', 'Danny DeVito').
+171. genero_masculino('Chris Evans'):- actor_secundario('The_Avengers:_Los_Vengadores', 'Chris Evans').
+172. genero_masculino('Aaron Eckhart'):-actor_secundario('Batman:_El_caballero_de_la_noche', 'Aaron Eckhart').
+173. genero_masculino('Jason Alexander'):-actor_secundario('Mujer_Bonita', 'Jason Alexander').
+174. genero_masculino('Bruno Kirby'):-actor_secundario('Cuando_Harry_Conocio_a_Sally', 'Bruno Kirby').
+175. genero_masculino('Sergi Lopez'):-actor_secundario('El_Laberinto_del_Fauno', 'Sergi Lopez').
+176. genero_masculino('Michael Shannon'):-actor_secundario('La_Forma_del_Agua', 'Michael Shannon').
+177. genero_masculino('Josh Hutcherson'):-actor_secundario('Los_Juegos_del_Hambre', 'Josh Hutcherson').
+178. genero_masculino('Jeff Goldblum'):-actor_secundario('Jurassic_Park', 'Jeff Goldblum').
+179. genero_masculino('Robert MacNaughton'):-actor_secundario('E.T.,el_Extraterrestre', 'Robert MacNaughton').
+180. genero_masculino('Christopher Lloyd'):-actor_secundario('Volver_al_Futuro', 'Christopher Lloyd').
+181. genero_masculino('Joseph Gordon-Levitt'):-actor_secundario('El_Origen', 'Joseph Gordon-Levitt').
+182. genero_masculino('Laurence Fishburne'):-actor_secundario('Matrix', 'Laurence Fishburne').
+183. genero_masculino('Michael Biehn'):-actor_secundario('Terminator', 'Michael Biehn').
+184. genero_masculino('John Hurt'):-actor_secundario('Alien:_El_Octavo_Pasajero', 'John Hurt').
+185. genero_masculino('Bradley Cooper'):-actor_secundario('Guardianes_de_la_Galaxia', 'Bradley Cooper').
+186. genero_masculino('Billy Zane'):-actor_secundario('Titanic', 'Billy Zane').
+187. genero_masculino('John Leguizamo'):-actor_secundario('Romeo_+_Julieta', 'John Leguizamo').
+188. genero_masculino('Peter Coyote'):-actor_secundario('Un_Paseo_para_Recordar', 'Peter Coyote').
+189. genero_masculino('Nat Wolff'):-actor_secundario('Bajo_la_Misma_Estrella', 'Nat Wolff').
+190. genero_masculino('Colin Firth'):-actor_secundario('El_Diario_de_Bridget_Jones', 'Colin Firth').
+191. genero_masculino('Claude Rains'):-actor_secundario('Casablanca', 'Claude Rains').
+192. genero_masculino('Rhys Ifans'):-actor_secundario('Un_Lugar_Llamado_Notting_Hill', 'Rhys Ifans').
+193. genero_masculino('Skeet Ulrich'):-actor_secundario('Scream:_Grita_Antes_de_Morir', 'Skeet Ulrich').
+194. genero_masculino('Ron Livingston'):-actor_secundario('El_Conjuro', 'Ron Livingston').
+195. genero_masculino('Finn Wolfhard'):-actor_secundario('Eso', 'Finn Wolfhard').
+196. genero_masculino('Bradley Whitford'):-actor_secundario('Huye', 'Bradley Whitford').
+197. genero_masculino('Alex Wolff'):-actor_secundario('Hereditary:_El_Legado_del_Diablo', 'Alex Wolff').
+198. genero_masculino('Daniel Henshall'):-actor_secundario('El_Babadook', 'Daniel Henshall').
+199. genero_masculino('Brian Cox'):-actor_secundario('El_Aro', 'Brian Cox').
+200. genero_masculino('Micah Sloat'):-actor_secundario('Actividad_Paranormal', 'Micah Sloat').
 genero_masculino('Donald Pleasence').
 genero_masculino('Jared Leto').
 genero_masculino('Michael Clarke Duncan').
