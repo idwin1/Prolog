@@ -4684,7 +4684,7 @@ Si el actor de Jumanji es Robin Williams entonces el genero de Robin Williams es
 133. actor_protagonista('Jumanji', 'Robin Williams').-->genero_masculino('Robin Williams').
 Si el actor de Chitty Chitty Bang Bang es Dick Van Dyke entonces el genero de Dick Vam Dyke es masculino
 134. actor_protagonista('Chitty_Chitty_Bang_Bang', 'Dick Van Dyke').-->genero_masculino('Dick Van Dyke').
-Si el actor de willy wonka y 
+Si el actor de willy wonka y la fabrica de chocolate es Gene Wilder entonces el denero de Gene Wilder es masculino
 135. genero_masculino('Gene Wilder'):-actor_protagonista('Willy_Wonka_y_la_Fabrica_de_Chocolate', 'Gene Wilder').
 136. genero_masculino('Sean Astin'):-actor_protagonista('Los_Goonies', 'Sean Astin').
 137. genero_masculino('Ben Whishaw'):-actor_protagonista('Paddington', 'Ben Whishaw').
