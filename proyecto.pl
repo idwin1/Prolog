@@ -3392,142 +3392,173 @@ cancion_de('My Way', 'Frank Sinatra').
 
 
 %Reglas
+%regla para buscar pelicula y genero
 genero_pelicula(Pelicula, Genero) :- pelicula_genero(Pelicula, Genero).
+%regla para peliculas de accion
 peliculas_accion(Pelicula) :- pelicula_genero(Pelicula, 'Accion').
+%regla para peliculas de aventura
 peliculas_aventura(Pelicula) :- pelicula_genero(Pelicula, 'Aventura').
+%regla para peliculas de comedia
 peliculas_comedia(Pelicula) :- pelicula_genero(Pelicula, 'Comedia').
+%regla para peliculas de drama
 peliculas_drama(Pelicula) :- pelicula_genero(Pelicula, 'Drama').
+%regla para peliculas de terror
 peliculas_terror(Pelicula) :- pelicula_genero(Pelicula, 'Terror').
+%regla para peliculas de ciencia ficcion
 peliculas_cienciaficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
+%regla para peliculas de fantasia
 peliculas_fantasia(Pelicula) :- pelicula_genero(Pelicula, 'Fantasia').
+%regla para peliculas de musical
 peliculas_musical(Pelicula) :- pelicula_genero(Pelicula, 'Musical').
+%regla para peliculas infantiles
 peliculas_infantil(Pelicula) :- pelicula_genero(Pelicula, 'Infantil').
+%regla para peliculas de romance
 peliculas_romance(Pelicula) :- pelicula_genero(Pelicula, 'Romance').
+%regla para peliculas de thriller
 peliculas_thriller(Pelicula) :- pelicula_genero(Pelicula, 'Thriller').
+%regla para peliculas de misterio
 peliculas_misterio(Pelicula) :- pelicula_genero(Pelicula, 'Misterio').
+%regla para peliculas de bibliografica
 peliculas_bibliografica(Pelicula) :- pelicula_genero(Pelicula, 'Biografica').
+%regla para peliculas dedocumental
 peliculas_documental(Pelicula) :- pelicula_genero(Pelicula, 'Documental').
+%regla para peliculas de historica
 peliculas_historica(Pelicula) :- pelicula_genero(Pelicula, 'Historica').
+%regla para peliculas de guerra
 peliculas_guerra(Pelicula) :- pelicula_genero(Pelicula, 'Guerra').
+%regla para peliculas de western
 peliculas_western(Pelicula) :- pelicula_genero(Pelicula, 'Western').
+%regla para peliculas de espionaje
 peliculas_espionaje(Pelicula) :- pelicula_genero(Pelicula, 'Espionaje').
+%regla para peliculas de coming of age
 peliculas_coming_of_age(Pelicula) :- pelicula_genero(Pelicula, 'Coming-of-age').
+%regla para peliculas de crimen
 peliculas_crimen(Pelicula) :- pelicula_genero(Pelicula, 'Crimen').
+%regla para peliculas de deportes
 peliculas_deporte(Pelicula) :- pelicula_genero(Pelicula, 'Deporte').
+%regla para peliculas de noir
 peliculas_noir(Pelicula) :- pelicula_genero(Pelicula, 'Noir').
+%regla para peliculas de policial
 peliculas_policial(Pelicula) :- pelicula_genero(Pelicula, 'Policial').
+%regla para peliculas de superheroes
 peliculas_superheroes(Pelicula) :- pelicula_genero(Pelicula, 'Superheroes').
+%regla para peliculas de distopia
 peliculas_distopia(Pelicula) :- pelicula_genero(Pelicula, 'Distopia').
+%regla para peliculas de ficcion
 peliculas_ciencia_ficcion(Pelicula) :- pelicula_genero(Pelicula, 'Ciencia_ficcion').
+%regla para peliculas de suspenso
 peliculas_suspenso(Pelicula) :- pelicula_genero(Pelicula, 'Suspenso').
-
+%regla para peliculas de categoria infantil
 categoria_infantil(Pelicula, Categoria) :- pelicula_infantil(Pelicula, Categoria).
+%regla para que pelicula gano el osacar a mejor director
 mejor_director(Pelicula,Director) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Director',Lista),pelicula_director(Pelicula,Director).
+%regla para que pelicula gano el osacar a premio especial
 premio_especial(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Premio_especial_innovacion',Lista).
+%regla para que pelicula gano el osacar a mejor banda original
 mejor_banda_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Banda_Original',Lista).
-
+%regla para que pelicula gano el osacar a mejor cancion original
 mejor_cancion_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Cancion_Original',Lista).
-
+%regla para que pelicula gano el osacar a mejor pelicla de animacion
 mejor_pelicula_de_animacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Pelicula_de_Animacion',Lista).
-
+%regla para que pelicula gano el osacar a mejor banda sonora original
 mejor_banda_sonora_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Banda_Sonora_Original',Lista).
-
+%regla para que pelicula gano el osacar a mejor edicion de sonido
 mejor_edicion_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Edicion_de_Sonido',Lista).
-
+%regla para que pelicula gano el osacar a mejor actriz
 mejor_actriz(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Actriz',Lista),actor_protagonista(Pelicula,Actor),genero_femenino(Actor).
-
+%regla para que pelicula gano el osacar a mejor edicion
 mejor_edicion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Edicion',Lista).
-
+%regla para que pelicula gano el osacar a mejor efectos visuales
 mejores_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejores_Efectos_Visuales',Lista).
-
+%regla para que pelicula gano el osacar a mejor fotografia
 mejor_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Fotografia',Lista).
-
+%regla para que pelicula gano el osacar a mejor musica
 mejor_musica(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Musica',Lista).
-
+%regla para que pelicula gano el osacar a mejor musica original
 mejor_musica_original(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Musica_Original',Lista).
-
+%regla para que pelicula gano el osacar a mejor maquillaje
 mejor_maquillaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Maquillaje',Lista).
-
+%regla para que pelicula gano el osacar a mejor efectos visuales
 mejor_efectos_visuales(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Efectos_Visuales',Lista).
-
+%regla para que pelicula gano el osacar a mejor pelicula
 mejor_pelicula(Pelicula,Ano) :- gano_oscar_en(Pelicula,Ano,Lista),
                     member('Mejor_Pelicula',Lista).
-
+%regla para que pelicula gano el osacar a mejor actor
 mejor_actor(Pelicula,Actor) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Actor',Lista),actor_protagonista(Pelicula,Actor),genero_masculino(Actor).
-
+%regla para que pelicula gano el osacar a mejor actor de reparto
 mejor_actor_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Actor_de_Reparto',Lista).
-
+%regla para que pelicula gano el osacar a mejor actriz de reparto
 mejor_actriz_de_reparto(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Actriz_de_Reparto',Lista).
-
+%regla para que pelicula gano el osacar a mejor guion adaptado
 mejor_guion_adaptado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Guion_Adaptado',Lista).
-
+%regla para que pelicula gano el osacar a mejor sonido
 mejor_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Sonido',Lista).
-
+%regla para que pelicula gano el osacar a mejor diseño de produccion
 mejor_diseno_de_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Diseno_de_Produccion',Lista).
-
+%regla para que pelicula gano el osacar a mejor dirrecion
 mejor_direccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Direccion',Lista).
-
+%regla para que pelicula gano el osacar a mejor dirreccion de arte
 mejor_direccion_de_arte(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Direccion_de_Arte',Lista).
-
+%regla para que pelicula gano el osacar a mejor dirreccion de fotografia
 mejor_direccion_de_fotografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Direccion_de_Fotografia',Lista).
-
+%regla para que pelicula gano el osacar a mejor montaje
 mejor_montaje(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Montaje',Lista).
-
+%regla para que pelicula gano el osacar a mejor interpretacion
 mejor_interpretacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Interpretacion',Lista).
-
+%regla para que pelicula gano el osacar a mejor documental
 mejor_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Documental',Lista).
-
+%regla para que pelicula gano el osacar a mejor vestuario
 mejor_vestuario(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Vestuario',Lista).
-
+%regla para que pelicula gano el osacar a mejor produccion
 mejor_produccion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Produccion',Lista).
-
+%regla para que pelicula gano el osacar a mejor mezcla de sonido
 mejor_mezcla_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Mezcla_de_Sonido',Lista).
-
+%regla para que pelicula gano el osacar a mejor banda sonora
 mejor_banda_sonora(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Banda_Sonora',Lista).
-
+%regla para que pelicula gano el osacar a mejor cinematografia
 mejor_cinematografia(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Cinematografia',Lista).
-
+%regla para que pelicula gano el osacar a mejor actuacion
 mejor_actuacion(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Actuacion',Lista).
-
+%regla para que pelicula gano el osacar a mejor cortometraje documental
 mejor_cortometraje_documental(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Cortometraje_Documental',Lista).
-
+%regla para que pelicula gano el osacar a mejor efectos de sonido
 mejor_efectos_de_sonido(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Efectos_de_Sonido',Lista).
-
+%regla para que pelicula gano el osacar a mejor maquillaje y peinado
 mejor_maquillaje_y_peinado(Pelicula) :- gano_oscar_en(Pelicula,_,Lista),
                     member('Mejor_Maquillaje_y_Peinado',Lista).
 
