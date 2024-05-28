@@ -4417,123 +4417,123 @@ buscar_artistas_pop(Artistas) :-
 %Razonamineto Logico
 /*
 Si el cazador implacable gano un oscar a mejor director entonces el director de la pelicula es Ridley Scott.
-1. gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).-->pelicula_director('El_Cazador_Implacable', 'Ridley Scott').
+1. pelicula_director('El_Cazador_Implacable', 'Ridley Scott').-->gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
 Si la novicia rebelde gano un oscar a mejor director entonces el director de la pelicula es Robert Wise.
-2. gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).-->pelicula_director('La_Novicia_Rebelde', 'Robert Wise').
+2. -->pelicula_director('La_Novicia_Rebelde', 'Robert Wise').-->gano_oscar_en('La_Novicia_Rebelde', 1966, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Edicion', 'Mejor_Sonido', 'Mejor_Cancion_Original']).
 Si la la la land una historia de amor gano un oscar a mejor director entonces el director de la pelicula es Damien Chazelle.
-3. gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).-->pelicula_director('La_La_Land._Una_historia_de_amor', 'Damien Chazelle').
+3. -->pelicula_director('La_La_Land._Una_historia_de_amor', 'Damien Chazelle').-->gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).
 Si gandhi gano un oscar a mejor director entonces el director de la pelicula es Richard Attenborough.
-4. gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).-->pelicula_director('Gandhi', 'Richard Attenborough').
+4. -->pelicula_director('Gandhi', 'Richard Attenborough').-->gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).
 Si corazon valiente gano un oscar a mejor director entonces el director de la pelicula es Mel Gibson.
-5. gano_oscar_en('Corazon_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).-->pelicula_director('Corazon_Valiente', 'Mel Gibson').
+5. -->pelicula_director('Corazon_Valiente', 'Mel Gibson').-->gano_oscar_en('Corazon_Valiente', 1996, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia']).
 Si rescatando al soldado ryan gano un oscar a mejor director entonces el director de la pelicula es Steven Spielberg.
-6. gano_oscar_en('Rescatando_al_Soldado_Ryan', 1999, ['Mejor_Director', 'Mejor_Fotografia']).-->pelicula_director('Rescatando_al_Soldado_Ryan', 'Steven Spielberg')
+6. -->pelicula_director('Rescatando_al_Soldado_Ryan', 'Steven Spielberg')-->gano_oscar_en('Rescatando_al_Soldado_Ryan', 1999, ['Mejor_Director', 'Mejor_Fotografia']).
 Si los imperdonables gano un oscar a mejor director entonces el director de la pelicula es Clint Eastwood.
-7. gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).-->pelicula_director('Los_Imperdonables', 'Clint Eastwood').
+7. -->pelicula_director('Los_Imperdonables', 'Clint Eastwood').-->gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).
 Si rocky gano un oscar a mejor director entonces el director de la pelicula es John G. Avildsen.
-8. gano_oscar_en('Rocky', 1977, ['Mejor_Director', 'Mejor_Pelicula', 'Mejor_Montaje']).-->pelicula_director('Rocky', 'John G. Avildsen').
+8. -->pelicula_director('Rocky', 'John G. Avildsen').-->gano_oscar_en('Rocky', 1977, ['Mejor_Director', 'Mejor_Pelicula', 'Mejor_Montaje']).
 Si el laberinto del fauno gano un oscar a mejor director entonces el director de la pelicula es Guillermo del Toro.
-9. gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).-->pelicula_director('El_Laberinto_del_Fauno', 'Guillermo del Toro').
+9. -->pelicula_director('El_Laberinto_del_Fauno', 'Guillermo del Toro').-->gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).
 Si la forma del agua gano un oscar a mejor director entonces el director de la pelicula es Guillermo del Toro.
-10. gano_oscar_en('La_Forma_del_Agua', 2018, ['Mejor_Director', 'Mejor_Pelicula']).-->pelicula_director('La_Forma_del_Agua', 'Guillermo del Toro').
+10. -->pelicula_director('La_Forma_del_Agua', 'Guillermo del Toro').-->gano_oscar_en('La_Forma_del_Agua', 2018, ['Mejor_Director', 'Mejor_Pelicula']).
 Si titanic gano un oscar a mejor director entonces el director de la pelicula es James Cameron.
-11. gano_oscar_en('Titanic', 1998, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia', 'Mejor_Mezcla_de_Sonido', 'Mejor_Montaje', 'Mejor_Banda_Sonora', 'Mejor_Cancion_Original', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).-->pelicula_director('Titanic', 'James Cameron').
+11. -->pelicula_director('Titanic', 'James Cameron').-->gano_oscar_en('Titanic', 1998, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Fotografia', 'Mejor_Mezcla_de_Sonido', 'Mejor_Montaje', 'Mejor_Banda_Sonora', 'Mejor_Cancion_Original', 'Mejor_Direccion_de_Arte', 'Mejor_Efectos_Visuales']).
 Si casablanca gano un oscar a mejor director entonces el director de la pelicula es Michael Curtiz.
-12. gano_oscar_en('Casablanca', 1944, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado']).-->pelicula_director('Casablanca', 'Michael Curtiz').
+12. -->pelicula_director('Casablanca', 'Michael Curtiz').-->gano_oscar_en('Casablanca', 1944, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado']).
 Si forrest gump gano un oscar a mejor director entonces el director de la pelicula es Robert Zemeckis.
-13. gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).-->pelicula_director('Forrest_Gump', 'Robert Zemeckis').
+13. -->pelicula_director('Forrest_Gump', 'Robert Zemeckis').-->gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
 Si belleza americana gano un oscar a mejor director entonces el director de la pelicula es Sam Mendes.
-14. gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->pelicula_director('Belleza_Americana', 'Sam Mendes').
+14. -->pelicula_director('Belleza_Americana', 'Sam Mendes').-->gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->pelicula_director('Belleza_Americana', 'Sam Mendes').
 Si quien quiere ser millonario gano un oscar a mejor director entonces el director de la pelicula es Danny Boyle.
-15. gano_oscar_en('Quien_Quiere_Ser_Millonario', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).-->pelicula_director('Quien_Quiere_Ser_Millonario', 'Danny Boyle').
+15. -->pelicula_director('Quien_Quiere_Ser_Millonario', 'Danny Boyle').-->gano_oscar_en('Quien_Quiere_Ser_Millonario', 2009, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Guion_Adaptado', 'Mejor_Banda_Sonora_Original', 'Mejor_Mezcla_de_Sonido', 'Mejor_Edicion_de_Sonido', 'Mejor_Montaje', 'Mejor_Cinematografia']).
 Si el discurso del rey gano un oscar a mejor director entonces el director de la pelicula es Tom Hooper.
-16. gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->pelicula_director('El_Discurso_del_Rey', 'Tom Hooper').
+16. -->pelicula_director('El_Discurso_del_Rey', 'Tom Hooper').-->gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
 Si el silencio de los inocentes gano un oscar a mejor director entonces el director de la pelicula es Jonathan Demme.
-17. gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).-->pelicula_director('El_Silencio_de_los_Inocentes', 'Jonathan Demme').
+17. -->pelicula_director('El_Silencio_de_los_Inocentes', 'Jonathan Demme').-->gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).
 Si el padrino gano oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Marlon Brando.
-18. gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion_Adaptado']).-->actor_protagonista('El_Padrino', 'Marlon Brando').
+18. -->actor_protagonista('El_Padrino', 'Marlon Brando').-->gano_oscar_en('El_Padrino', 1973, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Guion_Adaptado']).
 Si forrest gump gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Tom Hanks.
-19. gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).-->actor_protagonista('Forrest_Gump', 'Tom Hanks').
+19. -->actor_protagonista('Forrest_Gump', 'Tom Hanks').-->gano_oscar_en('Forrest_Gump', 1995, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Adaptado', 'Mejor_Montaje', 'Mejor_Efectos_Visuales', 'Mejor_Banda_Sonora']).
 Si belleza americana gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Kevin Spacey.
-20. gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->actor_protagonista('Belleza_Americana', 'Kevin Spacey').
+20. -->actor_protagonista('Belleza_Americana', 'Kevin Spacey').-->gano_oscar_en('Belleza_Americana', 2000, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
 Si gladiador gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Russell Crowe.
-21. gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Efectos_Visuales']).-->actor_protagonista('Gladiador', 'Russell Crowe').
+21. -->actor_protagonista('Gladiador', 'Russell Crowe').-->gano_oscar_en('Gladiador', 2001, ['Mejor_Pelicula', 'Mejor_Actor', 'Mejor_Efectos_Visuales']).
 Si el discurso del rey gano un oscar a mejor actor protagonista entonces el actor protagonista de la pelicula es Colin Firth.
-22. gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).-->actor_protagonista('El_Discurso_del_Rey', 'Colin Firth').
+22. -->actor_protagonista('El_Discurso_del_Rey', 'Colin Firth').-->gano_oscar_en('El_Discurso_del_Rey', 2011, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Guion_Original']).
 Si el silencio de los inocentes gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Jodie Foster.
-23. gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).-->actor_protagonista('El_Silencio_de_los_Inocentes', 'Jodie Foster').
+23. -->actor_protagonista('El_Silencio_de_los_Inocentes', 'Jodie Foster').-->gano_oscar_en('El_Silencio_de_los_Inocentes', 1992, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor', 'Mejor_Actriz', 'Mejor_Guion_Adaptado']).
 Si la la land una historia de amor gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Harrison Ford.
-24. gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).-->actor_secundario('La_La_Land._Una_historia_de_amor', 'Harrison Ford').
+24. -->actor_secundario('La_La_Land._Una_historia_de_amor', 'Harrison Ford').-->gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).
 Si el cazador implacable gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Christopher Walken.
-25. gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).-->actor_secundario('El_Cazador_Implacable', 'Christopher Walken').
+25. -->actor_secundario('El_Cazador_Implacable', 'Christopher Walken').-->gano_oscar_en('El_Cazador_Implacable', 1979, ['Mejor_Pelicula', 'Mejor_Director', 'Mejor_Actor_de_Reparto', 'Mejor_Montaje', 'Mejor_Sonido']).
 Si gandhi gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Candice Bergen.
-26. gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).-->actor_secundario('Gandhi', 'Candice Bergen').
+26.-->actor_secundario('Gandhi', 'Candice Bergen').--> gano_oscar_en('Gandhi', 1983, ['Mejor_Pelicula', 'Mejor_Actor_de_Reparto', 'Mejor_Director', 'Mejor_Guion_Original', 'Mejor_Fotografia']).
 Si el peleador gano un oscar a mejor actor secundario entonces el actor secundario de la pelicula es Christian Bale.
-27. gano_oscar_en('El_Peleador', 2010, ['Mejor_Actor_de_Reparto']).-->actor_secundario('El_Peleador', 'Christian Bale').
+27. -->actor_secundario('El_Peleador', 'Christian Bale').--> gano_oscar_en('El_Peleador', 2010, ['Mejor_Actor_de_Reparto']).
 Si mary poppins gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Julie Andrews.
-28. gano_oscar_en('Mary_Poppins', 1965, ['Mejor_Actriz', 'Mejor_Edicion', 'Mejores_Efectos_Visuales', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).-->actor_protagonista('Mary_Poppins', 'Julie Andrews').
+28. -->actor_protagonista('Mary_Poppins', 'Julie Andrews').-->gano_oscar_en('Mary_Poppins', 1965, ['Mejor_Actriz', 'Mejor_Edicion', 'Mejores_Efectos_Visuales', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original']).
 Si la la land una historia de amor gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Emma Stone.
-29. gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).-->actor_protagonista('La_La_Land._Una_historia_de_amor', 'Emma Stone').
+29. -->actor_protagonista('La_La_Land._Una_historia_de_amor', 'Emma Stone').-->gano_oscar_en('La_La_Land._Una_historia_de_amor', 2017, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Banda_Sonora_Original', 'Mejor_Cancion_Original', 'Mejor_Diseno_de_Produccion']).
 Si orgullo y prejuicio gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Keira Knightley.
-30. gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).-->actor_protagonista('Orgullo_y_Prejuicio', 'Keira Knightley').
+30. -->actor_protagonista('Orgullo_y_Prejuicio', 'Keira Knightley').-->gano_oscar_en('Orgullo_y_Prejuicio', 2006, ['Mejor_Actriz', 'Mejor_Banda_Sonora_Original']).
 Si los angeles al desnudo gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Nicolas Cage.
-31. gano_oscar_en('Los_angeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).-->actor_protagonista('Los_angeles_al_Desnudo', 'Nicolas Cage').
+31.-->actor_protagonista('Los_angeles_al_Desnudo', 'Nicolas Cage').--> gano_oscar_en('Los_angeles_al_Desnudo', 1998, ['Mejor_Actriz', 'Mejor_Guion_Adaptado']).
 Si el laberinto del fauno gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Ivana Baquero.
-32. gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).-->actor_protagonista('El_Laberinto_del_Fauno', 'Ivana Baquero').
+32. -->actor_protagonista('El_Laberinto_del_Fauno', 'Ivana Baquero').-->gano_oscar_en('El_Laberinto_del_Fauno', 2007, ['Mejor_Director', 'Mejor_Actriz', 'Mejor_Fotografia']).
 Si el cisne negro gano un oscar a mejor actriz protagonista entonces la actriz protagonista de la pelicula es Natalie Portman
-33. gano_oscar_en('El_Cisne_Negro', 2011, ['Mejor_Actriz']).-->actor_protagonista('El_Cisne_Negro', 'Natalie Portman').
+33. -->actor_protagonista('El_Cisne_Negro', 'Natalie Portman').-->gano_oscar_en('El_Cisne_Negro', 2011, ['Mejor_Actriz']).
 Si los imperdonables gano un oscar a mejor actriz de reparto entonces la actriz secundaria es Gene Hackman
-34. gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).-->actor_secundario('Los_Imperdonables', 'Gene Hackman').
+34. -->actor_secundario('Los_Imperdonables', 'Gene Hackman').-->gano_oscar_en('Los_Imperdonables', 1993, ['Mejor_Actriz_de_Reparto', 'Mejor_Director']).
 Si 12 años de esclavitud gano un oscar a mejor actriz de reparto entonces la actriz de reparto es Michael Fassbender
-35. gano_oscar_en('12_Anos_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto']).-->actor_secundario('12_Anos_de_Esclavitud', 'Michael Fassbender')
+35. -->actor_secundario('12_Anos_de_Esclavitud', 'Michael Fassbender')-->gano_oscar_en('12_Anos_de_Esclavitud', 2014, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto']).
 Si chicago gano un oscar a mejor actriz de reparto entoces la actriz secundarias es Richard Gere
-36. gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).-->actor_secundario('Chicago', 'Richard Gere')
+36.-->actor_secundario('Chicago', 'Richard Gere')--> gano_oscar_en('Chicago', 2003, ['Mejor_Pelicula', 'Mejor_Actriz_de_Reparto', 'Mejor_Direccion_de_Arte', 'Mejor_Vestuario', 'Mejor_Edicion', 'Mejor_Sonido']).
 Si los miserables ganaron un oscar a mejor actriz de reparto entonces la actriz secundaria es Russell Crowe
-37. gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).-->actor_secundario('Los_Miserables', 'Russell Crowe').
+37. -->actor_secundario('Los_Miserables', 'Russell Crowe').-->gano_oscar_en('Los_Miserables', 2013, ['Mejor_Actriz_de_Reparto', 'Mejor_Maquillaje_y_Peinado']).
 Si el actor de Mad Max: Furia en el camino es Tom Hardy entonces el genero de Tom Hardy es masculino
-38. actor_protagonista('Mad_Max:_Furia_en_el_Camino', 'Tom Hardy').-->genero_masculino('Tom Hardy').
+38. -->genero_masculino('Tom Hardy').-->actor_protagonista('Mad_Max:_Furia_en_el_Camino', 'Tom Hardy').
 Si el actor de Duro de Matar es Bruce Willis entonces el genero de Bruce Willis es masculino
-39. actor_protagonista('Duro_de_Matar', 'Bruce Willis').-->genero_masculino('Bruce Willis').
+39. -->genero_masculino('Bruce Willis').-->actor_protagonista('Duro_de_Matar', 'Bruce Willis').
 Si el actor de Indiana Jones es Harrison Ford entonces el genero de Harrison Ford es masculino
-40. actor_protagonista('Indiana_Jones', 'Harrison Ford').-->genero_masculino('Harrison Ford').
+40. -->genero_masculino('Harrison Ford').-->actor_protagonista('Indiana_Jones', 'Harrison Ford').
 Si el actor de El señor de los anillos: Las dos torres es Elijah Wood entonces el genero de Elijah Wood es masculino
-41. actor_protagonista('El_senor_de_los_anillos:_Las_dos_torres', 'Elijah Wood').-->genero_masculino('Elijah Wood').
+41. -->genero_masculino('Elijah Wood').-->actor_protagonista('El_senor_de_los_anillos:_Las_dos_torres', 'Elijah Wood').
 Si el actor de Supercool es Jonah Hill entonces el genero de Jonah Hill es masculino
-42. actor_protagonista('Supercool', 'Jonah Hill').-->genero_masculino('Jonah Hill').
+42. -->genero_masculino('Jonah Hill').-->actor_protagonista('Supercool', 'Jonah Hill').
 Si el actor de Dos Tontos en Fuga es Steve Martin entonces el genero de Steve Martin es masculino
-43. actor_protagonista('Dos_Tontos_en_Fuga', 'Steve Martin').-->genero_masculino('Steve Martin').
+43.-->genero_masculino('Steve Martin').--> actor_protagonista('Dos_Tontos_en_Fuga', 'Steve Martin').
 Si el actor de El Padrino es Marlon Brando entonces el genero de Marlon Brando es masculino
-44. actor_protagonista('El_Padrino', 'Marlon Brando').-->genero_masculino('Marlon Brando').
+44. -->genero_masculino('Marlon Brando').-->actor_protagonista('El_Padrino', 'Marlon Brando').
 Si el actor de Sueños de Libertad es Tim Robbins entonces el genero de Tim Robbins es masculino
-45. actor_protagonista('Suenos_de_Libertad', 'Tim Robbins').-->genero_masculino('Tim Robbins').
+45. -->genero_masculino('Tim Robbins').-->actor_protagonista('Suenos_de_Libertad', 'Tim Robbins').
 Si el actor de La Guerra de las Galaxias es Mark Hamill entonces el genero de Mark Hamill es masculino
-46. actor_protagonista('La_Guerra_de_las_Galaxias', 'Mark Hamill').-->genero_masculino('Mark Hamill').
+46. -->genero_masculino('Mark Hamill').-->actor_protagonista('La_Guerra_de_las_Galaxias', 'Mark Hamill').
 Si el actor de El Cazador Implacable es Robert De Niro entonces el genero de Robert De Niro es masculino
-47. actor_protagonista('El_Cazador_Implacable', 'Robert De Niro').-->genero_masculino('Robert De Niro').
+47. -->genero_masculino('Robert De Niro').-->actor_protagonista('El_Cazador_Implacable', 'Robert De Niro').
 Si el actor de Harry Potter y la piedra filosofal es Daniel Radcliffe entonces el genero de Daniel Radcliffe es masculino
-48. actor_protagonista('Harry_Potter_y_la_piedra_filosofal', 'Daniel Radcliffe').-->genero_masculino('Daniel Radcliffe').
+48. -->genero_masculino('Daniel Radcliffe').-->actor_protagonista('Harry_Potter_y_la_piedra_filosofal', 'Daniel Radcliffe').
 Si el actor de La La Land: Una historia de amor es Ryan Gosling entonces el genero de Ryan Gosling es masculino
-49. actor_secundario('La_La_Land:_Una_historia_de_amor', 'Ryan Gosling').-->genero_masculino('Ryan Gosling').
+49. -->genero_masculino('Ryan Gosling').-->actor_secundario('La_La_Land:_Una_historia_de_amor', 'Ryan Gosling').
 Si el actor de El Gato con Sombrero es Mike Myers entonces el genero de Mike Myers es masculino
-50. actor_secundario('El_Gato_con_Sombrero', 'Mike Myers').-->genero_masculino('Mike Myers').
+50. -->genero_masculino('Mike Myers').-->actor_secundario('El_Gato_con_Sombrero', 'Mike Myers').
 Si el actor de Se7en es Brad Pitt entonces el genero de Brad Pitt es masculino
-51. actor_protagonista('Se7en', 'Brad Pitt').-->genero_masculino('Brad Pitt').
+51. -->genero_masculino('Brad Pitt').-->actor_protagonista('Se7en', 'Brad Pitt').
 Si el actor de Perdida es Ben Affleck entonces el genero de Ben Affleck es masculino
-52. actor_protagonista('Perdida', 'Ben Affleck').-->genero_masculino('Ben Affleck').
+52. -->genero_masculino('Ben Affleck').-->actor_protagonista('Perdida', 'Ben Affleck').
 Si el actor de Sherlock Holmes es Robert Downey Jr. entonces el genero de Robert Downey Jr. es masculino
-53. actor_protagonista('Sherlock_Holmes', 'Robert Downey Jr.').-->genero_masculino('Robert Downey Jr.').
+53. -->genero_masculino('Robert Downey Jr.').-->actor_protagonista('Sherlock_Holmes', 'Robert Downey Jr.').
 Si el actor de Red Social es Jesse Eisenberg entonces el genero de Jesse Eisenberg es masculino
-54. actor_protagonista('Red_Social', 'Jesse Eisenberg').-->genero_masculino('Jesse Eisenberg').
+54. -->genero_masculino('Jesse Eisenberg').-->actor_protagonista('Red_Social', 'Jesse Eisenberg').
 Si el actor de Gandhi es Ben Kingsley entonces el genero de Ben Kingsley es masculino
-55. actor_protagonista('Gandhi', 'Ben Kingsley').-->genero_masculino('Ben Kingsley').
+55. -->genero_masculino('Ben Kingsley').-->actor_protagonista('Gandhi', 'Ben Kingsley').
 Si el actor de El Viaje del Emperador es Morgan Freeman entonces el genero de Morgan Freeman es masculino
-56. actor_protagonista('El_Viaje_del_Emperador', 'Morgan Freeman').-->genero_masculino('Morgan Freeman').
+56. -->genero_masculino('Morgan Freeman').-->actor_protagonista('El_Viaje_del_Emperador', 'Morgan Freeman').
 Si el actor de Bowling for Columbine es Michael Moore entonces el genero de Michael Moore es masculino
-57. actor_protagonista('Bowling_for_Columbine', 'Michael Moore').-->genero_masculino('Michael Moore').
+57. -->genero_masculino('Michael Moore').-->actor_protagonista('Bowling_for_Columbine', 'Michael Moore').
 Si el actor de Corazon Valiente es Mel Gibson entonces el genero de Mel Gibson es masculino
-58. actor_protagonista('Corazon_Valiente', 'Mel Gibson').-->genero_masculino('Mel Gibson').
+58. -->genero_masculino('Mel Gibson').-->actor_protagonista('Corazon_Valiente', 'Mel Gibson').
 Si el actor de La Lista de Schindler es Liam Neeson entonces el genero de Liam Neeson es masculino
-59. actor_protagonista('La_Lista_de_Schindler', 'Liam Neeson').-->genero_masculino('Liam Neeson').
+59. -->genero_masculino('Liam Neeson').-->actor_protagonista('La_Lista_de_Schindler', 'Liam Neeson').
 Si el actor de Dunkerque es Fionn Whitehead entonces el genero de Fionn Whitehead es masculino
 60. actor_protagonista('Dunkerque', 'Fionn Whitehead').-->genero_masculino('Fionn Whitehead').
 Si el actor de El Bueno, el Malo y el Feo es Clint Eastwood entonces el genero de Clint Eastwood es masculino
